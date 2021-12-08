@@ -4,28 +4,13 @@ Tutorials and Lessons
 ======
 
 
-Value-Based Methods
+Single Agent 
 ======
 
-
-Policy-Based Methods
-======
-
-
-Actor-Critic Methods
-======
-
-
-Max-Entropy Methods
-======
-
-
-Model-Based Methods
-======
-
-
-Offline Methods
-======
+|  | model free | model based |
+| -----| ---- | ---- |
+| online |  |  |
+| offline |  |  |
 
 
 Multi-Agents Methods
