@@ -15,4 +15,15 @@ Model as Simulator
 | [Trust the Model When It Is Confident: Masked Model-based Actor-Critic](https://arxiv.org/pdf/2010.04893.pdf)| M2AC | NeurIPS20 | |
 | [On Effective Scheduling of Model-based Reinforcement Learning](https://arxiv.org/pdf/2111.08550.pdf) | AutoMBPO | NeurIPS21 | |
 
+|  Title | Method | Conference |  Summary|
+| -----  | ----   | ----       |   ----  |
+| [Model Based Reinforcement Learning for Atari](https://arxiv.org/pdf/1903.00374.pdf) | | ICLR20 | |
 
+
+Survey and Benchmark
+======
+|  Title |Conference |  Summary|
+| -----  |----       |   ----  |
+| [Survey of Model-Based Reinforcement Learning: Applications on Robotics](https://www.researchgate.net/profile/Athanasios-Polydoros/publication/312921419_Survey_of_Model-Based_Reinforcement_Learning_Applications_on_Robotics/links/59cec68baca2721f434effc6/Survey-of-Model-Based-Reinforcement-Learning-Applications-on-Robotics.pdf) | JIRS17 | |
+| [Model-based Reinforcement Learning: A Survey](https://arxiv.org/pdf/2006.16712.pdf) | arxiv20 | |
+| [Benchmarking Model-Based Reinforcement Learning](https://arxiv.org/pdf/1907.02057.pdf) | arxiv19 | |
