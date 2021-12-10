@@ -3,34 +3,24 @@
 
 Model Free (Online) RL
 ======
-Value Based
-|  Title | Method | Conference |  Description |
-| -----  | ----   | ----       |   ----  |
-| | DQN | | |
-| | Dueling DQN | | |
-| | Double DQN | | |
-| | Priority Sampling | | |
-| | Rainbow | | |
-
-Policy Based
-|  Title | Method | Conference |  Description |
-| -----  | ----   | ----       |   ----  |
-| | PG | | |
-| | TRPO | | |
-| | PPO | | |
-
-Actor Critic
-|  Title | Method | Conference |  Description |
-| -----  | ----   | ----       |   ----  |
-| | A2C | | |
-| | A3C | | |
-
-Max-Entropy 
-|  Title | Method | Conference |  Description |
-| -----  | ----   | ----       |   ----  |
-|  | SQL | | |
-|  | SAC | | |
-
+Based Methods
+|  Title | Method | Conference | on/off policy | Value Function | Policy | Description |
+| -----  | ----   | ----       |   ----  |   ---- | ----  |   ---- | 
+| | DQN | | | | | |
+| | Dueling DQN | | | | | |
+| | Double DQN | | | | | |
+| | Priority Sampling | | | | | |
+| | Rainbow | | | | | |
+| | PG | | | | | |
+| | TRPO | | | | | |
+| | PPO | | | | | |
+| | A2C | | | | | |
+| | A3C | | | | | |
+|  | SQL | | | | | |
+|  | SAC | | | | | |
+|  | DPG | | | | | |
+|  | DDPG | | | | | |
+|  | TD3 | | | | | |
 
 Model Based (Online) RL
 ======
