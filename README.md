@@ -6,21 +6,21 @@ Model Free (Online) RL
 Based Methods
 |  Title | Method | Conference | on/off policy | Value Function | Policy | Description |
 | -----  | ----   | ----       |   ----  |   ---- | ----  |   ---- | 
-| | DQN | | | | | |
-| | Dueling DQN | | | | | |
-| | Double DQN | | | | | |
-| | Priority Sampling | | | | | |
-| | Rainbow | | | | | |
-| | PG | | | | | |
-| | TRPO | | | | | |
-| | PPO | | | | | |
-| | A2C | | | | | |
-| | A3C | | | | | |
-|  | SQL | | | | | |
-|  | SAC | | | | | |
-|  | DPG | | | | | |
-|  | DDPG | | | | | |
-|  | TD3 | | | | | |
+| | DQN | | off | | | |
+| | Dueling DQN | | off | | | |
+| | Double DQN | | off | | | |
+| | Priority Sampling | | off | | | |
+| | Rainbow | | off | | | |
+| | PG | | on/off | | | |
+| | TRPO | | on | | | |
+| | PPO | | on | | | |
+| | A2C | | on/off | | | |
+| | A3C | | on/off | | | |
+|  | SQL | | off | | | |
+|  | SAC | | off | | | |
+|  | DPG | | off | | | |
+|  | DDPG | | off | | | |
+|  | TD3 | | off | | | |
 
 Model Based (Online) RL
 ======
