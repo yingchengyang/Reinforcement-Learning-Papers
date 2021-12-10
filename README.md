@@ -4,13 +4,19 @@ Tutorials and Lessons
 ======
 
 
-Single Agent 
+Model Free (Online) RL
 ======
 
-|  | model free | model based |
-| -----| ---- | ---- |
-| online |  |  |
-| offline |  |  |
+
+Model Based (Online) RL
+======
+
+
+
+(Model Free) Offline RL
+======
+
+
 
 
 Model Based Offline RL
@@ -26,9 +32,6 @@ Model Based Offline RL
 | [COMBO: Conservative Offline Model-Based Policy Optimization](https://arxiv.org/pdf/2102.08363v1.pdf) | COMBO | NeurIPS21 | |
 
 
-
-Multi-Agents Methods
-======
 
 
 Codebase
