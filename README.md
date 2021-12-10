@@ -1,11 +1,35 @@
 # Reinforcement Learning Papers
 
-Tutorials and Lessons
-======
-
 
 Model Free (Online) RL
 ======
+Value Based
+|  Title | Method | Conference |  Description |
+| -----  | ----   | ----       |   ----  |
+| | DQN | | |
+| | Dueling DQN | | |
+| | Double DQN | | |
+| | Priority Sampling | | |
+| | Rainbow | | |
+
+Policy Based
+|  Title | Method | Conference |  Description |
+| -----  | ----   | ----       |   ----  |
+| | PG | | |
+| | TRPO | | |
+| | PPO | | |
+
+Actor Critic
+|  Title | Method | Conference |  Description |
+| -----  | ----   | ----       |   ----  |
+| | A2C | | |
+| | A3C | | |
+
+Max-Entropy 
+|  Title | Method | Conference |  Description |
+| -----  | ----   | ----       |   ----  |
+|  | SQL | | |
+|  | SAC | | |
 
 
 Model Based (Online) RL
@@ -61,6 +85,4 @@ Model Based Offline RL
 
 
 
-Codebase
-======
 
