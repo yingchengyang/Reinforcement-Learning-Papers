@@ -60,7 +60,7 @@ Survey and Benchmark
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
 | | BCQ | ICML19 | |
-| | CQL | NeurIPS20 | |
+| [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2006.04779.pdf) | CQL | NeurIPS20 | |
 
 
 
