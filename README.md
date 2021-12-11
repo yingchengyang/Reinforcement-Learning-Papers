@@ -57,6 +57,10 @@ Survey and Benchmark
 (Model Free) Offline RL
 ======
 
+|  Title | Method | Conference | Description |
+| -----  | ----   | ----       |   ----  |
+| | BCQ | | |
+| | CQL | | |
 
 
 
@@ -73,6 +77,11 @@ Model Based Offline RL
 | [COMBO: Conservative Offline Model-Based Policy Optimization](https://arxiv.org/pdf/2102.08363v1.pdf) | COMBO | NeurIPS21 | |
 
 
+Sequence Generation
+|  Title | Method | Conference | Description |
+| -----  | ----   | ----       |   ----  |
+| [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf) | DT | NeurIPS21 | |
+| [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/pdf/2106.02039.pdf) | TT | NeurIPS21 | | 
 
 
 
