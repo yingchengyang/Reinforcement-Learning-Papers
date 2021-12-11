@@ -59,8 +59,8 @@ Survey and Benchmark
 
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
-| | BCQ | | |
-| | CQL | | |
+| | BCQ | ICML19 | |
+| | CQL | NeurIPS20 | |
 
 
 
