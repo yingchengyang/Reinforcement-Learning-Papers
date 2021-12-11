@@ -22,6 +22,11 @@ Based Methods
 |  | DDPG | | off | | | |
 |  | TD3 | | off | | | |
 
+current methods
+|  Title | Method | Conference |  Description |
+| -----  | ----   | ----       |   ----  |
+| | REDQ | | |
+
 Model Based (Online) RL
 ======
 Model as Simulator
