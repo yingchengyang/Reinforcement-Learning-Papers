@@ -78,6 +78,7 @@ Model Based Offline RL
 
 
 Sequence Generation
+======
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
 | [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf) | DT | NeurIPS21 | |
