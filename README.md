@@ -1,8 +1,15 @@
 # Reinforcement Learning Papers
 
+## Contents 
+- <a href="#Model Free Online">Model Free (Online) RL</a><br>
+- <a href="#Model Based Online">Model Based (Online) RL</a><br>
+- <a href="#Model Free Offline">(Model Free) Offline RL</a><br>
+- <a href="#Model Based Offline">Model Based Offline RL</a><br>
+- <a href="#Sequence Generation">Sequence Generation</a><br>
 
-Model Free (Online) RL
-======
+<a id='Model Free Online'></a>
+## Model Free (Online) RL
+
 Basic Methods
 |  Title | Method | Conference | on/off policy | Action Space | Policy | Description |
 | -----  | ----   | ----       |   ----  | ----  |  ---- |  ---- | 
@@ -27,8 +34,8 @@ current methods
 | -----  | ----   | ----       |   ----  |
 | [Randomized Ensemble Double Q-Learning: Learning Fast Without a Model](https://arxiv.org/pdf/2101.05982.pdf) | REDQ | ICLR21 | consider three ingredients: (i) update q functions many times at every epoch; (ii) use an ensemble of Q functions; (iii) use the minimization across a random subset of Q functions from the ensemble for avoiding the overestimation; propose REDQ and achieve similar performance with model-based methods |
 
-Model Based (Online) RL
-======
+<a id='Model Based Online'></a>
+## Model Based (Online) RL
 Model as Simulator
 
 |  Title | Method | Conference |  Description |
@@ -58,9 +65,9 @@ Survey and Benchmark
 | [Model-based Reinforcement Learning: A Survey](https://arxiv.org/pdf/2006.16712.pdf) | arxiv20 | |
 | [Benchmarking Model-Based Reinforcement Learning](https://arxiv.org/pdf/1907.02057.pdf) | arxiv19 | |
 
+<a id='Model Free Offline'></a>
+## (Model Free) Offline RL
 
-(Model Free) Offline RL
-======
 
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
@@ -68,9 +75,8 @@ Survey and Benchmark
 | [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2006.04779.pdf) | CQL | NeurIPS20 | propose CQL with conservative q function, which is a lower bound of its true value, since standard off-policy methods will overestimate the value function |
 
 
-
-Model Based Offline RL
-======
+<a id='Model Based Offline'></a>
+## Model Based Offline RL
 
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
@@ -83,8 +89,9 @@ Model Based Offline RL
 | [COMBO: Conservative Offline Model-Based Policy Optimization](https://arxiv.org/pdf/2102.08363v1.pdf) | COMBO | NeurIPS21 | try to optimize a lower bound of performance without considering uncertainty quantification; extend CQL with model-based methods|
 
 
-Sequence Generation
-======
+<a id='Sequence Generation'></a>
+## Sequence Generation
+
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
 | [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf) | DT | NeurIPS21 | |
