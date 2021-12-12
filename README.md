@@ -12,8 +12,8 @@ Basic Methods
 | | Priority Sampling | | off | Discrete | | |
 | | Rainbow | | off | Discrete | | |
 | [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf) | PG | NeurIPS99 | on/off |  | | propose Policy Gradient Theorem: how to calculate the gradient of the expected cumulative return to policy |
-| [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) | TRPO | ICML15 | on | Continuous/Discrete | | |
-| [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf) | PPO | arxiv17 | on | Continuous/Discrete | | |
+| [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) | TRPO | ICML15 | on | Continuous/Discrete | parameterized neural network | introduce trust region to policy optimization for guaranteed monotonic improvement |
+| [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf) | PPO | arxiv17 | on | Continuous/Discrete | parameterized neural network | replace the hard constraint of TRPO with a penalty by clipping the coefficient |
 | | A2C | | on/off | |  | |
 | | A3C | | on/off | |  | |
 | [Reinforcement Learning with Deep Energy-Based Policies](https://arxiv.org/pdf/1702.08165.pdf) | SQL | ICML17 | off | main for Continuous | parameterized neural network | consider max-entropy rl and propose soft q iteration as well as soft q learning |
