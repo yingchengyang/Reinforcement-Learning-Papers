@@ -25,7 +25,7 @@ Basic Methods
 current methods
 |  Title | Method | Conference |  Description |
 | -----  | ----   | ----       |   ----  |
-| | REDQ | | |
+| [Randomized Ensemble Double Q-Learning: Learning Fast Without a Model](https://arxiv.org/pdf/2101.05982.pdf) | REDQ | ICLR21 | consider three ingredients: (i) update q functions many times at every epoch; (ii) use an ensemble of Q functions; (iii) use the minimization across a random subset of Q functions from the ensemble for avoiding the overestimation; propose REDQ and achieve similar performance with model-based methods |
 
 Model Based (Online) RL
 ======
