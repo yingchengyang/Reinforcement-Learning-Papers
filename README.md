@@ -117,6 +117,6 @@ Since there are tens of new papers on reinforcement learning in each conference 
 
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
-| | SA-MDP | | |
-| | ATLA | | |
-| | Radial RL | | | 
+| | SA-MDP | NeurIPS20 | |
+| | ATLA | ICLR21 | |
+| [Robust Deep Reinforcement Learning through Adversarial Loss](https://arxiv.org/pdf/2008.01976.pdf) | RADIAL-RL | NeurIPS21 | propose a robust rl framework, which penalizes the overlap between output bounds of actions ; propose a more efficient evaluation method (GWC) to measure attack agnostic robustness | 
