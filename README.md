@@ -6,6 +6,7 @@
 - <a href="#Model Free Offline">(Model Free) Offline RL</a><br>
 - <a href="#Model Based Offline">Model Based Offline RL</a><br>
 - <a href="#Sequence Generation">Sequence Generation</a><br>
+- <a href="#Meta Reinforcement Learning">Meta RL</a><br>
 - <a href="#Adversarial Reinforcement Learning">Adversarial RL</a><br>
 
 <a id='Model Free Online'></a>
@@ -98,6 +99,14 @@ Survey and Benchmark
 | [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf) | DT | NeurIPS21 | |
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/pdf/2106.02039.pdf) | TT | NeurIPS21 | | 
 
+
+<a id='Meta Reinforcement Learning'></a>
+## Meta RL
+|  Title | Method | Conference | Description |
+| -----  | ----   | ----       |   ----  |
+| | MAML | ICML17 | |
+| | PEARL | ICML19 | |
+| | MQL | ICLR20 | |
 
 <a id='Adversarial Reinforcement Learning'></a>
 ## Adversarial RL
