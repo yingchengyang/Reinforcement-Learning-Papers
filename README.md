@@ -15,14 +15,14 @@
 Basic Methods
 |  Title | Method | Conference | on/off policy | Action Space | Policy | Description |
 | -----  | ----   | ----       |   ----  | ----  |  ---- |  ---- | 
-| | DQN | | off | Discrete | | |
-| | Dueling DQN | | off| Discrete | | |
-| | Double DQN | | off | Discrete | | |
-| | Priority Sampling | | off | Discrete | | |
-| | Rainbow | | off | Discrete | | |
-| [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf) | PG | NeurIPS99 | on/off |  | | propose Policy Gradient Theorem: how to calculate the gradient of the expected cumulative return to policy |
-| | A2C | | on/off | |  | |
-| | A3C | | on/off | |  | |
+| | DQN | | off | Discrete | based on value function | |
+| | Dueling DQN | | off| Discrete | based on value function | |
+| | Double DQN | | off | Discrete | based on value function | |
+| | Priority Sampling | | off | Discrete | based on value function | |
+| | Rainbow | | off | Discrete | based on value function | |
+| [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf) | PG | NeurIPS99 | on/off | Continuous or Discrete | function approximation | propose Policy Gradient Theorem: how to calculate the gradient of the expected cumulative return to policy |
+| | A2C | | on/off | Continuous or Discrete |  | |
+| | A3C | | on/off | Continuous or Discrete |  | |
 | [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) | TRPO | ICML15 | on | Continuous or Discrete | parameterized neural network | introduce trust region to policy optimization for guaranteed monotonic improvement |
 | [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf) | PPO | arxiv17 | on | Continuous or Discrete | parameterized neural network | replace the hard constraint of TRPO with a penalty by clipping the coefficient |
 | [Deterministic Policy Gradient Algorithms](http://proceedings.mlr.press/v32/silver14.pdf) | DPG | ICML14 | off | Continuous | function approximation | consider deterministic policy for continuous action space and prove Deterministic Policy Gradient Theorem; use a stochastic behaviour policy for encouraging exploration |
