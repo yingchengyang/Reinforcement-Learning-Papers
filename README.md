@@ -6,6 +6,7 @@
 - <a href="#Model Free Offline">(Model Free) Offline RL</a><br>
 - <a href="#Model Based Offline">Model Based Offline RL</a><br>
 - <a href="#Sequence Generation">Sequence Generation</a><br>
+- <a href="#Adversarial Reinforcement Learning">Adversarial Reinforcement Learning</a><br>
 
 <a id='Model Free Online'></a>
 ## Model Free (Online) RL
@@ -19,10 +20,10 @@ Basic Methods
 | | Priority Sampling | | off | Discrete | | |
 | | Rainbow | | off | Discrete | | |
 | [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf) | PG | NeurIPS99 | on/off |  | | propose Policy Gradient Theorem: how to calculate the gradient of the expected cumulative return to policy |
-| [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) | TRPO | ICML15 | on | Continuous or Discrete | parameterized neural network | introduce trust region to policy optimization for guaranteed monotonic improvement |
-| [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf) | PPO | arxiv17 | on | Continuous or Discrete | parameterized neural network | replace the hard constraint of TRPO with a penalty by clipping the coefficient |
 | | A2C | | on/off | |  | |
 | | A3C | | on/off | |  | |
+| [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) | TRPO | ICML15 | on | Continuous or Discrete | parameterized neural network | introduce trust region to policy optimization for guaranteed monotonic improvement |
+| [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf) | PPO | arxiv17 | on | Continuous or Discrete | parameterized neural network | replace the hard constraint of TRPO with a penalty by clipping the coefficient |
 | [Deterministic Policy Gradient Algorithms](http://proceedings.mlr.press/v32/silver14.pdf) | DPG | ICML14 | off | Continuous | function approximation | consider deterministic policy for continuous action space and prove Deterministic Policy Gradient Theorem; use a stochastic behaviour policy for encouraging exploration |
 | [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf) | DDPG | ICLR16 | off | Continuous | parameterized neural network | adapt the ideas of DQN to DPG: (i) deep neural network function approximators, (ii) replay buffer, (iii) fix the target q function at each epoch |
 | [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/pdf/1802.09477.pdf) | TD3 | ICML18 | off | Continuous | parameterized neural network | adapt the ideas of Double DQN to DDPG: taking the minimum value between a pair of critics to limit overestimation |
@@ -98,4 +99,9 @@ Survey and Benchmark
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/pdf/2106.02039.pdf) | TT | NeurIPS21 | | 
 
 
+<a id='Adversarial Reinforcement Learning'></a>
+## Adversarial Reinforcement Learning
+
+|  Title | Method | Conference | Description |
+| -----  | ----   | ----       |   ----  |
 
