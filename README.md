@@ -6,7 +6,7 @@
 - <a href="#Model Free Offline">(Model Free) Offline RL</a><br>
 - <a href="#Model Based Offline">Model Based Offline RL</a><br>
 - <a href="#Sequence Generation">Sequence Generation</a><br>
-- <a href="#Adversarial Reinforcement Learning">Adversarial Reinforcement Learning</a><br>
+- <a href="#Adversarial Reinforcement Learning">Adversarial RL</a><br>
 
 <a id='Model Free Online'></a>
 ## Model Free (Online) RL
@@ -100,8 +100,10 @@ Survey and Benchmark
 
 
 <a id='Adversarial Reinforcement Learning'></a>
-## Adversarial Reinforcement Learning
+## Adversarial RL
 
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
-
+| | SA-MDP | | |
+| | ATLA | | |
+| | Radial RL | | | 
