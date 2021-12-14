@@ -1,7 +1,7 @@
 # Reinforcement Learning Papers
 Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
-Since there are tens of new papers on reinforcement learning in each conference every year, we are only able to list those we read and consider as insightful.
+Since there are tens of thousands of new papers on reinforcement learning in each conference every year, we are only able to list those we read and consider as insightful.
 
 ## Contents 
 - <a href="#Model Free Online">Model Free (Online) RL</a><br>
