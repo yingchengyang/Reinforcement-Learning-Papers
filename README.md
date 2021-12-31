@@ -60,7 +60,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Model Based Reinforcement Learning for Atari](https://arxiv.org/pdf/1903.00374.pdf) | | ICLR20 | |
 
 
-### Model for Planning
+<!-- ### Model for Planning
 
 
 ### Survey and Benchmark
@@ -68,7 +68,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | -----  |----       |   ----  |
 | [Survey of Model-Based Reinforcement Learning: Applications on Robotics](https://www.researchgate.net/profile/Athanasios-Polydoros/publication/312921419_Survey_of_Model-Based_Reinforcement_Learning_Applications_on_Robotics/links/59cec68baca2721f434effc6/Survey-of-Model-Based-Reinforcement-Learning-Applications-on-Robotics.pdf) | JIRS17 | |
 | [Model-based Reinforcement Learning: A Survey](https://arxiv.org/pdf/2006.16712.pdf) | arxiv20 | |
-| [Benchmarking Model-Based Reinforcement Learning](https://arxiv.org/pdf/1907.02057.pdf) | arxiv19 | |
+| [Benchmarking Model-Based Reinforcement Learning](https://arxiv.org/pdf/1907.02057.pdf) | arxiv19 | | -->
 
 <a id='Model Free Offline'></a>
 ## (Model Free) Offline RL
