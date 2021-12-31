@@ -108,9 +108,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 ## Meta RL
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
-| | MAML | ICML17 | |
-| | PEARL | ICML19 | |
-| | MQL | ICLR20 | |
+| [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://www.cs.utexas.edu/users/sniekum/classes/RL-F17/papers/Meta.pdf) | MAML | ICML17 | propose a general framework for different learningproblems, including classification, regression andreinforcement learning; the main idea is to optimize the parameters to quickly adapt to new tasks (with a few steps of gradient descent) |
+| [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/pdf/1903.08254.pdf) | PEARL | ICML19 | encode past tasks’ experience with probabilistic latent context and use inference network to estimate the posterior|
+| [Meta-Q-Learning](https://arxiv.org/pdf/1910.00125.pdf) | MQL | ICLR20 | an off-policy algorithm for meta RL andbuilds upon three simple ideas: (i) Q Learning with context variable represented by pasttrajectories is competitive with SOTA; (ii) Multi-task objective is useful for meta RL; (iii) Past data from the meta-training replay buffer can be recycled |
 
 <a id='Adversarial Reinforcement Learning'></a>
 ## Adversarial RL
