@@ -122,6 +122,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 <a id='Tutorial and Lesson'></a>
 ## Tutorial and Lesson
+
+| Tutorial and Lesson |
+| ---- |
 | [Introduction to Reinforcement Learning with David Silver](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver) | 
 | [Deep Reinforcement Learning, CS285](https://rail.eecs.berkeley.edu/deeprlcourse/) |
 | [Deep Reinforcement Learning and Control, CMU 10703](https://katefvision.github.io/) |
