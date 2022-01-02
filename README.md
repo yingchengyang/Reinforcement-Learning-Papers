@@ -8,7 +8,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 - <a href="#Model Based Online">Model Based (Online) RL</a><br>
 - <a href="#Model Free Offline">(Model Free) Offline RL</a><br>
 - <a href="#Model Based Offline">Model Based Offline RL</a><br>
-- <a href="#Sequence Generation">Sequence Generation</a><br>
+- <a href="#Sequence Generation">RL as Sequence Generation</a><br>
 - <a href="#Meta Reinforcement Learning">Meta RL</a><br>
 - <a href="#Adversarial Reinforcement Learning">Adversarial RL</a><br>
 - <a href="#Tutorial and Lesson">Tutorial and Lesson</a><br>
@@ -17,6 +17,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 ## Model Free (Online) RL
 
 ### Classic Methods
+
 |  Title | Method | Conference | on/off policy | Action Space | Policy | Description |
 | -----  | ----   | ----       |   ----  | ----  |  ---- |  ---- | 
 | [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236.pdf), [\[other link\]](http://www.kreimanlab.com/academia/classes/BAI/pdfs/MnihEtAlHassibis15NatureControlDeepRL.pdf) | DQN | Nature15 | off | Discrete | based on value function | use deep neural network to train q learning and reach the human level in the Atari games; mainly two trick: replay buffer for improving sample efficiency, decouple target network and behavior network |
@@ -36,6 +37,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Soft Actor-Critic Algorithms and Applications](https://arxiv.org/pdf/1812.05905.pdf), [Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b.pdf), [\[appendix\]](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b-supp.pdf) | SAC | ICML18 | off | main for Continuous | parameterized neural network | base the theoretical analysis of SQL and extend soft q iteration (soft q evaluation + soft q improvement); reparameterize the policy and use two parameterized value functions; propose SAC |
 
 ### current methods
+
 |  Title | Method | Conference |  Description |
 | -----  | ----   | ----       |   ----  |
 | [Randomized Ensemble Double Q-Learning: Learning Fast Without a Model](https://arxiv.org/pdf/2101.05982.pdf) | REDQ | ICLR21 | consider three ingredients: (i) update q functions many times at every epoch; (ii) use an ensemble of Q functions; (iii) use the minimization across a random subset of Q functions from the ensemble for avoiding the overestimation; propose REDQ and achieve similar performance with model-based methods |
@@ -43,6 +45,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 <a id='Model Based Online'></a>
 ## Model Based (Online) RL
+
 |  Title | Method | Conference |  Description |
 | -----  | ----   | ----       |   ----  |
 | [Model-Ensemble Trust-Region Policy Optimization](https://arxiv.org/pdf/1802.10592.pdf) | ME-TRPO | ICLR18 | analyze the behavior of vanilla MBRL methods with DNN; propose ME-TRPO with two ideas: (i) use an ensemble of models, (ii)  use likelihood ratio derivatives; significantly reduce the sample complexity compared to model-free methods |
@@ -65,7 +68,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 <a id='Model Free Offline'></a>
 ## (Model Free) Offline RL
-
 
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
@@ -90,7 +92,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 
 <a id='Sequence Generation'></a>
-## Sequence Generation
+## RL as Sequence Generation
 
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
@@ -100,6 +102,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 <a id='Meta Reinforcement Learning'></a>
 ## Meta RL
+
 |  Title | Method | Conference | Description |
 | -----  | ----   | ----       |   ----  |
 | [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://www.cs.utexas.edu/users/sniekum/classes/RL-F17/papers/Meta.pdf) | MAML | ICML17 | propose a general framework for different learningproblems, including classification, regression andreinforcement learning; the main idea is to optimize the parameters to quickly adapt to new tasks (with a few steps of gradient descent) |
