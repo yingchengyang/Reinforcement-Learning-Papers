@@ -11,6 +11,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 - <a href="#Sequence Generation">Sequence Generation</a><br>
 - <a href="#Meta Reinforcement Learning">Meta RL</a><br>
 - <a href="#Adversarial Reinforcement Learning">Adversarial RL</a><br>
+- <a href="#Tutorial and Lesson">Tutorial and Lesson</a><br>
 
 <a id='Model Free Online'></a>
 ## Model Free (Online) RL
@@ -117,3 +118,11 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Robust Reinforcement Learning on State Observations with Learned Optimal Adversary](https://arxiv.org/pdf/2101.08452.pdf) | ATLA | ICLR21 | use rl algorithms to train an "optimal" adversary; alternatively train "optimal" adversary and robust agent |
 | [Robust Deep Reinforcement Learning through Adversarial Loss](https://arxiv.org/pdf/2008.01976.pdf) | RADIAL-RL | NeurIPS21 | propose a robust rl framework, which penalizes the overlap between output bounds of actions; propose a more efficient evaluation method (GWC) to measure attack agnostic robustness | 
 | [Policy Smoothing for Provably Robust Reinforcement Learning](https://arxiv.org/pdf/2106.11420.pdf) | Policy Smoothing | arxiv21 | introduce randomized smoothing into RL; propose adaptive Neyman-Person Lemma |
+
+
+<a id='Tutorial and Lesson'></a>
+## Tutorial and Lesson
+| [Introduction to Reinforcement Learning with David Silver](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver) | 
+| [Deep Reinforcement Learning, CS285](https://rail.eecs.berkeley.edu/deeprlcourse/) |
+| [Deep Reinforcement Learning and Control, CMU 10703](https://katefvision.github.io/) |
+| [RLChina](http://rlchina.org/topic/9) |
