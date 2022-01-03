@@ -10,7 +10,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 - <a href="#Model Based Offline">Model Based Offline RL</a><br>
 - <a href="#Meta Reinforcement Learning">Meta RL</a><br>
 - <a href="#Adversarial Reinforcement Learning">Adversarial RL</a><br>
-- <a href="#Genaralization in RL">Genaralization in RL</a><br>
+- <a href="#Genaralization in RL">Genaralisation in RL</a><br>
 - <a href="#Sequence Generation">RL as Sequence Generation</a><br>
 - <a href="#Tutorial and Lesson">Tutorial and Lesson</a><br>
 
@@ -121,14 +121,14 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Policy Smoothing for Provably Robust Reinforcement Learning](https://arxiv.org/pdf/2106.11420.pdf) | Policy Smoothing | arxiv21 | introduce randomized smoothing into RL; propose adaptive Neyman-Person Lemma |
 
 <a id='Genaralization in RL'></a>
-## Genaralization in RL
+## Genaralisation in RL
 
 | Title | Method | Conference | Description | 
 | -----  | ----   | ----       |   ----  |
 | [On the Generalization Gap in Reparameterizable Reinforcement Learning](https://arxiv.org/pdf/1905.12654.pdf) | ---- | ICML19 | theoretically provide guarantees on the gap between the expected and empirical return for both intrinsic and external errors in reparameterizable RL |
-| [Quantifying Generalization in Reinforcement Learning](https://arxiv.org/pdf/1812.02341.pdf) | CoinRun | ICML19 | introduce a new environment called CoinRun for generalization in RL; empirically show L2 regularization, dropout, data augmentation and batch normalization can improve generalization in RL |
+| [Quantifying Generalization in Reinforcement Learning](https://arxiv.org/pdf/1812.02341.pdf) | CoinRun | ICML19 | introduce a new environment called CoinRun for generalisation in RL; empirically show L2 regularization, dropout, data augmentation and batch normalization can improve generalization in RL |
 | [Investigating Generalisation in Continuous Deep Reinforcement Learning](https://arxiv.org/pdf/1902.07015.pdf) | ---- | arxiv19 | study generalisation in Deep RL for continuous control |
-| [Why Generalization in RL is Difficult: Epistemic POMDPs and Implicit Partial Observability](https://arxiv.org/pdf/2107.06277.pdf) | LEEP | NeurIPS21 | generalization in RL induces implicit partial observability; propose LEEP to use an ensemble of policies to approximately learn the Bayes-optimal policy for maximizing test-time performance |
+| [Why Generalization in RL is Difficult: Epistemic POMDPs and Implicit Partial Observability](https://arxiv.org/pdf/2107.06277.pdf) | LEEP | NeurIPS21 | generalisation in RL induces implicit partial observability; propose LEEP to use an ensemble of policies to approximately learn the Bayes-optimal policy for maximizing test-time performance |
 | [Automatic Data Augmentation for Generalization in Reinforcement Learning](https://arxiv.org/pdf/2006.12862.pdf) | DrAC | NeurIPS21 | focus on automatic data augmentation based two novel regularization terms for the policy and value function |
 | [When Is Generalizable Reinforcement Learning Tractable?](https://arxiv.org/pdf/2101.00300.pdf) | ---- | NeurIPS21 | propose Weak Proximity and Strong Proximity for theoretically analyzing the generalisation of RL |
 | [A Survey of Generalisation in Deep Reinforcement Learning](https://arxiv.org/pdf/2111.09794.pdf) | ---- | arxiv21 | provide a unifying formalism and terminology for discussing different generalisation problems |
