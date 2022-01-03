@@ -10,6 +10,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 - <a href="#Model Based Offline">Model Based Offline RL</a><br>
 - <a href="#Meta Reinforcement Learning">Meta RL</a><br>
 - <a href="#Adversarial Reinforcement Learning">Adversarial RL</a><br>
+- <a href="#Genaralization in RL">Genaralization in RL</a><br>
 - <a href="#Sequence Generation">RL as Sequence Generation</a><br>
 - <a href="#Tutorial and Lesson">Tutorial and Lesson</a><br>
 
@@ -116,6 +117,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Robust Deep Reinforcement Learning through Adversarial Loss](https://arxiv.org/pdf/2008.01976.pdf) | RADIAL-RL | NeurIPS21 | propose a robust rl framework, which penalizes the overlap between output bounds of actions; propose a more efficient evaluation method (GWC) to measure attack agnostic robustness | 
 | [Policy Smoothing for Provably Robust Reinforcement Learning](https://arxiv.org/pdf/2106.11420.pdf) | Policy Smoothing | arxiv21 | introduce randomized smoothing into RL; propose adaptive Neyman-Person Lemma |
 
+<a id='Genaralization in RL'></a>
+## Genaralization in RL
+
+| Title | Method | Conference | Description | 
+| [On the Generalization Gap in Reparameterizable Reinforcement Learning](https://arxiv.org/pdf/1905.12654.pdf) | ---- | ICML19 | theoretically provide guarantees on the gap between the expected and empirical return for both intrinsic and external errors in reparameterizable RL |
+| [Why Generalization in RL is Difficult: Epistemic POMDPs and Implicit Partial Observability](https://arxiv.org/pdf/2107.06277.pdf) | LEEP | NeurIPS21 | generalization in RL induces implicit partial observability; propose LEEP to use an ensemble of policies to approximately learn the Bayes-optimal policy for maximizing test-time performance |
 
 <a id='Sequence Generation'></a>
 ## RL as Sequence Generation
