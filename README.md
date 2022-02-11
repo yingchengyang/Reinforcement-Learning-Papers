@@ -12,6 +12,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 - <a href="#Adversarial Reinforcement Learning">Adversarial RL</a><br>
 - <a href="#Genaralization in RL">Genaralisation in RL</a><br>
 - <a href="#Sequence Generation">RL as Sequence Generation</a><br>
+- <a href="#Unsupervised RL">Unsupervised RL</a><br>
 - <a href="#Tutorial and Lesson">Tutorial and Lesson</a><br>
 
 <a id='Model Free Online'></a>
@@ -118,7 +119,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Robust Deep Reinforcement Learning Against Adversarial Perturbations on State Observations](https://arxiv.org/pdf/2003.08938.pdf) | SA-MDP | NeurIPS20 | formalize adversarial attack on state observation as SA-MDP; propose some novel attack methods: Robust SARSA and Maximal Action Difference; propose a defence framework and some practical methods: SA-DQN, SA-PPO and SA-DDPG |
 | [Robust Reinforcement Learning on State Observations with Learned Optimal Adversary](https://arxiv.org/pdf/2101.08452.pdf) | ATLA | ICLR21 | use rl algorithms to train an "optimal" adversary; alternatively train "optimal" adversary and robust agent |
 | [Robust Deep Reinforcement Learning through Adversarial Loss](https://arxiv.org/pdf/2008.01976.pdf) | RADIAL-RL | NeurIPS21 | propose a robust rl framework, which penalizes the overlap between output bounds of actions; propose a more efficient evaluation method (GWC) to measure attack agnostic robustness | 
-| [Policy Smoothing for Provably Robust Reinforcement Learning](https://arxiv.org/pdf/2106.11420.pdf) | Policy Smoothing | arxiv21 | introduce randomized smoothing into RL; propose adaptive Neyman-Person Lemma |
+| [Policy Smoothing for Provably Robust Reinforcement Learning](https://arxiv.org/pdf/2106.11420.pdf) | Policy Smoothing | ICLR22 | introduce randomized smoothing into RL; propose adaptive Neyman-Person Lemma |
+| [CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing](https://arxiv.org/pdf/2106.09292.pdf) | CROP | ICLR22 | |
 
 <a id='Genaralization in RL'></a>
 ## Genaralisation in RL
@@ -141,6 +143,11 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf) | DT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (return-to-go, state, action, return-to-go, ...); there is not explicit optimization process; evaluate on Offline RL |
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/pdf/2106.02039.pdf) | TT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (s_0^0, ..., s_0^N, a_0^0, ..., a_0^M, r_0, ...); use beam search to inference; evaluate on imitation learning，goal-conditioned RL and Offline RL,  | 
 
+<a id='Unsupervised RL'></a>
+## Unsupervised RL
+
+|  Title | Method | Conference | Description |
+| -----  | ----   | ----       |   ----  |
 
 
 <a id='Tutorial and Lesson'></a>
