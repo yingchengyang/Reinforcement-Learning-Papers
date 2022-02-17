@@ -48,7 +48,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [A Max-Min Entropy Framework for Reinforcement Learning](https://arxiv.org/pdf/2106.10517.pdf) | MME | NeurIPS21 | find that SAC may fail in explore states with low entropy (arrive states with high entropy and increase their entropies); propose a max-min entropy framework to address this issue |
 | [CoBERL: Contrastive BERT for Reinforcement Learning](https://arxiv.org/pdf/2107.05431.pdf) | CoBERL | ICLR22 | propose Contrastive BERT for RL (COBERL) that combines a new contrastive loss and a hybrid LSTM-transformer architecture to tackle the challenge of improving data efficiency |
 | [SO(2)-Equivariant Reinforcement Learning](https://openreview.net/pdf?id=7F9cOhdvfk_) | Equi DQN, Equi SAC | ICLR22 |  |
-| [Understanding and Preventing Capacity Loss in Reinforcement Learning](https://openreview.net/pdf?id=ZkC8wKoLbQ7) | InFeR | ICLR22 |  |
+| [Understanding and Preventing Capacity Loss in Reinforcement Learning](https://openreview.net/pdf?id=ZkC8wKoLbQ7) | InFeR | ICLR22 | propose that deep RL agents lose some of their capacity to quickly fit new prediction tasks during training; |
 
 <a id='Model Based Online'></a>
 ## Model Based (Online) RL
