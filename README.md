@@ -50,6 +50,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [SO(2)-Equivariant Reinforcement Learning](https://openreview.net/pdf?id=7F9cOhdvfk_) | Equi DQN, Equi SAC | ICLR22 | consider to learn transformation-invariant policies and value functions; define and analyze group equivariant MDPs |
 | [Understanding and Preventing Capacity Loss in Reinforcement Learning](https://openreview.net/pdf?id=ZkC8wKoLbQ7) | InFeR | ICLR22 | propose that deep RL agents lose some of their capacity to quickly fit new prediction tasks during training; propose InFeR to regularize a set of network outputs towards their initial values |
 | [On Lottery Tickets and Minimal Task Representations in Deep Reinforcement Learning](https://arxiv.org/pdf/2105.01648.pdf) | ---- | ICLR22 | consider lottery ticket hypothesis in deep reinforcement learning |
+| [Reinforcement Learning with Sparse Rewards using Guidance from Offline Demonstration](https://openreview.net/pdf?id=YJ1WzgMVsMt) | LOGO | ICLR22 |  |
 | [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 |  |
 | [Maximizing Ensemble Diversity in Deep Reinforcement Learning](https://openreview.net/pdf?id=hjd-kcpDpf2) | MED-RL | ICLR22 |  |
 | [Learning Generalizable Representations for Reinforcement Learning via Adaptive Meta-learner of Behavioral Similarities](https://openreview.net/pdf?id=zBOI9LFpESK) | AMBS | ICLR22 |  |
