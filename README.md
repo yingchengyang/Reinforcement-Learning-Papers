@@ -69,6 +69,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Bidirectional Model-based Policy Optimization](https://arxiv.org/pdf/2007.01995.pdf) | BMPO | ICML20  | an extension to MBPO; consider both forward dynamics model and backward dynamics model |
 | [Trust the Model When It Is Confident: Masked Model-based Actor-Critic](https://arxiv.org/pdf/2010.04893.pdf)| M2AC | NeurIPS20 | an extension to MBPO; use model rollouts only when the model is confident |
 | [On Effective Scheduling of Model-based Reinforcement Learning](https://arxiv.org/pdf/2111.08550.pdf) | AutoMBPO | NeurIPS21 | an extension to MBPO; automatically schedule the real data ratio as well as other hyperparameters for MBPO |
+| [Model-Based Reinforcement Learning via Imagination with Derived Memory](https://openreview.net/pdf?id=jeATherHHGj) | IDM | NeurIPS21 |  |
 | [Value Gradient weighted Model-Based Reinforcement Learning](https://openreview.net/pdf?id=4-D6CZkRXxI) | VaGraM | ICLR22 |  |
 | [On-Policy Model Errors in Reinforcement Learning](https://arxiv.org/pdf/2110.07985.pdf) | OPC | ICLR22 |  |
 
