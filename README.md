@@ -72,7 +72,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [MBRL-Lib: A Modular Library for Model-based Reinforcement Learning](https://arxiv.org/pdf/2104.10159.pdf) | ---- | arxiv21 | a codebase for MBRL |
 | [On Effective Scheduling of Model-based Reinforcement Learning](https://arxiv.org/pdf/2111.08550.pdf) | AutoMBPO | NeurIPS21 | an extension to MBPO; automatically schedule the real data ratio as well as other hyperparameters for MBPO |
 | [Model-Based Reinforcement Learning via Imagination with Derived Memory](https://openreview.net/pdf?id=jeATherHHGj) | IDM | NeurIPS21 |  |
-| [Value Gradient weighted Model-Based Reinforcement Learning](https://openreview.net/pdf?id=4-D6CZkRXxI) | VaGraM | ICLR22 | consider the objective mismatch problem in MBRL; propose VaGraM by rescaling the MSE loss function with gradient information from the current value function estimate |
+| [Value Gradient weighted Model-Based Reinforcement Learning](https://arxiv.org/pdf/2204.01464.pdf) | VaGraM | ICLR22 | consider the objective mismatch problem in MBRL; propose VaGraM by rescaling the MSE loss function with gradient information from the current value function estimate |
 | [On-Policy Model Errors in Reinforcement Learning](https://arxiv.org/pdf/2110.07985.pdf) | OPC | ICLR22 |  |
 
 |  Title | Method | Conference |  Description |
