@@ -13,6 +13,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 - <a href="#Genaralization in RL">Genaralisation in RL</a><br>
 - <a href="#Sequence Generation">RL as Sequence Generation</a><br>
 - <a href="#Unsupervised RL">Unsupervised RL</a><br>
+- <a href="#Lifelong RL">Lifelong RL</a><br>
 - <a href="#Tutorial and Lesson">Tutorial and Lesson</a><br>
 
 <a id='Model Free Online'></a>
@@ -206,6 +207,15 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Pretraining representations for data-efficient reinforcement learning](https://arxiv.org/pdf/2106.04799.pdf) | SGI | NeurIPS21 | consider to pretrian with unlabeled data and finetune on a small amount of task-specific data to improve the data efficiency of RL; employ a combination of latent dynamics modelling and unsupervised goal-conditioned RL |
 | [Understanding the World Through Action](https://arxiv.org/pdf/2110.12543.pdf) | ---- | CoRL21 | discusse how self-supervised reinforcement learning combined with offline RL can enable scalable representation learning |
 | [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
+
+
+<a id='Lifelong RL'></a>
+## Lifelong RL
+
+|  Title | Method | Conference | Description |
+| ----  | ----   | ----       |   ----  |
+| [A Generalist Agent](https://arxiv.org/pdf/2205.06175.pdf) |  | arxiv22 |  |
+
 
 
 <a id='Tutorial and Lesson'></a>
