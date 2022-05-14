@@ -190,6 +190,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Cross-Trajectory Representation Learning for Zero-Shot Generalization in RL](https://arxiv.org/pdf/2106.02193.pdf) | CTRL | ICLR22 | consider zero-shot generalization (ZSG); use self-supervised learning to learn a representation across tasks |
 | [The Role of Pretrained Representations for the OOD Generalization of RL Agents](https://arxiv.org/pdf/2107.05686.pdf) | ---- | ICLR22 |  |
 | [Generalisation in Lifelong Reinforcement Learning through Logical Composition](https://openreview.net/pdf?id=ZOcX-eybqoL) | ---- | ICLR22 |  |
+| [A Generalist Agent](https://arxiv.org/pdf/2205.06175.pdf) |  | arxiv22 |  |
 
 <a id='Sequence Generation'></a>
 ## RL as Sequence Generation
@@ -215,7 +216,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
-| [A Generalist Agent](https://arxiv.org/pdf/2205.06175.pdf) |  | arxiv22 |  |
 
 
 
