@@ -58,6 +58,41 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function |
 | [Maximizing Ensemble Diversity in Deep Reinforcement Learning](https://openreview.net/pdf?id=hjd-kcpDpf2) | MED-RL | ICLR22 |  |
 | [Learning Generalizable Representations for Reinforcement Learning via Adaptive Meta-learner of Behavioral Similarities](https://openreview.net/pdf?id=zBOI9LFpESK) | AMBS | ICLR22 |  |
+| [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) |  | ICML22 |  |
+| Stabilizing Off-Policy Deep Reinforcement Learning from Pixels |  | ICML22 |  |
+| Understanding Policy Gradient Algorithms: A Sensitivity-Based Approach |  | ICML22 |  |
+| Mirror Learning: A Unifying Framework of Policy Optimisation || ICML22 ||
+| Communicating via Maximum Entropy Reinforcement Learning || ICML22 ||
+| Continuous Control with Action Quantization from Demonstrations || ICML22 ||
+| Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis || ICML22 ||
+| Off-Policy Fitted Q-Evaluation with Differentiable Function Approximators: Z-Estimation and Inference Theory || ICML22 ||
+| Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning || ICML22 ||
+| Guarantees for Epsilon-Greedy Reinforcement Learning with Function Approximation || ICML22 ||
+| Efficient Reinforcement Learning in Block MDPs: A Model-free Representation Learning approach || ICML22 ||
+| On Well-posedness and Minimax Optimal Rates of Nonparametric Q-function Estimation in Off-policy Evaluation || ICML22 ||
+| A Temporal-Difference Approach to Policy Gradient Estimation || ICML22 ||
+| Branching Reinforcement Learning || ICML22 ||
+| The Primacy Bias in Deep Reinforcement Learning || ICML22 ||
+| Stabilizing Q-learning with Linear Architectures for Provable Efficient Learning || ICML22 ||
+| Optimizing Sequential Experimental Design with Deep Reinforcement Learning || ICML22 ||
+| The Geometry of Robust Value Functions || ICML22 ||
+| Direct Behavior Specification via Constrained Reinforcement Learning || ICML22 ||
+| Utility Theory for Markovian Sequential Decision Making || ICML22 ||
+| Reducing Variance in Temporal-Difference Value Estimation via Ensemble of Deep Networks || ICML22 ||
+| An Analytical Update Rule for General Policy Optimization || ICML22 ||
+| Do Differentiable Simulators Give Better Gradients for Policy Optimization? || ICML22 ||
+| Unifying Approximate Gradient Updates for Policy Optimization || ICML22 ||
+| EqR: Equivariant Representations for Data-Efficient Reinforcement Learning || ICML22 ||
+| Provable Reinforcement Learning with a Short-Term Memory || ICML22 ||
+| Optimal Estimation of Off-Policy Policy Gradient via Double Fitted Iteration || ICML22 ||
+| Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments || ICML22 ||
+| Lagrangian Method for Q-Function Learning (with Applications to Machine Translation) || ICML22 ||
+| Learning to Assemble with Large-Scale Structured Reinforcement Learning || ICML22 ||
+| Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning || ICML22 ||
+| Off-Policy Reinforcement Learning with Delayed Rewards || ICML22 ||
+| Reachability Constrained Reinforcement Learning || ICML22 ||
+| Improving Policy Optimization with Generalist-Specialist Learning || ICML22 ||
+| Large Batch Experience Replay || ICML22 ||
 
 <a id='Model Based Online'></a>
 ## Model Based (Online) RL
@@ -83,6 +118,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Value Gradient weighted Model-Based Reinforcement Learning](https://arxiv.org/pdf/2204.01464.pdf) | VaGraM | ICLR22 Spotlight | consider the objective mismatch problem in MBRL; propose VaGraM by rescaling the MSE loss function with gradient information from the current value function estimate |
 | [Constrained Policy Optimization via Bayesian World Models](https://arxiv.org/pdf/2201.09802.pdf) | LAMBDA | ICLR22 Spotlight | consider Bayesian model-based methods for CMDP |
 | [On-Policy Model Errors in Reinforcement Learning](https://arxiv.org/pdf/2110.07985.pdf) | OPC | ICLR22 |  |
+| Denoised MDPs: Learning World Models Better Than the World Itself |  | ICML22 |  |
+| Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search || ICML22 ||
+| Towards Adaptive Model-Based Reinforcement Learning || ICML22 ||
+| Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error || ICML22 ||
+| DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations || ICML22 ||
+| Adaptive Model Design for Markov Decision Process || ICML22 ||
 
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
@@ -105,6 +146,17 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Pessimistic Bootstrapping for Uncertainty-Driven Offline Reinforcement Learning ](https://arxiv.org/pdf/2202.11566.pdf) | PBRL | ICLR22 Spotlight | consider the distributional shift and extrapolation error in offline RL; propose PBRL with bootstrapping, for uncertainty quantification, and an OOD sampling method as a regularizer |
 | [COptiDICE: Offline Constrained Reinforcement Learning via Stationary Distribution Correction Estimation](https://openreview.net/pdf?id=FLA55mBee6Q) | COptiDICE | ICLR22 Spotlight | consider offline constrained reinforcement learning; propose COptiDICE to directly optimize the distribution of state-action pair with contraints |
 | [Offline Reinforcement Learning with In-sample Q-Learning](https://arxiv.org/pdf/2110.06169.pdf) | IQL | ICLR22 |  |
+| Pessimistic Q-Learning for Offline Reinforcement Learning: Towards Optimal Sample Complexity || ICML22 ||
+| Offline RL Policies Should Be Trained to be Adaptive || ICML22 ||
+| How to Leverage Unlabeled Data in Offline Reinforcement Learning? || ICML22 ||
+| On the Role of Discount Factor in Offline Reinforcement Learning || ICML22 ||
+| Model Selection in Batch Policy Optimization || ICML22 ||
+| Koopman Q-learning: Offline Reinforcement Learning via Symmetries of Dynamics || ICML22 ||
+| Robust Task Representations for Offline Meta-Reinforcement Learning via Contrastive Learning || ICML22 ||
+| Pessimism meets VCG: Learning Dynamic Mechanism Design via Offline Reinforcement Learning || ICML22 ||
+| Showing Your Offline Reinforcement Learning Work: Online Evaluation Budget Matters || ICML22 ||
+| Constrained Offline Policy Optimization || ICML22 ||
+| Learning Bellman Complete Representations for Offline Policy Evaluation || ICML22 ||
 
 
 <a id='Model Based Offline'></a>
@@ -123,6 +175,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Revisiting Design Choices in Model-Based Offline Reinforcement Learning](https://arxiv.org/pdf/2110.04135.pdf) | ---- | ICLR22 Spotlight | conduct a rigorous investigation into a series of these design choices for Model-based Offline RL |
 | [Pessimistic Model-based Offline Reinforcement Learning under Partial Coverage](https://arxiv.org/pdf/2107.06226.pdf) | CPPO | ICLR22 |  |
 | [Pareto Policy Pool for Model-based Offline Reinforcement Learning](https://openreview.net/pdf?id=OqcZu8JIIzS) |  | ICLR22 |  |
+| Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning || ICML22 ||
 
 
 <a id='Meta Reinforcement Learning'></a>
@@ -160,6 +213,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Hindsight Foresight Relabeling for Meta-Reinforcement Learning](https://arxiv.org/pdf/2109.09031.pdf) | HFR | ICLR22 | focus on improving the sample efficiency of the meta-training phase via data sharing; combine relabeling techniques with meta-RL algorithms in order to boost both sample efficiency and asymptotic performance |
 | [CoMPS: Continual Meta Policy Search](https://arxiv.org/pdf/2112.04467.pdf) | CoMPS | ICLR22 | first formulate the continual meta-RL setting, where the agent interacts with a single task at a time and, once finished with a task, never interacts with it again |
 | [Learning a subspace of policies for online adaptation in Reinforcement Learning](https://arxiv.org/pdf/2110.05169.pdf) | ---- | ICLR22 | consider the setting with just a single train environment; propose an approach where we learn a subspace of policies within the parameter space |
+| Meta-Learning Hypothesis Spaces for Sequential Decision-making || ICML22 ||
+| Biased Gradient Estimate with Drastic Variance Reduction for Meta Reinforcement Learning || ICML22 ||
+| Transformers are Meta-Reinforcement Learners || ICML22 ||
+| Offline Meta-Reinforcement Learning with Online Self-Supervision || ICML22 ||
 
 
 
@@ -178,6 +235,13 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Robust Deep Reinforcement Learning through Adversarial Loss](https://arxiv.org/pdf/2008.01976.pdf) | RADIAL-RL | NeurIPS21 | propose a robust rl framework, which penalizes the overlap between output bounds of actions; propose a more efficient evaluation method (GWC) to measure attack agnostic robustness | 
 | [Policy Smoothing for Provably Robust Reinforcement Learning](https://arxiv.org/pdf/2106.11420.pdf) | Policy Smoothing | ICLR22 | introduce randomized smoothing into RL; propose adaptive Neyman-Person Lemma |
 | [CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing](https://arxiv.org/pdf/2106.09292.pdf) | CROP | ICLR22 | present a framework of Certifying Robust Policies for RL (CROP) against adversarial state perturbations with two certification criteria: robustness of per-state actions and lower bound of cumulative rewards; theoretically prove the certification radius; conduct experiments to provide certification for six empirically robust RL algorithms on Atari |
+| [Policy Gradient Method For Robust Reinforcement Learning](https://arxiv.org/pdf/2205.07344.pdf) |  | ICML22 |  |
+| SAUTE RL: Toward Almost Surely Safe Reinforcement Learning Using State Augmentation || ICML22 ||
+| Constrained Variational Policy Optimization for Safe Reinforcement Learning || ICML22 ||
+| Robust Deep Reinforcement Learning through Bootstrapped Opportunistic Curriculum || ICML22 ||
+| Distributionally Robust Q-Learning || ICML22 ||
+| Robust Meta-learning with Sampling Noise and Label Noise via Eigen-Reptile || ICML22 ||
+| DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck || ICML22 ||
 
 <a id='Genaralization in RL'></a>
 ## Genaralisation in RL
@@ -203,6 +267,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | ----  | ----   | ----       |   ----  |
 | [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf) | DT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (return-to-go, state, action, return-to-go, ...); there is not explicit optimization process; evaluate on Offline RL |
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/pdf/2106.02039.pdf) | TT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (s_0^0, ..., s_0^N, a_0^0, ..., a_0^M, r_0, ...); use beam search to inference; evaluate on imitation learning, goal-conditioned RL and Offline RL | 
+| Online Decision Transformer |  | ICML22 |  |
+| Prompting Decision Transformer for Few-shot Policy Generalization || ICML22 ||
 
 <a id='Unsupervised RL'></a>
 ## Unsupervised RL
@@ -214,6 +280,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Pretraining representations for data-efficient reinforcement learning](https://arxiv.org/pdf/2106.04799.pdf) | SGI | NeurIPS21 | consider to pretrian with unlabeled data and finetune on a small amount of task-specific data to improve the data efficiency of RL; employ a combination of latent dynamics modelling and unsupervised goal-conditioned RL |
 | [Understanding the World Through Action](https://arxiv.org/pdf/2110.12543.pdf) | ---- | CoRL21 | discusse how self-supervised reinforcement learning combined with offline RL can enable scalable representation learning |
 | [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
+| Reinforcement Learning with Action-Free Pre-Training from Videos || ICML22 ||
 
 
 <a id='Lifelong RL'></a>
