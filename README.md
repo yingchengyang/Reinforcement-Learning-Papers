@@ -63,6 +63,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis || ICML22 oral ||
 | The Importance of Non-Markovianity in Maximum State Entropy Exploration | | ICML22 oral |  |
 | An Analytical Update Rule for General Policy Optimization || ICML22 oral ||
+| [Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error](https://arxiv.org/pdf/2201.12417.pdf) | ---- | ICML22 | aim to better understand the relationship between the Bellman error and the accuracy of value functions through theoretical analysis and empirical study; point out that the Bellman error is a poor replacement for value error, including (i) The magnitude of the Bellman error hides bias, (ii) Missing transitions breaks the Bellman equation |
 | [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) |  | ICML22 |  |
 | Stabilizing Off-Policy Deep Reinforcement Learning from Pixels |  | ICML22 |  |
 | Understanding Policy Gradient Algorithms: A Sensitivity-Based Approach |  | ICML22 |  |
@@ -123,8 +124,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Generalised Policy Improvement with Geometric Policy Composition |  | ICML22 oral |  |
 | Denoised MDPs: Learning World Models Better Than the World Itself |  | ICML22 |  |
 | Towards Adaptive Model-Based Reinforcement Learning || ICML22 ||
-| Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error || ICML22 ||
-| DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations || ICML22 ||
+| [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://arxiv.org/pdf/2110.14565.pdf) | DreamerPro | ICML22 | propose to learn the prototypes from the recurrent states of the world model, thereby distilling temporal structures from past observations and actions into the prototypes. |
 | Adaptive Model Design for Markov Decision Process || ICML22 ||
 
 |  Title | Method | Conference |  Description |
@@ -193,6 +193,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Learning to adapt in dynamic, real-world environments through meta-reinforcement learning](https://arxiv.org/pdf/1803.11347.pdf) | ReBAL, GrBAL | ICLR18 | consider learning online adaptation in the context of model-based reinforcement learning |
 | [Meta-Learning by Adjusting Priors Based on Extended PAC-Bayes Theory](https://arxiv.org/pdf/1711.01244.pdf) | ---- | ICML18 | extend various PAC-Bayes bounds to meta learning |
 | [Meta reinforcement learning of structured exploration strategies](https://arxiv.org/pdf/1802.07245.pdf) |  | NeurIPS18 |  |
+| [Meta-learning surrogate models for sequential decision making](https://arxiv.org/pdf/1903.11907.pdf) |  | arxiv19 |  |
 | [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/pdf/1903.08254.pdf) | PEARL | ICML19 | encode past tasks’ experience with probabilistic latent context and use inference network to estimate the posterior|
 | [Fast context adaptation via meta-learning](https://arxiv.org/pdf/1810.03642.pdf) | CAVIA | ICML19 | propose CAVIA as an extension to MAML that is less prone to meta-overfitting, easier to parallelise, and more interpretable; partition the model parameters into two parts: context parameters and shared parameters, and only update the former one in the test stage |
 | [Taming MAML: Efficient Unbiased Meta-Reinforcement Learning](http://proceedings.mlr.press/v97/liu19g/liu19g.pdf) |  | ICML19 |  |
@@ -217,7 +218,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Hindsight Foresight Relabeling for Meta-Reinforcement Learning](https://arxiv.org/pdf/2109.09031.pdf) | HFR | ICLR22 | focus on improving the sample efficiency of the meta-training phase via data sharing; combine relabeling techniques with meta-RL algorithms in order to boost both sample efficiency and asymptotic performance |
 | [CoMPS: Continual Meta Policy Search](https://arxiv.org/pdf/2112.04467.pdf) | CoMPS | ICLR22 | first formulate the continual meta-RL setting, where the agent interacts with a single task at a time and, once finished with a task, never interacts with it again |
 | [Learning a subspace of policies for online adaptation in Reinforcement Learning](https://arxiv.org/pdf/2110.05169.pdf) | ---- | ICLR22 | consider the setting with just a single train environment; propose an approach where we learn a subspace of policies within the parameter space |
-| [Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search](https://arxiv.org/pdf/2102.08291.pdf) | GSSM | ICML22 |  |
+| [Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search](https://arxiv.org/pdf/2102.08291.pdf) | GSSM | ICML22 | consider model-based meta reinforcement learning, which consists of dynamics model learning and policy optimization; develop a graph structured dynamics model with superior generalization capability across tasks|
 | Meta-Learning Hypothesis Spaces for Sequential Decision-making || ICML22 ||
 | Biased Gradient Estimate with Drastic Variance Reduction for Meta Reinforcement Learning || ICML22 ||
 | Transformers are Meta-Reinforcement Learners || ICML22 ||
