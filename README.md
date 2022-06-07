@@ -63,6 +63,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis || ICML22 oral ||
 | The Importance of Non-Markovianity in Maximum State Entropy Exploration | | ICML22 oral |  |
 | An Analytical Update Rule for General Policy Optimization || ICML22 oral ||
+| Align-RUDDER: Learning From Few Demonstrations by Reward Redistribution || ICML22 oral ||
 | [Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error](https://arxiv.org/pdf/2201.12417.pdf) | ---- | ICML22 | aim to better understand the relationship between the Bellman error and the accuracy of value functions through theoretical analysis and empirical study; point out that the Bellman error is a poor replacement for value error, including (i) The magnitude of the Bellman error hides bias, (ii) Missing transitions breaks the Bellman equation |
 | [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) |  | ICML22 |  |
 | Stabilizing Off-Policy Deep Reinforcement Learning from Pixels |  | ICML22 |  |
@@ -145,6 +146,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Pessimistic Bootstrapping for Uncertainty-Driven Offline Reinforcement Learning ](https://arxiv.org/pdf/2202.11566.pdf) | PBRL | ICLR22 Spotlight | consider the distributional shift and extrapolation error in offline RL; propose PBRL with bootstrapping, for uncertainty quantification, and an OOD sampling method as a regularizer |
 | [COptiDICE: Offline Constrained Reinforcement Learning via Stationary Distribution Correction Estimation](https://openreview.net/pdf?id=FLA55mBee6Q) | COptiDICE | ICLR22 Spotlight | consider offline constrained reinforcement learning; propose COptiDICE to directly optimize the distribution of state-action pair with contraints |
 | [Offline Reinforcement Learning with In-sample Q-Learning](https://arxiv.org/pdf/2110.06169.pdf) | IQL | ICLR22 |  |
+| Offline reinforcement learning with implicit Q-learning || ICLR22 ||
 | Adversarially Trained Actor Critic for Offline Reinforcement Learning |  | ICML22 oral |  |
 | Learning Bellman Complete Representations for Offline Policy Evaluation | | ICML22 oral | |
 | Offline RL Policies Should Be Trained to be Adaptive | | ICML22 oral | |
@@ -176,6 +178,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Revisiting Design Choices in Model-Based Offline Reinforcement Learning](https://arxiv.org/pdf/2110.04135.pdf) | ---- | ICLR22 Spotlight | conduct a rigorous investigation into a series of these design choices for Model-based Offline RL |
 | [Pessimistic Model-based Offline Reinforcement Learning under Partial Coverage](https://arxiv.org/pdf/2107.06226.pdf) | CPPO | ICLR22 |  |
 | [Pareto Policy Pool for Model-based Offline Reinforcement Learning](https://openreview.net/pdf?id=OqcZu8JIIzS) |  | ICLR22 |  |
+| [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) | Diffuser | ICML22 oral | first design a denoising diffusion model for trajectory data and an associated probabilistic framework for behavior synthesis |
 | Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning || ICML22 ||
 
 
@@ -283,6 +286,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Pretraining representations for data-efficient reinforcement learning](https://arxiv.org/pdf/2106.04799.pdf) | SGI | NeurIPS21 | consider to pretrian with unlabeled data and finetune on a small amount of task-specific data to improve the data efficiency of RL; employ a combination of latent dynamics modelling and unsupervised goal-conditioned RL |
 | [Understanding the World Through Action](https://arxiv.org/pdf/2110.12543.pdf) | ---- | CoRL21 | discusse how self-supervised reinforcement learning combined with offline RL can enable scalable representation learning |
 | [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
+| The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
 | Reinforcement Learning with Action-Free Pre-Training from Videos || ICML22 ||
 
 
