@@ -124,7 +124,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Generalised Policy Improvement with Geometric Policy Composition |  | ICML22 oral |  |
 | Denoised MDPs: Learning World Models Better Than the World Itself |  | ICML22 |  |
 | Towards Adaptive Model-Based Reinforcement Learning || ICML22 ||
-| [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://arxiv.org/pdf/2110.14565.pdf) | DreamerPro | ICML22 | propose to learn the prototypes from the recurrent states of the world model, thereby distilling temporal structures from past observations and actions into the prototypes. |
+| [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://arxiv.org/pdf/2110.14565.pdf) | DreamerPro | ICML22 | consider reconstruction-free MBRL; propose to learn the prototypes from the recurrent states of the world model, thereby distilling temporal structures from past observations and actions into the prototypes. |
 | Adaptive Model Design for Markov Decision Process || ICML22 ||
 
 |  Title | Method | Conference |  Description |
