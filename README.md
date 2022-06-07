@@ -58,13 +58,17 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function |
 | [Maximizing Ensemble Diversity in Deep Reinforcement Learning](https://openreview.net/pdf?id=hjd-kcpDpf2) | MED-RL | ICLR22 |  |
 | [Learning Generalizable Representations for Reinforcement Learning via Adaptive Meta-learner of Behavioral Similarities](https://openreview.net/pdf?id=zBOI9LFpESK) | AMBS | ICLR22 |  |
+| Large Batch Experience Replay || ICML22 oral ||
+| Do Differentiable Simulators Give Better Gradients for Policy Optimization? || ICML22 oral ||
+| Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis || ICML22 oral ||
+| The Importance of Non-Markovianity in Maximum State Entropy Exploration | | ICML22 oral |  |
+| An Analytical Update Rule for General Policy Optimization || ICML22 oral ||
 | [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) |  | ICML22 |  |
 | Stabilizing Off-Policy Deep Reinforcement Learning from Pixels |  | ICML22 |  |
 | Understanding Policy Gradient Algorithms: A Sensitivity-Based Approach |  | ICML22 |  |
 | Mirror Learning: A Unifying Framework of Policy Optimisation || ICML22 ||
 | Communicating via Maximum Entropy Reinforcement Learning || ICML22 ||
 | Continuous Control with Action Quantization from Demonstrations || ICML22 ||
-| Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis || ICML22 ||
 | Off-Policy Fitted Q-Evaluation with Differentiable Function Approximators: Z-Estimation and Inference Theory || ICML22 ||
 | Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning || ICML22 ||
 | Guarantees for Epsilon-Greedy Reinforcement Learning with Function Approximation || ICML22 ||
@@ -79,8 +83,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Direct Behavior Specification via Constrained Reinforcement Learning || ICML22 ||
 | Utility Theory for Markovian Sequential Decision Making || ICML22 ||
 | Reducing Variance in Temporal-Difference Value Estimation via Ensemble of Deep Networks || ICML22 ||
-| An Analytical Update Rule for General Policy Optimization || ICML22 ||
-| Do Differentiable Simulators Give Better Gradients for Policy Optimization? || ICML22 ||
 | Unifying Approximate Gradient Updates for Policy Optimization || ICML22 ||
 | EqR: Equivariant Representations for Data-Efficient Reinforcement Learning || ICML22 ||
 | Provable Reinforcement Learning with a Short-Term Memory || ICML22 ||
@@ -92,7 +94,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Off-Policy Reinforcement Learning with Delayed Rewards || ICML22 ||
 | Reachability Constrained Reinforcement Learning || ICML22 ||
 | Improving Policy Optimization with Generalist-Specialist Learning || ICML22 ||
-| Large Batch Experience Replay || ICML22 ||
+
 
 <a id='Model Based Online'></a>
 ## Model Based (Online) RL
@@ -118,8 +120,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Value Gradient weighted Model-Based Reinforcement Learning](https://arxiv.org/pdf/2204.01464.pdf) | VaGraM | ICLR22 Spotlight | consider the objective mismatch problem in MBRL; propose VaGraM by rescaling the MSE loss function with gradient information from the current value function estimate |
 | [Constrained Policy Optimization via Bayesian World Models](https://arxiv.org/pdf/2201.09802.pdf) | LAMBDA | ICLR22 Spotlight | consider Bayesian model-based methods for CMDP |
 | [On-Policy Model Errors in Reinforcement Learning](https://arxiv.org/pdf/2110.07985.pdf) | OPC | ICLR22 |  |
+| Generalised Policy Improvement with Geometric Policy Composition |  | ICML22 oral |  |
 | Denoised MDPs: Learning World Models Better Than the World Itself |  | ICML22 |  |
-| Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search || ICML22 ||
 | Towards Adaptive Model-Based Reinforcement Learning || ICML22 ||
 | Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error || ICML22 ||
 | DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations || ICML22 ||
@@ -146,8 +148,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Pessimistic Bootstrapping for Uncertainty-Driven Offline Reinforcement Learning ](https://arxiv.org/pdf/2202.11566.pdf) | PBRL | ICLR22 Spotlight | consider the distributional shift and extrapolation error in offline RL; propose PBRL with bootstrapping, for uncertainty quantification, and an OOD sampling method as a regularizer |
 | [COptiDICE: Offline Constrained Reinforcement Learning via Stationary Distribution Correction Estimation](https://openreview.net/pdf?id=FLA55mBee6Q) | COptiDICE | ICLR22 Spotlight | consider offline constrained reinforcement learning; propose COptiDICE to directly optimize the distribution of state-action pair with contraints |
 | [Offline Reinforcement Learning with In-sample Q-Learning](https://arxiv.org/pdf/2110.06169.pdf) | IQL | ICLR22 |  |
+| Adversarially Trained Actor Critic for Offline Reinforcement Learning |  | ICML22 oral |  |
+| Learning Bellman Complete Representations for Offline Policy Evaluation | | ICML22 oral | |
+| Offline RL Policies Should Be Trained to be Adaptive | | ICML22 oral | |
 | Pessimistic Q-Learning for Offline Reinforcement Learning: Towards Optimal Sample Complexity || ICML22 ||
-| Offline RL Policies Should Be Trained to be Adaptive || ICML22 ||
 | How to Leverage Unlabeled Data in Offline Reinforcement Learning? || ICML22 ||
 | On the Role of Discount Factor in Offline Reinforcement Learning || ICML22 ||
 | Model Selection in Batch Policy Optimization || ICML22 ||
@@ -156,7 +160,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Pessimism meets VCG: Learning Dynamic Mechanism Design via Offline Reinforcement Learning || ICML22 ||
 | Showing Your Offline Reinforcement Learning Work: Online Evaluation Budget Matters || ICML22 ||
 | Constrained Offline Policy Optimization || ICML22 ||
-| Learning Bellman Complete Representations for Offline Policy Evaluation || ICML22 ||
+
 
 
 <a id='Model Based Offline'></a>
@@ -213,6 +217,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Hindsight Foresight Relabeling for Meta-Reinforcement Learning](https://arxiv.org/pdf/2109.09031.pdf) | HFR | ICLR22 | focus on improving the sample efficiency of the meta-training phase via data sharing; combine relabeling techniques with meta-RL algorithms in order to boost both sample efficiency and asymptotic performance |
 | [CoMPS: Continual Meta Policy Search](https://arxiv.org/pdf/2112.04467.pdf) | CoMPS | ICLR22 | first formulate the continual meta-RL setting, where the agent interacts with a single task at a time and, once finished with a task, never interacts with it again |
 | [Learning a subspace of policies for online adaptation in Reinforcement Learning](https://arxiv.org/pdf/2110.05169.pdf) | ---- | ICLR22 | consider the setting with just a single train environment; propose an approach where we learn a subspace of policies within the parameter space |
+| [Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search](https://arxiv.org/pdf/2102.08291.pdf) | GSSM | ICML22 |  |
 | Meta-Learning Hypothesis Spaces for Sequential Decision-making || ICML22 ||
 | Biased Gradient Estimate with Drastic Variance Reduction for Meta Reinforcement Learning || ICML22 ||
 | Transformers are Meta-Reinforcement Learners || ICML22 ||
@@ -267,7 +272,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | ----  | ----   | ----       |   ----  |
 | [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf) | DT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (return-to-go, state, action, return-to-go, ...); there is not explicit optimization process; evaluate on Offline RL |
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/pdf/2106.02039.pdf) | TT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (s_0^0, ..., s_0^N, a_0^0, ..., a_0^M, r_0, ...); use beam search to inference; evaluate on imitation learning, goal-conditioned RL and Offline RL | 
-| Online Decision Transformer |  | ICML22 |  |
+| Online Decision Transformer |  | ICML22 oral |  |
 | Prompting Decision Transformer for Few-shot Policy Generalization || ICML22 ||
 
 <a id='Unsupervised RL'></a>
