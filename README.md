@@ -59,10 +59,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Maximizing Ensemble Diversity in Deep Reinforcement Learning](https://openreview.net/pdf?id=hjd-kcpDpf2) | MED-RL | ICLR22 |  |
 | [Learning Generalizable Representations for Reinforcement Learning via Adaptive Meta-learner of Behavioral Similarities](https://openreview.net/pdf?id=zBOI9LFpESK) | AMBS | ICLR22 |  |
 | [Large Batch Experience Replay](https://arxiv.org/pdf/2110.01528.pdf) |  LaBER | ICML22 oral | cast the replay buffer sampling problem as an importance sampling one for estimating the gradient and derive the theoretically optimal sampling distribution |
-| Do Differentiable Simulators Give Better Gradients for Policy Optimization? || ICML22 oral ||
+| [Do Differentiable Simulators Give Better Gradients for Policy Optimization?](https://arxiv.org/pdf/2202.00817.pdf) | ---- | ICML22 oral | consider whether differentiable simulators give better policy gradients; show some pitfalls of First-order estimates and propose alpha-order estimates |
 | Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis || ICML22 oral ||
 | The Importance of Non-Markovianity in Maximum State Entropy Exploration | | ICML22 oral |  |
-| An Analytical Update Rule for General Policy Optimization || ICML22 oral ||
+| [An Analytical Update Rule for General Policy Optimization](https://arxiv.org/pdf/2112.02045.pdf) | ---- | ICML22 oral | provide a tighter bound for truse-region methods |
 | Align-RUDDER: Learning From Few Demonstrations by Reward Redistribution || ICML22 oral ||
 | [Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error](https://arxiv.org/pdf/2201.12417.pdf) | ---- | ICML22 | aim to better understand the relationship between the Bellman error and the accuracy of value functions through theoretical analysis and empirical study; point out that the Bellman error is a poor replacement for value error, including (i) The magnitude of the Bellman error hides bias, (ii) Missing transitions breaks the Bellman equation |
 | [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) |  | ICML22 |  |
