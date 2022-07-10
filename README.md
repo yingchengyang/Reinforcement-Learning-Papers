@@ -150,7 +150,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Offline reinforcement learning with implicit Q-learning || ICLR22 ||
 | Adversarially Trained Actor Critic for Offline Reinforcement Learning |  | ICML22 oral |  |
 | Learning Bellman Complete Representations for Offline Policy Evaluation | | ICML22 oral | |
-| Offline RL Policies Should Be Trained to be Adaptive | | ICML22 oral | |
+| [Offline RL Policies Should Be Trained to be Adaptive](https://arxiv.org/pdf/2207.02200.pdf) | APE-V | ICML22 oral | show that learning from an offline dataset does not fully specify the environment; formally demonstrate the necessity of adaptation in offline RL by using the Bayesian formalism and to provide a practical algorithm for learning optimally adaptive policies; propose an ensemble-based offline RL algorithm that imbues policies with the ability to adapt within an episode |
 | Pessimistic Q-Learning for Offline Reinforcement Learning: Towards Optimal Sample Complexity || ICML22 ||
 | How to Leverage Unlabeled Data in Offline Reinforcement Learning? || ICML22 ||
 | On the Role of Discount Factor in Offline Reinforcement Learning || ICML22 ||
