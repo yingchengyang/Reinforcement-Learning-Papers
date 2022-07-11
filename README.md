@@ -220,9 +220,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [CoMPS: Continual Meta Policy Search](https://arxiv.org/pdf/2112.04467.pdf) | CoMPS | ICLR22 | first formulate the continual meta-RL setting, where the agent interacts with a single task at a time and, once finished with a task, never interacts with it again |
 | [Learning a subspace of policies for online adaptation in Reinforcement Learning](https://arxiv.org/pdf/2110.05169.pdf) | ---- | ICLR22 | consider the setting with just a single train environment; propose an approach where we learn a subspace of policies within the parameter space |
 | [Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search](https://arxiv.org/pdf/2102.08291.pdf) | GSSM | ICML22 | consider model-based meta reinforcement learning, which consists of dynamics model learning and policy optimization; develop a graph structured dynamics model with superior generalization capability across tasks|
-| Meta-Learning Hypothesis Spaces for Sequential Decision-making || ICML22 ||
+| [Meta-Learning Hypothesis Spaces for Sequential Decision-making](https://arxiv.org/pdf/2202.00602.pdf) | Meta-KeL | ICML22 | argue that two critical capabilities of transformers, reason over long-term dependencies and present context-dependent weights from self-attention, compose the central role of a Meta-Reinforcement Learner; propose Meta-LeL for meta-learning the hypothesis space of a sequential decision task |
 | Biased Gradient Estimate with Drastic Variance Reduction for Meta Reinforcement Learning || ICML22 ||
-| Transformers are Meta-Reinforcement Learners || ICML22 ||
+| [Transformers are Meta-Reinforcement Learners](https://arxiv.org/pdf/2206.06614.pdf) | TrMRL | ICML22 | propose TrMRL, a memory-based meta-Reinforcement Learner which uses the transformer architecture to formulate the learning process; |
 | Offline Meta-Reinforcement Learning with Online Self-Supervision || ICML22 ||
 
 
