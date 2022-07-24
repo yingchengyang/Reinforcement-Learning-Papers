@@ -130,7 +130,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Adaptive Model Design for Markov Decision Process || ICML22 ||
 
 
-Dreamer Family
+### Dreamer Family
+
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
 | [Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/pdf/1912.01603.pdf) | Dreamer | ICLR20 | solve long-horizon tasks from images purely by latent imagination; test in image-based MuJoCo |
