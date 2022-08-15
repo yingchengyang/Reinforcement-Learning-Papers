@@ -85,7 +85,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | The Geometry of Robust Value Functions || ICML22 ||
 | Direct Behavior Specification via Constrained Reinforcement Learning || ICML22 ||
 | Utility Theory for Markovian Sequential Decision Making || ICML22 ||
-| Reducing Variance in Temporal-Difference Value Estimation via Ensemble of Deep Networks || ICML22 ||
+| [Reducing Variance in Temporal-Difference Value Estimation via Ensemble of Deep Networks](https://proceedings.mlr.press/v162/liang22c/liang22c.pdf) | MeanQ | ICML22 | consider variance reduction in Temporal-Difference Value Estimation; propose MeanQ to estimate target values by ensembling |
 | Unifying Approximate Gradient Updates for Policy Optimization || ICML22 ||
 | EqR: Equivariant Representations for Data-Efficient Reinforcement Learning || ICML22 ||
 | Provable Reinforcement Learning with a Short-Term Memory || ICML22 ||
