@@ -4,19 +4,31 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning in each conference every year, we are only able to list those we read and consider as insightful.
 
 ## Contents 
-- <a href="#Model Free Online">Model Free (Online) RL</a><br>
-- <a href="#Model Based Online">Model Based (Online) RL</a><br>
-- <a href="#Model Free Offline">(Model Free) Offline RL</a><br>
-- <a href="#Model Based Offline">Model Based Offline RL</a><br>
-- <a href="#Meta Reinforcement Learning">Meta RL</a><br>
-- <a href="#Adversarial Reinforcement Learning">Adversarial RL</a><br>
-- <a href="#Genaralization in RL">Genaralisation in RL</a><br>
-- <a href="#Sequence Generation">RL as Sequence Generation</a><br>
-- <a href="#Unsupervised RL">Unsupervised RL</a><br>
-- <a href="#Lifelong RL">Lifelong RL</a><br>
-- <a href="#Tutorial and Lesson">Tutorial and Lesson</a><br>
+<!-- * [Model Free (Online) RL](#Model-Free-Online)
+* [Model Based (Online) RL](#Model-Based-Online)
+* [(Model Free) Offline RL](#Model-Free-Offline)
+* [Model Based Offline R](#Model-Based-Offline)
+* [Meta RL](#Meta-RL)
+* [Adversarial RL](#Adversarial-RL)
+* [Genaralisation in RL](#Genaralisation-in-RL)
+* [RL as Sequence Generation](#Sequence-Generation)
+* [Unsupervised RL](#Unsupervised-RL)
+* [Lifelong RL](#Lifelong-RL)
+* [Tutorial and Lesson](#Tutorial-and-Lesson) -->
 
-<a id='Model Free Online'></a>
+- <a href="#Model-Free-Online">Model Free (Online) RL</a><br>
+- <a href="#Model-Based-Online">Model Based (Online) RL</a><br>
+- <a href="#Model-Free-Offline">(Model Free) Offline RL</a><br>
+- <a href="#Model-Based-Offline">Model Based Offline RL</a><br>
+- <a href="#Meta-RL">Meta RL</a><br>
+- <a href="#Adversarial-RL">Adversarial RL</a><br>
+- <a href="#Genaralization-in-RL">Genaralisation in RL</a><br>
+- <a href="#Sequence-Generation">RL as Sequence Generation</a><br>
+- <a href="#Unsupervised-RL">Unsupervised RL</a><br>
+- <a href="#Lifelong-RL">Lifelong RL</a><br>
+- <a href="#Tutorial-and-Lesson">Tutorial and Lesson</a><br>
+
+<a id='Model-Free-Online'></a>
 ## Model Free (Online) RL
 
 ### Classic Methods
@@ -101,7 +113,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Improving Policy Optimization with Generalist-Specialist Learning || ICML22 ||
 
 
-<a id='Model Based Online'></a>
+<a id='Model-Based-Online'></a>
 ## Model Based (Online) RL
 
 |  Title | Method | Conference |  Description |
@@ -119,6 +131,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [A Game Theoretic Framework for Model Based Reinforcement Learning](https://arxiv.org/pdf/2004.07804.pdf) | PAL, MAL | ICML20 ||
 | [Planning to Explore via Self-Supervised World Models](https://arxiv.org/pdf/2005.05960.pdf) | Plan2Explore | ICML20 | propose a self-supervised reinforcement learning agent for addressing two challenges: quick adaptation and expected future novelty |
 | [Trust the Model When It Is Confident: Masked Model-based Actor-Critic](https://arxiv.org/pdf/2010.04893.pdf)| M2AC | NeurIPS20 | an extension to MBPO; use model rollouts only when the model is confident |
+| [The LoCA Regret: A Consistent Metric to Evaluate Model-Based Behavior in Reinforcement Learning](https://arxiv.org/pdf/2007.03158.pdf) | LoCA | NeurIPS20 | propose LoCA to measure how quickly a method adapts its policy after the environment is changed from the first task to the second |
 | [Generative Temporal Difference Learning for Infinite-Horizon Prediction](https://arxiv.org/pdf/2010.14496.pdf) | GHM, or gamma-model | NeurIPS20 | propose gamma-model to make long-horizon predictions without the need to repeatedly apply a single-step model |
 | [MBRL-Lib: A Modular Library for Model-based Reinforcement Learning](https://arxiv.org/pdf/2104.10159.pdf) | ---- | arxiv21 | a codebase for MBRL |
 | [Mastering Atari Games with Limited Data](https://arxiv.org/pdf/2111.00210.pdf) | EfficientZero | NeurIPS21 | first achieve super-human performance on Atari games with limited data; propose EfficientZero with three components: (i) use self-supervised learning to learn a temporally consistent environment model, (ii) learn the value prefix in an end-to-end manner, (iii) use the learned model to correct off-policy value targets |
@@ -129,7 +142,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Constrained Policy Optimization via Bayesian World Models](https://arxiv.org/pdf/2201.09802.pdf) | LAMBDA | ICLR22 Spotlight | consider Bayesian model-based methods for CMDP |
 | [On-Policy Model Errors in Reinforcement Learning](https://arxiv.org/pdf/2110.07985.pdf) | OPC | ICLR22 | consider to combine real-world data and a learned model in order to get the best of both worlds; propose to exploit the real-world data for onpolicy predictions and use the learned model only to generalize to different actions; propose to use on-policy transition data on top of a separately learned model to enable accurate long-term predictions for MBRL |
 | [Denoised MDPs: Learning World Models Better Than the World Itself](https://arxiv.org/pdf/2206.15477.pdf) | Denoised MDP | ICML22 | divide information into four categories: controllable/uncontrollable (whether infected by the action) and reward-relevant/irrelevant (whether affects the return); propose to only consider information which is controllable and reward-relevant |
-| Towards Adaptive Model-Based Reinforcement Learning || ICML22 ||
+
 
 
 
@@ -142,8 +155,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Mastering Atari with Discrete World Models](https://arxiv.org/pdf/2010.02193.pdf) | Dreamerv2 | ICLR21 | solve long-horizon tasks from images purely by latent imagination; test in image-based Atari |
 | [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://arxiv.org/pdf/2110.14565.pdf) | DreamerPro | ICML22 | consider reconstruction-free MBRL; propose to learn the prototypes from the recurrent states of the world model, thereby distilling temporal structures from past observations and actions into the prototypes. |
 | [Masked World Models for Visual Control](https://arxiv.org/pdf/2206.14244.pdf) | MWM | arxiv2206 | decouple visual representation learning and dynamics learning for visual model-based RL and use masked autoencoder to train visual representation |
+| [Towards Evaluating Adaptivity of Model-Based Reinforcement Learning Methods](https://proceedings.mlr.press/v162/wan22d/wan22d.pdf) | ---- | ICML22 | introduce an improved version of the LoCA setup and use it to evaluate PlaNet and Dreamerv2 |
 
-<a id='Model Free Offline'></a>
+<a id='Model-Free-Offline'></a>
 ## (Model Free) Offline RL
 
 |  Title | Method | Conference | Description |
@@ -173,7 +187,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 
 
-<a id='Model Based Offline'></a>
+<a id='Model-Based-Offline'></a>
 ## Model Based Offline RL
 
 |  Title | Method | Conference | Description |
@@ -193,7 +207,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning || ICML22 ||
 
 
-<a id='Meta Reinforcement Learning'></a>
+<a id='Meta-RL'></a>
 ## Meta RL
 
 |  Title | Method | Conference | Description |
@@ -237,7 +251,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 
 
-<a id='Adversarial Reinforcement Learning'></a>
+<a id='Adversarial-RL'></a>
 ## Adversarial RL
 
 |  Title | Method | Conference | Description |
@@ -260,7 +274,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Robust Meta-learning with Sampling Noise and Label Noise via Eigen-Reptile || ICML22 ||
 | DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck || ICML22 ||
 
-<a id='Genaralization in RL'></a>
+<a id='Genaralization-in-RL'></a>
 ## Genaralisation in RL
 
 | Title | Method | Conference | Description | 
@@ -278,7 +292,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [A Generalist Agent](https://arxiv.org/pdf/2205.06175.pdf) | Gato | arxiv22 | [slide](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20220607.pdf) |
 | [Learning Dynamics and Generalization in Reinforcement Learning](https://arxiv.org/pdf/2206.02126.pdf) |  | ICML22 |  |
 
-<a id='Sequence Generation'></a>
+<a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
 
 |  Title | Method | Conference | Description |
@@ -288,7 +302,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Online Decision Transformer |  | ICML22 oral |  |
 | Prompting Decision Transformer for Few-shot Policy Generalization || ICML22 ||
 
-<a id='Unsupervised RL'></a>
+<a id='Unsupervised-RL'></a>
 ## Unsupervised RL
 
 |  Title | Method | Conference | Description |
@@ -302,7 +316,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Reinforcement Learning with Action-Free Pre-Training from Videos || ICML22 ||
 
 
-<a id='Lifelong RL'></a>
+<a id='Lifelong-RL'></a>
 ## Lifelong RL
 
 |  Title | Method | Conference | Description |
@@ -310,7 +324,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 
 
-<a id='Tutorial and Lesson'></a>
+<a id='Tutorial-and-Lesson'></a>
 ## Tutorial and Lesson
 
 | Tutorial and Lesson |
