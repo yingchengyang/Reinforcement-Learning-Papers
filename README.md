@@ -5,9 +5,11 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 ## Contents 
 * [Model Free (Online) RL](#Model-Free-Online)
-    -[Classic Methods](#classic)
-    -[Current methods](#current)
+    - [Classic Methods](#model-free-classic)
+    - [Current methods](#current)
 * [Model Based (Online) RL](#Model-Based-Online)
+    - [Classic Methods](#model-based-classic)
+    - [Dreamer Family](#dreamer)
 * [(Model Free) Offline RL](#Model-Free-Offline)
 * [Model Based Offline R](#Model-Based-Offline)
 * [Meta RL](#Meta-RL)
@@ -30,13 +32,13 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 - <a href="#Lifelong-RL">Lifelong RL</a><br>
 - <a href="#Tutorial-and-Lesson">Tutorial and Lesson</a><br> -->
 
-<!-- <a id='Model-Free-Online'></a>
-## Model Free (Online) RL -->
-## <span id='Model-Free-Online'>Model Free (Online) RL</span>
-### <span id='classic'>Classic Methods</span>
+<a id='Model-Free-Online'></a>
+## Model Free (Online) RL
+<!-- ## <span id='Model-Free-Online'>Model Free (Online) RL</span>
+### <span id='classic'>Classic Methods</span> -->
 
-<!-- <a id='classic'></a>
-### Classic Methods -->
+<a id='model-free-classic'></a>
+### Classic Methods
 
 |  Title | Method | Conference | on/off policy | Action Space | Policy | Description |
 | ----  | ----   | ----       |   ----  | ----  |  ---- |  ---- | 
@@ -56,9 +58,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Reinforcement Learning with Deep Energy-Based Policies](https://arxiv.org/pdf/1702.08165.pdf) | SQL | ICML17 | off | main for Continuous | parameterized neural network | consider max-entropy rl and propose soft q iteration as well as soft q learning |
 | [Soft Actor-Critic Algorithms and Applications](https://arxiv.org/pdf/1812.05905.pdf), [Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b.pdf), [\[appendix\]](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b-supp.pdf) | SAC | ICML18 | off | main for Continuous | parameterized neural network | base the theoretical analysis of SQL and extend soft q iteration (soft q evaluation + soft q improvement); reparameterize the policy and use two parameterized value functions; propose SAC |
 
-### <span id='current'>Current methods</span>
-<!-- <a id='current'></a>
-### Current methods -->
+<!-- ### <span id='current'>Current methods</span> -->
+<a id='current'></a>
+### Current methods
 
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
@@ -123,6 +125,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 <a id='Model-Based-Online'></a>
 ## Model Based (Online) RL
 
+<a id='model-based-classic'></a>
+### Classic Methods
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
 | [Value-Aware Loss Function for Model-based Reinforcement Learning](http://proceedings.mlr.press/v54/farahmand17a/farahmand17a-supp.pdf) | VAML | AISTATS17 | propose to train model by using the difference between TD error rather than KL-divergence |
@@ -152,7 +156,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 
 
-
+<a id='dreamer'></a>
 ### Dreamer Family
 
 |  Title | Method | Conference |  Description |
