@@ -4,19 +4,21 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning in each conference every year, we are only able to list those we read and consider as insightful.
 
 ## Contents 
-<!-- * [Model Free (Online) RL](#Model-Free-Online)
+* [Model Free (Online) RL](#Model-Free-Online)
+    -[Classic Methods](#classic)
+    -[Current methods](#current)
 * [Model Based (Online) RL](#Model-Based-Online)
 * [(Model Free) Offline RL](#Model-Free-Offline)
 * [Model Based Offline R](#Model-Based-Offline)
 * [Meta RL](#Meta-RL)
 * [Adversarial RL](#Adversarial-RL)
-* [Genaralisation in RL](#Genaralisation-in-RL)
+* [Genaralisation in RL](#Genaralization-in-RL)
 * [RL as Sequence Generation](#Sequence-Generation)
 * [Unsupervised RL](#Unsupervised-RL)
 * [Lifelong RL](#Lifelong-RL)
-* [Tutorial and Lesson](#Tutorial-and-Lesson) -->
+* [Tutorial and Lesson](#Tutorial-and-Lesson)
 
-- <a href="#Model-Free-Online">Model Free (Online) RL</a><br>
+<!-- - <a href="#Model-Free-Online">Model Free (Online) RL</a><br>
 - <a href="#Model-Based-Online">Model Based (Online) RL</a><br>
 - <a href="#Model-Free-Offline">(Model Free) Offline RL</a><br>
 - <a href="#Model-Based-Offline">Model Based Offline RL</a><br>
@@ -26,12 +28,15 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 - <a href="#Sequence-Generation">RL as Sequence Generation</a><br>
 - <a href="#Unsupervised-RL">Unsupervised RL</a><br>
 - <a href="#Lifelong-RL">Lifelong RL</a><br>
-- <a href="#Tutorial-and-Lesson">Tutorial and Lesson</a><br>
+- <a href="#Tutorial-and-Lesson">Tutorial and Lesson</a><br> -->
 
-<a id='Model-Free-Online'></a>
-## Model Free (Online) RL
+<!-- <a id='Model-Free-Online'></a>
+## Model Free (Online) RL -->
+## <span id='Model-Free-Online'>Model Free (Online) RL</span>
+### <span id='classic'>Classic Methods</span>
 
-### Classic Methods
+<!-- <a id='classic'></a>
+### Classic Methods -->
 
 |  Title | Method | Conference | on/off policy | Action Space | Policy | Description |
 | ----  | ----   | ----       |   ----  | ----  |  ---- |  ---- | 
@@ -51,7 +56,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Reinforcement Learning with Deep Energy-Based Policies](https://arxiv.org/pdf/1702.08165.pdf) | SQL | ICML17 | off | main for Continuous | parameterized neural network | consider max-entropy rl and propose soft q iteration as well as soft q learning |
 | [Soft Actor-Critic Algorithms and Applications](https://arxiv.org/pdf/1812.05905.pdf), [Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b.pdf), [\[appendix\]](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b-supp.pdf) | SAC | ICML18 | off | main for Continuous | parameterized neural network | base the theoretical analysis of SQL and extend soft q iteration (soft q evaluation + soft q improvement); reparameterize the policy and use two parameterized value functions; propose SAC |
 
-### Current methods
+### <span id='current'>Current methods</span>
+<!-- <a id='current'></a>
+### Current methods -->
 
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
