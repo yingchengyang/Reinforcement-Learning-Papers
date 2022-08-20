@@ -173,9 +173,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 <a id='model-based-code'></a>
 ### CodeBase
 
-|  Title | Method | Conference |  Description |
+|  Title | Conference | Methods |  Github |
 | ----  | ----   | ----       |   ----  |
-| [MBRL-Lib: A Modular Library for Model-based Reinforcement Learning](https://arxiv.org/pdf/2104.10159.pdf) | ---- | arxiv21 | a codebase for MBRL |
+| [MBRL-Lib: A Modular Library for Model-based Reinforcement Learning](https://arxiv.org/pdf/2104.10159.pdf) | arxiv21 | MBPO,PETS,Planet | [link](https://github.com/facebookresearch/mbrl-lib) |
 
 
 
