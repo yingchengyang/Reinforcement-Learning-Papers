@@ -12,6 +12,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 * [Model Based (Online) RL](#Model-Based-Online)
     - [Classic Methods](#model-based-classic)
     - [Dreamer Family](#dreamer)
+    - [CodeBase](#model-based-code)
 * [(Model Free) Offline RL](#Model-Free-Offline)
 * [Model Based Offline R](#Model-Based-Offline)
 * [Meta RL](#Meta-RL)
@@ -146,7 +147,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Trust the Model When It Is Confident: Masked Model-based Actor-Critic](https://arxiv.org/pdf/2010.04893.pdf)| M2AC | NeurIPS20 | an extension to MBPO; use model rollouts only when the model is confident |
 | [The LoCA Regret: A Consistent Metric to Evaluate Model-Based Behavior in Reinforcement Learning](https://arxiv.org/pdf/2007.03158.pdf) | LoCA | NeurIPS20 | propose LoCA to measure how quickly a method adapts its policy after the environment is changed from the first task to the second |
 | [Generative Temporal Difference Learning for Infinite-Horizon Prediction](https://arxiv.org/pdf/2010.14496.pdf) | GHM, or gamma-model | NeurIPS20 | propose gamma-model to make long-horizon predictions without the need to repeatedly apply a single-step model |
-| [MBRL-Lib: A Modular Library for Model-based Reinforcement Learning](https://arxiv.org/pdf/2104.10159.pdf) | ---- | arxiv21 | a codebase for MBRL |
 | [Mastering Atari Games with Limited Data](https://arxiv.org/pdf/2111.00210.pdf) | EfficientZero | NeurIPS21 | first achieve super-human performance on Atari games with limited data; propose EfficientZero with three components: (i) use self-supervised learning to learn a temporally consistent environment model, (ii) learn the value prefix in an end-to-end manner, (iii) use the learned model to correct off-policy value targets |
 | [On Effective Scheduling of Model-based Reinforcement Learning](https://arxiv.org/pdf/2111.08550.pdf) | AutoMBPO | NeurIPS21 | an extension to MBPO; automatically schedule the real data ratio as well as other hyperparameters for MBPO |
 | [Model-Advantage and Value-Aware Models for Model-Based Reinforcement Learning: Bridging the Gap in Theory and Practice](https://arxiv.org/pdf/2106.14080.pdf) | ---- | arxiv22 | bridge the gap in theory and practice of value-aware model learning (VAML) for model-based RL |
@@ -169,6 +169,15 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://arxiv.org/pdf/2110.14565.pdf) | DreamerPro | ICML22 | consider reconstruction-free MBRL; propose to learn the prototypes from the recurrent states of the world model, thereby distilling temporal structures from past observations and actions into the prototypes. |
 | [Masked World Models for Visual Control](https://arxiv.org/pdf/2206.14244.pdf) | MWM | arxiv2206 | decouple visual representation learning and dynamics learning for visual model-based RL and use masked autoencoder to train visual representation |
 | [Towards Evaluating Adaptivity of Model-Based Reinforcement Learning Methods](https://proceedings.mlr.press/v162/wan22d/wan22d.pdf) | ---- | ICML22 | introduce an improved version of the LoCA setup and use it to evaluate PlaNet and Dreamerv2 |
+
+<a id='model-based-code'></a>
+### CodeBase
+
+|  Title | Method | Conference |  Description |
+| ----  | ----   | ----       |   ----  |
+| [MBRL-Lib: A Modular Library for Model-based Reinforcement Learning](https://arxiv.org/pdf/2104.10159.pdf) | ---- | arxiv21 | a codebase for MBRL |
+
+
 
 <a id='Model-Free-Offline'></a>
 ## (Model Free) Offline RL
