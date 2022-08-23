@@ -150,7 +150,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Mastering Atari Games with Limited Data](https://arxiv.org/pdf/2111.00210.pdf) | EfficientZero | NeurIPS21 | first achieve super-human performance on Atari games with limited data; propose EfficientZero with three components: (i) use self-supervised learning to learn a temporally consistent environment model, (ii) learn the value prefix in an end-to-end manner, (iii) use the learned model to correct off-policy value targets |
 | [On Effective Scheduling of Model-based Reinforcement Learning](https://arxiv.org/pdf/2111.08550.pdf) | AutoMBPO | NeurIPS21 | an extension to MBPO; automatically schedule the real data ratio as well as other hyperparameters for MBPO |
 | [Model-Advantage and Value-Aware Models for Model-Based Reinforcement Learning: Bridging the Gap in Theory and Practice](https://arxiv.org/pdf/2106.14080.pdf) | ---- | arxiv22 | bridge the gap in theory and practice of value-aware model learning (VAML) for model-based RL |
-| [Model-Based Reinforcement Learning via Imagination with Derived Memory](https://openreview.net/pdf?id=jeATherHHGj) | IDM | NeurIPS21 |  |
 | [Value Gradient weighted Model-Based Reinforcement Learning](https://arxiv.org/pdf/2204.01464.pdf) | VaGraM | ICLR22 Spotlight | consider the objective mismatch problem in MBRL; propose VaGraM by rescaling the MSE loss function with gradient information from the current value function estimate |
 | [Constrained Policy Optimization via Bayesian World Models](https://arxiv.org/pdf/2201.09802.pdf) | LAMBDA | ICLR22 Spotlight | consider Bayesian model-based methods for CMDP |
 | [On-Policy Model Errors in Reinforcement Learning](https://arxiv.org/pdf/2110.07985.pdf) | OPC | ICLR22 | consider to combine real-world data and a learned model in order to get the best of both worlds; propose to exploit the real-world data for onpolicy predictions and use the learned model only to generalize to different actions; propose to use on-policy transition data on top of a separately learned model to enable accurate long-term predictions for MBRL |
@@ -163,12 +162,14 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
-| [Learning latent dynamics for planning from pixels](https://arxiv.org/pdf/1811.04551.pdf) | PlaNet | ICML19 |  |
+| [Learning latent dynamics for planning from pixels](https://arxiv.org/pdf/1811.04551.pdf) | PlaNet | ICML19 | propose PlaNet to learn the environment dynamics from images and chooses actions through fast online planning in latent space |
 | [Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/pdf/1912.01603.pdf) | Dreamer | ICLR20 | solve long-horizon tasks from images purely by latent imagination; test in image-based MuJoCo |
 | [Mastering Atari with Discrete World Models](https://arxiv.org/pdf/2010.02193.pdf) | Dreamerv2 | ICLR21 | solve long-horizon tasks from images purely by latent imagination; test in image-based Atari |
+| [Model-Based Reinforcement Learning via Imagination with Derived Memory](https://openreview.net/pdf?id=jeATherHHGj) | IDM | NeurIPS21 | hope to improve the diversity of imagination for model-based policy optimization with the derived memory; point out that current methods cannot effectively enrich the imagination if the latent state is disturbed by random noises |
 | [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://arxiv.org/pdf/2110.14565.pdf) | DreamerPro | ICML22 | consider reconstruction-free MBRL; propose to learn the prototypes from the recurrent states of the world model, thereby distilling temporal structures from past observations and actions into the prototypes. |
 | [Masked World Models for Visual Control](https://arxiv.org/pdf/2206.14244.pdf) | MWM | arxiv2206 | decouple visual representation learning and dynamics learning for visual model-based RL and use masked autoencoder to train visual representation |
 | [Towards Evaluating Adaptivity of Model-Based Reinforcement Learning Methods](https://proceedings.mlr.press/v162/wan22d/wan22d.pdf) | ---- | ICML22 | introduce an improved version of the LoCA setup and use it to evaluate PlaNet and Dreamerv2 |
+
 
 <a id='model-based-code'></a>
 ### CodeBase
