@@ -8,6 +8,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 ## Contents 
 * [Model Free (Online) RL](#Model-Free-Online)
     - [Classic Methods](#model-free-classic)
+    - [Soft RL](#soft-rl)
     - [Current methods](#current)
 * [Model Based (Online) RL](#Model-Based-Online)
     - [Classic Methods](#model-based-classic)
@@ -61,6 +62,13 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Reinforcement Learning with Deep Energy-Based Policies](https://arxiv.org/pdf/1702.08165.pdf) | SQL | ICML17 | off | main for Continuous | parameterized neural network | consider max-entropy rl and propose soft q iteration as well as soft q learning |
 | [Soft Actor-Critic Algorithms and Applications](https://arxiv.org/pdf/1812.05905.pdf), [Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b.pdf), [\[appendix\]](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b-supp.pdf) | SAC | ICML18 | off | main for Continuous | parameterized neural network | base the theoretical analysis of SQL and extend soft q iteration (soft q evaluation + soft q improvement); reparameterize the policy and use two parameterized value functions; propose SAC |
 
+<a id='soft-rl'></a>
+### Soft RL
+|  Title | Method | Conference |  Description |
+| ----  | ----   | ----       |   ----  |
+| [A Max-Min Entropy Framework for Reinforcement Learning](https://arxiv.org/pdf/2106.10517.pdf) | MME | NeurIPS21 | find that SAC may fail in explore states with low entropy (arrive states with high entropy and increase their entropies); propose a max-min entropy framework to address this issue |
+| [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function |
+
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
 ### Current methods
@@ -71,7 +79,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [What Matters In On-Policy Reinforcement Learning? A Large-Scale Empirical Study](https://arxiv.org/pdf/2006.05990.pdf) | ---- | ICLR21 | do a large scale empirical study to evaluate different tricks for on-policy algorithms on MuJoCo |
 | [Mirror Descent Policy Optimization](https://arxiv.org/pdf/2005.09814.pdf) | MDPO | ICLR21 |  |
 | [Randomized Ensemble Double Q-Learning: Learning Fast Without a Model](https://arxiv.org/pdf/2101.05982.pdf) | REDQ | ICLR21 | consider three ingredients: (i) update q functions many times at every epoch; (ii) use an ensemble of Q functions; (iii) use the minimization across a random subset of Q functions from the ensemble for avoiding the overestimation; propose REDQ and achieve similar performance with model-based methods |
-| [A Max-Min Entropy Framework for Reinforcement Learning](https://arxiv.org/pdf/2106.10517.pdf) | MME | NeurIPS21 | find that SAC may fail in explore states with low entropy (arrive states with high entropy and increase their entropies); propose a max-min entropy framework to address this issue |
 | [SO(2)-Equivariant Reinforcement Learning](https://arxiv.org/pdf/2203.04439.pdf) | Equi DQN, Equi SAC | ICLR22 Spotlight | consider to learn transformation-invariant policies and value functions; define and analyze group equivariant MDPs |
 | [CoBERL: Contrastive BERT for Reinforcement Learning](https://arxiv.org/pdf/2107.05431.pdf) | CoBERL | ICLR22 Spotlight | propose Contrastive BERT for RL (COBERL) that combines a new contrastive loss and a hybrid LSTM-transformer architecture to tackle the challenge of improving data efficiency |
 | [Understanding and Preventing Capacity Loss in Reinforcement Learning](https://openreview.net/pdf?id=ZkC8wKoLbQ7) | InFeR | ICLR22 Spotlight | propose that deep RL agents lose some of their capacity to quickly fit new prediction tasks during training; propose InFeR to regularize a set of network outputs towards their initial values |
@@ -80,7 +87,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation](https://arxiv.org/pdf/2201.01666.pdf) | IV-RL | ICLR22 Spotlight | analyze the sources of uncertainty in the supervision of modelfree DRL algorithms, and show that the variance of the supervision noise can be estimated with negative log-likelihood and variance ensembles |
 | [Generative Planning for Temporally Coordinated Exploration in Reinforcement Learning](https://arxiv.org/pdf/2201.09765.pdf) | GPM | ICLR22 Spotlight | focus on generating consistent actions for model-free RL, and borrow ideas from Model-based planning and action-repeat; use the policy to generate multi-step actions |
 | [When should agents explore?](https://arxiv.org/pdf/2108.11811.pdf) | ---- | ICLR22 Spotlight | consider when to explore and propose to choose a heterogeneous mode-switching behavior policy |
-| [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function |
 | [Maximizing Ensemble Diversity in Deep Reinforcement Learning](https://openreview.net/pdf?id=hjd-kcpDpf2) | MED-RL | ICLR22 |  |
 | [Learning Generalizable Representations for Reinforcement Learning via Adaptive Meta-learner of Behavioral Similarities](https://openreview.net/pdf?id=zBOI9LFpESK) | AMBS | ICLR22 |  |
 | [Large Batch Experience Replay](https://arxiv.org/pdf/2110.01528.pdf) |  LaBER | ICML22 oral | cast the replay buffer sampling problem as an importance sampling one for estimating the gradient and derive the theoretically optimal sampling distribution |
@@ -105,12 +111,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | On Well-posedness and Minimax Optimal Rates of Nonparametric Q-function Estimation in Off-policy Evaluation || ICML22 ||
 | A Temporal-Difference Approach to Policy Gradient Estimation || ICML22 ||
 | Branching Reinforcement Learning || ICML22 ||
-| The Primacy Bias in Deep Reinforcement Learning || ICML22 ||
+| [The Primacy Bias in Deep Reinforcement Learning](https://arxiv.org/pdf/2205.07802.pdf) || ICML22 ||
 | Stabilizing Q-learning with Linear Architectures for Provable Efficient Learning || ICML22 ||
 | Optimizing Sequential Experimental Design with Deep Reinforcement Learning || ICML22 ||
-| The Geometry of Robust Value Functions || ICML22 ||
+| [The Geometry of Robust Value Functions](https://proceedings.mlr.press/v162/wang22k/wang22k.pdf) |  | ICML22 | study the geometry of the robust value space for the more general Robust MDPs |
 | Direct Behavior Specification via Constrained Reinforcement Learning || ICML22 ||
-| Utility Theory for Markovian Sequential Decision Making || ICML22 ||
+| [Utility Theory for Markovian Sequential Decision Making](https://arxiv.org/pdf/2206.13637.pdf) | Affine-Reward MDPs | ICML22 | extend von Neumann-Morgenstern (VNM) utility theorem to decision making setting |
 | [Reducing Variance in Temporal-Difference Value Estimation via Ensemble of Deep Networks](https://proceedings.mlr.press/v162/liang22c/liang22c.pdf) | MeanQ | ICML22 | consider variance reduction in Temporal-Difference Value Estimation; propose MeanQ to estimate target values by ensembling |
 | Unifying Approximate Gradient Updates for Policy Optimization || ICML22 ||
 | EqR: Equivariant Representations for Data-Efficient Reinforcement Learning || ICML22 ||
@@ -122,7 +128,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning || ICML22 ||
 | Off-Policy Reinforcement Learning with Delayed Rewards || ICML22 ||
 | Reachability Constrained Reinforcement Learning || ICML22 ||
-| Improving Policy Optimization with Generalist-Specialist Learning || ICML22 ||
+
 
 
 <a id='Model-Based-Online'></a>
@@ -314,6 +320,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Generalisation in Lifelong Reinforcement Learning through Logical Composition](https://openreview.net/pdf?id=ZOcX-eybqoL) | ---- | ICLR22 |  |
 | [A Generalist Agent](https://arxiv.org/pdf/2205.06175.pdf) | Gato | arxiv22 | [slide](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20220607.pdf) |
 | [Learning Dynamics and Generalization in Reinforcement Learning](https://arxiv.org/pdf/2206.02126.pdf) |  | ICML22 |  |
+| [Improving Policy Optimization with Generalist-Specialist Learning](https://arxiv.org/pdf/2206.12984.pdf) | GSL | ICML22 | hope to utilize experiences from the specialists to aid the policy optimization of the generalist; propose the phenomenon “catastrophic ignorance” in multi-task learning |
 
 <a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
