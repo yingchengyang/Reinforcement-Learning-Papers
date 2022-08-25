@@ -168,7 +168,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
-| [Learning latent dynamics for planning from pixels](https://arxiv.org/pdf/1811.04551.pdf) | PlaNet | ICML19 | propose PlaNet to learn the environment dynamics from images and chooses actions through fast online planning in latent space |
+| [Learning latent dynamics for planning from pixels](https://arxiv.org/pdf/1811.04551.pdf) | PlaNet | ICML19 | propose PlaNet to learn the environment dynamics from images; the dynamic model consists transition model, observation model, reward model and encoder; use the cross entropy method for selecting actions for planning |
 | [Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/pdf/1912.01603.pdf) | Dreamer | ICLR20 | solve long-horizon tasks from images purely by latent imagination; test in image-based MuJoCo |
 | [Mastering Atari with Discrete World Models](https://arxiv.org/pdf/2010.02193.pdf) | Dreamerv2 | ICLR21 | solve long-horizon tasks from images purely by latent imagination; test in image-based Atari |
 | [Model-Based Reinforcement Learning via Imagination with Derived Memory](https://openreview.net/pdf?id=jeATherHHGj) | IDM | NeurIPS21 | hope to improve the diversity of imagination for model-based policy optimization with the derived memory; point out that current methods cannot effectively enrich the imagination if the latent state is disturbed by random noises |
