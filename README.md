@@ -352,7 +352,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [URLB: Unsupervised Reinforcement Learning Benchmark](https://arxiv.org/pdf/2110.15191.pdf) | URLB | NeurIPS21 | a benchmark for unsupervised reinforcement learning |
 | [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
 | The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
-| Reinforcement Learning with Action-Free Pre-Training from Videos || ICML22 ||
 
 
 <a id='Lifelong-RL'></a>
