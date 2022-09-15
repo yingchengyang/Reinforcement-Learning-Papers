@@ -69,6 +69,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | ----  | ----   | ----       |   ----  |
 | [Weighted importance sampling for off-policy learning with linear function approximation](https://proceedings.neurips.cc/paper/2014/file/be53ee61104935234b174e62a07e53cf-Paper.pdf) | WIS-LSTD | NeurIPS14 |  |
 | [Importance Sampling Policy Evaluation with an Estimated Behavior Policy](https://arxiv.org/pdf/1806.01347.pdf) | RIS | ICML19 |  |
+| [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) |  | ICML22 |  |
+| Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning || ICML22 ||
+| On Well-posedness and Minimax Optimal Rates of Nonparametric Q-function Estimation in Off-policy Evaluation || ICML22 ||
 
 
 <a id='soft-rl'></a>
@@ -107,17 +110,14 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Generalised Policy Improvement with Geometric Policy Composition](https://arxiv.org/pdf/2206.08736.pdf) | GSPs | ICML22 oral | propose the concept of geometric switching policy (GSP), i.e., we have a set of policies and will use them to take action in turn, for each policy, we sample a number from the geometric distribution and take this policy such number of steps; consider policy improvement over nonMarkov GSPs |
 | [Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error](https://arxiv.org/pdf/2201.12417.pdf) | ---- | ICML22 | aim to better understand the relationship between the Bellman error and the accuracy of value functions through theoretical analysis and empirical study; point out that the Bellman error is a poor replacement for value error, including (i) The magnitude of the Bellman error hides bias, (ii) Missing transitions breaks the Bellman equation |
 | [Adaptive Model Design for Markov Decision Process](https://proceedings.mlr.press/v162/chen22ab/chen22ab.pdf) | ---- | ICML22 | consider Regularized Markov Decision Process and formulate it as a bi-level problem |
-| [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) |  | ICML22 |  |
 | Stabilizing Off-Policy Deep Reinforcement Learning from Pixels |  | ICML22 |  |
 | Understanding Policy Gradient Algorithms: A Sensitivity-Based Approach |  | ICML22 |  |
 | [Mirror Learning: A Unifying Framework of Policy Optimisation](https://arxiv.org/pdf/2201.02373.pdf) | Mirror Learning | ICML22 | propose a novel unified theoretical framework named Mirror Learning to provide theoretical guarantees for General Policy Improvement (GPI) and Trust-Region Learning (TRL); propose an interesting, graph-theoretical perspective on mirror learning |
 | Communicating via Maximum Entropy Reinforcement Learning || ICML22 ||
 | Continuous Control with Action Quantization from Demonstrations || ICML22 ||
 | Off-Policy Fitted Q-Evaluation with Differentiable Function Approximators: Z-Estimation and Inference Theory || ICML22 ||
-| Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning || ICML22 ||
 | Guarantees for Epsilon-Greedy Reinforcement Learning with Function Approximation || ICML22 ||
 | Efficient Reinforcement Learning in Block MDPs: A Model-free Representation Learning approach || ICML22 ||
-| On Well-posedness and Minimax Optimal Rates of Nonparametric Q-function Estimation in Off-policy Evaluation || ICML22 ||
 | A Temporal-Difference Approach to Policy Gradient Estimation || ICML22 ||
 | Branching Reinforcement Learning || ICML22 ||
 | [The Primacy Bias in Deep Reinforcement Learning](https://arxiv.org/pdf/2205.07802.pdf) || ICML22 ||
