@@ -80,6 +80,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | ----  | ----   | ----       |   ----  |
 | [A Max-Min Entropy Framework for Reinforcement Learning](https://arxiv.org/pdf/2106.10517.pdf) | MME | NeurIPS21 | find that SAC may fail in explore states with low entropy (arrive states with high entropy and increase their entropies); propose a max-min entropy framework to address this issue |
 | [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function |
+| Communicating via Maximum Entropy Reinforcement Learning || ICML22 ||
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
@@ -113,7 +114,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Stabilizing Off-Policy Deep Reinforcement Learning from Pixels |  | ICML22 |  |
 | Understanding Policy Gradient Algorithms: A Sensitivity-Based Approach |  | ICML22 |  |
 | [Mirror Learning: A Unifying Framework of Policy Optimisation](https://arxiv.org/pdf/2201.02373.pdf) | Mirror Learning | ICML22 | propose a novel unified theoretical framework named Mirror Learning to provide theoretical guarantees for General Policy Improvement (GPI) and Trust-Region Learning (TRL); propose an interesting, graph-theoretical perspective on mirror learning |
-| Communicating via Maximum Entropy Reinforcement Learning || ICML22 ||
 | Continuous Control with Action Quantization from Demonstrations || ICML22 ||
 | Off-Policy Fitted Q-Evaluation with Differentiable Function Approximators: Z-Estimation and Inference Theory || ICML22 ||
 | Guarantees for Epsilon-Greedy Reinforcement Learning with Function Approximation || ICML22 ||
