@@ -117,17 +117,15 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Continuous Control with Action Quantization from Demonstrations](https://proceedings.mlr.press/v162/dadashi22a/dadashi22a.pdf) | AQuaDem | ICML22 | leverag the prior of human demonstrations for reducing a continuous action space to a discrete set of meaningful actions; point out that using a set of actions rather than a single one (Behavioral Cloning) enables to capture the multimodality of behaviors in the demonstrations |
 | [Off-Policy Fitted Q-Evaluation with Differentiable Function Approximators: Z-Estimation and Inference Theory](https://proceedings.mlr.press/v162/zhang22al/zhang22al.pdf) | ---- | ICML22 | analyze Fitted Q Evaluation (FQE) with general differentiable function approximators, including neural function approximations by using the Z-estimation theory |
 | [A Temporal-Difference Approach to Policy Gradient Estimation](https://proceedings.mlr.press/v162/tosatto22a/tosatto22a.pdf) || ICML22 ||
-| Branching Reinforcement Learning || ICML22 ||
 | [The Primacy Bias in Deep Reinforcement Learning](https://arxiv.org/pdf/2205.07802.pdf) || ICML22 ||
-| Stabilizing Q-learning with Linear Architectures for Provable Efficient Learning || ICML22 ||
-| Optimizing Sequential Experimental Design with Deep Reinforcement Learning || ICML22 ||
+| [Optimizing Sequential Experimental Design with Deep Reinforcement Learning](https://arxiv.org/pdf/2202.00821.pdf) |  | ICML22 | use DRL for solving the optimal design of sequential experiments |
 | [The Geometry of Robust Value Functions](https://proceedings.mlr.press/v162/wang22k/wang22k.pdf) |  | ICML22 | study the geometry of the robust value space for the more general Robust MDPs |
 | Direct Behavior Specification via Constrained Reinforcement Learning || ICML22 ||
 | [Utility Theory for Markovian Sequential Decision Making](https://arxiv.org/pdf/2206.13637.pdf) | Affine-Reward MDPs | ICML22 | extend von Neumann-Morgenstern (VNM) utility theorem to decision making setting |
 | [Reducing Variance in Temporal-Difference Value Estimation via Ensemble of Deep Networks](https://proceedings.mlr.press/v162/liang22c/liang22c.pdf) | MeanQ | ICML22 | consider variance reduction in Temporal-Difference Value Estimation; propose MeanQ to estimate target values by ensembling |
 | Unifying Approximate Gradient Updates for Policy Optimization || ICML22 ||
-| EqR: Equivariant Representations for Data-Efficient Reinforcement Learning || ICML22 ||
-| Provable Reinforcement Learning with a Short-Term Memory || ICML22 ||
+| [EqR: Equivariant Representations for Data-Efficient Reinforcement Learning](https://proceedings.mlr.press/v162/mondal22a/mondal22a.pdf) || ICML22 ||
+| [Provable Reinforcement Learning with a Short-Term Memory](https://proceedings.mlr.press/v162/efroni22a/efroni22a.pdf) || ICML22 ||
 | Optimal Estimation of Off-Policy Policy Gradient via Double Fitted Iteration || ICML22 ||
 | Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments || ICML22 ||
 | Lagrangian Method for Q-Function Learning (with Applications to Machine Translation) || ICML22 ||
