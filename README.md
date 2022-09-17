@@ -175,7 +175,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 
 <a id='dreamer'></a>
-### Dreamer Family
+### World Models
 
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
