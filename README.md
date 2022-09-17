@@ -116,9 +116,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Mirror Learning: A Unifying Framework of Policy Optimisation](https://arxiv.org/pdf/2201.02373.pdf) | Mirror Learning | ICML22 | propose a novel unified theoretical framework named Mirror Learning to provide theoretical guarantees for General Policy Improvement (GPI) and Trust-Region Learning (TRL); propose an interesting, graph-theoretical perspective on mirror learning |
 | [Continuous Control with Action Quantization from Demonstrations](https://proceedings.mlr.press/v162/dadashi22a/dadashi22a.pdf) | AQuaDem | ICML22 | leverag the prior of human demonstrations for reducing a continuous action space to a discrete set of meaningful actions; point out that using a set of actions rather than a single one (Behavioral Cloning) enables to capture the multimodality of behaviors in the demonstrations |
 | [Off-Policy Fitted Q-Evaluation with Differentiable Function Approximators: Z-Estimation and Inference Theory](https://proceedings.mlr.press/v162/zhang22al/zhang22al.pdf) | ---- | ICML22 | analyze Fitted Q Evaluation (FQE) with general differentiable function approximators, including neural function approximations by using the Z-estimation theory |
-| Guarantees for Epsilon-Greedy Reinforcement Learning with Function Approximation || ICML22 ||
-| Efficient Reinforcement Learning in Block MDPs: A Model-free Representation Learning approach || ICML22 ||
-| A Temporal-Difference Approach to Policy Gradient Estimation || ICML22 ||
+| [A Temporal-Difference Approach to Policy Gradient Estimation](https://proceedings.mlr.press/v162/tosatto22a/tosatto22a.pdf) || ICML22 ||
 | Branching Reinforcement Learning || ICML22 ||
 | [The Primacy Bias in Deep Reinforcement Learning](https://arxiv.org/pdf/2205.07802.pdf) || ICML22 ||
 | Stabilizing Q-learning with Linear Architectures for Provable Efficient Learning || ICML22 ||
@@ -179,6 +177,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
+| [World Models](https://arxiv.org/pdf/1803.10122.pdf) | world model | arxiv1803 | use an unsupervised manner to learn a compressed spatial and temporal representation of the environment and use the world model to train a very compact and simple policy for solving the required task |
 | [Learning latent dynamics for planning from pixels](https://arxiv.org/pdf/1811.04551.pdf) | PlaNet | ICML19 | propose PlaNet to learn the environment dynamics from images; the dynamic model consists transition model, observation model, reward model and encoder; use the cross entropy method for selecting actions for planning |
 | [Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/pdf/1912.01603.pdf) | Dreamer | ICLR20 | solve long-horizon tasks from images purely by latent imagination; test in image-based MuJoCo; propose to use an agent to replace the control algorithm in the PlaNet |
 | [Bridging Imagination and Reality for Model-Based Deep Reinforcement Learning](https://arxiv.org/pdf/2010.12142.pdf) | BIRD | NeurIPS20 | propose to maximize the mutual information between imaginary and real trajectories so that the policy improvement learned from imaginary trajectories can be easily generalized to real trajectories |
