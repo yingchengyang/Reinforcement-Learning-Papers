@@ -13,7 +13,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
     - [Current methods](#current)
 * [Model Based (Online) RL](#Model-Based-Online)
     - [Classic Methods](#model-based-classic)
-    - [Dreamer Family](#dreamer)
+    - [World Models](#dreamer)
     - [CodeBase](#model-based-code)
 * [(Model Free) Offline RL](#Model-Free-Offline)
 * [Model Based Offline R](#Model-Based-Offline)
