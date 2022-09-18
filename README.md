@@ -16,7 +16,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
     - [World Models](#dreamer)
     - [CodeBase](#model-based-code)
 * [(Model Free) Offline RL](#Model-Free-Offline)
-* [Model Based Offline R](#Model-Based-Offline)
+* [Model Based Offline RL](#Model-Based-Offline)
 * [Meta RL](#Meta-RL)
 * [Adversarial RL](#Adversarial-RL)
 * [Genaralisation in RL](#Genaralization-in-RL)
