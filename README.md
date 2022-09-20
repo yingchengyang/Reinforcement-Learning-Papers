@@ -187,11 +187,13 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Maximum Entropy Model-based Reinforcement Learning](https://arxiv.org/pdf/2112.01195.pdf) |  MaxEnt Dreamer | NeurIPS21 | create a connection between exploration methods and model-based reinforcement learning; apply maximum-entropy exploration for Dreamer |
 | [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://proceedings.mlr.press/v162/deng22a/deng22a.pdf) | DreamerPro | ICML22 | consider reconstruction-free MBRL; propose to learn the prototypes from the recurrent states of the world model, thereby distilling temporal structures from past observations and actions into the prototypes. |
 | [TransDreamer: Reinforcement Learning with Transformer World Models](https://arxiv.org/pdf/2202.09481.pdf) | TransDreamer | arxiv2202 | replace the RNN in RSSM by a transformer |
+| [DreamingV2: Reinforcement Learning with Discrete World Models without Reconstruction](https://arxiv.org/pdf/2203.00494.pdf) | Dreamingv2 | arxiv2203 |  |
 | [Masked World Models for Visual Control](https://arxiv.org/pdf/2206.14244.pdf) | MWM | arxiv2206 | decouple visual representation learning and dynamics learning for visual model-based RL and use masked autoencoder to train visual representation |
 | [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/pdf/2206.14176.pdf) | DayDreamer | arxiv2206 | apply Dreamer to 4 robots to learn online and directly in the real world, without any simulators |
 | [Towards Evaluating Adaptivity of Model-Based Reinforcement Learning Methods](https://proceedings.mlr.press/v162/wan22d/wan22d.pdf) | ---- | ICML22 | introduce an improved version of the LoCA setup and use it to evaluate PlaNet and Dreamerv2 |
 | [Reinforcement Learning with Action-Free Pre-Training from Videos](https://arxiv.org/pdf/2203.13880.pdf) | APV | ICML22 | pre-train an action-free latent video prediction model using videos from different domains, and then fine-tune the pre-trained model on target domains |
 | [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588.pdf) | IRIS | arxiv2209 | use a discrete autoencoder and an autoregressive Transformer to conduct World Models and significantly improve the data efficiency in Atari (2 hours of real-time experience); [\[Code\]](https://github.com/eloialonso/iris) |
+
 
 
 <a id='model-based-code'></a>
