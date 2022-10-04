@@ -328,12 +328,21 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 | Title | Method | Conference | Description | 
 | ----  | ----   | ----       |   ----  |
+| Towards Generalization and Simplicity in Continuous Control |  | NeurIPS17 |  |
 | [On the Generalization Gap in Reparameterizable Reinforcement Learning](https://arxiv.org/pdf/1905.12654.pdf) | ---- | ICML19 | theoretically provide guarantees on the gap between the expected and empirical return for both intrinsic and external errors in reparameterizable RL |
 | [Quantifying Generalization in Reinforcement Learning](https://arxiv.org/pdf/1812.02341.pdf) | CoinRun | ICML19 | introduce a new environment called CoinRun for generalisation in RL; empirically show L2 regularization, dropout, data augmentation and batch normalization can improve generalization in RL |
 | [Investigating Generalisation in Continuous Deep Reinforcement Learning](https://arxiv.org/pdf/1902.07015.pdf) | ---- | arxiv19 | study generalisation in Deep RL for continuous control |
+| Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck |  | NeurIPS19 |  |
 | [Network randomization: A simple technique for generalization in deep reinforcement learning](https://arxiv.org/pdf/1910.05396.pdf) | Network Randomization | ICLR20 | introduce a randomized (convolutional) neural network that randomly perturbs input observations, which enables trained agents to adapt to new domains by learning robust features invariant across varied and randomized environments |
+| Observational Overfitting in Reinforcement Learning || ICLR20 ||
 | [Context-aware Dynamics Model for Generalization in Model-Based Reinforcement Learning](https://arxiv.org/pdf/2005.06800.pdf) | CaDM | ICML20 | decompose the task of learning a global dynamics model into two stages: (a) learning a context latent vector that captures the local dynamics, then (b) predicting the next state conditioned on it |
+| Leveraging Procedural Generation to Benchmark Reinforcement Learning || ICML20 ||
+| Improving Generalization in Reinforcement Learning with Mixture Regularization || NeurIPS20 ||
+| Instance based Generalization in Reinforcement Learning || NeurIPS20 ||
+| Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning |  | ICLR21 |  |
+| Generalization in Reinforcement Learning by Soft Data Augmentation || ICLR21 ||
 | [Augmented World Models Facilitate Zero-Shot Dynamics Generalization From a Single Offline Environment](https://arxiv.org/pdf/2104.05632.pdf) |  | ICML21 |  |
+| Decoupling Value and Policy for Generalization in Reinforcement Learning || ICML21 ||
 | [Why Generalization in RL is Difficult: Epistemic POMDPs and Implicit Partial Observability](https://arxiv.org/pdf/2107.06277.pdf) | LEEP | NeurIPS21 | generalisation in RL induces implicit partial observability; propose LEEP to use an ensemble of policies to approximately learn the Bayes-optimal policy for maximizing test-time performance |
 | [Automatic Data Augmentation for Generalization in Reinforcement Learning](https://arxiv.org/pdf/2006.12862.pdf) | DrAC | NeurIPS21 | focus on automatic data augmentation based two novel regularization terms for the policy and value function |
 | [When Is Generalizable Reinforcement Learning Tractable?](https://arxiv.org/pdf/2101.00300.pdf) | ---- | NeurIPS21 | propose Weak Proximity and Strong Proximity for theoretically analyzing the generalisation of RL |
@@ -341,9 +350,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Cross-Trajectory Representation Learning for Zero-Shot Generalization in RL](https://arxiv.org/pdf/2106.02193.pdf) | CTRL | ICLR22 | consider zero-shot generalization (ZSG); use self-supervised learning to learn a representation across tasks |
 | [The Role of Pretrained Representations for the OOD Generalization of RL Agents](https://arxiv.org/pdf/2107.05686.pdf) | ---- | ICLR22 |  |
 | [Generalisation in Lifelong Reinforcement Learning through Logical Composition](https://openreview.net/pdf?id=ZOcX-eybqoL) | ---- | ICLR22 |  |
+| Local Feature Swapping for Generalization in Reinforcement Learning || ICLR22 ||
 | [A Generalist Agent](https://arxiv.org/pdf/2205.06175.pdf) | Gato | arxiv22 | [slide](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20220607.pdf) |
 | [Learning Dynamics and Generalization in Reinforcement Learning](https://arxiv.org/pdf/2206.02126.pdf) | ---- | ICML22 | show theoretically that temporal difference learning encourages agents to fit non-smooth components of the value function early in training, and at the same time induces the second-order effect of discouraging generalization |
 | [Improving Policy Optimization with Generalist-Specialist Learning](https://arxiv.org/pdf/2206.12984.pdf) | GSL | ICML22 | hope to utilize experiences from the specialists to aid the policy optimization of the generalist; propose the phenomenon “catastrophic ignorance” in multi-task learning |
+| DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck || ICML22 ||
+| Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning || NeurIPS22 ||
 
 <a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
