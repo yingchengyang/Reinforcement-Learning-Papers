@@ -20,6 +20,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 * [Meta RL](#Meta-RL)
 * [Adversarial RL](#Adversarial-RL)
 * [Genaralisation in RL](#Genaralization-in-RL)
+    - [Methods](#Gene-Methods)
+    - [Environments](#Gene-Environment)
 * [RL as Sequence Generation](#Sequence-Generation)
 * [Unsupervised RL](#Unsupervised-RL)
 * [Lifelong RL](#Lifelong-RL)
@@ -326,17 +328,16 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 <a id='Genaralization-in-RL'></a>
 ## Genaralisation in RL
 
+<a id='Gene-Methods'></a>
 | Title | Method | Conference | Description | 
 | ----  | ----   | ----       |   ----  |
 | [Towards Generalization and Simplicity in Continuous Control](https://arxiv.org/pdf/1703.02660.pdf) | ---- | NeurIPS17 | policies with simple linear and RBF parameterizations can be trained to solve a variety of widely studied continuous control tasks; training with a diverse initial state distribution induces more global policies with better generalization |
 | [On the Generalization Gap in Reparameterizable Reinforcement Learning](https://arxiv.org/pdf/1905.12654.pdf) | ---- | ICML19 | theoretically provide guarantees on the gap between the expected and empirical return for both intrinsic and external errors in reparameterizable RL |
-| [Quantifying Generalization in Reinforcement Learning](https://arxiv.org/pdf/1812.02341.pdf) | CoinRun | ICML19 | introduce a new environment called CoinRun for generalisation in RL; empirically show L2 regularization, dropout, data augmentation and batch normalization can improve generalization in RL |
 | [Investigating Generalisation in Continuous Deep Reinforcement Learning](https://arxiv.org/pdf/1902.07015.pdf) | ---- | arxiv19 | study generalisation in Deep RL for continuous control |
 | [Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck](https://arxiv.org/pdf/1910.12911.pdf) | SNI | NeurIPS19 | consder regularization techniques relying on the injection of noise into the learned function for improving generalization; hope to maintain the regularizing effect of the injected noise and mitigate its adverse effects on the gradient quality |
 | [Network randomization: A simple technique for generalization in deep reinforcement learning](https://arxiv.org/pdf/1910.05396.pdf) | Network Randomization | ICLR20 | introduce a randomized (convolutional) neural network that randomly perturbs input observations, which enables trained agents to adapt to new domains by learning robust features invariant across varied and randomized environments |
 | [Observational Overfitting in Reinforcement Learning](https://arxiv.org/pdf/1912.02975.pdf) | observational overfitting | ICLR20 | discuss realistic instances where observational overfitting may occur and its difference from other confounding factors, and design a parametric theoretical framework to induce observational overfitting that can be applied to any underlying MDP |
 | [Context-aware Dynamics Model for Generalization in Model-Based Reinforcement Learning](https://arxiv.org/pdf/2005.06800.pdf) | CaDM | ICML20 | decompose the task of learning a global dynamics model into two stages: (a) learning a context latent vector that captures the local dynamics, then (b) predicting the next state conditioned on it |
-| [Leveraging Procedural Generation to Benchmark Reinforcement Learning](https://arxiv.org/pdf/1912.01588.pdf) | Procgen Benchmark | ICML20 | introduce Procgen Benchmark, a suite of 16 procedurally generated game-like environments designed to benchmark both sample efficiency and generalization in reinforcement learning |
 | Improving Generalization in Reinforcement Learning with Mixture Regularization || NeurIPS20 ||
 | Instance based Generalization in Reinforcement Learning || NeurIPS20 ||
 | Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning |  | ICLR21 |  |
@@ -356,6 +357,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Improving Policy Optimization with Generalist-Specialist Learning](https://arxiv.org/pdf/2206.12984.pdf) | GSL | ICML22 | hope to utilize experiences from the specialists to aid the policy optimization of the generalist; propose the phenomenon “catastrophic ignorance” in multi-task learning |
 | DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck || ICML22 ||
 | Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning || NeurIPS22 ||
+
+<a id='Gene-Environments'></a>
+| Title | Method | Conference | Description | 
+| ----  | ----   | ----       |   ----  |
+| [Quantifying Generalization in Reinforcement Learning](https://arxiv.org/pdf/1812.02341.pdf) | CoinRun | ICML19 | introduce a new environment called CoinRun for generalisation in RL; empirically show L2 regularization, dropout, data augmentation and batch normalization can improve generalization in RL |
+| [Leveraging Procedural Generation to Benchmark Reinforcement Learning](https://arxiv.org/pdf/1912.01588.pdf) | Procgen Benchmark | ICML20 | introduce Procgen Benchmark, a suite of 16 procedurally generated game-like environments designed to benchmark both sample efficiency and generalization in reinforcement learning |
 
 <a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
