@@ -20,7 +20,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 * [Meta RL](#Meta-RL)
 * [Adversarial RL](#Adversarial-RL)
 * [Genaralisation in RL](#Genaralization-in-RL)
-    - [Environments](#Gene-Environment)
+    - [Environments](#Gene-Environments)
     - [Methods](#Gene-Methods)
 * [RL as Sequence Generation](#Sequence-Generation)
 * [Unsupervised RL](#Unsupervised-RL)
