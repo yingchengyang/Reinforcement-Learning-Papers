@@ -20,8 +20,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 * [Meta RL](#Meta-RL)
 * [Adversarial RL](#Adversarial-RL)
 * [Genaralisation in RL](#Genaralization-in-RL)
-    - [Methods](#Gene-Methods)
     - [Environments](#Gene-Environment)
+    - [Methods](#Gene-Methods)
 * [RL as Sequence Generation](#Sequence-Generation)
 * [Unsupervised RL](#Unsupervised-RL)
 * [Lifelong RL](#Lifelong-RL)
@@ -329,6 +329,14 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 <a id='Genaralization-in-RL'></a>
 ## Genaralisation in RL
 
+<a id='Gene-Environments'></a>
+### Environments
+
+| Title | Method | Conference | Description | 
+| ----  | ----   | ----       |   ----  |
+| [Quantifying Generalization in Reinforcement Learning](https://arxiv.org/pdf/1812.02341.pdf) | CoinRun | ICML19 | introduce a new environment called CoinRun for generalisation in RL; empirically show L2 regularization, dropout, data augmentation and batch normalization can improve generalization in RL |
+| [Leveraging Procedural Generation to Benchmark Reinforcement Learning](https://arxiv.org/pdf/1912.01588.pdf) | Procgen Benchmark | ICML20 | introduce Procgen Benchmark, a suite of 16 procedurally generated game-like environments designed to benchmark both sample efficiency and generalization in reinforcement learning |
+
 <a id='Gene-Methods'></a>
 ### Methods
 
@@ -360,14 +368,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Improving Policy Optimization with Generalist-Specialist Learning](https://arxiv.org/pdf/2206.12984.pdf) | GSL | ICML22 | hope to utilize experiences from the specialists to aid the policy optimization of the generalist; propose the phenomenon “catastrophic ignorance” in multi-task learning |
 | DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck || ICML22 ||
 | Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning || NeurIPS22 ||
-
-<a id='Gene-Environments'></a>
-### Environments
-
-| Title | Method | Conference | Description | 
-| ----  | ----   | ----       |   ----  |
-| [Quantifying Generalization in Reinforcement Learning](https://arxiv.org/pdf/1812.02341.pdf) | CoinRun | ICML19 | introduce a new environment called CoinRun for generalisation in RL; empirically show L2 regularization, dropout, data augmentation and batch normalization can improve generalization in RL |
-| [Leveraging Procedural Generation to Benchmark Reinforcement Learning](https://arxiv.org/pdf/1912.01588.pdf) | Procgen Benchmark | ICML20 | introduce Procgen Benchmark, a suite of 16 procedurally generated game-like environments designed to benchmark both sample efficiency and generalization in reinforcement learning |
 
 <a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
