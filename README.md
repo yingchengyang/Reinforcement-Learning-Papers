@@ -329,6 +329,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 ## Genaralisation in RL
 
 <a id='Gene-Methods'></a>
+### Methods
 | Title | Method | Conference | Description | 
 | ----  | ----   | ----       |   ----  |
 | [Towards Generalization and Simplicity in Continuous Control](https://arxiv.org/pdf/1703.02660.pdf) | ---- | NeurIPS17 | policies with simple linear and RBF parameterizations can be trained to solve a variety of widely studied continuous control tasks; training with a diverse initial state distribution induces more global policies with better generalization |
@@ -359,6 +360,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning || NeurIPS22 ||
 
 <a id='Gene-Environments'></a>
+### Environments
 | Title | Method | Conference | Description | 
 | ----  | ----   | ----       |   ----  |
 | [Quantifying Generalization in Reinforcement Learning](https://arxiv.org/pdf/1812.02341.pdf) | CoinRun | ICML19 | introduce a new environment called CoinRun for generalisation in RL; empirically show L2 regularization, dropout, data augmentation and batch normalization can improve generalization in RL |
