@@ -368,7 +368,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Learning Dynamics and Generalization in Reinforcement Learning](https://arxiv.org/pdf/2206.02126.pdf) | ---- | ICML22 | show theoretically that temporal difference learning encourages agents to fit non-smooth components of the value function early in training, and at the same time induces the second-order effect of discouraging generalization |
 | [Improving Policy Optimization with Generalist-Specialist Learning](https://arxiv.org/pdf/2206.12984.pdf) | GSL | ICML22 | hope to utilize experiences from the specialists to aid the policy optimization of the generalist; propose the phenomenon “catastrophic ignorance” in multi-task learning |
 | DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck || ICML22 ||
-| Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning || NeurIPS22 ||
+| [Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning](https://arxiv.org/pdf/2207.09081.pdf) | GRADER | NeurIPS22 | use the causal graph as a latent variable to reformulate the GCRL problem and then derive an iterative training framework from solving this problem |
 
 <a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
