@@ -367,7 +367,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [A Generalist Agent](https://arxiv.org/pdf/2205.06175.pdf) | Gato | arxiv22 | [slide](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20220607.pdf) |
 | [Learning Dynamics and Generalization in Reinforcement Learning](https://arxiv.org/pdf/2206.02126.pdf) | ---- | ICML22 | show theoretically that temporal difference learning encourages agents to fit non-smooth components of the value function early in training, and at the same time induces the second-order effect of discouraging generalization |
 | [Improving Policy Optimization with Generalist-Specialist Learning](https://arxiv.org/pdf/2206.12984.pdf) | GSL | ICML22 | hope to utilize experiences from the specialists to aid the policy optimization of the generalist; propose the phenomenon “catastrophic ignorance” in multi-task learning |
-| DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck || ICML22 ||
+| [DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck](https://arxiv.org/pdf/2102.13268.pdf) | DRIBO | ICML22 | learn robust representations that encode only task-relevant information from observations based on the unsupervised multi-view setting; introduce a novel contrastive version of the Multi-View Information Bottleneck (MIB) objective for temporal data |
 | [Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning](https://arxiv.org/pdf/2207.09081.pdf) | GRADER | NeurIPS22 | use the causal graph as a latent variable to reformulate the GCRL problem and then derive an iterative training framework from solving this problem |
 
 <a id='Sequence-Generation'></a>
