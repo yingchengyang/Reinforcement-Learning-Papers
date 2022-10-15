@@ -10,6 +10,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
     - [Classic Methods](#model-free-classic)
     - [Off-Policy Evaluation](#off-policy-evaluation)
     - [Soft RL](#soft-rl)
+    - [Bisimulation](#Bisimulation)
     - [Current methods](#current)
 * [Model Based (Online) RL](#Model-Based-Online)
     - [Classic Methods](#model-based-classic)
@@ -85,6 +86,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function |
 | The Importance of Non-Markovianity in Maximum State Entropy Exploration | | ICML22 oral |  |
 | Communicating via Maximum Entropy Reinforcement Learning || ICML22 ||
+
+<a id='soft-rl'></a>
+### Bisimulation
+|  Title | Method | Conference |  Description |
+| ----  | ----   | ----       |   ----  |
+| [Metrics for Finite Markov Decision Processes](https://arxiv.org/ftp/arxiv/papers/1207/1207.4114.pdf) || UAI04 ||
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
