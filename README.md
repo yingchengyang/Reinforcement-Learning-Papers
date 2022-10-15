@@ -91,6 +91,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 ### Bisimulation
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
+| [Equivalence notions and model minimization in Markov decision processes](https://www.ics.uci.edu/~dechter/courses/ics-295/winter-2018/papers/givan-dean-greig.pdf) |  | Artificial Intelligence, 2003 |  |
 | [Metrics for Finite Markov Decision Processes](https://arxiv.org/ftp/arxiv/papers/1207/1207.4114.pdf) || UAI04 ||
 
 <!-- ### <span id='current'>Current methods</span> -->
