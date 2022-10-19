@@ -75,6 +75,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) |  | ICML22 |  |
 | [Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning](https://proceedings.mlr.press/v162/kallus22a/kallus22a.pdf) | LDR2OPE | ICML22 ||
 | [On Well-posedness and Minimax Optimal Rates of Nonparametric Q-function Estimation in Off-policy Evaluation](https://proceedings.mlr.press/v162/chen22u/chen22u.pdf) |  | ICML22 ||
+| [A Unified Off-Policy Evaluation Approach for General Value Function](https://arxiv.org/pdf/2107.02711.pdf) || NeurIPS22 ||
 
 
 <a id='soft-rl'></a>
@@ -146,7 +147,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning || ICML22 ||
 | Off-Policy Reinforcement Learning with Delayed Rewards || ICML22 ||
 | Reachability Constrained Reinforcement Learning || ICML22 ||
-
+| [Mask-based Latent Reconstruction for Reinforcement Learning](https://arxiv.org/pdf/2201.12096.pdf) || NeurIPS22 ||
+| [Recursive Reinforcement Learning](https://arxiv.org/pdf/2206.11430.pdf) || NeurIPS22 ||
+| [Challenging Common Assumptions in Convex Reinforcement Learning](https://arxiv.org/pdf/2202.01511.pdf) || NeurIPS22 ||
+| [Explicable Policy Search]() || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -179,8 +183,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Constrained Policy Optimization via Bayesian World Models](https://arxiv.org/pdf/2201.09802.pdf) | LAMBDA | ICLR22 Spotlight | consider Bayesian model-based methods for CMDP |
 | [On-Policy Model Errors in Reinforcement Learning](https://arxiv.org/pdf/2110.07985.pdf) | OPC | ICLR22 | consider to combine real-world data and a learned model in order to get the best of both worlds; propose to exploit the real-world data for onpolicy predictions and use the learned model only to generalize to different actions; propose to use on-policy transition data on top of a separately learned model to enable accurate long-term predictions for MBRL |
 | [Temporal Difference Learning for Model Predictive Control](https://arxiv.org/pdf/2203.04955.pdf) | TD-MPC | ICML22 | propose to use the model only to predice reward; use a policy to accelerate the planning |
-| [Causal Dynamics Learning for Task-Independent State Abstraction](https://arxiv.org/pdf/2206.13452.pdf) || ICML22 ||
-
+| [Causal Dynamics Learning for Task-Independent State Abstraction](https://arxiv.org/pdf/2206.13452.pdf) |  | ICML22 |  |
+| [When to Update Your Model: Constrained Model-based Reinforcement Learning]() |  | NeurIPS22 |  |
 
 
 <a id='dreamer'></a>
@@ -208,6 +212,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Reinforcement Learning with Action-Free Pre-Training from Videos](https://arxiv.org/pdf/2203.13880.pdf) | APV | ICML22 | pre-train an action-free latent video prediction model using videos from different domains, and then fine-tune the pre-trained model on target domains |
 | [Denoised MDPs: Learning World Models Better Than the World Itself](https://arxiv.org/pdf/2206.15477.pdf) | Denoised MDP | ICML22 | divide information into four categories: controllable/uncontrollable (whether infected by the action) and reward-relevant/irrelevant (whether affects the return); propose to only consider information which is controllable and reward-relevant |
 | [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588.pdf) | IRIS | arxiv2209 | use a discrete autoencoder and an autoregressive Transformer to conduct World Models and significantly improve the data efficiency in Atari (2 hours of real-time experience); [\[Code\]](https://github.com/eloialonso/iris) |
+| [Iso-Dream: Isolating Noncontrollable Visual Dynamics in World Models](https://arxiv.org/pdf/2205.13817.pdf) |  | NeurIPS22 |  |
+| [Learning General World Models in a Handful of Reward-Free Deployments]() || NeurIPS22 ||
 
 
 
@@ -379,6 +385,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Improving Policy Optimization with Generalist-Specialist Learning](https://arxiv.org/pdf/2206.12984.pdf) | GSL | ICML22 | hope to utilize experiences from the specialists to aid the policy optimization of the generalist; propose the phenomenon “catastrophic ignorance” in multi-task learning |
 | [DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck](https://arxiv.org/pdf/2102.13268.pdf) | DRIBO | ICML22 | learn robust representations that encode only task-relevant information from observations based on the unsupervised multi-view setting; introduce a novel contrastive version of the Multi-View Information Bottleneck (MIB) objective for temporal data |
 | [Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning](https://arxiv.org/pdf/2207.09081.pdf) | GRADER | NeurIPS22 | use the causal graph as a latent variable to reformulate the GCRL problem and then derive an iterative training framework from solving this problem |
+| [Rethinking Value Function Learning for Generalization in Reinforcement Learning]() || NeurIPS22 ||
 
 <a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
@@ -403,6 +410,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [URLB: Unsupervised Reinforcement Learning Benchmark](https://arxiv.org/pdf/2110.15191.pdf) | URLB | NeurIPS21 | a benchmark for unsupervised reinforcement learning |
 | [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
 | The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
+| [a mixture of supervised and unsupervised reinforcement learning]() || NeurIPS22 ||
+| [unsupervised reinforcement learning with contrastive intrinsic control]() || NeurIPS22 ||
 
 
 <a id='Lifelong-RL'></a>
