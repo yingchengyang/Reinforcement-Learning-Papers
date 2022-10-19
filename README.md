@@ -147,6 +147,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning || ICML22 ||
 | Off-Policy Reinforcement Learning with Delayed Rewards || ICML22 ||
 | Reachability Constrained Reinforcement Learning || ICML22 ||
+| [Reinforcement Learning with Neural Radiance Fields](https://arxiv.org/pdf/2206.01634.pdf) | NeRF-RL | NeurIPS22 | propose to train an encoder that maps multiple image observations to a latent space describing the objects in the scene |
 | [Mask-based Latent Reconstruction for Reinforcement Learning](https://arxiv.org/pdf/2201.12096.pdf) || NeurIPS22 ||
 | [Recursive Reinforcement Learning](https://arxiv.org/pdf/2206.11430.pdf) || NeurIPS22 ||
 | [Challenging Common Assumptions in Convex Reinforcement Learning](https://arxiv.org/pdf/2202.01511.pdf) || NeurIPS22 ||
