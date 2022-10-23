@@ -363,6 +363,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Title | Method | Conference | Description | 
 | ----  | ----   | ----       |   ----  |
 | [Towards Generalization and Simplicity in Continuous Control](https://arxiv.org/pdf/1703.02660.pdf) | ---- | NeurIPS17 | policies with simple linear and RBF parameterizations can be trained to solve a variety of widely studied continuous control tasks; training with a diverse initial state distribution induces more global policies with better generalization |
+| [Universal Planning Networks](https://arxiv.org/pdf/1804.00645.pdf) || ICML18 ||
 | [On the Generalization Gap in Reparameterizable Reinforcement Learning](https://arxiv.org/pdf/1905.12654.pdf) | ---- | ICML19 | theoretically provide guarantees on the gap between the expected and empirical return for both intrinsic and external errors in reparameterizable RL |
 | [Investigating Generalisation in Continuous Deep Reinforcement Learning](https://arxiv.org/pdf/1902.07015.pdf) | ---- | arxiv19 | study generalisation in Deep RL for continuous control |
 | [Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck](https://arxiv.org/pdf/1910.12911.pdf) | SNI | NeurIPS19 | consder regularization techniques relying on the injection of noise into the learned function for improving generalization; hope to maintain the regularizing effect of the injected noise and mitigate its adverse effects on the gradient quality |
