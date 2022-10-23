@@ -185,6 +185,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [On-Policy Model Errors in Reinforcement Learning](https://arxiv.org/pdf/2110.07985.pdf) | OPC | ICLR22 | consider to combine real-world data and a learned model in order to get the best of both worlds; propose to exploit the real-world data for onpolicy predictions and use the learned model only to generalize to different actions; propose to use on-policy transition data on top of a separately learned model to enable accurate long-term predictions for MBRL |
 | [Temporal Difference Learning for Model Predictive Control](https://arxiv.org/pdf/2203.04955.pdf) | TD-MPC | ICML22 | propose to use the model only to predice reward; use a policy to accelerate the planning |
 | [Causal Dynamics Learning for Task-Independent State Abstraction](https://arxiv.org/pdf/2206.13452.pdf) |  | ICML22 |  |
+| [Mismatched no More: Joint Model-Policy Optimization for Model-Based RL](https://arxiv.org/pdf/2110.02758.pdf) | MnM | NeurIPS22 | propose a model-based RL algorithm where the model and policy are jointly optimized with respect to the same objective, which is a lower bound on the expected return under the true environment dynamics, and becomes tight under certain assumptions |
 | [When to Update Your Model: Constrained Model-based Reinforcement Learning]() |  | NeurIPS22 |  |
 
 
