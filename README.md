@@ -24,6 +24,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
     - [Environments](#Gene-Environments)
     - [Methods](#Gene-Methods)
 * [RL as Sequence Generation](#Sequence-Generation)
+* [Self-Supervised RL](#Self-supervised-RL)
 * [Unsupervised RL](#Unsupervised-RL)
 * [Lifelong RL](#Lifelong-RL)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
@@ -398,6 +399,16 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/pdf/2106.02039.pdf) | TT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (s_0^0, ..., s_0^N, a_0^0, ..., a_0^M, r_0, ...); use beam search to inference; evaluate on imitation learning, goal-conditioned RL and Offline RL | 
 | Online Decision Transformer |  | ICML22 oral |  |
 | Prompting Decision Transformer for Few-shot Policy Generalization || ICML22 ||
+
+
+<a id='Self-supervised-RL'></a>
+## Self-Supervised RL
+
+Note: representation learning with MBRL is in the part [World Models](#dreamer)
+
+|  Title | Method | Conference | Description |
+| ----  | ----   | ----       |   ----  |
+| [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive  RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
 
 <a id='Unsupervised-RL'></a>
 ## Unsupervised RL
