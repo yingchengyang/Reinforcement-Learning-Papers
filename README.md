@@ -277,6 +277,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Pareto Policy Pool for Model-based Offline Reinforcement Learning](https://openreview.net/pdf?id=OqcZu8JIIzS) |  | ICLR22 |  |
 | [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) | Diffuser | ICML22 oral | first design a denoising diffusion model for trajectory data and an associated probabilistic framework for behavior synthesis |
 | Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning || ICML22 ||
+| [Model-Based Offline Reinforcement Learning with Pessimism-Modulated Dynamics Belief](https://arxiv.org/pdf/2210.06692.pdf) || NeurIPS22 ||
 
 
 <a id='Meta-RL'></a>
