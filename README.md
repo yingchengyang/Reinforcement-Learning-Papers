@@ -78,6 +78,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [On Well-posedness and Minimax Optimal Rates of Nonparametric Q-function Estimation in Off-policy Evaluation](https://proceedings.mlr.press/v162/chen22u/chen22u.pdf) |  | ICML22 ||
 | [A Unified Off-Policy Evaluation Approach for General Value Function](https://arxiv.org/pdf/2107.02711.pdf) || NeurIPS22 ||
 | The Pitfalls of Regularizations in Off-Policy TD Learning || NeurIPS22 ||
+| Off-Policy Evaluation for Action-Dependent Non-Stationary Environments || NeurIPS22 ||
 
 
 <a id='soft-rl'></a>
@@ -160,6 +161,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Reinforcement Learning in a Birth and Death Process: Breaking the Dependence on the State Space || NeurIPS22 ||
 | [Discovered Policy Optimisation](https://arxiv.org/pdf/2210.05639.pdf) || NeurIPS22 ||
 | Faster Deep Reinforcement Learning with Slower Online Network || NeurIPS22 ||
+| [Reinforcement Learning with Automated Auxiliary Loss Search](https://arxiv.org/pdf/2210.06041.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -196,6 +198,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Mismatched no More: Joint Model-Policy Optimization for Model-Based RL](https://arxiv.org/pdf/2110.02758.pdf) | MnM | NeurIPS22 | propose a model-based RL algorithm where the model and policy are jointly optimized with respect to the same objective, which is a lower bound on the expected return under the true environment dynamics, and becomes tight under certain assumptions |
 | [When to Update Your Model: Constrained Model-based Reinforcement Learning]() |  | NeurIPS22 |  |
 | [Exponential Family Model-Based Reinforcement Learning via Score Matching](https://arxiv.org/pdf/2112.14195.pdf) || NeurIPS22 ||
+| Bayesian Optimistic Optimization: Optimistic Exploration for Model-Based Reinforcement Learning || NeurIPS22 ||
+| [Model-based Lifelong Reinforcement Learning with Bayesian Exploration](https://arxiv.org/pdf/2210.11579.pdf) || NeurIPS22 ||
 
 
 <a id='dreamer'></a>
