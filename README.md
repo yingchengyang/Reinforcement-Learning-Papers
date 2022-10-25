@@ -157,6 +157,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [On Reinforcement Learning and Distribution Matching for Fine-Tuning Language Models with no Catastrophic Forgetting](https://arxiv.org/pdf/2206.00761.pdf) | ---- | NeurIPS22 | explore the theoretical connections between Reward Maximization (RM) and Distribution Matching (DM) |
 | [When to Ask for Help: Proactive Interventions in Autonomous Reinforcement Learning](https://arxiv.org/pdf/2210.10765.pdf) || NeurIPS22 ||
 | Adaptive Bio-Inspired Fish Simulation with Deep Reinforcement Learning || NeurIPS22 ||
+| Reinforcement Learning in a Birth and Death Process: Breaking the Dependence on the State Space || NeurIPS22 ||
+| [Discovered Policy Optimisation](https://arxiv.org/pdf/2210.05639.pdf) || NeurIPS22 ||
+| Faster Deep Reinforcement Learning with Slower Online Network || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -192,6 +195,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Causal Dynamics Learning for Task-Independent State Abstraction](https://arxiv.org/pdf/2206.13452.pdf) |  | ICML22 |  |
 | [Mismatched no More: Joint Model-Policy Optimization for Model-Based RL](https://arxiv.org/pdf/2110.02758.pdf) | MnM | NeurIPS22 | propose a model-based RL algorithm where the model and policy are jointly optimized with respect to the same objective, which is a lower bound on the expected return under the true environment dynamics, and becomes tight under certain assumptions |
 | [When to Update Your Model: Constrained Model-based Reinforcement Learning]() |  | NeurIPS22 |  |
+| [Exponential Family Model-Based Reinforcement Learning via Score Matching](https://arxiv.org/pdf/2112.14195.pdf) || NeurIPS22 ||
 
 
 <a id='dreamer'></a>
@@ -261,6 +265,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Showing Your Offline Reinforcement Learning Work: Online Evaluation Budget Matters || ICML22 ||
 | Constrained Offline Policy Optimization || ICML22 ||
 | DASCO: Dual-Generator Adversarial Support Constrained Offline Reinforcement Learning || NeurIPS22 ||
+| [Supported Policy Optimization for Offline Reinforcement Learning](https://arxiv.org/pdf/2202.06239.pdf) || NeurIPS22 ||
 
 
 
