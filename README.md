@@ -77,6 +77,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning](https://proceedings.mlr.press/v162/kallus22a/kallus22a.pdf) | LDR2OPE | ICML22 ||
 | [On Well-posedness and Minimax Optimal Rates of Nonparametric Q-function Estimation in Off-policy Evaluation](https://proceedings.mlr.press/v162/chen22u/chen22u.pdf) |  | ICML22 ||
 | [A Unified Off-Policy Evaluation Approach for General Value Function](https://arxiv.org/pdf/2107.02711.pdf) || NeurIPS22 ||
+| The Pitfalls of Regularizations in Off-Policy TD Learning || NeurIPS22 ||
 
 
 <a id='soft-rl'></a>
@@ -154,6 +155,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Challenging Common Assumptions in Convex Reinforcement Learning](https://arxiv.org/pdf/2202.01511.pdf) || NeurIPS22 ||
 | [Explicable Policy Search]() || NeurIPS22 ||
 | [On Reinforcement Learning and Distribution Matching for Fine-Tuning Language Models with no Catastrophic Forgetting](https://arxiv.org/pdf/2206.00761.pdf) | ---- | NeurIPS22 | explore the theoretical connections between Reward Maximization (RM) and Distribution Matching (DM) |
+| [When to Ask for Help: Proactive Interventions in Autonomous Reinforcement Learning](https://arxiv.org/pdf/2210.10765.pdf) || NeurIPS22 ||
+| Adaptive Bio-Inspired Fish Simulation with Deep Reinforcement Learning || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
