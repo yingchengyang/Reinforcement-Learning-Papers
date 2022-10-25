@@ -256,6 +256,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Pessimism meets VCG: Learning Dynamic Mechanism Design via Offline Reinforcement Learning || ICML22 ||
 | Showing Your Offline Reinforcement Learning Work: Online Evaluation Budget Matters || ICML22 ||
 | Constrained Offline Policy Optimization || ICML22 ||
+| DASCO: Dual-Generator Adversarial Support Constrained Offline Reinforcement Learning || NeurIPS22 ||
 
 
 
