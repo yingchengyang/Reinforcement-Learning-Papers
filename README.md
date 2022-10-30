@@ -163,6 +163,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Faster Deep Reinforcement Learning with Slower Online Network || NeurIPS22 ||
 | [Reinforcement Learning with Automated Auxiliary Loss Search](https://arxiv.org/pdf/2210.06041.pdf) || NeurIPS22 ||
 | exploration-guided reward shaping for reinforcement learning under sparse rewards || NeurIPS22 ||
+| an adaptive deep rl method for non-stationary environments with piecewise stable context || NeurIPS22 ||
+| [Large-Scale Retrieval for Reinforcement Learning](https://arxiv.org/pdf/2206.05314.pdf) || NeurIPS22 ||
+| [Sustainable Online Reinforcement Learning for Auto-bidding](https://arxiv.org/pdf/2210.07006.pdf) || NeurIPS22 ||
+| [LECO: Learnable Episodic Count for Task-Specific Intrinsic Reward](https://arxiv.org/pdf/2210.05409.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -277,6 +281,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Why So Pessimistic? Estimating Uncertainties for Offline RL through Ensembles, and Why Their Independence Matters](https://arxiv.org/pdf/2205.13703.pdf) || NeurIPS22 ||
 | Oracle Inequalities for Model Selection in Offline Reinforcement Learning || NeurIPS22 ||
 | [Mildly Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2206.04745.pdf) || NeurIPS22 ||
+| [A Policy-Guided Imitation Approach for Offline Reinforcement Learning](https://arxiv.org/pdf/2210.08323.pdf) || NeurIPS22 ||
 
 
 
