@@ -167,6 +167,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Large-Scale Retrieval for Reinforcement Learning](https://arxiv.org/pdf/2206.05314.pdf) || NeurIPS22 ||
 | [Sustainable Online Reinforcement Learning for Auto-bidding](https://arxiv.org/pdf/2210.07006.pdf) || NeurIPS22 ||
 | [LECO: Learnable Episodic Count for Task-Specific Intrinsic Reward](https://arxiv.org/pdf/2210.05409.pdf) || NeurIPS22 ||
+| [DNA: Proximal Policy Optimization with a Dual Network Architecture](https://arxiv.org/pdf/2206.10027.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -282,7 +283,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Oracle Inequalities for Model Selection in Offline Reinforcement Learning || NeurIPS22 ||
 | [Mildly Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2206.04745.pdf) || NeurIPS22 ||
 | [A Policy-Guided Imitation Approach for Offline Reinforcement Learning](https://arxiv.org/pdf/2210.08323.pdf) || NeurIPS22 ||
-
+| [Bootstrapped Transformer for Offline Reinforcement Learning](https://arxiv.org/pdf/2206.08569.pdf) || NeurIPS22 ||
+| [LobsDICE: Offline Learning from Observation via Stationary Distribution Correction Estimation](https://arxiv.org/pdf/2202.13536.pdf) || NeurIPS22 ||
+| [Latent-Variable Advantage-Weighted Policy Optimization for Offline RL](https://arxiv.org/pdf/2203.08949.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Offline'></a>
@@ -304,6 +307,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) | Diffuser | ICML22 oral | first design a denoising diffusion model for trajectory data and an associated probabilistic framework for behavior synthesis |
 | Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning || ICML22 ||
 | [Model-Based Offline Reinforcement Learning with Pessimism-Modulated Dynamics Belief](https://arxiv.org/pdf/2210.06692.pdf) || NeurIPS22 ||
+| [A Unified Framework for Alternating Offline Model Training and Policy Learning](https://arxiv.org/pdf/2210.05922.pdf) || NeurIPS22 ||
 
 
 <a id='Meta-RL'></a>
@@ -417,6 +421,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck](https://arxiv.org/pdf/2102.13268.pdf) | DRIBO | ICML22 | learn robust representations that encode only task-relevant information from observations based on the unsupervised multi-view setting; introduce a novel contrastive version of the Multi-View Information Bottleneck (MIB) objective for temporal data |
 | [Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning](https://arxiv.org/pdf/2207.09081.pdf) | GRADER | NeurIPS22 | use the causal graph as a latent variable to reformulate the GCRL problem and then derive an iterative training framework from solving this problem |
 | [Rethinking Value Function Learning for Generalization in Reinforcement Learning]() || NeurIPS22 ||
+| masked autoencoding for scalable and generalizable decision making || NeurIPS22 ||
+| Pre-Trained Image Encoder for Generalizable Visual Reinforcement Learning  || NeurIPS22 ||
 
 <a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
@@ -437,6 +443,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
 | [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive  RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
+| [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) || NeurIPS22 |  |
 
 <a id='Unsupervised-RL'></a>
 ## Unsupervised RL
