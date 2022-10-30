@@ -162,6 +162,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Discovered Policy Optimisation](https://arxiv.org/pdf/2210.05639.pdf) || NeurIPS22 ||
 | Faster Deep Reinforcement Learning with Slower Online Network || NeurIPS22 ||
 | [Reinforcement Learning with Automated Auxiliary Loss Search](https://arxiv.org/pdf/2210.06041.pdf) || NeurIPS22 ||
+| exploration-guided reward shaping for reinforcement learning under sparse rewards || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -200,6 +201,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Exponential Family Model-Based Reinforcement Learning via Score Matching](https://arxiv.org/pdf/2112.14195.pdf) || NeurIPS22 ||
 | Bayesian Optimistic Optimization: Optimistic Exploration for Model-Based Reinforcement Learning || NeurIPS22 ||
 | [Model-based Lifelong Reinforcement Learning with Bayesian Exploration](https://arxiv.org/pdf/2210.11579.pdf) || NeurIPS22 ||
+| Plan to Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning || NeurIPS22 ||
+| data-driven model-based optimization via invariant representation learning || NeurIPS22 ||
 
 
 <a id='dreamer'></a>
@@ -229,6 +232,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588.pdf) | IRIS | arxiv2209 | use a discrete autoencoder and an autoregressive Transformer to conduct World Models and significantly improve the data efficiency in Atari (2 hours of real-time experience); [\[Code\]](https://github.com/eloialonso/iris) |
 | [Iso-Dream: Isolating Noncontrollable Visual Dynamics in World Models](https://arxiv.org/pdf/2205.13817.pdf) | Iso-Dream | NeurIPS22 | consider noncontrollable dynamics independent of the action signals; encourage the world model to learn controllable and noncontrollable sources of spatiotemporal changes on isolated state transition branches; optimize the behavior of the agent on the decoupled latent imaginations of the world model |
 | [Learning General World Models in a Handful of Reward-Free Deployments]() || NeurIPS22 ||
+| [Learning Robust Dynamics through Variational Sparse Gating](https://arxiv.org/pdf/2210.11698.pdf) || NeurIPS22 ||
 
 
 
@@ -270,6 +274,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Constrained Offline Policy Optimization || ICML22 ||
 | DASCO: Dual-Generator Adversarial Support Constrained Offline Reinforcement Learning || NeurIPS22 ||
 | [Supported Policy Optimization for Offline Reinforcement Learning](https://arxiv.org/pdf/2202.06239.pdf) || NeurIPS22 ||
+| [Why So Pessimistic? Estimating Uncertainties for Offline RL through Ensembles, and Why Their Independence Matters](https://arxiv.org/pdf/2205.13703.pdf) || NeurIPS22 ||
+| Oracle Inequalities for Model Selection in Offline Reinforcement Learning || NeurIPS22 ||
+| [Mildly Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2206.04745.pdf) || NeurIPS22 ||
 
 
 
