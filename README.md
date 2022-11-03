@@ -97,6 +97,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | ----  | ----   | ----       |   ----  |
 | [Equivalence notions and model minimization in Markov decision processes](https://www.ics.uci.edu/~dechter/courses/ics-295/winter-2018/papers/givan-dean-greig.pdf) |  | Artificial Intelligence, 2003 |  |
 | [Metrics for Finite Markov Decision Processes](https://arxiv.org/ftp/arxiv/papers/1207/1207.4114.pdf) || UAI04 ||
+| [Bisimulation metrics for continuous Markov decision processes](https://www.normferns.com/assets/documents/sicomp2011.pdf) || SIAM Journal on Computing, 2011 ||
+| [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 ||
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
