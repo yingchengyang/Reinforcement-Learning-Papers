@@ -181,6 +181,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Hardness in Markov Decision Processes: Theory and Practice](https://arxiv.org/pdf/2210.13075.pdf) || NeurIPS22 ||
 | [Robust Phi-Divergence MDPs](https://arxiv.org/pdf/2205.14202.pdf) || NeurIPS22 ||
 | [On the convergence of policy gradient methods to Nash equilibria in general stochastic games](https://arxiv.org/pdf/2210.08857.pdf) || NeurIPS22 ||
+| [A Unified Off-Policy Evaluation Approach for General Value Function](https://arxiv.org/pdf/2107.02711.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -300,6 +301,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [LobsDICE: Offline Learning from Observation via Stationary Distribution Correction Estimation](https://arxiv.org/pdf/2202.13536.pdf) || NeurIPS22 ||
 | [Latent-Variable Advantage-Weighted Policy Optimization for Offline RL](https://arxiv.org/pdf/2203.08949.pdf) || NeurIPS22 ||
 | [How Far I'll Go: Offline Goal-Conditioned Reinforcement Learning via f-Advantage Regression](https://arxiv.org/pdf/2206.03023.pdf) || NeurIPS22 ||
+| [NeoRL: A Near Real-World Benchmark for Offline Reinforcement Learning](https://arxiv.org/pdf/2102.00714.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Offline'></a>
@@ -322,6 +324,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning || ICML22 ||
 | [Model-Based Offline Reinforcement Learning with Pessimism-Modulated Dynamics Belief](https://arxiv.org/pdf/2210.06692.pdf) || NeurIPS22 ||
 | [A Unified Framework for Alternating Offline Model Training and Policy Learning](https://arxiv.org/pdf/2210.05922.pdf) || NeurIPS22 ||
+| [Bidirectional Learning for Offline Infinite-width Model-based Optimization](https://arxiv.org/pdf/2209.07507.pdf) || NeurIPS22 ||
 
 
 <a id='Meta-RL'></a>
