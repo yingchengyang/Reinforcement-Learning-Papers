@@ -80,6 +80,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | The Pitfalls of Regularizations in Off-Policy TD Learning || NeurIPS22 ||
 | Off-Policy Evaluation for Action-Dependent Non-Stationary Environments || NeurIPS22 ||
 | [Local Metric Learning for Off-Policy Evaluation in Contextual Bandits with Continuous Actions](https://arxiv.org/pdf/2210.13373.pdf) || NeurIPS22 ||
+| [Off-Policy Evaluation with Policy-Dependent Optimization Response](https://arxiv.org/pdf/2202.12958.pdf) || NeurIPS22 ||
 
 
 <a id='soft-rl'></a>
@@ -191,6 +192,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Adaptive Interest for Emphatic Reinforcement Learning || NeurIPS22 ||
 | [The Nature of Temporal Difference Errors in Multi-step Distributional Reinforcement Learning](https://arxiv.org/pdf/2207.07570.pdf) || NeurIPS22 ||
 | [Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress](https://arxiv.org/pdf/2206.01626.pdf) || NeurIPS22 ||
+| [Bayesian Risk Markov Decision Processes](https://arxiv.org/pdf/2106.02558.pdf) || NeurIPS22 ||
+| [Explainable Reinforcement Learning via Model Transforms](https://arxiv.org/pdf/2209.12006.pdf) || NeurIPS22 ||
+| PDSketch: Integrated Planning Domain Programming and Learning || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
