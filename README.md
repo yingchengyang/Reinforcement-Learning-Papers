@@ -188,6 +188,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Parametrically Retargetable Decision-Makers Tend To Seek Power](https://arxiv.org/pdf/2206.13477.pdf) || NeurIPS22 ||
 | [Batch size-invariance for policy optimization](https://arxiv.org/pdf/2110.00641.pdf) || NeurIPS22 ||
 | [Trust Region Policy Optimization with Optimal Transport Discrepancies: Duality and Algorithm for Continuous Actions](https://arxiv.org/pdf/2211.02016.pdf) || NeurIPS22 ||
+| Adaptive Interest for Emphatic Reinforcement Learning || NeurIPS22 ||
+| [The Nature of Temporal Difference Errors in Multi-step Distributional Reinforcement Learning](https://arxiv.org/pdf/2207.07570.pdf) || NeurIPS22 ||
+| [Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress](https://arxiv.org/pdf/2206.01626.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
