@@ -175,6 +175,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [DNA: Proximal Policy Optimization with a Dual Network Architecture](https://arxiv.org/pdf/2206.10027.pdf) || NeurIPS22 ||
 | [Look where you look! Saliency-guided Q-networks for visual RL tasks](https://arxiv.org/pdf/2209.09203.pdf) || NeurIPS22 ||
 | [Reinforcement Learning with Non-Exponential Discounting](https://arxiv.org/pdf/2209.13413.pdf) || NeurIPS22 ||
+| [Faster Deep Reinforcement Learning with Slower Online Network](https://assets.amazon.science/31/ca/0c09418b4055a7536ced1b218d72/faster-deep-reinforcement-learning-with-slower-online-network.pdf) || NeurIPS22 ||
+| [Online Reinforcement Learning for Mixed Policy Scopes](https://causalai.net/r84.pdf) || NeurIPS22 ||
+| [ProtoX: Explaining a Reinforcement Learning Agent via Prototyping](https://arxiv.org/pdf/2211.03162.pdf) || NeurIPS22 ||
+| [Hardness in Markov Decision Processes: Theory and Practice](https://arxiv.org/pdf/2210.13075.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
