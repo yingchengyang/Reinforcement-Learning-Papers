@@ -79,6 +79,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [A Unified Off-Policy Evaluation Approach for General Value Function](https://arxiv.org/pdf/2107.02711.pdf) || NeurIPS22 ||
 | The Pitfalls of Regularizations in Off-Policy TD Learning || NeurIPS22 ||
 | Off-Policy Evaluation for Action-Dependent Non-Stationary Environments || NeurIPS22 ||
+| [Local Metric Learning for Off-Policy Evaluation in Contextual Bandits with Continuous Actions](https://arxiv.org/pdf/2210.13373.pdf) || NeurIPS22 ||
 
 
 <a id='soft-rl'></a>
@@ -172,6 +173,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Sustainable Online Reinforcement Learning for Auto-bidding](https://arxiv.org/pdf/2210.07006.pdf) || NeurIPS22 ||
 | [LECO: Learnable Episodic Count for Task-Specific Intrinsic Reward](https://arxiv.org/pdf/2210.05409.pdf) || NeurIPS22 ||
 | [DNA: Proximal Policy Optimization with a Dual Network Architecture](https://arxiv.org/pdf/2206.10027.pdf) || NeurIPS22 ||
+| [Look where you look! Saliency-guided Q-networks for visual RL tasks](https://arxiv.org/pdf/2209.09203.pdf) || NeurIPS22 ||
+| [Reinforcement Learning with Non-Exponential Discounting](https://arxiv.org/pdf/2209.13413.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
