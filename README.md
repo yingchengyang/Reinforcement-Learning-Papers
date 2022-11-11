@@ -186,6 +186,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Robust On-Policy Sampling for Data-Efficient Policy Evaluation in Reinforcement Learning](https://arxiv.org/pdf/2111.14552.pdf) || NeurIPS22 ||
 | Continuous Deep Q-Learning in Optimal Control Problems: Normalized Advantage Functions Analysis || NeurIPS ||
 | [Parametrically Retargetable Decision-Makers Tend To Seek Power](https://arxiv.org/pdf/2206.13477.pdf) || NeurIPS22 ||
+| [Batch size-invariance for policy optimization](https://arxiv.org/pdf/2110.00641.pdf) || NeurIPS22 ||
+| [Trust Region Policy Optimization with Optimal Transport Discrepancies: Duality and Algorithm for Continuous Actions](https://arxiv.org/pdf/2211.02016.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -306,6 +308,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Latent-Variable Advantage-Weighted Policy Optimization for Offline RL](https://arxiv.org/pdf/2203.08949.pdf) || NeurIPS22 ||
 | [How Far I'll Go: Offline Goal-Conditioned Reinforcement Learning via f-Advantage Regression](https://arxiv.org/pdf/2206.03023.pdf) || NeurIPS22 ||
 | [NeoRL: A Near Real-World Benchmark for Offline Reinforcement Learning](https://arxiv.org/pdf/2102.00714.pdf) || NeurIPS22 ||
+| [When does return-conditioned supervised learning work for offline reinforcement learning?](https://arxiv.org/pdf/2206.01079.pdf) || NeurIPS22 ||
+| [Bellman Residual Orthogonalization for Offline Reinforcement Learning](https://arxiv.org/pdf/2203.12786.pdf) || NeurIPS22 ||
+| [Oracle Inequalities for Model Selection in Offline Reinforcement Learning](https://arxiv.org/pdf/2211.02016.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Offline'></a>
