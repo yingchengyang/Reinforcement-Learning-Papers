@@ -184,6 +184,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [A Unified Off-Policy Evaluation Approach for General Value Function](https://arxiv.org/pdf/2107.02711.pdf) || NeurIPS22 ||
 | [A Boosting Approach to Reinforcement Learning](https://arxiv.org/pdf/2108.09767.pdf) || NeurIPS22 ||
 | [Robust On-Policy Sampling for Data-Efficient Policy Evaluation in Reinforcement Learning](https://arxiv.org/pdf/2111.14552.pdf) || NeurIPS22 ||
+| Continuous Deep Q-Learning in Optimal Control Problems: Normalized Advantage Functions Analysis || NeurIPS ||
+| [Parametrically Retargetable Decision-Makers Tend To Seek Power](https://arxiv.org/pdf/2206.13477.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
