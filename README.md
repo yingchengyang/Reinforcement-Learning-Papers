@@ -179,6 +179,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Online Reinforcement Learning for Mixed Policy Scopes](https://causalai.net/r84.pdf) || NeurIPS22 ||
 | [ProtoX: Explaining a Reinforcement Learning Agent via Prototyping](https://arxiv.org/pdf/2211.03162.pdf) || NeurIPS22 ||
 | [Hardness in Markov Decision Processes: Theory and Practice](https://arxiv.org/pdf/2210.13075.pdf) || NeurIPS22 ||
+| [Robust Phi-Divergence MDPs](https://arxiv.org/pdf/2205.14202.pdf) || NeurIPS22 ||
+| [On the convergence of policy gradient methods to Nash equilibria in general stochastic games](https://arxiv.org/pdf/2210.08857.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -297,6 +299,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Bootstrapped Transformer for Offline Reinforcement Learning](https://arxiv.org/pdf/2206.08569.pdf) || NeurIPS22 ||
 | [LobsDICE: Offline Learning from Observation via Stationary Distribution Correction Estimation](https://arxiv.org/pdf/2202.13536.pdf) || NeurIPS22 ||
 | [Latent-Variable Advantage-Weighted Policy Optimization for Offline RL](https://arxiv.org/pdf/2203.08949.pdf) || NeurIPS22 ||
+| [How Far I'll Go: Offline Goal-Conditioned Reinforcement Learning via f-Advantage Regression](https://arxiv.org/pdf/2206.03023.pdf) || NeurIPS22 ||
 
 
 <a id='Model-Based-Offline'></a>
@@ -434,6 +437,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Rethinking Value Function Learning for Generalization in Reinforcement Learning]() || NeurIPS22 ||
 | masked autoencoding for scalable and generalizable decision making || NeurIPS22 ||
 | Pre-Trained Image Encoder for Generalizable Visual Reinforcement Learning  || NeurIPS22 ||
+| [GALOIS: Boosting Deep Reinforcement Learning via Generalizable Logic Synthesis](https://arxiv.org/pdf/2205.13728.pdf) || NeurIPS22 ||
 | [In-context Reinforcement Learning with Algorithm Distillation](https://arxiv.org/pdf/2210.14215.pdf) | AD | arxiv2210 | propose Algorithm Distillation for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model |
 
 <a id='Sequence-Generation'></a>
