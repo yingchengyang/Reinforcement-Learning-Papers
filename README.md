@@ -11,6 +11,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
     - [Off-Policy Evaluation](#off-policy-evaluation)
     - [Soft RL](#soft-rl)
     - [Bisimulation](#Bisimulation)
+    - [Theory](#RL-Theory)
     - [Current methods](#current)
 * [Model Based (Online) RL](#Model-Based-Online)
     - [Classic Methods](#model-based-classic)
@@ -103,6 +104,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Scalable methods for computing state similarity in deterministic Markov Decision Processes](https://arxiv.org/pdf/1911.09291.pdf) || AAAI20 ||
 | [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 ||
 
+<a id='RL-Theory'></a>
+### Theory
+|  Title | Conference | 
+| ----  | ----   | 
+| [A Boosting Approach to Reinforcement Learning](https://arxiv.org/pdf/2108.09767.pdf) | NeurIPS22 |
+
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
 ### Current methods
@@ -183,12 +190,11 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Robust Phi-Divergence MDPs](https://arxiv.org/pdf/2205.14202.pdf) || NeurIPS22 ||
 | [On the convergence of policy gradient methods to Nash equilibria in general stochastic games](https://arxiv.org/pdf/2210.08857.pdf) || NeurIPS22 ||
 | [A Unified Off-Policy Evaluation Approach for General Value Function](https://arxiv.org/pdf/2107.02711.pdf) || NeurIPS22 ||
-| [A Boosting Approach to Reinforcement Learning](https://arxiv.org/pdf/2108.09767.pdf) || NeurIPS22 ||
 | [Robust On-Policy Sampling for Data-Efficient Policy Evaluation in Reinforcement Learning](https://arxiv.org/pdf/2111.14552.pdf) || NeurIPS22 ||
 | Continuous Deep Q-Learning in Optimal Control Problems: Normalized Advantage Functions Analysis || NeurIPS ||
 | [Parametrically Retargetable Decision-Makers Tend To Seek Power](https://arxiv.org/pdf/2206.13477.pdf) || NeurIPS22 ||
 | [Batch size-invariance for policy optimization](https://arxiv.org/pdf/2110.00641.pdf) || NeurIPS22 ||
-| [Trust Region Policy Optimization with Optimal Transport Discrepancies: Duality and Algorithm for Continuous Actions](https://arxiv.org/pdf/2211.02016.pdf) || NeurIPS22 ||
+| [Trust Region Policy Optimization with Optimal Transport Discrepancies: Duality and Algorithm for Continuous Actions](https://arxiv.org/pdf/2210.11137.pdf) || NeurIPS22 ||
 | Adaptive Interest for Emphatic Reinforcement Learning || NeurIPS22 ||
 | [The Nature of Temporal Difference Errors in Multi-step Distributional Reinforcement Learning](https://arxiv.org/pdf/2207.07570.pdf) || NeurIPS22 ||
 | [Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress](https://arxiv.org/pdf/2206.01626.pdf) || NeurIPS22 ||
