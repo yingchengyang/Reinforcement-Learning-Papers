@@ -478,7 +478,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
 | [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive  RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
-| [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) || NeurIPS22 |  |
+| [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) | ---- | NeurIPS22 | conduct an extensive comparison of various self-supervised losses under the existing joint learning framework for pixel-based reinforcement learning in many environments from different benchmarks, including one real-world environment |
 
 <a id='Unsupervised-RL'></a>
 ## Unsupervised RL
