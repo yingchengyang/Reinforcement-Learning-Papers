@@ -30,6 +30,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 * [Self-Supervised RL](#Self-supervised-RL)
 * [Unsupervised RL](#Unsupervised-RL)
 * [Lifelong RL](#Lifelong-RL)
+* [Multi-Task RL](#Multitask-RL)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
 
 <!-- - <a href="#Model-Free-Online">Model Free (Online) RL</a><br>
@@ -511,6 +512,14 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
 
+
+
+<a id='Multitask-RL'></a>
+## Multi-Task RL
+
+|  Title | Method | Conference | Description |
+| ----  | ----   | ----       |   ----  |
+| [Gradient Surgery for Multi-Task Learning](https://arxiv.org/pdf/2001.06782.pdf) || NeurIPS20 ||
 
 
 <a id='Tutorial-and-Lesson'></a>
