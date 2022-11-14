@@ -112,6 +112,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 |  Title | Conference | 
 | ----  | ----   | 
 | [A Boosting Approach to Reinforcement Learning](https://arxiv.org/pdf/2108.09767.pdf) | NeurIPS22 |
+| [Exponential Family Model-Based Reinforcement Learning via Score Matching](https://arxiv.org/pdf/2112.14195.pdf) | NeurIPS22 |
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
@@ -239,7 +240,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Causal Dynamics Learning for Task-Independent State Abstraction](https://arxiv.org/pdf/2206.13452.pdf) |  | ICML22 |  |
 | [Mismatched no More: Joint Model-Policy Optimization for Model-Based RL](https://arxiv.org/pdf/2110.02758.pdf) | MnM | NeurIPS22 | propose a model-based RL algorithm where the model and policy are jointly optimized with respect to the same objective, which is a lower bound on the expected return under the true environment dynamics, and becomes tight under certain assumptions |
 | [When to Update Your Model: Constrained Model-based Reinforcement Learning]() |  | NeurIPS22 |  |
-| [Exponential Family Model-Based Reinforcement Learning via Score Matching](https://arxiv.org/pdf/2112.14195.pdf) || NeurIPS22 ||
 | Bayesian Optimistic Optimization: Optimistic Exploration for Model-Based Reinforcement Learning || NeurIPS22 ||
 | [Model-based Lifelong Reinforcement Learning with Bayesian Exploration](https://arxiv.org/pdf/2210.11579.pdf) || NeurIPS22 ||
 | Plan to Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning || NeurIPS22 ||
