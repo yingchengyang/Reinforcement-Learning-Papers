@@ -274,7 +274,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Iso-Dream: Isolating Noncontrollable Visual Dynamics in World Models](https://arxiv.org/pdf/2205.13817.pdf) | Iso-Dream | NeurIPS22 | consider noncontrollable dynamics independent of the action signals; encourage the world model to learn controllable and noncontrollable sources of spatiotemporal changes on isolated state transition branches; optimize the behavior of the agent on the decoupled latent imaginations of the world model |
 | [Learning General World Models in a Handful of Reward-Free Deployments](https://arxiv.org/pdf/2210.12719.pdf) | CASCADE | NeurIPS22 | introduce the reward-free deployment efficiency setting to facilitate generalization (exploration should be task agnostic) and scalability (exploration policies should collect large quantities of data without costly centralized retraining); propose an information theoretic objective inspired by Bayesian Active Learning by specifically maximizing the diversity of trajectories sampled by the population through a novel cascading objective |
 | [Learning Robust Dynamics through Variational Sparse Gating](https://arxiv.org/pdf/2210.11698.pdf) | VSG, SVSG, BBS | NeurIPS22 | consider to sparsely update the latent states at each step; develope a new partially-observable and stochastic environment, called BringBackShapes (BBS) |
-
+| [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 ||
 
 
 <a id='model-based-code'></a>
