@@ -467,6 +467,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Pre-Trained Image Encoder for Generalizable Visual Reinforcement Learning  || NeurIPS22 ||
 | [GALOIS: Boosting Deep Reinforcement Learning via Generalizable Logic Synthesis](https://arxiv.org/pdf/2205.13728.pdf) || NeurIPS22 ||
 | [In-context Reinforcement Learning with Algorithm Distillation](https://arxiv.org/pdf/2210.14215.pdf) | AD | arxiv2210 | propose Algorithm Distillation for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model |
+| [Human-Timescale Adaptation in an Open-Ended Task Space](https://arxiv.org/pdf/2301.07608.pdf) ||||
 
 <a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
