@@ -279,7 +279,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Learning General World Models in a Handful of Reward-Free Deployments](https://arxiv.org/pdf/2210.12719.pdf) | CASCADE | NeurIPS22 | introduce the reward-free deployment efficiency setting to facilitate generalization (exploration should be task agnostic) and scalability (exploration policies should collect large quantities of data without costly centralized retraining); propose an information theoretic objective inspired by Bayesian Active Learning by specifically maximizing the diversity of trajectories sampled by the population through a novel cascading objective |
 | [Learning Robust Dynamics through Variational Sparse Gating](https://arxiv.org/pdf/2210.11698.pdf) | VSG, SVSG, BBS | NeurIPS22 | consider to sparsely update the latent states at each step; develope a new partially-observable and stochastic environment, called BringBackShapes (BBS) |
 | [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588.pdf) | IRIS | ICLR23 oral | use a discrete autoencoder and an autoregressive Transformer to conduct World Models and significantly improve the data efficiency in Atari (2 hours of real-time experience); [\[Code\]](https://github.com/eloialonso/iris) |
-| [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 ||
+| [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 | propose DreamerV3 to handle a wide range of domains, including continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales|
 
 
 <a id='model-based-code'></a>
