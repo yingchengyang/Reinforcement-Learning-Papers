@@ -23,6 +23,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
     - [World Models](#dreamer)
     - [CodeBase](#model-based-code)
 * [(Model Free) Offline RL](#Model-Free-Offline)
+    - [Current methods](#offline-current)
     - [Combined with Diffusion Models](#offline-diffusion)
 * [Model Based Offline RL](#Model-Based-Offline)
 * [Meta RL](#Meta-RL)
@@ -293,6 +294,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 <a id='Model-Free-Offline'></a>
 ## (Model Free) Offline RL
+
+<a id='offline-current'></a>
+### Current Methods
 
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
