@@ -7,6 +7,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 
 **We have added some NeurIPS22 papers on RL**
 
+**We have added some ICLR23 papers on RL**
+
+
 ## Contents 
 * [Model Free (Online) RL](#Model-Free-Online)
     - [Classic Methods](#model-free-classic)
@@ -20,6 +23,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
     - [World Models](#dreamer)
     - [CodeBase](#model-based-code)
 * [(Model Free) Offline RL](#Model-Free-Offline)
+    - [Combined with Diffusion Models](#offline-diffusion)
 * [Model Based Offline RL](#Model-Based-Offline)
 * [Meta RL](#Meta-RL)
 * [Adversarial RL](#Adversarial-RL)
@@ -205,6 +209,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Bayesian Risk Markov Decision Processes](https://arxiv.org/pdf/2106.02558.pdf) || NeurIPS22 ||
 | [Explainable Reinforcement Learning via Model Transforms](https://arxiv.org/pdf/2209.12006.pdf) || NeurIPS22 ||
 | PDSketch: Integrated Planning Domain Programming and Learning || NeurIPS22 ||
+| Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier  || ICLR23 oral ||
 
 
 <a id='Model-Based-Online'></a>
@@ -270,10 +275,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Towards Evaluating Adaptivity of Model-Based Reinforcement Learning Methods](https://proceedings.mlr.press/v162/wan22d/wan22d.pdf) | ---- | ICML22 | introduce an improved version of the LoCA setup and use it to evaluate PlaNet and Dreamerv2 |
 | [Reinforcement Learning with Action-Free Pre-Training from Videos](https://arxiv.org/pdf/2203.13880.pdf) | APV | ICML22 | pre-train an action-free latent video prediction model using videos from different domains, and then fine-tune the pre-trained model on target domains |
 | [Denoised MDPs: Learning World Models Better Than the World Itself](https://arxiv.org/pdf/2206.15477.pdf) | Denoised MDP | ICML22 | divide information into four categories: controllable/uncontrollable (whether infected by the action) and reward-relevant/irrelevant (whether affects the return); propose to only consider information which is controllable and reward-relevant |
-| [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588.pdf) | IRIS | arxiv2209 | use a discrete autoencoder and an autoregressive Transformer to conduct World Models and significantly improve the data efficiency in Atari (2 hours of real-time experience); [\[Code\]](https://github.com/eloialonso/iris) |
 | [Iso-Dream: Isolating Noncontrollable Visual Dynamics in World Models](https://arxiv.org/pdf/2205.13817.pdf) | Iso-Dream | NeurIPS22 | consider noncontrollable dynamics independent of the action signals; encourage the world model to learn controllable and noncontrollable sources of spatiotemporal changes on isolated state transition branches; optimize the behavior of the agent on the decoupled latent imaginations of the world model |
 | [Learning General World Models in a Handful of Reward-Free Deployments](https://arxiv.org/pdf/2210.12719.pdf) | CASCADE | NeurIPS22 | introduce the reward-free deployment efficiency setting to facilitate generalization (exploration should be task agnostic) and scalability (exploration policies should collect large quantities of data without costly centralized retraining); propose an information theoretic objective inspired by Bayesian Active Learning by specifically maximizing the diversity of trajectories sampled by the population through a novel cascading objective |
 | [Learning Robust Dynamics through Variational Sparse Gating](https://arxiv.org/pdf/2210.11698.pdf) | VSG, SVSG, BBS | NeurIPS22 | consider to sparsely update the latent states at each step; develope a new partially-observable and stochastic environment, called BringBackShapes (BBS) |
+| [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588.pdf) | IRIS | ICLR23 oral | use a discrete autoencoder and an autoregressive Transformer to conduct World Models and significantly improve the data efficiency in Atari (2 hours of real-time experience); [\[Code\]](https://github.com/eloialonso/iris) |
 | [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 ||
 
 
@@ -327,6 +332,17 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [When does return-conditioned supervised learning work for offline reinforcement learning?](https://arxiv.org/pdf/2206.01079.pdf) || NeurIPS22 ||
 | [Bellman Residual Orthogonalization for Offline Reinforcement Learning](https://arxiv.org/pdf/2203.12786.pdf) || NeurIPS22 ||
 | [Oracle Inequalities for Model Selection in Offline Reinforcement Learning](https://arxiv.org/pdf/2211.02016.pdf) || NeurIPS22 ||
+| Offline Q-learning on Diverse Multi-Task Data Both Scales And Generalizes || ICLR23 oral ||
+| Confidence-Conditioned Value Functions for Offline Reinforcement Learning || ICLR23 oral ||
+| Extreme Q-Learning: MaxEnt RL without Entropy || ICLR23 oral ||
+| Sparse Q-Learning: Offline Reinforcement Learning with Implicit Value Regularization || ICLR23 oral ||
+
+<a id='offline-diffusion'></a>
+### Combined with Diffusion Models
+
+|  Title | Method | Conference | Description |
+| ----  | ----   | ----       |   ----  |
+| Is Conditional Generative Modeling all you need for Decision Making? || ICLR23 oral ||
 
 
 <a id='Model-Based-Offline'></a>
@@ -466,7 +482,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Masked Autoencoding for Scalable and Generalizable Decision Making](https://arxiv.org/pdf/2211.12740.pdf) | MaskDP | NeurIPS22 | employ a masked autoencoder (MAE) to state-action trajectories for reinforcement learning (RL) and behavioral cloning (BC) and gain the capability of zero-shot transfer to new tasks |
 | Pre-Trained Image Encoder for Generalizable Visual Reinforcement Learning  || NeurIPS22 ||
 | [GALOIS: Boosting Deep Reinforcement Learning via Generalizable Logic Synthesis](https://arxiv.org/pdf/2205.13728.pdf) || NeurIPS22 ||
-| [In-context Reinforcement Learning with Algorithm Distillation](https://arxiv.org/pdf/2210.14215.pdf) | AD | arxiv2210 | propose Algorithm Distillation for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model |
+| [In-context Reinforcement Learning with Algorithm Distillation](https://arxiv.org/pdf/2210.14215.pdf) | AD | ICLR23 oral | propose Algorithm Distillation for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model |
 | [Human-Timescale Adaptation in an Open-Ended Task Space](https://arxiv.org/pdf/2301.07608.pdf) ||||
 
 <a id='Sequence-Generation'></a>
@@ -478,6 +494,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/pdf/2106.02039.pdf) | TT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (s_0^0, ..., s_0^N, a_0^0, ..., a_0^M, r_0, ...); use beam search to inference; evaluate on imitation learning, goal-conditioned RL and Offline RL | 
 | Online Decision Transformer |  | ICML22 oral |  |
 | Prompting Decision Transformer for Few-shot Policy Generalization || ICML22 ||
+| Dichotomy of Control: Separating What You Can Control from What You Cannot  || ICLR23 oral ||
 
 
 <a id='Self-supervised-RL'></a>
