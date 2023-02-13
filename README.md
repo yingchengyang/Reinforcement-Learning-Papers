@@ -525,7 +525,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
 | The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
 | [a mixture of supervised and unsupervised reinforcement learning]() || NeurIPS22 ||
-| [unsupervised reinforcement learning with contrastive intrinsic control]() || NeurIPS22 ||
+| [Unsupervised Reinforcement Learning with Contrastive Intrinsic Control](https://openreview.net/pdf?id=9HBbWAsZxFt) | CIC | NeurIPS22 | propose to maximize the mutual information between statetransitions and latent skill vectors |
 
 
 <a id='Lifelong-RL'></a>
