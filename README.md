@@ -211,6 +211,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Explainable Reinforcement Learning via Model Transforms](https://arxiv.org/pdf/2209.12006.pdf) || NeurIPS22 ||
 | PDSketch: Integrated Planning Domain Programming and Learning || NeurIPS22 ||
 | Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier  || ICLR23 oral ||
+| Guarded Policy Optimization with Imperfect Online Demonstrations || ICLR23 Spotlight ||
+| Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes || ICLR23 Spotlight ||
 
 
 <a id='Model-Based-Online'></a>
@@ -340,6 +342,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Confidence-Conditioned Value Functions for Offline Reinforcement Learning || ICLR23 oral ||
 | Extreme Q-Learning: MaxEnt RL without Entropy || ICLR23 oral ||
 | Sparse Q-Learning: Offline Reinforcement Learning with Implicit Value Regularization || ICLR23 oral ||
+| The In-Sample Softmax for Offline Reinforcement Learning || ICLR23 Spotlight ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -526,6 +529,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
 | [a mixture of supervised and unsupervised reinforcement learning]() || NeurIPS22 ||
 | [Unsupervised Reinforcement Learning with Contrastive Intrinsic Control](https://openreview.net/pdf?id=9HBbWAsZxFt) | CIC | NeurIPS22 | propose to maximize the mutual information between statetransitions and latent skill vectors |
+| Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
+| Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training  || ICLR23 Spotlight ||
 
 
 <a id='Lifelong-RL'></a>
