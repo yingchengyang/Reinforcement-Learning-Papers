@@ -213,6 +213,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier  || ICLR23 oral ||
 | Guarded Policy Optimization with Imperfect Online Demonstrations || ICLR23 Spotlight ||
 | Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes || ICLR23 Spotlight ||
+| Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement Learning || ICLR23 Spotlight ||
 
 
 <a id='Model-Based-Online'></a>
