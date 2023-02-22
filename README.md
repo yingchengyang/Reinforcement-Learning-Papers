@@ -30,7 +30,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 * [Genaralisation in RL](#Genaralization-in-RL)
     - [Environments](#Gene-Environments)
     - [Methods](#Gene-Methods)
-* [RL as Sequence Generation](#Sequence-Generation)
+* [RL with Transformer](#Sequence-Generation)
 * [Self-Supervised RL](#Self-supervised-RL)
 * [Unsupervised RL](#Unsupervised-RL)
 * [Lifelong RL](#Lifelong-RL)
@@ -200,6 +200,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Greedy Actor-Critic: A New Conditional Cross-Entropy Method for Policy Improvement  || ICLR23 ||
 | Reward Design with Language Models || ICLR23 ||
 | Solving Continuous Control via Q-learning || ICLR23 ||
+| Wasserstein Auto-encoded MDPs: Formal Verification of Efficiently Distilled RL Policies with Many-sided Guarantees || ICLR23 ||
+| Quality-Similar Diversity via Population Based Reinforcement Learning  || ICLR23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -240,6 +242,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Model-based Lifelong Reinforcement Learning with Bayesian Exploration](https://arxiv.org/pdf/2210.11579.pdf) || NeurIPS22 ||
 | Plan to Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning || NeurIPS22 ||
 | data-driven model-based optimization via invariant representation learning || NeurIPS22 ||
+| Making Better Decision by Directly Planning in Continuous Control || ICLR23 ||
+| HiT-MDP: Learning the SMDP option framework on MDPs with Hidden Temporal Embeddings || ICLR23 ||
 
 
 <a id='dreamer'></a>
@@ -336,13 +340,19 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Decision S4: Efficient Sequence-Based RL via State Spaces Layers || ICLR23 ||
 | Behavior Proximal Policy Optimization || ICLR23 ||
 | Learning Achievement Structure for Structured Exploration in Domains with Sparse Reward || ICLR23 ||
+| Explaining RL Decisions with Trajectories  || ICLR23 ||
+| User-Interactive Offline Reinforcement Learning || ICLR23 ||
+| Pareto-Efficient Decision Agents for Offline Multi-Objective Reinforcement Learning || ICLR23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
 
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
+| Planning with Diffusion for Flexible Behavior Synthesis || ICML22 oral ||
 | Is Conditional Generative Modeling all you need for Decision Making? || ICLR23 oral ||
+| Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning  || ICLR23 ||
+| Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling  || ICLR23 ||
 
 
 <a id='Model-Based-Offline'></a>
@@ -367,6 +377,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [A Unified Framework for Alternating Offline Model Training and Policy Learning](https://arxiv.org/pdf/2210.05922.pdf) || NeurIPS22 ||
 | [Bidirectional Learning for Offline Infinite-width Model-based Optimization](https://arxiv.org/pdf/2209.07507.pdf) || NeurIPS22 ||
 | Conservative Bayesian Model-Based Value Expansion for Offline Policy Optimization || ICLR23 ||
+| Value Memory Graph: A Graph-Structured World Model for Offline Reinforcement Learning || ICLR23 ||
 
 
 <a id='Meta-RL'></a>
@@ -488,9 +499,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Can Agents Run Relay Race with Strangers? Generalization of RL to Out-of-Distribution Trajectories || ICLR23 ||
 | Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs  || ICLR23 ||
 | Investigating Multi-task Pretraining and Generalization in Reinforcement Learning || ICLR23 ||
+| When Data Geometry Meets Deep Function: Generalizing Offline Reinforcement Learning  || ICLR23 ||
 
 <a id='Sequence-Generation'></a>
-## RL as Sequence Generation
+## RL with Transformer
 
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
@@ -501,6 +513,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Dichotomy of Control: Separating What You Can Control from What You Cannot  || ICLR23 oral ||
 | Decision Transformer under Random Frame Dropping || ICLR23 ||
 | Hyper-Decision Transformer for Efficient Online Policy Adaptation  || ICLR23 ||
+| Preference Transformer: Modeling Human Preferences using Transformers for RL || ICLR23 ||
 
 
 <a id='Self-supervised-RL'></a>
