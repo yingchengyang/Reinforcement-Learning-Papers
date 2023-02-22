@@ -209,6 +209,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Memory Gym: Partially Observable Challenges to Memory-Based Agents || ICLR23 ||
 | Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality || ICLR23 ||
 | SpeedyZero: Mastering Atari with Limited Data and Time  || ICLR23 ||
+| Hybrid RL: Using both offline and online data can make RL efficient  || ICLR23 ||
+| POPGym: Benchmarking Partially Observable Reinforcement Learning || ICLR23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -252,6 +254,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Making Better Decision by Directly Planning in Continuous Control || ICLR23 ||
 | HiT-MDP: Learning the SMDP option framework on MDPs with Hidden Temporal Embeddings || ICLR23 ||
 | Diminishing Return of Value Expansion Methods in Model-Based Reinforcement Learning || ICLR23 ||
+| Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective || ICLR23 ||
 
 
 <a id='dreamer'></a>
@@ -284,6 +287,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588.pdf) | IRIS | ICLR23 oral | use a discrete autoencoder and an autoregressive Transformer to conduct World Models and significantly improve the data efficiency in Atari (2 hours of real-time experience); [\[Code\]](https://github.com/eloialonso/iris) |
 | Transformer-based World Models Are Happy With 100k Interactions || ICLR23 ||
 | Dynamic Update-to-Data Ratio: Minimizing World Model Overfitting || ICLR23 ||
+| Evaluating Long-Term Memory in 3D Mazes || ICLR23 ||
 | [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 | propose DreamerV3 to handle a wide range of domains, including continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales|
 
 
@@ -355,6 +359,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Pareto-Efficient Decision Agents for Offline Multi-Objective Reinforcement Learning || ICLR23 ||
 | Offline RL for Natural Language Generation with Implicit Language Q Learning  || ICLR23 ||
 | In-sample Actor Critic for Offline Reinforcement Learning  || ICLR23 ||
+| Harnessing Mixed Offline Reinforcement Learning Datasets via Trajectory Weighting || ICLR23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -460,6 +465,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Distributionally Robust Q-Learning || ICML22 ||
 | Robust Meta-learning with Sampling Noise and Label Noise via Eigen-Reptile || ICML22 ||
 | DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck || ICML22 ||
+| On the Robustness of Safe Reinforcement Learning under Observational Perturbations  || ICLR23 ||
 
 <a id='Genaralization-in-RL'></a>
 ## Genaralisation in RL
@@ -554,6 +560,10 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training  || ICLR23 Spotlight ||
 | Latent Variable Representation for Reinforcement Learning  || ICLR23 ||
 | Spectral Decomposition Representation for Reinforcement Learning || ICLR23 ||
+| Behavior Prior Representation learning for Offline Reinforcement Learning || ICLR23 ||
+| Provable Unsupervised Data Sharing for Offline Reinforcement Learning || ICLR23 ||
+| Become a Proficient Player with Limited Data through Watching Pure Videos || ICLR23 ||
+
 
 
 <a id='Lifelong-RL'></a>
