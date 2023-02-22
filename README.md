@@ -31,8 +31,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
     - [Environments](#Gene-Environments)
     - [Methods](#Gene-Methods)
 * [RL with Transformer](#Sequence-Generation)
-* [Self-Supervised RL](#Self-supervised-RL)
-* [Unsupervised RL](#Unsupervised-RL)
+* [Representation RL](#Representation-RL)
 * [Lifelong RL](#Lifelong-RL)
 * [Multi-Task RL](#Multitask-RL)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
@@ -343,6 +342,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Explaining RL Decisions with Trajectories  || ICLR23 ||
 | User-Interactive Offline Reinforcement Learning || ICLR23 ||
 | Pareto-Efficient Decision Agents for Offline Multi-Objective Reinforcement Learning || ICLR23 ||
+| Offline RL for Natural Language Generation with Implicit Language Q Learning  || ICLR23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -516,18 +516,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Preference Transformer: Modeling Human Preferences using Transformers for RL || ICLR23 ||
 
 
-<a id='Self-supervised-RL'></a>
-## Self-Supervised RL
+<a id='Representation-RL'></a>
+## Representation RL
 
 Note: representation learning with MBRL is in the part [World Models](#dreamer)
-
-|  Title | Method | Conference | Description |
-| ----  | ----   | ----       |   ----  |
-| [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive  RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
-| [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) | ---- | NeurIPS22 | conduct an extensive comparison of various self-supervised losses under the existing joint learning framework for pixel-based reinforcement learning in many environments from different benchmarks, including one real-world environment |
-
-<a id='Unsupervised-RL'></a>
-## Unsupervised RL
 
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
@@ -539,10 +531,13 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [URLB: Unsupervised Reinforcement Learning Benchmark](https://arxiv.org/pdf/2110.15191.pdf) | URLB | NeurIPS21 | a benchmark for unsupervised reinforcement learning |
 | [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
 | The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
-| [a mixture of supervised and unsupervised reinforcement learning]() || NeurIPS22 ||
+| a mixture of supervised and unsupervised reinforcement learning || NeurIPS22 ||
+| [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive  RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
+| [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) | ---- | NeurIPS22 | conduct an extensive comparison of various self-supervised losses under the existing joint learning framework for pixel-based reinforcement learning in many environments from different benchmarks, including one real-world environment |
 | [Unsupervised Reinforcement Learning with Contrastive Intrinsic Control](https://openreview.net/pdf?id=9HBbWAsZxFt) | CIC | NeurIPS22 | propose to maximize the mutual information between statetransitions and latent skill vectors |
 | Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
 | Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training  || ICLR23 Spotlight ||
+| Latent Variable Representation for Reinforcement Learning  || ICLR23 ||
 
 
 <a id='Lifelong-RL'></a>
