@@ -203,6 +203,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Wasserstein Auto-encoded MDPs: Formal Verification of Efficiently Distilled RL Policies with Many-sided Guarantees || ICLR23 ||
 | Quality-Similar Diversity via Population Based Reinforcement Learning  || ICLR23 ||
 | Human-level Atari 200x faster || ICLR23 ||
+| Compositional Law Parsing with Latent Random Functions || ICLR23 ||
+| Policy Expansion for Bridging Offline-to-Online Reinforcement Learning  || ICLR23 ||
+| Improving Deep Policy Gradients with Value Function Search || ICLR23 ||
+| Memory Gym: Partially Observable Challenges to Memory-Based Agents || ICLR23 ||
+| Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality || ICLR23 ||
+| SpeedyZero: Mastering Atari with Limited Data and Time  || ICLR23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -245,6 +251,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | data-driven model-based optimization via invariant representation learning || NeurIPS22 ||
 | Making Better Decision by Directly Planning in Continuous Control || ICLR23 ||
 | HiT-MDP: Learning the SMDP option framework on MDPs with Hidden Temporal Embeddings || ICLR23 ||
+| Diminishing Return of Value Expansion Methods in Model-Based Reinforcement Learning || ICLR23 ||
 
 
 <a id='dreamer'></a>
@@ -275,8 +282,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Learning General World Models in a Handful of Reward-Free Deployments](https://arxiv.org/pdf/2210.12719.pdf) | CASCADE | NeurIPS22 | introduce the reward-free deployment efficiency setting to facilitate generalization (exploration should be task agnostic) and scalability (exploration policies should collect large quantities of data without costly centralized retraining); propose an information theoretic objective inspired by Bayesian Active Learning by specifically maximizing the diversity of trajectories sampled by the population through a novel cascading objective |
 | [Learning Robust Dynamics through Variational Sparse Gating](https://arxiv.org/pdf/2210.11698.pdf) | VSG, SVSG, BBS | NeurIPS22 | consider to sparsely update the latent states at each step; develope a new partially-observable and stochastic environment, called BringBackShapes (BBS) |
 | [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588.pdf) | IRIS | ICLR23 oral | use a discrete autoencoder and an autoregressive Transformer to conduct World Models and significantly improve the data efficiency in Atari (2 hours of real-time experience); [\[Code\]](https://github.com/eloialonso/iris) |
-| [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 | propose DreamerV3 to handle a wide range of domains, including continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales|
 | Transformer-based World Models Are Happy With 100k Interactions || ICLR23 ||
+| Dynamic Update-to-Data Ratio: Minimizing World Model Overfitting || ICLR23 ||
+| [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 | propose DreamerV3 to handle a wide range of domains, including continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales|
+
 
 
 <a id='model-based-code'></a>
@@ -345,6 +354,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | User-Interactive Offline Reinforcement Learning || ICLR23 ||
 | Pareto-Efficient Decision Agents for Offline Multi-Objective Reinforcement Learning || ICLR23 ||
 | Offline RL for Natural Language Generation with Implicit Language Q Learning  || ICLR23 ||
+| In-sample Actor Critic for Offline Reinforcement Learning  || ICLR23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -380,6 +390,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Bidirectional Learning for Offline Infinite-width Model-based Optimization](https://arxiv.org/pdf/2209.07507.pdf) || NeurIPS22 ||
 | Conservative Bayesian Model-Based Value Expansion for Offline Policy Optimization || ICLR23 ||
 | Value Memory Graph: A Graph-Structured World Model for Offline Reinforcement Learning || ICLR23 ||
+| Efficient Offline Policy Optimization with a Learned Model  || ICLR23 ||
 
 
 <a id='Meta-RL'></a>
@@ -423,6 +434,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Biased Gradient Estimate with Drastic Variance Reduction for Meta Reinforcement Learning || ICML22 ||
 | [Transformers are Meta-Reinforcement Learners](https://arxiv.org/pdf/2206.06614.pdf) | TrMRL | ICML22 | propose TrMRL, a memory-based meta-Reinforcement Learner which uses the transformer architecture to formulate the learning process; |
 | Offline Meta-Reinforcement Learning with Online Self-Supervision || ICML22 ||
+| Distributional Meta-Gradient Reinforcement Learning || ICLR23 ||
 
 
 
@@ -516,6 +528,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Decision Transformer under Random Frame Dropping || ICLR23 ||
 | Hyper-Decision Transformer for Efficient Online Policy Adaptation  || ICLR23 ||
 | Preference Transformer: Modeling Human Preferences using Transformers for RL || ICLR23 ||
+| On the Data-Efficiency with Contrastive Image Transformation in Reinforcement Learning  || ICLR23 ||
 
 
 <a id='Representation-RL'></a>
