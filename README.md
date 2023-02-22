@@ -5,8 +5,6 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
 Since there are tens of thousands of new papers on reinforcement learning in each conference every year, we are only able to list those we read and consider as insightful.
 
-**We have added some NeurIPS22 papers on RL**
-
 **We have added some ICLR23 papers on RL**
 
 
