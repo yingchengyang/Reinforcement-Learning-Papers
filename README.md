@@ -16,7 +16,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
     - [Off-Policy Evaluation](#off-policy-evaluation)
     - [Soft RL](#soft-rl)
     - [Bisimulation](#Bisimulation)
-    - [Theory](#RL-Theory)
     - [Current methods](#current)
 * [Model Based (Online) RL](#Model-Based-Online)
     - [Classic Methods](#model-based-classic)
@@ -37,18 +36,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 * [Lifelong RL](#Lifelong-RL)
 * [Multi-Task RL](#Multitask-RL)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
-
-<!-- - <a href="#Model-Free-Online">Model Free (Online) RL</a><br>
-- <a href="#Model-Based-Online">Model Based (Online) RL</a><br>
-- <a href="#Model-Free-Offline">(Model Free) Offline RL</a><br>
-- <a href="#Model-Based-Offline">Model Based Offline RL</a><br>
-- <a href="#Meta-RL">Meta RL</a><br>
-- <a href="#Adversarial-RL">Adversarial RL</a><br>
-- <a href="#Genaralization-in-RL">Genaralisation in RL</a><br>
-- <a href="#Sequence-Generation">RL as Sequence Generation</a><br>
-- <a href="#Unsupervised-RL">Unsupervised RL</a><br>
-- <a href="#Lifelong-RL">Lifelong RL</a><br>
-- <a href="#Tutorial-and-Lesson">Tutorial and Lesson</a><br> -->
 
 <a id='Model-Free-Online'></a>
 ## Model Free (Online) RL
@@ -112,12 +99,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Scalable methods for computing state similarity in deterministic Markov Decision Processes](https://arxiv.org/pdf/1911.09291.pdf) || AAAI20 ||
 | [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 ||
 
-<a id='RL-Theory'></a>
-### Theory
-|  Title | Conference | 
-| ----  | ----   | 
-| [A Boosting Approach to Reinforcement Learning](https://arxiv.org/pdf/2108.09767.pdf) | NeurIPS22 |
-| [Exponential Family Model-Based Reinforcement Learning via Score Matching](https://arxiv.org/pdf/2112.14195.pdf) | NeurIPS22 |
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
