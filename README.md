@@ -76,6 +76,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Off-Policy Evaluation for Action-Dependent Non-Stationary Environments || NeurIPS22 ||
 | [Local Metric Learning for Off-Policy Evaluation in Contextual Bandits with Continuous Actions](https://arxiv.org/pdf/2210.13373.pdf) || NeurIPS22 ||
 | [Off-Policy Evaluation with Policy-Dependent Optimization Response](https://arxiv.org/pdf/2202.12958.pdf) || NeurIPS22 ||
+| Variational Latent Branching Model for Off-Policy Evaluation || ICLR23 ||
 
 
 <a id='soft-rl'></a>
@@ -201,6 +202,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Solving Continuous Control via Q-learning || ICLR23 ||
 | Wasserstein Auto-encoded MDPs: Formal Verification of Efficiently Distilled RL Policies with Many-sided Guarantees || ICLR23 ||
 | Quality-Similar Diversity via Population Based Reinforcement Learning  || ICLR23 ||
+| Human-level Atari 200x faster || ICLR23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -538,6 +540,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
 | Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training  || ICLR23 Spotlight ||
 | Latent Variable Representation for Reinforcement Learning  || ICLR23 ||
+| Spectral Decomposition Representation for Reinforcement Learning || ICLR23 ||
 
 
 <a id='Lifelong-RL'></a>
