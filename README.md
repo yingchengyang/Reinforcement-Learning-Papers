@@ -211,6 +211,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | SpeedyZero: Mastering Atari with Limited Data and Time  || ICLR23 ||
 | Hybrid RL: Using both offline and online data can make RL efficient  || ICLR23 ||
 | POPGym: Benchmarking Partially Observable Reinforcement Learning || ICLR23 ||
+| Critic Sequential Monte Carlo || ICLR23 ||
+| Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching || ICLR23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -360,6 +362,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Offline RL for Natural Language Generation with Implicit Language Q Learning  || ICLR23 ||
 | In-sample Actor Critic for Offline Reinforcement Learning  || ICLR23 ||
 | Harnessing Mixed Offline Reinforcement Learning Datasets via Trajectory Weighting || ICLR23 ||
+| Mind the Gap: Offline Policy Optimizaiton for Imperfect Rewards || ICLR23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -520,6 +523,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs  || ICLR23 ||
 | Investigating Multi-task Pretraining and Generalization in Reinforcement Learning || ICLR23 ||
 | When Data Geometry Meets Deep Function: Generalizing Offline Reinforcement Learning  || ICLR23 ||
+| Priors, Hierarchy, and Information Asymmetry for Skill Transfer in Reinforcement Learning || ICLR23 ||
+
+
 
 <a id='Sequence-Generation'></a>
 ## RL with Transformer
