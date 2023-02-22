@@ -327,6 +327,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Sparse Q-Learning: Offline Reinforcement Learning with Implicit Value Regularization || ICLR23 oral ||
 | The In-Sample Softmax for Offline Reinforcement Learning || ICLR23 Spotlight ||
 | Benchmarking Offline Reinforcement Learning on Real-Robot Hardware || ICLR23 Spotlight ||
+| Decision S4: Efficient Sequence-Based RL via State Spaces Layers || ICLR23 ||
+| Behavior Proximal Policy Optimization || ICLR23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
