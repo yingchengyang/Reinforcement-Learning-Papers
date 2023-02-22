@@ -195,6 +195,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Guarded Policy Optimization with Imperfect Online Demonstrations || ICLR23 Spotlight ||
 | Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes || ICLR23 Spotlight ||
 | Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement Learning || ICLR23 Spotlight ||
+| Efficient Deep Reinforcement Learning Requires Regulating Statistical Overfitting  || ICLR23 ||
+| Replay Memory as An Empirical MDP: Combining Conservative Estimation with Experience Replay || ICLR23 ||
+| Greedy Actor-Critic: A New Conditional Cross-Entropy Method for Policy Improvement  || ICLR23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -266,6 +269,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Learning Robust Dynamics through Variational Sparse Gating](https://arxiv.org/pdf/2210.11698.pdf) | VSG, SVSG, BBS | NeurIPS22 | consider to sparsely update the latent states at each step; develope a new partially-observable and stochastic environment, called BringBackShapes (BBS) |
 | [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588.pdf) | IRIS | ICLR23 oral | use a discrete autoencoder and an autoregressive Transformer to conduct World Models and significantly improve the data efficiency in Atari (2 hours of real-time experience); [\[Code\]](https://github.com/eloialonso/iris) |
 | [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 | propose DreamerV3 to handle a wide range of domains, including continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales|
+| Transformer-based World Models Are Happy With 100k Interactions || ICLR23 ||
 
 
 <a id='model-based-code'></a>
@@ -329,6 +333,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Benchmarking Offline Reinforcement Learning on Real-Robot Hardware || ICLR23 Spotlight ||
 | Decision S4: Efficient Sequence-Based RL via State Spaces Layers || ICLR23 ||
 | Behavior Proximal Policy Optimization || ICLR23 ||
+| Learning Achievement Structure for Structured Exploration in Domains with Sparse Reward || ICLR23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -475,8 +480,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Masked Autoencoding for Scalable and Generalizable Decision Making](https://arxiv.org/pdf/2211.12740.pdf) | MaskDP | NeurIPS22 | employ a masked autoencoder (MAE) to state-action trajectories for reinforcement learning (RL) and behavioral cloning (BC) and gain the capability of zero-shot transfer to new tasks |
 | Pre-Trained Image Encoder for Generalizable Visual Reinforcement Learning  || NeurIPS22 ||
 | [GALOIS: Boosting Deep Reinforcement Learning via Generalizable Logic Synthesis](https://arxiv.org/pdf/2205.13728.pdf) || NeurIPS22 ||
-| [In-context Reinforcement Learning with Algorithm Distillation](https://arxiv.org/pdf/2210.14215.pdf) | AD | ICLR23 oral | propose Algorithm Distillation for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model |
 | [Human-Timescale Adaptation in an Open-Ended Task Space](https://arxiv.org/pdf/2301.07608.pdf) ||||
+| [In-context Reinforcement Learning with Algorithm Distillation](https://arxiv.org/pdf/2210.14215.pdf) | AD | ICLR23 oral | propose Algorithm Distillation for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model |
+| Can Agents Run Relay Race with Strangers? Generalization of RL to Out-of-Distribution Trajectories || ICLR23 ||
 
 <a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
@@ -520,10 +526,11 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 
 
 <a id='Lifelong-RL'></a>
-## Lifelong RL
+## Continual / Lifelong RL
 
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
+| Revisiting Curiosity for Exploration in Procedurally Generated Environments  || ICLR23 ||
 
 
 
