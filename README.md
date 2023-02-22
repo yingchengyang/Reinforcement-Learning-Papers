@@ -198,6 +198,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Efficient Deep Reinforcement Learning Requires Regulating Statistical Overfitting  || ICLR23 ||
 | Replay Memory as An Empirical MDP: Combining Conservative Estimation with Experience Replay || ICLR23 ||
 | Greedy Actor-Critic: A New Conditional Cross-Entropy Method for Policy Improvement  || ICLR23 ||
+| Reward Design with Language Models || ICLR23 ||
+| Solving Continuous Control via Q-learning || ICLR23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -364,6 +366,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Model-Based Offline Reinforcement Learning with Pessimism-Modulated Dynamics Belief](https://arxiv.org/pdf/2210.06692.pdf) || NeurIPS22 ||
 | [A Unified Framework for Alternating Offline Model Training and Policy Learning](https://arxiv.org/pdf/2210.05922.pdf) || NeurIPS22 ||
 | [Bidirectional Learning for Offline Infinite-width Model-based Optimization](https://arxiv.org/pdf/2209.07507.pdf) || NeurIPS22 ||
+| Conservative Bayesian Model-Based Value Expansion for Offline Policy Optimization || ICLR23 ||
 
 
 <a id='Meta-RL'></a>
@@ -483,6 +486,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Human-Timescale Adaptation in an Open-Ended Task Space](https://arxiv.org/pdf/2301.07608.pdf) ||||
 | [In-context Reinforcement Learning with Algorithm Distillation](https://arxiv.org/pdf/2210.14215.pdf) | AD | ICLR23 oral | propose Algorithm Distillation for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model |
 | Can Agents Run Relay Race with Strangers? Generalization of RL to Out-of-Distribution Trajectories || ICLR23 ||
+| Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs  || ICLR23 ||
+| Investigating Multi-task Pretraining and Generalization in Reinforcement Learning || ICLR23 ||
 
 <a id='Sequence-Generation'></a>
 ## RL as Sequence Generation
@@ -494,6 +499,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Online Decision Transformer |  | ICML22 oral |  |
 | Prompting Decision Transformer for Few-shot Policy Generalization || ICML22 ||
 | Dichotomy of Control: Separating What You Can Control from What You Cannot  || ICLR23 oral ||
+| Decision Transformer under Random Frame Dropping || ICLR23 ||
+| Hyper-Decision Transformer for Efficient Online Policy Adaptation  || ICLR23 ||
 
 
 <a id='Self-supervised-RL'></a>
