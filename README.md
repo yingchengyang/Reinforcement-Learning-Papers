@@ -209,7 +209,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | SpeedyZero: Mastering Atari with Limited Data and Time  || ICLR23 ||
 | Hybrid RL: Using both offline and online data can make RL efficient  || ICLR23 ||
 | POPGym: Benchmarking Partially Observable Reinforcement Learning || ICLR23 ||
-| Critic Sequential Monte Carlo || ICLR23 ||
+| [Critic Sequential Monte Carlo](https://arxiv.org/pdf/2205.15460.pdf) | CriticSMC | ICLR23 | combine sequential Monte Carlo with learned Soft-Q function heuristic factors |
 | Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching || ICLR23 ||
 
 
