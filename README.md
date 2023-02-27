@@ -287,7 +287,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588.pdf) | IRIS | ICLR23 oral | use a discrete autoencoder and an autoregressive Transformer to conduct World Models and significantly improve the data efficiency in Atari (2 hours of real-time experience); [\[Code\]](https://github.com/eloialonso/iris) |
 | Transformer-based World Models Are Happy With 100k Interactions || ICLR23 ||
 | Dynamic Update-to-Data Ratio: Minimizing World Model Overfitting || ICLR23 ||
-| Evaluating Long-Term Memory in 3D Mazes || ICLR23 ||
+| [Evaluating Long-Term Memory in 3D Mazes](https://arxiv.org/pdf/2210.13383.pdf) | Memory Maze | ICLR23 | introduce the Memory Maze, a 3D domain of randomized mazes specifically designed for evaluating long-term memory in agents, including an online reinforcement learning benchmark, a diverse offline dataset, and an offline probing evaluation; \[[github](https://github.com/jurgisp/memory-maze)\] |
 | [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 | propose DreamerV3 to handle a wide range of domains, including continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales|
 
 
