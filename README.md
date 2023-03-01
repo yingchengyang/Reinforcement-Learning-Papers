@@ -203,7 +203,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Human-level Atari 200x faster || ICLR23 ||
 | Compositional Law Parsing with Latent Random Functions || ICLR23 ||
 | Policy Expansion for Bridging Offline-to-Online Reinforcement Learning  || ICLR23 ||
-| Improving Deep Policy Gradients with Value Function Search || ICLR23 ||
+| [Improving Deep Policy Gradients with Value Function Search](https://arxiv.org/pdf/2302.10145.pdf) | VFS | ICLR23 | focus on improving value approximation and analyzing the effects on Deep PG primitives such as value prediction, variance reduction, and correlation of gradient estimates with the true gradient; show that value functions with better predictions improve Deep PG primitives, leading to better sample efficiency and policies with higher returns |
 | Memory Gym: Partially Observable Challenges to Memory-Based Agents || ICLR23 ||
 | Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality || ICLR23 ||
 | SpeedyZero: Mastering Atari with Limited Data and Time  || ICLR23 ||
