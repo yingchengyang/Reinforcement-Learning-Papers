@@ -152,7 +152,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Off-Policy Reinforcement Learning with Delayed Rewards || ICML22 ||
 | Reachability Constrained Reinforcement Learning || ICML22 ||
 | [Reinforcement Learning with Neural Radiance Fields](https://arxiv.org/pdf/2206.01634.pdf) | NeRF-RL | NeurIPS22 | propose to train an encoder that maps multiple image observations to a latent space describing the objects in the scene |
-| [Mask-based Latent Reconstruction for Reinforcement Learning](https://arxiv.org/pdf/2201.12096.pdf) || NeurIPS22 ||
 | [Recursive Reinforcement Learning](https://arxiv.org/pdf/2206.11430.pdf) || NeurIPS22 ||
 | [Challenging Common Assumptions in Convex Reinforcement Learning](https://arxiv.org/pdf/2202.01511.pdf) || NeurIPS22 ||
 | [Explicable Policy Search]() || NeurIPS22 ||
@@ -560,6 +559,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) | ---- | NeurIPS22 | conduct an extensive comparison of various self-supervised losses under the existing joint learning framework for pixel-based reinforcement learning in many environments from different benchmarks, including one real-world environment |
 | [Unsupervised Reinforcement Learning with Contrastive Intrinsic Control](https://openreview.net/pdf?id=9HBbWAsZxFt) | CIC | NeurIPS22 | propose to maximize the mutual information between statetransitions and latent skill vectors |
 | [Reinforcement Learning with Automated Auxiliary Loss Search](https://arxiv.org/pdf/2210.06041.pdf) | A2LS | NeurIPS22 | propose to automatically search top-performing auxiliary loss functions for learning better representations in RL; define a general auxiliary loss space of size 7.5 × 1020 based on the collected trajectory data and explore the space with an efficient evolutionary search strategy |
+| [Mask-based Latent Reconstruction for Reinforcement Learning](https://arxiv.org/pdf/2201.12096.pdf) | MLR | NeurIPS22 | propose an effective self-supervised method to predict complete state representations in the latent space from the observations with spatially and temporally masked pixels |
 | Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
 | Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training  || ICLR23 Spotlight ||
 | Latent Variable Representation for Reinforcement Learning  || ICLR23 ||
