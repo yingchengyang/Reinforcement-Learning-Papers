@@ -162,7 +162,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Reinforcement Learning in a Birth and Death Process: Breaking the Dependence on the State Space || NeurIPS22 ||
 | [Discovered Policy Optimisation](https://arxiv.org/pdf/2210.05639.pdf) || NeurIPS22 ||
 | Faster Deep Reinforcement Learning with Slower Online Network || NeurIPS22 ||
-| [Reinforcement Learning with Automated Auxiliary Loss Search](https://arxiv.org/pdf/2210.06041.pdf) || NeurIPS22 ||
 | exploration-guided reward shaping for reinforcement learning under sparse rewards || NeurIPS22 ||
 | an adaptive deep rl method for non-stationary environments with piecewise stable context || NeurIPS22 ||
 | [Large-Scale Retrieval for Reinforcement Learning](https://arxiv.org/pdf/2206.05314.pdf) || NeurIPS22 ||
@@ -560,6 +559,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive  RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
 | [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) | ---- | NeurIPS22 | conduct an extensive comparison of various self-supervised losses under the existing joint learning framework for pixel-based reinforcement learning in many environments from different benchmarks, including one real-world environment |
 | [Unsupervised Reinforcement Learning with Contrastive Intrinsic Control](https://openreview.net/pdf?id=9HBbWAsZxFt) | CIC | NeurIPS22 | propose to maximize the mutual information between statetransitions and latent skill vectors |
+| [Reinforcement Learning with Automated Auxiliary Loss Search](https://arxiv.org/pdf/2210.06041.pdf) | A2LS | NeurIPS22 | propose to automatically search top-performing auxiliary loss functions for learning better representations in RL; define a general auxiliary loss space of size 7.5 × 1020 based on the collected trajectory data and explore the space with an efficient evolutionary search strategy |
 | Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
 | Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training  || ICLR23 Spotlight ||
 | Latent Variable Representation for Reinforcement Learning  || ICLR23 ||
