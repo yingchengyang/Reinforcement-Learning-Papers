@@ -154,7 +154,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Reinforcement Learning with Neural Radiance Fields](https://arxiv.org/pdf/2206.01634.pdf) | NeRF-RL | NeurIPS22 | propose to train an encoder that maps multiple image observations to a latent space describing the objects in the scene |
 | [Recursive Reinforcement Learning](https://arxiv.org/pdf/2206.11430.pdf) || NeurIPS22 ||
 | [Challenging Common Assumptions in Convex Reinforcement Learning](https://arxiv.org/pdf/2202.01511.pdf) || NeurIPS22 ||
-| [Explicable Policy Search]() || NeurIPS22 ||
+| Explicable Policy Search || NeurIPS22 ||
 | [On Reinforcement Learning and Distribution Matching for Fine-Tuning Language Models with no Catastrophic Forgetting](https://arxiv.org/pdf/2206.00761.pdf) | ---- | NeurIPS22 | explore the theoretical connections between Reward Maximization (RM) and Distribution Matching (DM) |
 | [When to Ask for Help: Proactive Interventions in Autonomous Reinforcement Learning](https://arxiv.org/pdf/2210.10765.pdf) || NeurIPS22 ||
 | Adaptive Bio-Inspired Fish Simulation with Deep Reinforcement Learning || NeurIPS22 ||
@@ -168,7 +168,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [LECO: Learnable Episodic Count for Task-Specific Intrinsic Reward](https://arxiv.org/pdf/2210.05409.pdf) || NeurIPS22 ||
 | [DNA: Proximal Policy Optimization with a Dual Network Architecture](https://arxiv.org/pdf/2206.10027.pdf) || NeurIPS22 ||
 | [Look where you look! Saliency-guided Q-networks for visual RL tasks](https://arxiv.org/pdf/2209.09203.pdf) || NeurIPS22 ||
-| [Reinforcement Learning with Non-Exponential Discounting](https://arxiv.org/pdf/2209.13413.pdf) || NeurIPS22 ||
 | [Faster Deep Reinforcement Learning with Slower Online Network](https://assets.amazon.science/31/ca/0c09418b4055a7536ced1b218d72/faster-deep-reinforcement-learning-with-slower-online-network.pdf) || NeurIPS22 ||
 | [Online Reinforcement Learning for Mixed Policy Scopes](https://causalai.net/r84.pdf) || NeurIPS22 ||
 | [ProtoX: Explaining a Reinforcement Learning Agent via Prototyping](https://arxiv.org/pdf/2211.03162.pdf) || NeurIPS22 ||
@@ -244,11 +243,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Temporal Difference Learning for Model Predictive Control](https://arxiv.org/pdf/2203.04955.pdf) | TD-MPC | ICML22 | propose to use the model only to predice reward; use a policy to accelerate the planning |
 | [Causal Dynamics Learning for Task-Independent State Abstraction](https://arxiv.org/pdf/2206.13452.pdf) |  | ICML22 |  |
 | [Mismatched no More: Joint Model-Policy Optimization for Model-Based RL](https://arxiv.org/pdf/2110.02758.pdf) | MnM | NeurIPS22 | propose a model-based RL algorithm where the model and policy are jointly optimized with respect to the same objective, which is a lower bound on the expected return under the true environment dynamics, and becomes tight under certain assumptions |
-| [When to Update Your Model: Constrained Model-based Reinforcement Learning]() |  | NeurIPS22 |  |
+| When to Update Your Model: Constrained Model-based Reinforcement Learning |  | NeurIPS22 |  |
 | Bayesian Optimistic Optimization: Optimistic Exploration for Model-Based Reinforcement Learning || NeurIPS22 ||
 | [Model-based Lifelong Reinforcement Learning with Bayesian Exploration](https://arxiv.org/pdf/2210.11579.pdf) || NeurIPS22 ||
 | Plan to Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning || NeurIPS22 ||
 | data-driven model-based optimization via invariant representation learning || NeurIPS22 ||
+| [Reinforcement Learning with Non-Exponential Discounting](https://arxiv.org/pdf/2209.13413.pdf) | ---- | NeurIPS22 | propose a theory for continuous-time model-based reinforcement learning generalized to arbitrary discount functions; derive a Hamilton–Jacobi–Bellman (HJB) equation characterizing the optimal policy and describe how it can be solved using a collocation method |
 | Making Better Decision by Directly Planning in Continuous Control || ICLR23 ||
 | HiT-MDP: Learning the SMDP option framework on MDPs with Hidden Temporal Embeddings || ICLR23 ||
 | Diminishing Return of Value Expansion Methods in Model-Based Reinforcement Learning || ICLR23 ||
