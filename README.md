@@ -181,7 +181,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Trust Region Policy Optimization with Optimal Transport Discrepancies: Duality and Algorithm for Continuous Actions](https://arxiv.org/pdf/2210.11137.pdf) || NeurIPS22 ||
 | Adaptive Interest for Emphatic Reinforcement Learning || NeurIPS22 ||
 | [The Nature of Temporal Difference Errors in Multi-step Distributional Reinforcement Learning](https://arxiv.org/pdf/2207.07570.pdf) || NeurIPS22 ||
-| [Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress](https://arxiv.org/pdf/2206.01626.pdf) || NeurIPS22 ||
+| [Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress](https://arxiv.org/pdf/2206.01626.pdf) | PVRL | NeurIPS22 | focus on reincarnating RL from any agent to any other agent; present reincarnating RL as an alternative workflow or class of problem settings, where prior computational work (e.g., learned policies) is reused or transferred between design iterations of an RL agent, or from one RL agent to another |
 | [Bayesian Risk Markov Decision Processes](https://arxiv.org/pdf/2106.02558.pdf) || NeurIPS22 ||
 | [Explainable Reinforcement Learning via Model Transforms](https://arxiv.org/pdf/2209.12006.pdf) || NeurIPS22 ||
 | PDSketch: Integrated Planning Domain Programming and Learning || NeurIPS22 ||
@@ -251,7 +251,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Making Better Decision by Directly Planning in Continuous Control || ICLR23 ||
 | HiT-MDP: Learning the SMDP option framework on MDPs with Hidden Temporal Embeddings || ICLR23 ||
 | Diminishing Return of Value Expansion Methods in Model-Based Reinforcement Learning || ICLR23 ||
-| Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective || ICLR23 ||
+| [Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective](https://arxiv.org/pdf/2209.08466.pdf) | ALM | ICLR23 | propose a single objective which jointly optimizes the policy, the
+latent-space model, and the representations produced by the encoder using the same objective: maximize predicted rewards while minimizing the errors in the predicted representations |
 
 
 <a id='dreamer'></a>
