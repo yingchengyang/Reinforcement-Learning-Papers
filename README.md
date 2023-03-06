@@ -166,8 +166,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Sustainable Online Reinforcement Learning for Auto-bidding](https://arxiv.org/pdf/2210.07006.pdf) || NeurIPS22 ||
 | [LECO: Learnable Episodic Count for Task-Specific Intrinsic Reward](https://arxiv.org/pdf/2210.05409.pdf) || NeurIPS22 ||
 | [DNA: Proximal Policy Optimization with a Dual Network Architecture](https://arxiv.org/pdf/2206.10027.pdf) || NeurIPS22 ||
-| [Look where you look! Saliency-guided Q-networks for visual RL tasks](https://arxiv.org/pdf/2209.09203.pdf) || NeurIPS22 ||
-| [Faster Deep Reinforcement Learning with Slower Online Network](https://assets.amazon.science/31/ca/0c09418b4055a7536ced1b218d72/faster-deep-reinforcement-learning-with-slower-online-network.pdf) || NeurIPS22 ||
+| [Look where you look! Saliency-guided Q-networks for visual RL tasks](https://arxiv.org/pdf/2209.09203.pdf) |  | NeurIPS22 |  |
+| [Faster Deep Reinforcement Learning with Slower Online Network](https://assets.amazon.science/31/ca/0c09418b4055a7536ced1b218d72/faster-deep-reinforcement-learning-with-slower-online-network.pdf) | DQN Pro, Rainbow Pro | NeurIPS22 | incentivize the online network to remain in the proximity of the target network |
 | [Online Reinforcement Learning for Mixed Policy Scopes](https://causalai.net/r84.pdf) || NeurIPS22 ||
 | [ProtoX: Explaining a Reinforcement Learning Agent via Prototyping](https://arxiv.org/pdf/2211.03162.pdf) || NeurIPS22 ||
 | [Hardness in Markov Decision Processes: Theory and Practice](https://arxiv.org/pdf/2210.13075.pdf) || NeurIPS22 ||
