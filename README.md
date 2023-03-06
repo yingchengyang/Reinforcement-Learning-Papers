@@ -166,7 +166,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Sustainable Online Reinforcement Learning for Auto-bidding](https://arxiv.org/pdf/2210.07006.pdf) || NeurIPS22 ||
 | [LECO: Learnable Episodic Count for Task-Specific Intrinsic Reward](https://arxiv.org/pdf/2210.05409.pdf) || NeurIPS22 ||
 | [DNA: Proximal Policy Optimization with a Dual Network Architecture](https://arxiv.org/pdf/2206.10027.pdf) || NeurIPS22 ||
-| [Look where you look! Saliency-guided Q-networks for visual RL tasks](https://arxiv.org/pdf/2209.09203.pdf) |  | NeurIPS22 |  |
 | [Faster Deep Reinforcement Learning with Slower Online Network](https://assets.amazon.science/31/ca/0c09418b4055a7536ced1b218d72/faster-deep-reinforcement-learning-with-slower-online-network.pdf) | DQN Pro, Rainbow Pro | NeurIPS22 | incentivize the online network to remain in the proximity of the target network |
 | [Online Reinforcement Learning for Mixed Policy Scopes](https://causalai.net/r84.pdf) || NeurIPS22 ||
 | [ProtoX: Explaining a Reinforcement Learning Agent via Prototyping](https://arxiv.org/pdf/2211.03162.pdf) || NeurIPS22 ||
@@ -561,6 +560,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Unsupervised Reinforcement Learning with Contrastive Intrinsic Control](https://openreview.net/pdf?id=9HBbWAsZxFt) | CIC | NeurIPS22 | propose to maximize the mutual information between statetransitions and latent skill vectors |
 | [Reinforcement Learning with Automated Auxiliary Loss Search](https://arxiv.org/pdf/2210.06041.pdf) | A2LS | NeurIPS22 | propose to automatically search top-performing auxiliary loss functions for learning better representations in RL; define a general auxiliary loss space of size 7.5 × 1020 based on the collected trajectory data and explore the space with an efficient evolutionary search strategy |
 | [Mask-based Latent Reconstruction for Reinforcement Learning](https://arxiv.org/pdf/2201.12096.pdf) | MLR | NeurIPS22 | propose an effective self-supervised method to predict complete state representations in the latent space from the observations with spatially and temporally masked pixels |
+| [Look where you look! Saliency-guided Q-networks for visual RL tasks](https://arxiv.org/pdf/2209.09203.pdf) | SGQN | NeurIPS22 | propose that a good visual policy should be able to identify which pixels are important for its decision; preserve this identification of important sources of information across images |
 | Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
 | Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training  || ICLR23 Spotlight ||
 | Latent Variable Representation for Reinforcement Learning  || ICLR23 ||
