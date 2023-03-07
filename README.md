@@ -562,7 +562,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Mask-based Latent Reconstruction for Reinforcement Learning](https://arxiv.org/pdf/2201.12096.pdf) | MLR | NeurIPS22 | propose an effective self-supervised method to predict complete state representations in the latent space from the observations with spatially and temporally masked pixels |
 | [Look where you look! Saliency-guided Q-networks for visual RL tasks](https://arxiv.org/pdf/2209.09203.pdf) | SGQN | NeurIPS22 | propose that a good visual policy should be able to identify which pixels are important for its decision; preserve this identification of important sources of information across images |
 | Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
-| Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training  || ICLR23 Spotlight ||
+| [Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training](https://arxiv.org/pdf/2210.00030.pdf) | VIP | ICLR23 Spotlight | cast representation learning from human videos as an offline goal-conditioned reinforcement learning problem; derive a self-supervised dual goal-conditioned value-function objective that does not depend on actions, enabling pre-training on unlabeled human videos |
 | Latent Variable Representation for Reinforcement Learning  || ICLR23 ||
 | Spectral Decomposition Representation for Reinforcement Learning || ICLR23 ||
 | Behavior Prior Representation learning for Offline Reinforcement Learning || ICLR23 ||
