@@ -190,8 +190,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement Learning || ICLR23 Spotlight ||
 | Efficient Deep Reinforcement Learning Requires Regulating Statistical Overfitting  || ICLR23 ||
 | Replay Memory as An Empirical MDP: Combining Conservative Estimation with Experience Replay || ICLR23 ||
-| Greedy Actor-Critic: A New Conditional Cross-Entropy Method for Policy Improvement  || ICLR23 ||
-| Reward Design with Language Models || ICLR23 ||
+| [Greedy Actor-Critic: A New Conditional Cross-Entropy Method for Policy Improvement](https://arxiv.org/pdf/1810.09103.pdf) | CCEM, GreedyAC | ICLR23 | propose to iteratively take the top percentile of actions, ranked according to the learned action-values; leverage theory for CEM to validate that CCEM concentrates on maximally valued actions across states over time |
+| [Reward Design with Language Models](https://openreview.net/pdf?id=10uNUgI5Kl) | ---- | ICLR23 | explore how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function, where the user provides a textual prompt containing a few examples (few-shot) or a description (zero-shot) of the desired behavior |
 | Solving Continuous Control via Q-learning || ICLR23 ||
 | Wasserstein Auto-encoded MDPs: Formal Verification of Efficiently Distilled RL Policies with Many-sided Guarantees || ICLR23 ||
 | Quality-Similar Diversity via Population Based Reinforcement Learning  || ICLR23 ||
