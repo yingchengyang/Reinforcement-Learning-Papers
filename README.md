@@ -286,6 +286,7 @@ latent-space model, and the representations produced by the encoder using the sa
 | Dynamic Update-to-Data Ratio: Minimizing World Model Overfitting || ICLR23 ||
 | [Evaluating Long-Term Memory in 3D Mazes](https://arxiv.org/pdf/2210.13383.pdf) | Memory Maze | ICLR23 | introduce the Memory Maze, a 3D domain of randomized mazes specifically designed for evaluating long-term memory in agents, including an online reinforcement learning benchmark, a diverse offline dataset, and an offline probing evaluation; \[[github](https://github.com/jurgisp/memory-maze)\] |
 | [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 | propose DreamerV3 to handle a wide range of domains, including continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales|
+| [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
 
 
 
@@ -463,7 +464,9 @@ latent-space model, and the representations produced by the encoder using the sa
 | Distributionally Robust Q-Learning || ICML22 ||
 | Robust Meta-learning with Sampling Noise and Label Noise via Eigen-Reptile || ICML22 ||
 | DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck || ICML22 ||
+| [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/pdf/2106.15860.pdf) | ---- | SCIS 2023 | summarize current optimization-based adversarial attacks in RL; propose a two-stage methods: train a deceptive policy and mislead the victim to imitate the deceptive policy |
 | On the Robustness of Safe Reinforcement Learning under Observational Perturbations  || ICLR23 ||
+| [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://arxiv.org/pdf/2206.05751.pdf) | Reward UAP, Trajectory UAP | PRL 2023 | extend universal adversarial perturbations into sequential decision and propose Reward UAP as well as Trajectory UAP via utilizing the dynamic; experiment in Embodied Vision Navigation tasks |
 
 <a id='Genaralization-in-RL'></a>
 ## Genaralisation in RL
@@ -503,7 +506,8 @@ latent-space model, and the representations produced by the encoder using the sa
 | [The Role of Pretrained Representations for the OOD Generalization of RL Agents](https://arxiv.org/pdf/2107.05686.pdf) | ---- | ICLR22 | train 240 representations and 11,520 downstream policies and systematically investigate their performance under a diverse range of distribution shifts; find that a specific representation metric that measures the generalization of a simple downstream proxy task reliably predicts the generalization of downstream RL agents under the broad spectrum of OOD settings considered here |
 | [Generalisation in Lifelong Reinforcement Learning through Logical Composition](https://openreview.net/pdf?id=ZOcX-eybqoL) | ---- | ICLR22 | e leverage logical composition in reinforcement learning to create a framework that enables an agent to autonomously determine whether a new task can be immediately solved using its existing abilities, or whether a task-specific skill should be learned |
 | [Local Feature Swapping for Generalization in Reinforcement Learning](https://arxiv.org/pdf/2204.06355.pdf) | CLOP | ICLR22 | introduce a new regularization technique consisting of channel-consistent local permutations of the feature maps |
-| [A Generalist Agent](https://arxiv.org/pdf/2205.06175.pdf) | Gato | arxiv22 | [slide](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20220607.pdf) |
+| [A Generalist Agent](https://arxiv.org/pdf/2205.06175.pdf) | Gato | arxiv2205 | [slide](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20220607.pdf) |
+| [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk](https://arxiv.org/pdf/2206.04436.pdf) | CPPO | IJCAI22 | find the connection between modifying observations and dynamics, which are structurally different |
 | [Learning Dynamics and Generalization in Reinforcement Learning](https://arxiv.org/pdf/2206.02126.pdf) | ---- | ICML22 | show theoretically that temporal difference learning encourages agents to fit non-smooth components of the value function early in training, and at the same time induces the second-order effect of discouraging generalization |
 | [Improving Policy Optimization with Generalist-Specialist Learning](https://arxiv.org/pdf/2206.12984.pdf) | GSL | ICML22 | hope to utilize experiences from the specialists to aid the policy optimization of the generalist; propose the phenomenon “catastrophic ignorance” in multi-task learning |
 | [DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck](https://arxiv.org/pdf/2102.13268.pdf) | DRIBO | ICML22 | learn robust representations that encode only task-relevant information from observations based on the unsupervised multi-view setting; introduce a novel contrastive version of the Multi-View Information Bottleneck (MIB) objective for temporal data |
@@ -519,6 +523,7 @@ latent-space model, and the representations produced by the encoder using the sa
 | Investigating Multi-task Pretraining and Generalization in Reinforcement Learning || ICLR23 ||
 | When Data Geometry Meets Deep Function: Generalizing Offline Reinforcement Learning  || ICLR23 ||
 | Priors, Hierarchy, and Information Asymmetry for Skill Transfer in Reinforcement Learning || ICLR23 ||
+| [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
 
 
 
