@@ -199,7 +199,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Compositional Law Parsing with Latent Random Functions || ICLR23 ||
 | Policy Expansion for Bridging Offline-to-Online Reinforcement Learning  || ICLR23 ||
 | [Improving Deep Policy Gradients with Value Function Search](https://arxiv.org/pdf/2302.10145.pdf) | VFS | ICLR23 | focus on improving value approximation and analyzing the effects on Deep PG primitives such as value prediction, variance reduction, and correlation of gradient estimates with the true gradient; show that value functions with better predictions improve Deep PG primitives, leading to better sample efficiency and policies with higher returns |
-| Memory Gym: Partially Observable Challenges to Memory-Based Agents || ICLR23 ||
+| [Memory Gym: Partially Observable Challenges to Memory-Based Agents](https://openreview.net/pdf?id=jHc8dCx6DDr) | Memory Gym | ICLR23 | a benchmark for challenging Deep Reinforcement Learning agents to memorize events across long sequences, be robust to noise, and generalize; consists of the partially observable 2D and discrete control environments Mortar Mayhem, Mystery Path, and Searing Spotlights; [\[code\]](https://github.com/MarcoMeter/drl-memory-gym/) |
 | Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality || ICLR23 ||
 | SpeedyZero: Mastering Atari with Limited Data and Time  || ICLR23 ||
 | Hybrid RL: Using both offline and online data can make RL efficient  || ICLR23 ||
