@@ -31,7 +31,6 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 * [RL with Transformer](#Sequence-Generation)
 * [Representation RL](#Representation-RL)
 * [Lifelong RL](#Lifelong-RL)
-* [Multi-Task RL](#Multitask-RL)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
 
 <a id='Model-Free-Online'></a>
@@ -536,6 +535,7 @@ latent-space model, and the representations produced by the encoder using the sa
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/pdf/2106.02039.pdf) | TT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (s_0^0, ..., s_0^N, a_0^0, ..., a_0^M, r_0, ...); use beam search to inference; evaluate on imitation learning, goal-conditioned RL and Offline RL | 
 | Online Decision Transformer |  | ICML22 oral |  |
 | Prompting Decision Transformer for Few-shot Policy Generalization || ICML22 ||
+| Multi-Game Decision Transformers ||||
 | Dichotomy of Control: Separating What You Can Control from What You Cannot  || ICLR23 oral ||
 | Decision Transformer under Random Frame Dropping || ICLR23 ||
 | Hyper-Decision Transformer for Efficient Online Policy Adaptation  || ICLR23 ||
@@ -583,14 +583,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | ----  | ----   | ----       |   ----  |
 | Revisiting Curiosity for Exploration in Procedurally Generated Environments  || ICLR23 ||
 
-
-
-<a id='Multitask-RL'></a>
-## Multi-Task RL
-
-|  Title | Method | Conference | Description |
-| ----  | ----   | ----       |   ----  |
-| [Gradient Surgery for Multi-Task Learning](https://arxiv.org/pdf/2001.06782.pdf) || NeurIPS20 ||
 
 
 <a id='Tutorial-and-Lesson'></a>
