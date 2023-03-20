@@ -518,8 +518,8 @@ latent-space model, and the representations produced by the encoder using the sa
 | [Human-Timescale Adaptation in an Open-Ended Task Space](https://arxiv.org/pdf/2301.07608.pdf) ||||
 | [In-context Reinforcement Learning with Algorithm Distillation](https://arxiv.org/pdf/2210.14215.pdf) | AD | ICLR23 oral | propose Algorithm Distillation for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model |
 | Can Agents Run Relay Race with Strangers? Generalization of RL to Out-of-Distribution Trajectories || ICLR23 ||
-| Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs](https://openreview.net/pdf?id=sSt9fROSZRO) || ICLR23 | show that, given a fixed amount of pretraining data, agents trained with more variations are able to generalize better; find that increasing the capacity of the value and policy network is critical to achieve good performance |
-| [Investigating Multi-task Pretraining and Generalization in Reinforcement Learning || ICLR23 ||
+| [Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs](https://openreview.net/pdf?id=sSt9fROSZRO) || ICLR23 | show that, given a fixed amount of pretraining data, agents trained with more variations are able to generalize better; find that increasing the capacity of the value and policy network is critical to achieve good performance |
+| Investigating Multi-task Pretraining and Generalization in Reinforcement Learning || ICLR23 ||
 | When Data Geometry Meets Deep Function: Generalizing Offline Reinforcement Learning  || ICLR23 ||
 | Priors, Hierarchy, and Information Asymmetry for Skill Transfer in Reinforcement Learning || ICLR23 ||
 | [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
