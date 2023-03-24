@@ -531,11 +531,12 @@ latent-space model, and the representations produced by the encoder using the sa
 
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
+| [Stabilizing transformers for reinforcement learning](https://arxiv.org/pdf/1910.06764.pdf) | GTrXL | ICML20 | stabilizing training with a reordering of the layer normalization coupled with the addition of a new gating mechanism to key points in the submodules of the transformer |
 | [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf) | DT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (return-to-go, state, action, return-to-go, ...); there is not explicit optimization process; evaluate on Offline RL |
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://arxiv.org/pdf/2106.02039.pdf) | TT | NeurIPS21 | regard RL as a sequence generation task and use transformer to generate (s_0^0, ..., s_0^N, a_0^0, ..., a_0^M, r_0, ...); use beam search to inference; evaluate on imitation learning, goal-conditioned RL and Offline RL | 
 | Online Decision Transformer |  | ICML22 oral |  |
 | Prompting Decision Transformer for Few-shot Policy Generalization || ICML22 ||
-| Multi-Game Decision Transformers ||||
+| [Multi-Game Decision Transformers](https://arxiv.org/pdf/2205.15241.pdf) || NeurIPS22 ||
 | Dichotomy of Control: Separating What You Can Control from What You Cannot  || ICLR23 oral ||
 | Decision Transformer under Random Frame Dropping || ICLR23 ||
 | Hyper-Decision Transformer for Efficient Online Policy Adaptation  || ICLR23 ||
