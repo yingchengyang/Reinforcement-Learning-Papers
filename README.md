@@ -538,6 +538,7 @@ latent-space model, and the representations produced by the encoder using the sa
 | Online Decision Transformer |  | ICML22 oral |  |
 | Prompting Decision Transformer for Few-shot Policy Generalization || ICML22 ||
 | [Multi-Game Decision Transformers](https://arxiv.org/pdf/2205.15241.pdf) | ---- | NeurIPS22 | show that a single transformer-based model trained purely offline can play a suite of up to 46 Atari games simultaneously at close-to-human performance |
+| Bootstrapped Transformer for Offline Reinforcement Learning || NeurIPS22 ||
 | Dichotomy of Control: Separating What You Can Control from What You Cannot  || ICLR23 oral ||
 | Decision Transformer under Random Frame Dropping || ICLR23 ||
 | Hyper-Decision Transformer for Efficient Online Policy Adaptation  || ICLR23 ||
