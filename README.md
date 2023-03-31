@@ -183,7 +183,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Bayesian Risk Markov Decision Processes](https://arxiv.org/pdf/2106.02558.pdf) || NeurIPS22 ||
 | [Explainable Reinforcement Learning via Model Transforms](https://arxiv.org/pdf/2209.12006.pdf) || NeurIPS22 ||
 | PDSketch: Integrated Planning Domain Programming and Learning || NeurIPS22 ||
-| Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier  || ICLR23 oral ||
+| [Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier](https://openreview.net/pdf?id=OpC-9aBBVJe) | SR-SAC, SR-SPR | ICLR23 oral | show that fully or partially resetting the parameters of deep reinforcement learning agents causes better replay ratio scaling capabilities to emerge |
 | Guarded Policy Optimization with Imperfect Online Demonstrations || ICLR23 Spotlight ||
 | Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes || ICLR23 Spotlight ||
 | Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement Learning || ICLR23 Spotlight ||
@@ -258,7 +258,7 @@ latent-space model, and the representations produced by the encoder using the sa
 
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
-| [World Models](https://arxiv.org/pdf/1803.10122.pdf), \[[NeurIPS version](https://proceedings.neurips.cc/paper/2018/file/2de5d16682c3c35007e4e92982f1a2ba-Paper.pdf)\] | World Models | NeurIPS18 | use an unsupervised manner to learn a compressed spatial and temporal representation of the environment and use the world model to train a very compact and simple policy for solving the required task |
+| [World Models](https://arxiv.org/pdf/1803.10122.pdf), [\[NeurIPS version\]](https://proceedings.neurips.cc/paper/2018/file/2de5d16682c3c35007e4e92982f1a2ba-Paper.pdf) | World Models | NeurIPS18 | use an unsupervised manner to learn a compressed spatial and temporal representation of the environment and use the world model to train a very compact and simple policy for solving the required task |
 | [Learning latent dynamics for planning from pixels](https://arxiv.org/pdf/1811.04551.pdf) | PlaNet | ICML19 | propose PlaNet to learn the environment dynamics from images; the dynamic model consists transition model, observation model, reward model and encoder; use the cross entropy method for selecting actions for planning |
 | [Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/pdf/1912.01603.pdf) | Dreamer | ICLR20 | solve long-horizon tasks from images purely by latent imagination; test in image-based MuJoCo; propose to use an agent to replace the control algorithm in the PlaNet |
 | [Bridging Imagination and Reality for Model-Based Deep Reinforcement Learning](https://arxiv.org/pdf/2010.12142.pdf) | BIRD | NeurIPS20 | propose to maximize the mutual information between imaginary and real trajectories so that the policy improvement learned from imaginary trajectories can be easily generalized to real trajectories |
