@@ -184,7 +184,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Explainable Reinforcement Learning via Model Transforms](https://arxiv.org/pdf/2209.12006.pdf) || NeurIPS22 ||
 | PDSketch: Integrated Planning Domain Programming and Learning || NeurIPS22 ||
 | [Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier](https://openreview.net/pdf?id=OpC-9aBBVJe) | SR-SAC, SR-SPR | ICLR23 oral | show that fully or partially resetting the parameters of deep reinforcement learning agents causes better replay ratio scaling capabilities to emerge |
-| Guarded Policy Optimization with Imperfect Online Demonstrations || ICLR23 Spotlight ||
+| [Guarded Policy Optimization with Imperfect Online Demonstrations](https://arxiv.org/pdf/2303.01728.pdf) | TS2C | ICLR23 Spotlight | h incorporate teacher intervention based on trajectory-based value estimation |
 | Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes || ICLR23 Spotlight ||
 | Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement Learning || ICLR23 Spotlight ||
 | Efficient Deep Reinforcement Learning Requires Regulating Statistical Overfitting  || ICLR23 ||
