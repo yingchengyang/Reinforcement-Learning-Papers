@@ -191,7 +191,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Replay Memory as An Empirical MDP: Combining Conservative Estimation with Experience Replay || ICLR23 ||
 | [Greedy Actor-Critic: A New Conditional Cross-Entropy Method for Policy Improvement](https://arxiv.org/pdf/1810.09103.pdf) | CCEM, GreedyAC | ICLR23 | propose to iteratively take the top percentile of actions, ranked according to the learned action-values; leverage theory for CEM to validate that CCEM concentrates on maximally valued actions across states over time |
 | [Reward Design with Language Models](https://openreview.net/pdf?id=10uNUgI5Kl) | ---- | ICLR23 | explore how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function, where the user provides a textual prompt containing a few examples (few-shot) or a description (zero-shot) of the desired behavior |
-| [Solving Continuous Control via Q-learning](https://arxiv.org/pdf/2210.12566.pdf) | DecQN | ICLR23 | combine value decomposition with bang-bang action space discretization to DQN to handle continuous control tasks |
+| [Solving Continuous Control via Q-learning](https://arxiv.org/pdf/2210.12566.pdf) | DecQN | ICLR23 | combine value decomposition with bang-bang action space discretization to DQN to handle continuous control tasks; evaluate on DMControl, Meta WOrld, and Isaac Gym |
 | Wasserstein Auto-encoded MDPs: Formal Verification of Efficiently Distilled RL Policies with Many-sided Guarantees || ICLR23 ||
 | Quality-Similar Diversity via Population Based Reinforcement Learning  || ICLR23 ||
 | Human-level Atari 200x faster || ICLR23 ||
