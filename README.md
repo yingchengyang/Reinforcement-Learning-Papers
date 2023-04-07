@@ -187,6 +187,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Guarded Policy Optimization with Imperfect Online Demonstrations](https://arxiv.org/pdf/2303.01728.pdf) | TS2C | ICLR23 Spotlight | h incorporate teacher intervention based on trajectory-based value estimation |
 | Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes || ICLR23 Spotlight ||
 | Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement Learning || ICLR23 Spotlight ||
+| [DEP-RL: Embodied Exploration for Reinforcement Learning in Overactuated and Musculoskeletal Systems](https://arxiv.org/pdf/2206.00484.pdf) || ICLR23 Spotlight ||
 | Efficient Deep Reinforcement Learning Requires Regulating Statistical Overfitting  || ICLR23 ||
 | Replay Memory as An Empirical MDP: Combining Conservative Estimation with Experience Replay || ICLR23 ||
 | [Greedy Actor-Critic: A New Conditional Cross-Entropy Method for Policy Improvement](https://arxiv.org/pdf/1810.09103.pdf) | CCEM, GreedyAC | ICLR23 | propose to iteratively take the top percentile of actions, ranked according to the learned action-values; leverage theory for CEM to validate that CCEM concentrates on maximally valued actions across states over time |
