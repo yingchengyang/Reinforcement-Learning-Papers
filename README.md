@@ -193,15 +193,13 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Greedy Actor-Critic: A New Conditional Cross-Entropy Method for Policy Improvement](https://arxiv.org/pdf/1810.09103.pdf) | CCEM, GreedyAC | ICLR23 | propose to iteratively take the top percentile of actions, ranked according to the learned action-values; leverage theory for CEM to validate that CCEM concentrates on maximally valued actions across states over time |
 | [Reward Design with Language Models](https://openreview.net/pdf?id=10uNUgI5Kl) | ---- | ICLR23 | explore how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function, where the user provides a textual prompt containing a few examples (few-shot) or a description (zero-shot) of the desired behavior |
 | [Solving Continuous Control via Q-learning](https://arxiv.org/pdf/2210.12566.pdf) | DecQN | ICLR23 | combine value decomposition with bang-bang action space discretization to DQN to handle continuous control tasks; evaluate on DMControl, Meta WOrld, and Isaac Gym |
-| Wasserstein Auto-encoded MDPs: Formal Verification of Efficiently Distilled RL Policies with Many-sided Guarantees || ICLR23 ||
+| [Wasserstein Auto-encoded MDPs: Formal Verification of Efficiently Distilled RL Policies with Many-sided Guarantees](https://arxiv.org/pdf/2303.12558.pdf) | WAE-MDP | ICLR23 | minimize a penalized form of the optimal transport between the behaviors of the agent executing the original policy and the distilled policy |
 | Quality-Similar Diversity via Population Based Reinforcement Learning  || ICLR23 ||
-| Human-level Atari 200x faster || ICLR23 ||
-| Compositional Law Parsing with Latent Random Functions || ICLR23 ||
+| [Human-level Atari 200x faster](https://arxiv.org/pdf/2209.07550.pdf) | MEME | ICLR23 | outperform the human baseline across all 57 Atari games in 390M frames; four key components: (1) an approximate trust region method which enables stable bootstrapping from the online network, (2) a normalisation scheme for the loss and priorities which improves robustness when learning a set of value functions with a wide range of scales, (3) an improved architecture employing techniques from NFNets in order to leverage deeper networks without the need for normalization layers, and (4) a policy distillation method which serves to smooth out the instantaneous greedy policy over time. |
 | Policy Expansion for Bridging Offline-to-Online Reinforcement Learning  || ICLR23 ||
 | [Improving Deep Policy Gradients with Value Function Search](https://arxiv.org/pdf/2302.10145.pdf) | VFS | ICLR23 | focus on improving value approximation and analyzing the effects on Deep PG primitives such as value prediction, variance reduction, and correlation of gradient estimates with the true gradient; show that value functions with better predictions improve Deep PG primitives, leading to better sample efficiency and policies with higher returns |
 | [Memory Gym: Partially Observable Challenges to Memory-Based Agents](https://openreview.net/pdf?id=jHc8dCx6DDr) | Memory Gym | ICLR23 | a benchmark for challenging Deep Reinforcement Learning agents to memorize events across long sequences, be robust to noise, and generalize; consists of the partially observable 2D and discrete control environments Mortar Mayhem, Mystery Path, and Searing Spotlights; [\[code\]](https://github.com/MarcoMeter/drl-memory-gym/) |
 | Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality || ICLR23 ||
-| SpeedyZero: Mastering Atari with Limited Data and Time  || ICLR23 ||
 | Hybrid RL: Using both offline and online data can make RL efficient  || ICLR23 ||
 | POPGym: Benchmarking Partially Observable Reinforcement Learning || ICLR23 ||
 | [Critic Sequential Monte Carlo](https://arxiv.org/pdf/2205.15460.pdf) | CriticSMC | ICLR23 | combine sequential Monte Carlo with learned Soft-Q function heuristic factors |
@@ -252,6 +250,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Diminishing Return of Value Expansion Methods in Model-Based Reinforcement Learning || ICLR23 ||
 | [Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective](https://arxiv.org/pdf/2209.08466.pdf) | ALM | ICLR23 | propose a single objective which jointly optimizes the policy, the
 latent-space model, and the representations produced by the encoder using the same objective: maximize predicted rewards while minimizing the errors in the predicted representations |
+| [SpeedyZero: Mastering Atari with Limited Data and Time](https://openreview.net/pdf?id=Mg5CLXZgvLJ) | SpeedyZero | ICLR23 | a distributed RL system built upon EfficientZero with Priority Refresh and Clipped LARS; lead to human-level performances on the Atari benchmark within 35 minutes using only 300k samples |
 
 
 <a id='dreamer'></a>
