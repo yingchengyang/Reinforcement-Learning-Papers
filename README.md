@@ -523,6 +523,7 @@ latent-space model, and the representations produced by the encoder using the sa
 | Investigating Multi-task Pretraining and Generalization in Reinforcement Learning || ICLR23 ||
 | When Data Geometry Meets Deep Function: Generalizing Offline Reinforcement Learning  || ICLR23 ||
 | Priors, Hierarchy, and Information Asymmetry for Skill Transfer in Reinforcement Learning || ICLR23 ||
+| [Cross-domain Random Pre-training with Prototypes for Reinforcement Learning](https://arxiv.org/pdf/2302.05614.pdf) | CRPTpro | arXiv2302 | use prototypical representation learning with a novel intrinsic loss to pre-train an effective and generic encoder across different domains |
 | [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
 
 
