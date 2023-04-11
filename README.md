@@ -11,6 +11,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 ## Contents 
 * [Model Free (Online) RL](#Model-Free-Online)
     - [Classic Methods](#model-free-classic)
+    - [Exploration](#exploration)
     - [Off-Policy Evaluation](#off-policy-evaluation)
     - [Soft RL](#soft-rl)
     - [Bisimulation](#Bisimulation)
@@ -58,6 +59,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/pdf/1802.09477.pdf) | TD3 | ICML18 | off | Continuous | parameterized neural network | adapt the ideas of Double DQN to DDPG: taking the minimum value between a pair of critics to limit overestimation |
 | [Reinforcement Learning with Deep Energy-Based Policies](https://arxiv.org/pdf/1702.08165.pdf) | SQL | ICML17 | off | main for Continuous | parameterized neural network | consider max-entropy rl and propose soft q iteration as well as soft q learning |
 | [Soft Actor-Critic Algorithms and Applications](https://arxiv.org/pdf/1812.05905.pdf), [Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b.pdf), [\[appendix\]](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b-supp.pdf) | SAC | ICML18 | off | main for Continuous | parameterized neural network | base the theoretical analysis of SQL and extend soft q iteration (soft q evaluation + soft q improvement); reparameterize the policy and use two parameterized value functions; propose SAC |
+
+<a id='exploration'></a>
+### Exploration
+|  Title | Method | Conference |  Description |
+| ----  | ----   | ----       |   ----  |
+| [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/pdf/1705.05363.pdf) | ICM | ICML17 | propose that curiosity can serve as an intrinsic reward signal to enable the agent to explore its environment and learn skills when rewards are sparse; formulate curiosity as the error in an agent’s ability to predict the consequence of its own actions in a visual feature space learned by a self-supervised inverse dynamics model |
 
 <a id='off-policy-evaluation'></a>
 ### Off-Policy Evaluation
