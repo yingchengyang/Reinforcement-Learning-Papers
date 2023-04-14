@@ -208,7 +208,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Memory Gym: Partially Observable Challenges to Memory-Based Agents](https://openreview.net/pdf?id=jHc8dCx6DDr) | Memory Gym | ICLR23 | a benchmark for challenging Deep Reinforcement Learning agents to memorize events across long sequences, be robust to noise, and generalize; consists of the partially observable 2D and discrete control environments Mortar Mayhem, Mystery Path, and Searing Spotlights; [\[code\]](https://github.com/MarcoMeter/drl-memory-gym/) |
 | Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality || ICLR23 ||
 | Hybrid RL: Using both offline and online data can make RL efficient  || ICLR23 ||
-| POPGym: Benchmarking Partially Observable Reinforcement Learning || ICLR23 ||
+| [POPGym: Benchmarking Partially Observable Reinforcement Learning](https://arxiv.org/pdf/2303.01859.pdf) | POPGym | ICLR23 | a two-part library containing (1) a diverse collection of 15 partially observable environments, each with multiple difficulties and (2) implementations of 13 memory model baselines; [\[code\]](https://github.com/proroklab/popgym) |
 | [Critic Sequential Monte Carlo](https://arxiv.org/pdf/2205.15460.pdf) | CriticSMC | ICLR23 | combine sequential Monte Carlo with learned Soft-Q function heuristic factors |
 | Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching || ICLR23 ||
 
