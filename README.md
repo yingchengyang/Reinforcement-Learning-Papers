@@ -192,7 +192,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | PDSketch: Integrated Planning Domain Programming and Learning || NeurIPS22 ||
 | [Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier](https://openreview.net/pdf?id=OpC-9aBBVJe) | SR-SAC, SR-SPR | ICLR23 oral | show that fully or partially resetting the parameters of deep reinforcement learning agents causes better replay ratio scaling capabilities to emerge |
 | [Guarded Policy Optimization with Imperfect Online Demonstrations](https://arxiv.org/pdf/2303.01728.pdf) | TS2C | ICLR23 Spotlight | h incorporate teacher intervention based on trajectory-based value estimation |
-| Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes || ICLR23 Spotlight ||
+| [Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes](https://openreview.net/pdf?id=hWwY_Jq0xsN) | PW-Net | ICLR23 Spotlight | focus on making an “interpretable-by-design” deep reinforcement learning agent which is forced to use human-friendly prototypes in its decisions for making its reasoning process clear; train a “wrapper” model called PW-Net that can be added to any pre-trained agent, which allows them to be interpretableby-design |
 | Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement Learning || ICLR23 Spotlight ||
 | [DEP-RL: Embodied Exploration for Reinforcement Learning in Overactuated and Musculoskeletal Systems](https://arxiv.org/pdf/2206.00484.pdf) || ICLR23 Spotlight ||
 | Efficient Deep Reinforcement Learning Requires Regulating Statistical Overfitting  || ICLR23 ||
