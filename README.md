@@ -81,6 +81,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Local Metric Learning for Off-Policy Evaluation in Contextual Bandits with Continuous Actions](https://arxiv.org/pdf/2210.13373.pdf) || NeurIPS22 ||
 | [Off-Policy Evaluation with Policy-Dependent Optimization Response](https://arxiv.org/pdf/2202.12958.pdf) || NeurIPS22 ||
 | Variational Latent Branching Model for Off-Policy Evaluation || ICLR23 ||
+| [On the Reuse Bias in Off-Policy Reinforcement Learning](https://arxiv.org/pdf/2209.07074.pdf) | BIRIS | IJCAI23 | discuss the bias of off-policy evaluation due to reusing the replay buffer; derive a high-probability bound of the Reuse Bias; introduce the concept of stability for off-policy algorithms and provide an upper bound for stable off-policy algorithms |
 
 
 <a id='soft-rl'></a>
@@ -585,7 +586,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Spectral Decomposition Representation for Reinforcement Learning || ICLR23 ||
 | Behavior Prior Representation learning for Offline Reinforcement Learning || ICLR23 ||
 | Provable Unsupervised Data Sharing for Offline Reinforcement Learning || ICLR23 ||
-| Become a Proficient Player with Limited Data through Watching Pure Videos || ICLR23 ||
+| [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/pdf?id=Sy-o2N0hF4f) | FICC | ICLR23 | consider the setting where the pre-training data are action-free videos; introduce a two-phase training pipeline; pre-training phase: implicitly extract the hidden action embedding from videos and pre-train the visual representation and the environment dynamics network based on vector quantization; down-stream tasks: finetune with small amount of task data based on the learned models |
 
 
 
