@@ -5,7 +5,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
 Since there are tens of thousands of new papers on reinforcement learning in each conference every year, we are only able to list those we read and consider as insightful.
 
-**We have added some ICLR23 papers on RL**
+**We have added some ICLR23, ICML23 papers on RL**
 
 
 ## Contents 
@@ -378,6 +378,7 @@ latent-space model, and the representations produced by the encoder using the sa
 | Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning  || ICLR23 ||
 | Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling  || ICLR23 ||
 | [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/pdf/2302.01877.pdf) || ICML23 oral ||
+| Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning || ICML23 ||
 
 
 <a id='Model-Based-Offline'></a>
