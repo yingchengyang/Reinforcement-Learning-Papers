@@ -375,8 +375,8 @@ latent-space model, and the representations produced by the encoder using the sa
 | ----  | ----   | ----       |   ----  |
 | [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) | Diffuser | ICML22 oral | first propose a denoising diffusion model designed for trajectory data and an associated probabilistic framework for behavior synthesis; demonstrate that Diffuser has a number of useful properties and is particularly effective in offline control settings that require long-horizon reasoning and test-time flexibility |
 | Is Conditional Generative Modeling all you need for Decision Making? || ICLR23 oral ||
-| Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning  || ICLR23 ||
-| Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling  || ICLR23 ||
+| [Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning](https://arxiv.org/pdf/2208.06193.pdf) | Diffusion-QL | ICLR23 | perform policy regularization using diffusion (or scorebased) models; utilize a conditional diffusion model to represent the policy |
+| [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://arxiv.org/pdf/2209.14548.pdf) | SfBC | ICLR23 | decouple the learned policy into two parts: an expressive generative behavior model and an action evaluation model |
 | [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/pdf/2302.01877.pdf) || ICML23 oral ||
 | Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning || ICML23 ||
 
