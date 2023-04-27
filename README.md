@@ -377,7 +377,7 @@ latent-space model, and the representations produced by the encoder using the sa
 | Is Conditional Generative Modeling all you need for Decision Making? || ICLR23 oral ||
 | [Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning](https://arxiv.org/pdf/2208.06193.pdf) | Diffusion-QL | ICLR23 | perform policy regularization using diffusion (or scorebased) models; utilize a conditional diffusion model to represent the policy |
 | [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://arxiv.org/pdf/2209.14548.pdf) | SfBC | ICLR23 | decouple the learned policy into two parts: an expressive generative behavior model and an action evaluation model |
-| [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/pdf/2302.01877.pdf) || ICML23 oral ||
+| [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/pdf/2302.01877.pdf) | AdaptDiffuser | ICML23 oral | propose AdaptDiffuser, an evolutionary planning method with diffusion that can self-evolve to improve the diffusion model hence a better planner, which can also adapt to unseen tasks |
 | Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning || ICML23 ||
 
 
