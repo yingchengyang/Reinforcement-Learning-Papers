@@ -256,8 +256,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Making Better Decision by Directly Planning in Continuous Control || ICLR23 ||
 | HiT-MDP: Learning the SMDP option framework on MDPs with Hidden Temporal Embeddings || ICLR23 ||
 | Diminishing Return of Value Expansion Methods in Model-Based Reinforcement Learning || ICLR23 ||
-| [Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective](https://arxiv.org/pdf/2209.08466.pdf) | ALM | ICLR23 | propose a single objective which jointly optimizes the policy, the
-latent-space model, and the representations produced by the encoder using the same objective: maximize predicted rewards while minimizing the errors in the predicted representations |
+| [Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective](https://arxiv.org/pdf/2209.08466.pdf) | ALM | ICLR23 | propose a single objective which jointly optimizes the policy, the latent-space model, and the representations produced by the encoder using the same objective: maximize predicted rewards while minimizing the errors in the predicted representations |
 | [SpeedyZero: Mastering Atari with Limited Data and Time](https://openreview.net/pdf?id=Mg5CLXZgvLJ) | SpeedyZero | ICLR23 | a distributed RL system built upon EfficientZero with Priority Refresh and Clipped LARS; lead to human-level performances on the Atari benchmark within 35 minutes using only 300k samples |
 
 
