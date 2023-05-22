@@ -14,7 +14,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
     - [Exploration](#exploration)
     - [Off-Policy Evaluation](#off-policy-evaluation)
     - [Soft RL](#soft-rl)
-    - [Bisimulation](#Bisimulation)
+    - [Data Augmentation](#data-augmentation)
     - [Current methods](#current)
 * [Model Based (Online) RL](#Model-Based-Online)
     - [Classic Methods](#model-based-classic)
@@ -94,15 +94,18 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | The Importance of Non-Markovianity in Maximum State Entropy Exploration | | ICML22 oral |  |
 | Communicating via Maximum Entropy Reinforcement Learning || ICML22 ||
 
-<a id='soft-rl'></a>
-### Bisimulation
+<a id='data-augmentation'></a>
+### Data Augmentation
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
-| [Equivalence notions and model minimization in Markov decision processes](https://www.ics.uci.edu/~dechter/courses/ics-295/winter-2018/papers/givan-dean-greig.pdf) |  | Artificial Intelligence, 2003 |  |
+| [Reinforcement Learning with Augmented Data](https://arxiv.org/pdf/2004.14990.pdf) | RAD | NeurIPS20 | propose first extensive study of general data augmentations for RL on both pixel-based and state-based inputs |
+| [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf) | DrQ | ICLR21 Spotlight | propose to regularize the value function when applying data augmentation with model-free methods and reach state-of-the-art performance in image-pixels tasks |
+
+<!-- | [Equivalence notions and model minimization in Markov decision processes](https://www.ics.uci.edu/~dechter/courses/ics-295/winter-2018/papers/givan-dean-greig.pdf) |  | Artificial Intelligence, 2003 |  |
 | [Metrics for Finite Markov Decision Processes](https://arxiv.org/ftp/arxiv/papers/1207/1207.4114.pdf) || UAI04 ||
 | [Bisimulation metrics for continuous Markov decision processes](https://www.normferns.com/assets/documents/sicomp2011.pdf) || SIAM Journal on Computing, 2011 ||
 | [Scalable methods for computing state similarity in deterministic Markov Decision Processes](https://arxiv.org/pdf/1911.09291.pdf) || AAAI20 ||
-| [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 ||
+| [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 || -->
 
 
 <!-- ### <span id='current'>Current methods</span> -->
@@ -112,10 +115,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
 | [Provably efficient RL with Rich Observations via Latent State Decoding](https://arxiv.org/pdf/1901.09018.pdf) | Block MDP | ICML19 ||
-| [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf) | DrQ | ICLR20 | propsoe to apply data augmentation with model-free methods to reach state-of-the-art performance in image-pixels tasks |
 | [Implementation Matters in Deep Policy Gradients: A Case Study on PPO and TRPO](https://arxiv.org/pdf/2005.12729.pdf) | ---- | ICLR20 | show that the improvement of performance is related to code-level optimizations |
 | [What Matters In On-Policy Reinforcement Learning? A Large-Scale Empirical Study](https://arxiv.org/pdf/2006.05990.pdf) | ---- | ICLR21 | do a large scale empirical study to evaluate different tricks for on-policy algorithms on MuJoCo |
 | [Mirror Descent Policy Optimization](https://arxiv.org/pdf/2005.09814.pdf) | MDPO | ICLR21 |  |
+| [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 ||
 | [Randomized Ensemble Double Q-Learning: Learning Fast Without a Model](https://arxiv.org/pdf/2101.05982.pdf) | REDQ | ICLR21 | consider three ingredients: (i) update q functions many times at every epoch; (ii) use an ensemble of Q functions; (iii) use the minimization across a random subset of Q functions from the ensemble for avoiding the overestimation; propose REDQ and achieve similar performance with model-based methods |
 | [Generalizable Episodic Memory for Deep Reinforcement Learning](https://arxiv.org/pdf/2103.06469.pdf) | GEM | ICML21 | propose to integrate the generalization ability of neural networks and the fast retrieval manner of episodic memory |
 | [SO(2)-Equivariant Reinforcement Learning](https://arxiv.org/pdf/2203.04439.pdf) | Equi DQN, Equi SAC | ICLR22 Spotlight | consider to learn transformation-invariant policies and value functions; define and analyze group equivariant MDPs |
