@@ -216,6 +216,13 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Critic Sequential Monte Carlo](https://arxiv.org/pdf/2205.15460.pdf) | CriticSMC | ICLR23 | combine sequential Monte Carlo with learned Soft-Q function heuristic factors |
 | Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching || ICLR23 ||
 | [The Dormant Neuron Phenomenon in Deep Reinforcement Learning](https://arxiv.org/pdf/2302.12902.pdf) | ReDo | ICML23 oral | understand the underlying reasons behind the loss of expressivity during the training of RL agents; demonstrate the existence of the dormant neuron phenomenon in deep RL; propose Recycling Dormant neurons (ReDo) to reduce the number of dormant neurons and maintain network expressivity during training |
+| Efficient RL via Disentangled Environment and Agent Representations || ICML23 oral ||
+| On the Statistical Benefits of Temporal Difference Learning || ICML23 oral ||
+| Warm-Start Actor-Critic: From Approximation Error to Sub-optimality Gap || ICML23 oral ||
+| Reinforcement Learning from Passive Data via Latent Intentions || ICML23 oral ||
+| Subequivariant Graph Reinforcement Learning in 3D Environments || ICML23 oral ||
+| Representation Learning with Multi-Step Inverse Kinematics: An Efficient and Optimal Approach to Rich-Observation RL || ICML23 oral ||
+| Reparameterized Policy Learning for Multimodal Trajectory Optimization || ICML23 oral ||
 
 
 <a id='Model-Based-Online'></a>
@@ -539,6 +546,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Priors, Hierarchy, and Information Asymmetry for Skill Transfer in Reinforcement Learning || ICLR23 ||
 | [Cross-domain Random Pre-training with Prototypes for Reinforcement Learning](https://arxiv.org/pdf/2302.05614.pdf) | CRPTpro | arXiv2302 | use prototypical representation learning with a novel intrinsic loss to pre-train an effective and generic encoder across different domains |
 | [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
+| [On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness](https://arxiv.org/pdf/2210.10464.pdf) || ICML23 oral ||
 
 
 
@@ -593,6 +601,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Behavior Prior Representation learning for Offline Reinforcement Learning || ICLR23 ||
 | Provable Unsupervised Data Sharing for Offline Reinforcement Learning || ICLR23 ||
 | [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/pdf?id=Sy-o2N0hF4f) | FICC | ICLR23 | consider the setting where the pre-training data are action-free videos; introduce a two-phase training pipeline; pre-training phase: implicitly extract the hidden action embedding from videos and pre-train the visual representation and the environment dynamics network based on vector quantization; down-stream tasks: finetune with small amount of task data based on the learned models |
+| Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels || ICML23 oral ||
 
 
 
