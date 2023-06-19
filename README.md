@@ -547,6 +547,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Cross-domain Random Pre-training with Prototypes for Reinforcement Learning](https://arxiv.org/pdf/2302.05614.pdf) | CRPTpro | arXiv2302 | use prototypical representation learning with a novel intrinsic loss to pre-train an effective and generic encoder across different domains |
 | [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
 | [On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness](https://arxiv.org/pdf/2210.10464.pdf) || ICML23 oral ||
+| [On Pre-Training for Visuo-Motor Control: Revisiting a Learning-from-Scratch Baseline](https://arxiv.org/pdf/2212.05749.pdf) || ICML23 ||
 
 
 
