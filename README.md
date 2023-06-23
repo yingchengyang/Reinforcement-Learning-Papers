@@ -82,6 +82,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Off-Policy Evaluation with Policy-Dependent Optimization Response](https://arxiv.org/pdf/2202.12958.pdf) || NeurIPS22 ||
 | Variational Latent Branching Model for Off-Policy Evaluation || ICLR23 ||
 | [On the Reuse Bias in Off-Policy Reinforcement Learning](https://arxiv.org/pdf/2209.07074.pdf) | BIRIS | IJCAI23 | discuss the bias of off-policy evaluation due to reusing the replay buffer; derive a high-probability bound of the Reuse Bias; introduce the concept of stability for off-policy algorithms and provide an upper bound for stable off-policy algorithms |
+| Improved Policy Evaluation for Randomized Trials of Algorithmic Resource Allocation || ICML23 ||
 
 
 <a id='soft-rl'></a>
@@ -232,6 +233,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | When is Realizability Sufficient for Off-Policy Reinforcement Learning? || ICML23 ||
 | The Statistical Benefits of Quantile Temporal-Difference Learning for Value Estimation || ICML23 ||
 | Hyperparameters in Reinforcement Learning and How To Tune Them || ICML23 ||
+| Efficient Exploration via Epistemic-Risk-Seeking Policy Optimization || ICML23 ||
+| Simplified Temporal Consistency Reinforcement Learning || ICML23 ||
+| Langevin Thompson Sampling with Logarithmic Communication: Bandits and Reinforcement Learning || ICML23 ||
+| Posterior Sampling for Deep Reinforcement Learning || ICML23 ||
+| Correcting discount-factor mismatch in on-policy policy gradient methods || ICML23 ||
+| Masked Trajectory Models for Prediction, Representation, and Control || ICML23 ||
 
 
 
@@ -390,6 +397,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Mind the Gap: Offline Policy Optimizaiton for Imperfect Rewards || ICLR23 ||
 | [When Data Geometry Meets Deep Function: Generalizing Offline Reinforcement Learning](https://arxiv.org/pdf/2205.11027.pdf) | DOGE | ICLR23 | train a state-conditioned distance function that can be readily plugged into standard actor-critic methods as a policy constraint |
 | MAHALO: Unifying Offline Reinforcement Learning and Imitation Learning from Observations || ICLR23 ||
+| Actor-Critic Alignment for Offline-to-Online Reinforcement Learning || ICML23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -428,6 +436,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Conservative Bayesian Model-Based Value Expansion for Offline Policy Optimization || ICLR23 ||
 | Value Memory Graph: A Graph-Structured World Model for Offline Reinforcement Learning || ICLR23 ||
 | Efficient Offline Policy Optimization with a Learned Model  || ICLR23 ||
+| Model-based Offline Reinforcement Learning with Count-based Conservatism || ICML23 ||
 
 
 <a id='Meta-RL'></a>
@@ -583,6 +592,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Hyper-Decision Transformer for Efficient Online Policy Adaptation  || ICLR23 ||
 | Preference Transformer: Modeling Human Preferences using Transformers for RL || ICLR23 ||
 | On the Data-Efficiency with Contrastive Image Transformation in Reinforcement Learning  || ICLR23 ||
+| Future-conditioned Unsupervised Pretraining for Decision Transformer || ICML23 ||
 
 
 <a id='Representation-RL'></a>
