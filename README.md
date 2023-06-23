@@ -226,6 +226,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Flipping Coins to Estimate Pseudocounts for Exploration in Reinforcement Learning || ICML23 oral ||
 | Settling the Reward Hypothesis || ICML23 oral ||
 | Information-Theoretic State Space Model for Multi-View Reinforcement Learning || ICML23 oral ||
+| Learning Belief Representations for Partially Observable Deep RL || ICML23 ||
+| Internally Rewarded Reinforcement Learning || ICML23 ||
+| Active Policy Improvement from Multiple Black-box Oracles || ICML23 ||
+| When is Realizability Sufficient for Off-Policy Reinforcement Learning? || ICML23 ||
+| The Statistical Benefits of Quantile Temporal-Difference Learning for Value Estimation || ICML23 ||
+| Hyperparameters in Reinforcement Learning and How To Tune Them || ICML23 ||
 
 
 
@@ -308,6 +314,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Evaluating Long-Term Memory in 3D Mazes](https://arxiv.org/pdf/2210.13383.pdf) | Memory Maze | ICLR23 | introduce the Memory Maze, a 3D domain of randomized mazes specifically designed for evaluating long-term memory in agents, including an online reinforcement learning benchmark, a diverse offline dataset, and an offline probing evaluation; [\[code\]](https://github.com/jurgisp/memory-maze) |
 | [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 | propose DreamerV3 to handle a wide range of domains, including continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales|
 | [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
+| Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators || ICML23 ||
+| Learning Temporally Abstract World Models without Online Experimentation || ICML23 ||
 
 
 
@@ -381,6 +389,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Harnessing Mixed Offline Reinforcement Learning Datasets via Trajectory Weighting || ICLR23 ||
 | Mind the Gap: Offline Policy Optimizaiton for Imperfect Rewards || ICLR23 ||
 | [When Data Geometry Meets Deep Function: Generalizing Offline Reinforcement Learning](https://arxiv.org/pdf/2205.11027.pdf) | DOGE | ICLR23 | train a state-conditioned distance function that can be readily plugged into standard actor-critic methods as a policy constraint |
+| MAHALO: Unifying Offline Reinforcement Learning and Imitation Learning from Observations || ICLR23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -491,6 +500,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/pdf/2106.15860.pdf) | ---- | SCIS 2023 | summarize current optimization-based adversarial attacks in RL; propose a two-stage methods: train a deceptive policy and mislead the victim to imitate the deceptive policy |
 | On the Robustness of Safe Reinforcement Learning under Observational Perturbations  || ICLR23 ||
 | [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://arxiv.org/pdf/2206.05751.pdf) | Reward UAP, Trajectory UAP | PRL 2023 | extend universal adversarial perturbations into sequential decision and propose Reward UAP as well as Trajectory UAP via utilizing the dynamic; experiment in Embodied Vision Navigation tasks |
+| Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust Decisions || ICML23 ||
 
 <a id='Genaralization-in-RL'></a>
 ## Genaralisation in RL
@@ -607,7 +617,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Provable Unsupervised Data Sharing for Offline Reinforcement Learning || ICLR23 ||
 | [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/pdf?id=Sy-o2N0hF4f) | FICC | ICLR23 | consider the setting where the pre-training data are action-free videos; introduce a two-phase training pipeline; pre-training phase: implicitly extract the hidden action embedding from videos and pre-train the visual representation and the environment dynamics network based on vector quantization; down-stream tasks: finetune with small amount of task data based on the learned models |
 | Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels || ICML23 oral ||
-
+| On the Importance of Feature Decorrelation for Unsupervised Representation Learning in Reinforcement Learning || ICML23 ||
+| Bootstrapped Representations in Reinforcement Learning || ICML23 ||
 
 
 <a id='Lifelong-RL'></a>
