@@ -223,6 +223,10 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Subequivariant Graph Reinforcement Learning in 3D Environments || ICML23 oral ||
 | Representation Learning with Multi-Step Inverse Kinematics: An Efficient and Optimal Approach to Rich-Observation RL || ICML23 oral ||
 | Reparameterized Policy Learning for Multimodal Trajectory Optimization || ICML23 oral ||
+| Flipping Coins to Estimate Pseudocounts for Exploration in Reinforcement Learning || ICML23 oral ||
+| Settling the Reward Hypothesis || ICML23 oral ||
+| Information-Theoretic State Space Model for Multi-View Reinforcement Learning || ICML23 oral ||
+
 
 
 <a id='Model-Based-Online'></a>
