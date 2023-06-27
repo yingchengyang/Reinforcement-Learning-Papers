@@ -216,6 +216,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [POPGym: Benchmarking Partially Observable Reinforcement Learning](https://arxiv.org/pdf/2303.01859.pdf) | POPGym | ICLR23 | a two-part library containing (1) a diverse collection of 15 partially observable environments, each with multiple difficulties and (2) implementations of 13 memory model baselines; [\[code\]](https://github.com/proroklab/popgym) |
 | [Critic Sequential Monte Carlo](https://arxiv.org/pdf/2205.15460.pdf) | CriticSMC | ICLR23 | combine sequential Monte Carlo with learned Soft-Q function heuristic factors |
 | Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching || ICLR23 ||
+| [Planning-oriented Autonomous Driving](https://arxiv.org/pdf/2212.10156.pdf) || CVPR23 best paper ||
 | [The Dormant Neuron Phenomenon in Deep Reinforcement Learning](https://arxiv.org/pdf/2302.12902.pdf) | ReDo | ICML23 oral | understand the underlying reasons behind the loss of expressivity during the training of RL agents; demonstrate the existence of the dormant neuron phenomenon in deep RL; propose Recycling Dormant neurons (ReDo) to reduce the number of dormant neurons and maintain network expressivity during training |
 | Efficient RL via Disentangled Environment and Agent Representations || ICML23 oral ||
 | On the Statistical Benefits of Temporal Difference Learning || ICML23 oral ||
@@ -239,6 +240,17 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Posterior Sampling for Deep Reinforcement Learning || ICML23 ||
 | Correcting discount-factor mismatch in on-policy policy gradient methods || ICML23 ||
 | Masked Trajectory Models for Prediction, Representation, and Control || ICML23 ||
+| Off-Policy Average Reward Actor-Critic with Deterministic Policy Search || ICML23 ||
+| TGRL: An Algorithm for Teacher Guided Reinforcement Learning || ICML23 ||
+| Representation-Driven Reinforcement Learning || ICML23 ||
+| LIV: Language-Image Representations and Rewards for Robotic Control || ICML23 ||
+| Stein Variational Goal Generation for adaptive Exploration in Multi-Goal Reinforcement Learning || ICML23 ||
+| Emergence of Adaptive Circadian Rhythms in Deep Reinforcement Learning || ICML23 ||
+| Explaining Reinforcement Learning with Shapley Values || ICML23 ||
+| Reinforcement Learning Can Be More Efficient with Multiple Rewards || ICML23 ||
+| Jump-Start Reinforcement Learning || ICML23 ||
+| Multi-Task Off-Policy Learning from Bandit Feedback || ICML23 ||
+| Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning || ICML23 ||
 
 
 
@@ -286,6 +298,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Diminishing Return of Value Expansion Methods in Model-Based Reinforcement Learning || ICLR23 ||
 | [Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective](https://arxiv.org/pdf/2209.08466.pdf) | ALM | ICLR23 | propose a single objective which jointly optimizes the policy, the latent-space model, and the representations produced by the encoder using the same objective: maximize predicted rewards while minimizing the errors in the predicted representations |
 | [SpeedyZero: Mastering Atari with Limited Data and Time](https://openreview.net/pdf?id=Mg5CLXZgvLJ) | SpeedyZero | ICLR23 | a distributed RL system built upon EfficientZero with Priority Refresh and Clipped LARS; lead to human-level performances on the Atari benchmark within 35 minutes using only 300k samples |
+| Investigating the role of model-based learning in exploration and transfer || ICML23 ||
 
 
 <a id='dreamer'></a>
@@ -398,6 +411,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [When Data Geometry Meets Deep Function: Generalizing Offline Reinforcement Learning](https://arxiv.org/pdf/2205.11027.pdf) | DOGE | ICLR23 | train a state-conditioned distance function that can be readily plugged into standard actor-critic methods as a policy constraint |
 | MAHALO: Unifying Offline Reinforcement Learning and Imitation Learning from Observations || ICLR23 ||
 | Actor-Critic Alignment for Offline-to-Online Reinforcement Learning || ICML23 ||
+| Semi-Supervised Offline Reinforcement Learning with Action-Free Trajectories || ICML23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -510,6 +524,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | On the Robustness of Safe Reinforcement Learning under Observational Perturbations  || ICLR23 ||
 | [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://arxiv.org/pdf/2206.05751.pdf) | Reward UAP, Trajectory UAP | PRL 2023 | extend universal adversarial perturbations into sequential decision and propose Reward UAP as well as Trajectory UAP via utilizing the dynamic; experiment in Embodied Vision Navigation tasks |
 | Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust Decisions || ICML23 ||
+| Robust Situational Reinforcement Learning in Face of Context Disturbances || ICML23 ||
+| Adversarial Learning of Distributional Reinforcement Learning || ICML23 ||
 
 <a id='Genaralization-in-RL'></a>
 ## Genaralisation in RL
