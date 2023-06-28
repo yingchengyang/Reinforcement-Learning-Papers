@@ -83,6 +83,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Variational Latent Branching Model for Off-Policy Evaluation || ICLR23 ||
 | [On the Reuse Bias in Off-Policy Reinforcement Learning](https://arxiv.org/pdf/2209.07074.pdf) | BIRIS | IJCAI23 | discuss the bias of off-policy evaluation due to reusing the replay buffer; derive a high-probability bound of the Reuse Bias; introduce the concept of stability for off-policy algorithms and provide an upper bound for stable off-policy algorithms |
 | Improved Policy Evaluation for Randomized Trials of Algorithmic Resource Allocation || ICML23 ||
+| An Instrumental Variable Approach to Confounded Off-Policy Evaluation || ICML23 ||
 
 
 <a id='soft-rl'></a>
@@ -254,7 +255,12 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Performative Reinforcement Learning || ICML23 ||
 | Truncating Trajectories in Monte Carlo Reinforcement Learning || ICML23 ||
 | ReLOAD: Reinforcement Learning with Optimistic Ascent-Descent for Last-Iterate Convergence in Constrained MDPs || ICML23 ||
-
+| Curiosity in Hindsight: Intrinsic Exploration in Stochastic Environments || ICML23 ||
+| Low-Switching Policy Gradient with Exploration via Online Sensitivity Sampling || ICML23 ||
+| Hyperbolic Diffusion Embedding and Distance for Hierarchical Representation Learning || ICML23 ||
+| Non-stationary Reinforcement Learning under General Function Approximation || ICML23 ||
+| Revisiting Domain Randomization via Relaxed State-Adversarial Policy Optimization || ICML23 ||
+| Parallel $Q$-Learning: Scaling Off-policy Reinforcement Learning under Massively Parallel Simulation || ICML23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -339,6 +345,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
 | Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators || ICML23 ||
 | Learning Temporally Abstract World Models without Online Experimentation || ICML23 ||
+| Go Beyond Imagination: Maximizing Episodic Reachability with World Models || ICML23 ||
 
 
 
@@ -416,6 +423,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Actor-Critic Alignment for Offline-to-Online Reinforcement Learning || ICML23 ||
 | Semi-Supervised Offline Reinforcement Learning with Action-Free Trajectories || ICML23 ||
 | Principled Offline RL in the Presence of Rich Exogenous Information || ICML23 ||
+| Offline Meta Reinforcement Learning with In-Distribution Online Adaptation || ICML23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -427,7 +435,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning](https://arxiv.org/pdf/2208.06193.pdf) | Diffusion-QL | ICLR23 | perform policy regularization using diffusion (or scorebased) models; utilize a conditional diffusion model to represent the policy |
 | [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://arxiv.org/pdf/2209.14548.pdf) | SfBC | ICLR23 | decouple the learned policy into two parts: an expressive generative behavior model and an action evaluation model |
 | [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/pdf/2302.01877.pdf) | AdaptDiffuser | ICML23 oral | propose AdaptDiffuser, an evolutionary planning method with diffusion that can self-evolve to improve the diffusion model hence a better planner, which can also adapt to unseen tasks |
-| Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning || ICML23 ||
+| Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning | CEP | ICML23 ||
+| MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL || ICML23 ||
 
 
 <a id='Model-Based-Offline'></a>
@@ -594,6 +603,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [On Pre-Training for Visuo-Motor Control: Revisiting a Learning-from-Scratch Baseline](https://arxiv.org/pdf/2212.05749.pdf) || ICML23 ||
 | Unsupervised Skill Discovery for Learning Shared Structures across Changing Environments || ICML23 ||
 | An Investigation into Pre-Training Object-Centric Representations for Reinforcement Learning || ICML23 ||
+| Guiding Pretraining in Reinforcement Learning with Large Language Models || ICML23 ||
 
 
 
@@ -616,6 +626,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Preference Transformer: Modeling Human Preferences using Transformers for RL || ICLR23 ||
 | On the Data-Efficiency with Contrastive Image Transformation in Reinforcement Learning  || ICLR23 ||
 | Future-conditioned Unsupervised Pretraining for Decision Transformer || ICML23 ||
+| Emergent Agentic Transformer from Chain of Hindsight Experience || ICML23 ||
 
 
 <a id='Representation-RL'></a>
