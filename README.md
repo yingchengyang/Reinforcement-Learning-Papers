@@ -251,6 +251,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Jump-Start Reinforcement Learning || ICML23 ||
 | Multi-Task Off-Policy Learning from Bandit Feedback || ICML23 ||
 | Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning || ICML23 ||
+| Performative Reinforcement Learning || ICML23 ||
+| Truncating Trajectories in Monte Carlo Reinforcement Learning || ICML23 ||
+| ReLOAD: Reinforcement Learning with Optimistic Ascent-Descent for Last-Iterate Convergence in Constrained MDPs || ICML23 ||
 
 
 
@@ -412,6 +415,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | MAHALO: Unifying Offline Reinforcement Learning and Imitation Learning from Observations || ICLR23 ||
 | Actor-Critic Alignment for Offline-to-Online Reinforcement Learning || ICML23 ||
 | Semi-Supervised Offline Reinforcement Learning with Action-Free Trajectories || ICML23 ||
+| Principled Offline RL in the Presence of Rich Exogenous Information || ICML23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -495,6 +499,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Transformers are Meta-Reinforcement Learners](https://arxiv.org/pdf/2206.06614.pdf) | TrMRL | ICML22 | propose TrMRL, a memory-based meta-Reinforcement Learner which uses the transformer architecture to formulate the learning process; |
 | Offline Meta-Reinforcement Learning with Online Self-Supervision || ICML22 ||
 | Distributional Meta-Gradient Reinforcement Learning || ICLR23 ||
+| Simple Embodied Language Learning as a Byproduct of Meta-Reinforcement Learning || ICML23 ||
 
 
 
@@ -587,6 +592,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
 | [On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness](https://arxiv.org/pdf/2210.10464.pdf) || ICML23 oral ||
 | [On Pre-Training for Visuo-Motor Control: Revisiting a Learning-from-Scratch Baseline](https://arxiv.org/pdf/2212.05749.pdf) || ICML23 ||
+| Unsupervised Skill Discovery for Learning Shared Structures across Changing Environments || ICML23 ||
+| An Investigation into Pre-Training Object-Centric Representations for Reinforcement Learning || ICML23 ||
 
 
 
