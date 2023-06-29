@@ -261,6 +261,15 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Non-stationary Reinforcement Learning under General Function Approximation || ICML23 ||
 | Revisiting Domain Randomization via Relaxed State-Adversarial Policy Optimization || ICML23 ||
 | Parallel $Q$-Learning: Scaling Off-policy Reinforcement Learning under Massively Parallel Simulation || ICML23 ||
+| LESSON: Learning to Integrate Exploration Strategies for Reinforcement Learning via an Option Framework || ICML23 ||
+| Lower Bounds for Learning in Revealing POMDPs || ICML23 ||
+| Graph Reinforcement Learning for Network Control via Bi-Level Optimization || ICML23 ||
+| Stochastic Policy Gradient Methods: Improved Sample Complexity for Fisher-non-degenerate Policies || ICML23 ||
+| Reinforcement Learning with History Dependent Dynamic Contexts || ICML23 ||
+| Efficient Online Reinforcement Learning with Offline Data || ICML23 ||
+| Variance Control for Distributional Reinforcement Learning || ICML23 ||
+| Hindsight Learning for MDPs with Exogenous Inputs || ICML23 ||
+| Behavior Contrastive Learning for Unsupervised Skill Discovery || ICML23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -346,6 +355,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators || ICML23 ||
 | Learning Temporally Abstract World Models without Online Experimentation || ICML23 ||
 | Go Beyond Imagination: Maximizing Episodic Reachability with World Models || ICML23 ||
+| Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling || ICML23 ||
+| Demonstration-free Autonomous Reinforcement Learning via Implicit and Bidirectional Curriculum || ICML23 ||
+| Curious Replay for Model-based Adaptation || ICML23 ||
 
 
 
@@ -424,6 +436,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Semi-Supervised Offline Reinforcement Learning with Action-Free Trajectories || ICML23 ||
 | Principled Offline RL in the Presence of Rich Exogenous Information || ICML23 ||
 | Offline Meta Reinforcement Learning with In-Distribution Online Adaptation || ICML23 ||
+| Policy Regularization with Dataset Constraint for Offline Reinforcement Learning || ICML23 ||
+| Supported Trust Region Optimization for Offline Reinforcement Learning || ICML23 ||
+| Constrained Decision Transformer for Offline Safe Reinforcement Learning || ICML23 ||
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -540,6 +555,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust Decisions || ICML23 ||
 | Robust Situational Reinforcement Learning in Face of Context Disturbances || ICML23 ||
 | Adversarial Learning of Distributional Reinforcement Learning || ICML23 ||
+| Towards Robust and Safe Reinforcement Learning with Benign Off-policy Data || ICML23 ||
 
 <a id='Genaralization-in-RL'></a>
 ## Genaralisation in RL
@@ -604,6 +620,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Unsupervised Skill Discovery for Learning Shared Structures across Changing Environments || ICML23 ||
 | An Investigation into Pre-Training Object-Centric Representations for Reinforcement Learning || ICML23 ||
 | Guiding Pretraining in Reinforcement Learning with Large Language Models || ICML23 ||
+| What is Essential for Unseen Goal Generalization of Offline Goal-conditioned RL? || ICML23 ||
 
 
 
