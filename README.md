@@ -289,6 +289,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Leveraging Offline Data in Online Reinforcement Learning || ICML23 ||
 | Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space || ICML23 ||
 | Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition || ICML23 ||
+| CLUTR: Curriculum Learning via Unsupervised Task Representation Learning || ICML23 ||
+| Controllability-Aware Unsupervised Skill Discovery || ICML23 ||
 
 
 <a id='Model-Based-Online'></a>
