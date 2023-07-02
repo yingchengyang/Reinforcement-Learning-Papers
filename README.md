@@ -270,6 +270,15 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Variance Control for Distributional Reinforcement Learning || ICML23 ||
 | Hindsight Learning for MDPs with Exogenous Inputs || ICML23 ||
 | Behavior Contrastive Learning for Unsupervised Skill Discovery || ICML23 ||
+| RLang: A Declarative Language for Describing Partial World Knowledge to Reinforcement Learning Agents || ICML23 ||
+| Scalable Safe Policy Improvement via Monte Carlo Tree Search || ICML23 ||
+| Bayesian Reparameterization of Reward-Conditioned Reinforcement Learning with Energy-based Models || ICML23 ||
+| Understanding the Complexity Gains of Single-Task RL with a Curriculum || ICML23 ||
+| PPG Reloaded: An Empirical Study on What Matters in Phasic Policy Gradient || ICML23 ||
+| Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
+| VIMA: Robot Manipulation with Multimodal Prompts || ICML23 ||
+| Distilling Internet-Scale Vision-Language Models into Embodied Agents || ICML23 ||
+| ContraBAR: Contrastive Bayes-Adaptive Deep RL || ICML23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -317,6 +326,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective](https://arxiv.org/pdf/2209.08466.pdf) | ALM | ICLR23 | propose a single objective which jointly optimizes the policy, the latent-space model, and the representations produced by the encoder using the same objective: maximize predicted rewards while minimizing the errors in the predicted representations |
 | [SpeedyZero: Mastering Atari with Limited Data and Time](https://openreview.net/pdf?id=Mg5CLXZgvLJ) | SpeedyZero | ICLR23 | a distributed RL system built upon EfficientZero with Priority Refresh and Clipped LARS; lead to human-level performances on the Atari benchmark within 35 minutes using only 300k samples |
 | Investigating the role of model-based learning in exploration and transfer || ICML23 ||
+| STEERING : Stein Information Directed Exploration for Model-Based Reinforcement Learning || ICML23 ||
 
 
 <a id='dreamer'></a>
@@ -439,6 +449,9 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Policy Regularization with Dataset Constraint for Offline Reinforcement Learning || ICML23 ||
 | Supported Trust Region Optimization for Offline Reinforcement Learning || ICML23 ||
 | Constrained Decision Transformer for Offline Safe Reinforcement Learning || ICML23 ||
+| PAC-Bayesian Offline Contextual Bandits With Guarantees || ICML23 ||
+| Beyond Reward: Offline Preference-guided Policy Optimization || ICML23 ||
+
 
 <a id='offline-diffusion'></a>
 ### Combined with Diffusion Models
@@ -621,6 +634,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | An Investigation into Pre-Training Object-Centric Representations for Reinforcement Learning || ICML23 ||
 | Guiding Pretraining in Reinforcement Learning with Large Language Models || ICML23 ||
 | What is Essential for Unseen Goal Generalization of Offline Goal-conditioned RL? || ICML23 ||
+| The Benefits of Model-Based Generalization in Reinforcement Learning || ICML23 ||
 
 
 
