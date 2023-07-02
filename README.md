@@ -279,6 +279,16 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | VIMA: Robot Manipulation with Multimodal Prompts || ICML23 ||
 | Distilling Internet-Scale Vision-Language Models into Embodied Agents || ICML23 ||
 | ContraBAR: Contrastive Bayes-Adaptive Deep RL || ICML23 ||
+| On Many-Actions Policy Gradient || ICML23 ||
+| Multi-task Hierarchical Adversarial Inverse Reinforcement Learning || ICML23 ||
+| Cell-Free Latent Go-Explore || ICML23 ||
+| Trustworthy Policy Learning under the Counterfactual No-Harm Criterion || ICML23 ||
+| Reachability-Aware Laplacian Representation in Reinforcement Learning || ICML23 ||
+| Automatic Intrinsic Reward Shaping for Exploration in Deep Reinforcement Learning || ICML23 ||
+| Interactive Object Placement with Reinforcement Learning || ICML23 ||
+| Leveraging Offline Data in Online Reinforcement Learning || ICML23 ||
+| Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space || ICML23 ||
+| Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition || ICML23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -327,6 +337,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [SpeedyZero: Mastering Atari with Limited Data and Time](https://openreview.net/pdf?id=Mg5CLXZgvLJ) | SpeedyZero | ICLR23 | a distributed RL system built upon EfficientZero with Priority Refresh and Clipped LARS; lead to human-level performances on the Atari benchmark within 35 minutes using only 300k samples |
 | Investigating the role of model-based learning in exploration and transfer || ICML23 ||
 | STEERING : Stein Information Directed Exploration for Model-Based Reinforcement Learning || ICML23 ||
+| Predictable MDP Abstraction for Unsupervised Model-Based RL || ICML23 ||
 
 
 <a id='dreamer'></a>
