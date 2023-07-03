@@ -291,6 +291,17 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition || ICML23 ||
 | CLUTR: Curriculum Learning via Unsupervised Task Representation Learning || ICML23 ||
 | Controllability-Aware Unsupervised Skill Discovery || ICML23 ||
+| Learning in POMDPs is Sample-Efficient with Hindsight Observability || ICML23 ||
+| DoMo-AC: Doubly Multi-step Off-policy Actor-Critic Algorithm || ICML23 ||
+| Reward-Mixing MDPs with Few Latent Contexts are Learnable || ICML23 ||
+| Computationally Efficient PAC RL in POMDPs with Latent Determinism and Conditional Embeddings || ICML23 ||
+| Scaling Laws for Reward Model Overoptimization || ICML23 ||
+| SNeRL: Semantic-aware Neural Radiance Fields for Reinforcement Learning || ICML23 ||
+| Set-membership Belief State-based Reinforcement Learning for POMDPs || ICML23 ||
+| Robust Satisficing MDPs || ICML23 ||
+| Off-Policy Evaluation for Large Action Spaces via Conjunct Effect Modeling || ICML23 ||
+| Quantum Policy Gradient Algorithm with Optimized Action Decoding || ICML23 ||
+| For Pre-Trained Vision Models in Motor Control, Not All Policy Learning Methods are Created Equal || ICML23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -464,6 +475,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Constrained Decision Transformer for Offline Safe Reinforcement Learning || ICML23 ||
 | PAC-Bayesian Offline Contextual Bandits With Guarantees || ICML23 ||
 | Beyond Reward: Offline Preference-guided Policy Optimization || ICML23 ||
+| Offline Reinforcement Learning with Closed-Form Policy Improvement Operators || ICML23 ||
+| ChiPFormer: Transferable Chip Placement via Offline Decision Transformer || ICML23 ||
 
 
 <a id='offline-diffusion'></a>
@@ -648,7 +661,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Guiding Pretraining in Reinforcement Learning with Large Language Models || ICML23 ||
 | What is Essential for Unseen Goal Generalization of Offline Goal-conditioned RL? || ICML23 ||
 | The Benefits of Model-Based Generalization in Reinforcement Learning || ICML23 ||
-
+| Multi-Environment Pretraining Enables Transfer to Action Limited Datasets || ICML23 ||
 
 
 <a id='Sequence-Generation'></a>
