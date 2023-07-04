@@ -308,6 +308,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Trajectory-Aware Eligibility Traces for Off-Policy Reinforcement Learning || ICML23 ||
 | Principled Reinforcement Learning with Human Feedback from Pairwise or K-wise Comparisons || ICML23 ||
 | Social learning spontaneously emerges by searching optimal heuristics with deep reinforcement learning || ICML23 ||
+| [Bigger, Better, Faster: Human-level Atari with human-level efficiency](https://arxiv.org/pdf/2305.19452.pdf) | BBF | ICML23 | rely on scaling the neural networks used for value estimation and a number of other design choices like resetting |
 
 
 <a id='Model-Based-Online'></a>
