@@ -84,6 +84,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | [On the Reuse Bias in Off-Policy Reinforcement Learning](https://arxiv.org/pdf/2209.07074.pdf) | BIRIS | IJCAI23 | discuss the bias of off-policy evaluation due to reusing the replay buffer; derive a high-probability bound of the Reuse Bias; introduce the concept of stability for off-policy algorithms and provide an upper bound for stable off-policy algorithms |
 | Improved Policy Evaluation for Randomized Trials of Algorithmic Resource Allocation || ICML23 ||
 | An Instrumental Variable Approach to Confounded Off-Policy Evaluation || ICML23 ||
+| Semiparametrically Efficient Off-Policy Evaluation in Linear Markov Decision Processes || ICML23 ||
 
 
 <a id='soft-rl'></a>
@@ -302,6 +303,11 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Off-Policy Evaluation for Large Action Spaces via Conjunct Effect Modeling || ICML23 ||
 | Quantum Policy Gradient Algorithm with Optimized Action Decoding || ICML23 ||
 | For Pre-Trained Vision Models in Motor Control, Not All Policy Learning Methods are Created Equal || ICML23 ||
+| Model-Free Robust Average-Reward Reinforcement Learning || ICML23 ||
+| Fair and Robust Estimation of Heterogeneous Treatment Effects for Policy Learning || ICML23 ||
+| Trajectory-Aware Eligibility Traces for Off-Policy Reinforcement Learning || ICML23 ||
+| Principled Reinforcement Learning with Human Feedback from Pairwise or K-wise Comparisons || ICML23 ||
+| Social learning spontaneously emerges by searching optimal heuristics with deep reinforcement learning || ICML23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -351,6 +357,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Investigating the role of model-based learning in exploration and transfer || ICML23 ||
 | [STEERING : Stein Information Directed Exploration for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2301.12038.pdf) | STEERING | ICML23 |  |
 | [Predictable MDP Abstraction for Unsupervised Model-Based RL](https://arxiv.org/pdf/2302.03921.pdf) | PMA | ICML23 | apply model-based RL on top of an abstracted, simplified MDP, by restricting unpredictable actions |
+| The Virtues of Laziness in Model-based RL: A Unified Objective and Algorithms || ICML23 ||
 
 
 <a id='dreamer'></a>
@@ -392,6 +399,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling || ICML23 ||
 | Demonstration-free Autonomous Reinforcement Learning via Implicit and Bidirectional Curriculum || ICML23 ||
 | Curious Replay for Model-based Adaptation || ICML23 ||
+| Multi-View Masked World Models for Visual Robotic Manipulation || ICML23 ||
 
 
 
@@ -477,6 +485,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Beyond Reward: Offline Preference-guided Policy Optimization || ICML23 ||
 | Offline Reinforcement Learning with Closed-Form Policy Improvement Operators || ICML23 ||
 | ChiPFormer: Transferable Chip Placement via Offline Decision Transformer || ICML23 ||
+| Boosting Offline Reinforcement Learning with Action Preference Query || ICML23 ||
 
 
 <a id='offline-diffusion'></a>
@@ -518,6 +527,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Value Memory Graph: A Graph-Structured World Model for Offline Reinforcement Learning || ICLR23 ||
 | Efficient Offline Policy Optimization with a Learned Model  || ICLR23 ||
 | Model-based Offline Reinforcement Learning with Count-based Conservatism || ICML23 ||
+| Model-Bellman Inconsistency for Model-based Offline Reinforcement Learning || ICML23 ||
 
 
 <a id='Meta-RL'></a>
@@ -662,6 +672,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | What is Essential for Unseen Goal Generalization of Offline Goal-conditioned RL? || ICML23 ||
 | The Benefits of Model-Based Generalization in Reinforcement Learning || ICML23 ||
 | Multi-Environment Pretraining Enables Transfer to Action Limited Datasets || ICML23 ||
+| Online Prototype Alignment for Few-shot Policy Transfer || ICML23 ||
 
 
 <a id='Sequence-Generation'></a>
