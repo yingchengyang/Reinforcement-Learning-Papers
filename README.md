@@ -296,7 +296,7 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | DoMo-AC: Doubly Multi-step Off-policy Actor-Critic Algorithm || ICML23 ||
 | Reward-Mixing MDPs with Few Latent Contexts are Learnable || ICML23 ||
 | Computationally Efficient PAC RL in POMDPs with Latent Determinism and Conditional Embeddings || ICML23 ||
-| Scaling Laws for Reward Model Overoptimization || ICML23 ||
+| [Scaling Laws for Reward Model Overoptimization](https://openreview.net/attachment?id=bBLjms8nZE&name=pdf) | ---- | ICML23 | study overoptimization in the context of large language models fine-tuned as reward models trained to predict which of two options a human will prefer; study how the gold reward model score changes as we optimize against the proxy reward model using either reinforcement learning or best-of-n sampling |
 | SNeRL: Semantic-aware Neural Radiance Fields for Reinforcement Learning || ICML23 ||
 | Set-membership Belief State-based Reinforcement Learning for POMDPs || ICML23 ||
 | Robust Satisficing MDPs || ICML23 ||
