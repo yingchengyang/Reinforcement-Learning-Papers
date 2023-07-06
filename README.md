@@ -3,7 +3,7 @@
 
 Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
-Since there are tens of thousands of new papers on reinforcement learning in each conference every year, we are only able to list those we read and consider as insightful.
+Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR23, ICML23 papers on RL**
 
@@ -399,8 +399,8 @@ Since there are tens of thousands of new papers on reinforcement learning in eac
 | Go Beyond Imagination: Maximizing Episodic Reachability with World Models || ICML23 ||
 | Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling || ICML23 ||
 | Demonstration-free Autonomous Reinforcement Learning via Implicit and Bidirectional Curriculum || ICML23 ||
-| Curious Replay for Model-based Adaptation || ICML23 ||
-| Multi-View Masked World Models for Visual Robotic Manipulation || ICML23 ||
+| [Curious Replay for Model-based Adaptation](https://arxiv.org/pdf/2306.15934.pdf) | CR | ICML23 | aid model-based RL agent adaptation by prioritizing replay of experiences the agent knows the least about |
+| [Multi-View Masked World Models for Visual Robotic Manipulation](https://arxiv.org/pdf/2302.02408.pdf) | MV-MWM | ICML23 | train a multi-view masked autoencoder that reconstructs pixels of randomly masked viewpoints and then learn a world model operating on the representations from the autoencoder |
 
 
 
