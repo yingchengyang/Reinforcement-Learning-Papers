@@ -251,9 +251,8 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | Explaining Reinforcement Learning with Shapley Values || ICML23 ||
 | Reinforcement Learning Can Be More Efficient with Multiple Rewards || ICML23 ||
 | Jump-Start Reinforcement Learning || ICML23 ||
-| Multi-Task Off-Policy Learning from Bandit Feedback || ICML23 ||
 | Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning || ICML23 ||
-| Performative Reinforcement Learning || ICML23 ||
+| [Performative Reinforcement Learning](https://arxiv.org/pdf/2207.00046.pdf) | ---- | ICML23 | introduce the framework of performative reinforcement learning where the policy chosen by the learner affects the underlying reward and transition dynamics of the environment |
 | Truncating Trajectories in Monte Carlo Reinforcement Learning || ICML23 ||
 | ReLOAD: Reinforcement Learning with Optimistic Ascent-Descent for Last-Iterate Convergence in Constrained MDPs || ICML23 ||
 | Curiosity in Hindsight: Intrinsic Exploration in Stochastic Environments || ICML23 ||
