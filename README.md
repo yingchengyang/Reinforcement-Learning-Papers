@@ -235,11 +235,9 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | Active Policy Improvement from Multiple Black-box Oracles || ICML23 ||
 | When is Realizability Sufficient for Off-Policy Reinforcement Learning? || ICML23 ||
 | The Statistical Benefits of Quantile Temporal-Difference Learning for Value Estimation || ICML23 ||
-| Hyperparameters in Reinforcement Learning and How To Tune Them || ICML23 ||
-| Efficient Exploration via Epistemic-Risk-Seeking Policy Optimization || ICML23 ||
+| [Hyperparameters in Reinforcement Learning and How To Tune Them](https://arxiv.org/pdf/2306.01324.pdf) | ---- | ICML23 | Exploration of the hyperparameter landscape for commonly-used RL algorithms and environments; Comparison of different types of HPO methods on state-of-the-art RL algorithms and challenging RL environments |
 | Simplified Temporal Consistency Reinforcement Learning || ICML23 ||
 | Langevin Thompson Sampling with Logarithmic Communication: Bandits and Reinforcement Learning || ICML23 ||
-| Posterior Sampling for Deep Reinforcement Learning || ICML23 ||
 | Correcting discount-factor mismatch in on-policy policy gradient methods || ICML23 ||
 | Masked Trajectory Models for Prediction, Representation, and Control || ICML23 ||
 | Off-Policy Average Reward Actor-Critic with Deterministic Policy Search || ICML23 ||
@@ -393,6 +391,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | [Evaluating Long-Term Memory in 3D Mazes](https://arxiv.org/pdf/2210.13383.pdf) | Memory Maze | ICLR23 | introduce the Memory Maze, a 3D domain of randomized mazes specifically designed for evaluating long-term memory in agents, including an online reinforcement learning benchmark, a diverse offline dataset, and an offline probing evaluation; [\[code\]](https://github.com/jurgisp/memory-maze) |
 | [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 | propose DreamerV3 to handle a wide range of domains, including continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales|
 | [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
+| [Posterior Sampling for Deep Reinforcement Learning](https://arxiv.org/pdf/2305.00477.pdf) | PSDRL | ICML23 | combine efficient uncertainty quantification over latent state space models with a specially tailored continual planning algorithm based on value-function approximation |
 | Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators || ICML23 ||
 | Learning Temporally Abstract World Models without Online Experimentation || ICML23 ||
 | Go Beyond Imagination: Maximizing Episodic Reachability with World Models || ICML23 ||
