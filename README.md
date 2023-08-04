@@ -268,7 +268,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Flipping Coins to Estimate Pseudocounts for Exploration in Reinforcement Learning || ICML23 oral ||
 | Settling the Reward Hypothesis || ICML23 oral ||
 | Information-Theoretic State Space Model for Multi-View Reinforcement Learning || ICML23 oral ||
-| Learning Belief Representations for Partially Observable Deep RL || ICML23 ||
+| [Learning Belief Representations for Partially Observable Deep RL](https://openreview.net/pdf?id=4IzEmHLono) | Believer | ICML23 | decouple belief state modelling (via unsupervised learning) from policy optimization (via RL); propose a representation learning approach to capture a compact set of reward-relevant features of the state |
 | Internally Rewarded Reinforcement Learning || ICML23 ||
 | Active Policy Improvement from Multiple Black-box Oracles || ICML23 ||
 | When is Realizability Sufficient for Off-Policy Reinforcement Learning? || ICML23 ||
