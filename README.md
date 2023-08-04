@@ -66,7 +66,8 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
 | [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/pdf/1705.05363.pdf) | ICM | ICML17 | propose that curiosity can serve as an intrinsic reward signal to enable the agent to explore its environment and learn skills when rewards are sparse; formulate curiosity as the error in an agent’s ability to predict the consequence of its own actions in a visual feature space learned by a self-supervised inverse dynamics model |
-| [Automatic Intrinsic Reward Shaping for Exploration in Deep Reinforcement Learning](https://arxiv.org/pdf/2301.10886.pdf) | AIRS | ICML23 | select shaping function from a predefined set based on the estimated task return in real-time, providing reliable exploration incentives and alleviating the biased objective problem.  |
+| [Automatic Intrinsic Reward Shaping for Exploration in Deep Reinforcement Learning](https://arxiv.org/pdf/2301.10886.pdf) | AIRS | ICML23 | select shaping function from a predefined set based on the estimated task return in real-time, providing reliable exploration incentives and alleviating the biased objective problem; develop a toolkit that provides highquality implementations of various intrinsic reward modules based on PyTorch |
+| [Curiosity in Hindsight: Intrinsic Exploration in Stochastic Environments](https://arxiv.org/pdf/2211.10515.pdf) | Curiosity in Hindsight | ICML23 | consider exploration in stochastic environments; learn representations of the future that capture precisely the unpredictable aspects of each outcome—which we use as additional input for predictions, such that intrinsic rewards only reflect the predictable aspects of world dynamics |
 
 <a id='off-policy-evaluation'></a>
 ### Off-Policy Evaluation
@@ -290,7 +291,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Performative Reinforcement Learning](https://arxiv.org/pdf/2207.00046.pdf) | ---- | ICML23 | introduce the framework of performative reinforcement learning where the policy chosen by the learner affects the underlying reward and transition dynamics of the environment |
 | Truncating Trajectories in Monte Carlo Reinforcement Learning || ICML23 ||
 | ReLOAD: Reinforcement Learning with Optimistic Ascent-Descent for Last-Iterate Convergence in Constrained MDPs || ICML23 ||
-| Curiosity in Hindsight: Intrinsic Exploration in Stochastic Environments || ICML23 ||
 | Low-Switching Policy Gradient with Exploration via Online Sensitivity Sampling || ICML23 ||
 | Hyperbolic Diffusion Embedding and Distance for Hierarchical Representation Learning || ICML23 ||
 | Non-stationary Reinforcement Learning under General Function Approximation || ICML23 ||
