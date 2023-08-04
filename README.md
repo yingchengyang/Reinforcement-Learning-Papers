@@ -15,6 +15,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
     - [Off-Policy Evaluation](#off-policy-evaluation)
     - [Soft RL](#soft-rl)
     - [Data Augmentation](#data-augmentation)
+    - [Representation Learning](#Representation-RL)
     - [Current methods](#current)
 * [Model Based (Online) RL](#Model-Based-Online)
     - [Classic Methods](#model-based-classic)
@@ -30,7 +31,6 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
     - [Environments](#Gene-Environments)
     - [Methods](#Gene-Methods)
 * [RL with Transformer](#Sequence-Generation)
-* [Representation RL](#Representation-RL)
 * [Lifelong RL](#Lifelong-RL)
 * [RL with LLM](#RL-LLM)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
@@ -112,6 +112,41 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | [Scalable methods for computing state similarity in deterministic Markov Decision Processes](https://arxiv.org/pdf/1911.09291.pdf) || AAAI20 ||
 | [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 || -->
 
+
+<a id='Representation-RL'></a>
+## Representation Learning
+
+Note: representation learning with MBRL is in the part [World Models](#dreamer)
+
+|  Title | Method | Conference | Description |
+| ----  | ----   | ----       |   ----  |
+| [Diversity is All You Need: Learning Skills without a Reward Function](https://arxiv.org/pdf/1802.06070.pdf) | DIAYN | ICLR19 | learn diverse skills in environments without any rewards by maximizing an information theoretic objective |
+| [CURL: Contrastive Unsupervised Representations for Reinforcement Learning](https://arxiv.org/pdf/2004.04136.pdf) | CURL | ICML20 | extracts high-level features from raw pixels using contrastive learning and performs offpolicy control on top of the extracted features |
+| [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 | propose using Bisimulation to learn robust latent representations which encode only the task-relevant information from observations |
+| [Decoupling representation learning from reinforcement learning](https://arxiv.org/pdf/2009.08319.pdf) | ATC | ICML21 | propose a new unsupervised task tailored to reinforcement learning named Augmented Temporal Contrast (ATC), which borrows ideas from Contrastive learning; benchmark several leading Unsupervised Learning algorithms by pre-training encoders on expert demonstrations and using them in RL agents|
+| [Reinforcement Learning with Prototypical Representations](https://arxiv.org/pdf/2102.11271.pdf) | Proto-RL | ICML21 | pre-train task-agnostic representations and prototypes on environments without downstream task information |
+| [Pretraining representations for data-efficient reinforcement learning](https://arxiv.org/pdf/2106.04799.pdf) | SGI | NeurIPS21 | consider to pretrian with unlabeled data and finetune on a small amount of task-specific data to improve the data efficiency of RL; employ a combination of latent dynamics modelling and unsupervised goal-conditioned RL |
+| [Understanding the World Through Action](https://arxiv.org/pdf/2110.12543.pdf) | ---- | CoRL21 | discusse how self-supervised reinforcement learning combined with offline RL can enable scalable representation learning |
+| [URLB: Unsupervised Reinforcement Learning Benchmark](https://arxiv.org/pdf/2110.15191.pdf) | URLB | NeurIPS21 | a benchmark for unsupervised reinforcement learning |
+| [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
+| The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
+| a mixture of supervised and unsupervised reinforcement learning || NeurIPS22 ||
+| [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive  RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
+| [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) | ---- | NeurIPS22 | conduct an extensive comparison of various self-supervised losses under the existing joint learning framework for pixel-based reinforcement learning in many environments from different benchmarks, including one real-world environment |
+| [Unsupervised Reinforcement Learning with Contrastive Intrinsic Control](https://openreview.net/pdf?id=9HBbWAsZxFt) | CIC | NeurIPS22 | propose to maximize the mutual information between statetransitions and latent skill vectors |
+| [Reinforcement Learning with Automated Auxiliary Loss Search](https://arxiv.org/pdf/2210.06041.pdf) | A2LS | NeurIPS22 | propose to automatically search top-performing auxiliary loss functions for learning better representations in RL; define a general auxiliary loss space of size 7.5 × 1020 based on the collected trajectory data and explore the space with an efficient evolutionary search strategy |
+| [Mask-based Latent Reconstruction for Reinforcement Learning](https://arxiv.org/pdf/2201.12096.pdf) | MLR | NeurIPS22 | propose an effective self-supervised method to predict complete state representations in the latent space from the observations with spatially and temporally masked pixels |
+| Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
+| [Flow-based Recurrent Belief State Learning for POMDPs](https://proceedings.mlr.press/v162/chen22q/chen22q.pdf) | FORBES | ICML22 | incorporate normalizing flows into the variational inference to learn general continuous belief states for POMDPs |
+| [Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training](https://arxiv.org/pdf/2210.00030.pdf) | VIP | ICLR23 Spotlight | cast representation learning from human videos as an offline goal-conditioned reinforcement learning problem; derive a self-supervised dual goal-conditioned value-function objective that does not depend on actions, enabling pre-training on unlabeled human videos |
+| [Latent Variable Representation for Reinforcement Learning](https://arxiv.org/pdf/2212.08765.pdf) | ---- | ICLR23 | provide a representation view of the latent variable models for state-action value functions, which allows both tractable variational learning algorithm and effective implementation of the optimism/pessimism principle in the face of uncertainty for exploration |
+| Spectral Decomposition Representation for Reinforcement Learning || ICLR23 ||
+| Behavior Prior Representation learning for Offline Reinforcement Learning || ICLR23 ||
+| Provable Unsupervised Data Sharing for Offline Reinforcement Learning || ICLR23 ||
+| [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/pdf?id=Sy-o2N0hF4f) | FICC | ICLR23 | consider the setting where the pre-training data are action-free videos; introduce a two-phase training pipeline; pre-training phase: implicitly extract the hidden action embedding from videos and pre-train the visual representation and the environment dynamics network based on vector quantization; down-stream tasks: finetune with small amount of task data based on the learned models |
+| Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels || ICML23 oral ||
+| On the Importance of Feature Decorrelation for Unsupervised Representation Learning in Reinforcement Learning || ICML23 ||
+| Bootstrapped Representations in Reinforcement Learning || ICML23 ||
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
@@ -696,42 +731,6 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | On the Data-Efficiency with Contrastive Image Transformation in Reinforcement Learning  || ICLR23 ||
 | Future-conditioned Unsupervised Pretraining for Decision Transformer || ICML23 ||
 | Emergent Agentic Transformer from Chain of Hindsight Experience || ICML23 ||
-
-
-<a id='Representation-RL'></a>
-## Representation RL
-
-Note: representation learning with MBRL is in the part [World Models](#dreamer)
-
-|  Title | Method | Conference | Description |
-| ----  | ----   | ----       |   ----  |
-| [Diversity is All You Need: Learning Skills without a Reward Function](https://arxiv.org/pdf/1802.06070.pdf) | DIAYN | ICLR19 | learn diverse skills in environments without any rewards by maximizing an information theoretic objective |
-| [CURL: Contrastive Unsupervised Representations for Reinforcement Learning](https://arxiv.org/pdf/2004.04136.pdf) | CURL | ICML20 | extracts high-level features from raw pixels using contrastive learning and performs offpolicy control on top of the extracted features |
-| [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 | propose using Bisimulation to learn robust latent representations which encode only the task-relevant information from observations |
-| [Decoupling representation learning from reinforcement learning](https://arxiv.org/pdf/2009.08319.pdf) | ATC | ICML21 | propose a new unsupervised task tailored to reinforcement learning named Augmented Temporal Contrast (ATC), which borrows ideas from Contrastive learning; benchmark several leading Unsupervised Learning algorithms by pre-training encoders on expert demonstrations and using them in RL agents|
-| [Reinforcement Learning with Prototypical Representations](https://arxiv.org/pdf/2102.11271.pdf) | Proto-RL | ICML21 | pre-train task-agnostic representations and prototypes on environments without downstream task information |
-| [Pretraining representations for data-efficient reinforcement learning](https://arxiv.org/pdf/2106.04799.pdf) | SGI | NeurIPS21 | consider to pretrian with unlabeled data and finetune on a small amount of task-specific data to improve the data efficiency of RL; employ a combination of latent dynamics modelling and unsupervised goal-conditioned RL |
-| [Understanding the World Through Action](https://arxiv.org/pdf/2110.12543.pdf) | ---- | CoRL21 | discusse how self-supervised reinforcement learning combined with offline RL can enable scalable representation learning |
-| [URLB: Unsupervised Reinforcement Learning Benchmark](https://arxiv.org/pdf/2110.15191.pdf) | URLB | NeurIPS21 | a benchmark for unsupervised reinforcement learning |
-| [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
-| The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
-| a mixture of supervised and unsupervised reinforcement learning || NeurIPS22 ||
-| [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive  RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
-| [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) | ---- | NeurIPS22 | conduct an extensive comparison of various self-supervised losses under the existing joint learning framework for pixel-based reinforcement learning in many environments from different benchmarks, including one real-world environment |
-| [Unsupervised Reinforcement Learning with Contrastive Intrinsic Control](https://openreview.net/pdf?id=9HBbWAsZxFt) | CIC | NeurIPS22 | propose to maximize the mutual information between statetransitions and latent skill vectors |
-| [Reinforcement Learning with Automated Auxiliary Loss Search](https://arxiv.org/pdf/2210.06041.pdf) | A2LS | NeurIPS22 | propose to automatically search top-performing auxiliary loss functions for learning better representations in RL; define a general auxiliary loss space of size 7.5 × 1020 based on the collected trajectory data and explore the space with an efficient evolutionary search strategy |
-| [Mask-based Latent Reconstruction for Reinforcement Learning](https://arxiv.org/pdf/2201.12096.pdf) | MLR | NeurIPS22 | propose an effective self-supervised method to predict complete state representations in the latent space from the observations with spatially and temporally masked pixels |
-| Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
-| [Flow-based Recurrent Belief State Learning for POMDPs](https://proceedings.mlr.press/v162/chen22q/chen22q.pdf) | FORBES | ICML22 | incorporate normalizing flows into the variational inference to learn general continuous belief states for POMDPs |
-| [Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training](https://arxiv.org/pdf/2210.00030.pdf) | VIP | ICLR23 Spotlight | cast representation learning from human videos as an offline goal-conditioned reinforcement learning problem; derive a self-supervised dual goal-conditioned value-function objective that does not depend on actions, enabling pre-training on unlabeled human videos |
-| [Latent Variable Representation for Reinforcement Learning](https://arxiv.org/pdf/2212.08765.pdf) | ---- | ICLR23 | provide a representation view of the latent variable models for state-action value functions, which allows both tractable variational learning algorithm and effective implementation of the optimism/pessimism principle in the face of uncertainty for exploration |
-| Spectral Decomposition Representation for Reinforcement Learning || ICLR23 ||
-| Behavior Prior Representation learning for Offline Reinforcement Learning || ICLR23 ||
-| Provable Unsupervised Data Sharing for Offline Reinforcement Learning || ICLR23 ||
-| [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/pdf?id=Sy-o2N0hF4f) | FICC | ICLR23 | consider the setting where the pre-training data are action-free videos; introduce a two-phase training pipeline; pre-training phase: implicitly extract the hidden action embedding from videos and pre-train the visual representation and the environment dynamics network based on vector quantization; down-stream tasks: finetune with small amount of task data based on the learned models |
-| Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels || ICML23 oral ||
-| On the Importance of Feature Decorrelation for Unsupervised Representation Learning in Reinforcement Learning || ICML23 ||
-| Bootstrapped Representations in Reinforcement Learning || ICML23 ||
 
 
 <a id='Lifelong-RL'></a>
