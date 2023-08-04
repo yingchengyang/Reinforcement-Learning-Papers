@@ -32,6 +32,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [RL with Transformer](#Sequence-Generation)
 * [Representation RL](#Representation-RL)
 * [Lifelong RL](#Lifelong-RL)
+* [RL with LLM](#RL-LLM)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
 
 <a id='Model-Free-Online'></a>
@@ -395,7 +396,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators || ICML23 ||
 | Learning Temporally Abstract World Models without Online Experimentation || ICML23 ||
 | Go Beyond Imagination: Maximizing Episodic Reachability with World Models || ICML23 ||
-| Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling || ICML23 ||
+| [Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling](https://arxiv.org/pdf/2301.12050.pdf) | DECKARD | ICML23 | hypothesize an Abstract World Model (AWM) over subgoals by few-shot prompting an LLM |
 | Demonstration-free Autonomous Reinforcement Learning via Implicit and Bidirectional Curriculum || ICML23 ||
 | [Curious Replay for Model-based Adaptation](https://arxiv.org/pdf/2306.15934.pdf) | CR | ICML23 | aid model-based RL agent adaptation by prioritizing replay of experiences the agent knows the least about |
 | [Multi-View Masked World Models for Visual Robotic Manipulation](https://arxiv.org/pdf/2302.02408.pdf) | MV-MWM | ICML23 | train a multi-view masked autoencoder that reconstructs pixels of randomly masked viewpoints and then learn a world model operating on the representations from the autoencoder |
@@ -740,6 +741,12 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | ----  | ----   | ----       |   ----  |
 | Revisiting Curiosity for Exploration in Procedurally Generated Environments  || ICLR23 ||
 
+
+<a id='RL-LLM'></a>
+## RL with LLM
+
+|  Title | Method | Conference | Description |
+| ----  | ----   | ----       |   ----  |
 
 
 <a id='Tutorial-and-Lesson'></a>
