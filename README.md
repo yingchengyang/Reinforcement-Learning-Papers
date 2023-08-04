@@ -66,6 +66,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
 | [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/pdf/1705.05363.pdf) | ICM | ICML17 | propose that curiosity can serve as an intrinsic reward signal to enable the agent to explore its environment and learn skills when rewards are sparse; formulate curiosity as the error in an agent’s ability to predict the consequence of its own actions in a visual feature space learned by a self-supervised inverse dynamics model |
+| [Automatic Intrinsic Reward Shaping for Exploration in Deep Reinforcement Learning](https://arxiv.org/pdf/2301.10886.pdf) | AIRS | ICML23 | select shaping function from a predefined set based on the estimated task return in real-time, providing reliable exploration incentives and alleviating the biased objective problem.  |
 
 <a id='off-policy-evaluation'></a>
 ### Off-Policy Evaluation
@@ -283,7 +284,6 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | Cell-Free Latent Go-Explore || ICML23 ||
 | Trustworthy Policy Learning under the Counterfactual No-Harm Criterion || ICML23 ||
 | Reachability-Aware Laplacian Representation in Reinforcement Learning || ICML23 ||
-| Automatic Intrinsic Reward Shaping for Exploration in Deep Reinforcement Learning || ICML23 ||
 | Interactive Object Placement with Reinforcement Learning || ICML23 ||
 | Leveraging Offline Data in Online Reinforcement Learning || ICML23 ||
 | Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space || ICML23 ||
