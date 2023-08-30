@@ -258,7 +258,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching || ICLR23 ||
 | [Planning-oriented Autonomous Driving](https://arxiv.org/pdf/2212.10156.pdf) || CVPR23 best paper ||
 | [The Dormant Neuron Phenomenon in Deep Reinforcement Learning](https://arxiv.org/pdf/2302.12902.pdf) | ReDo | ICML23 oral | understand the underlying reasons behind the loss of expressivity during the training of RL agents; demonstrate the existence of the dormant neuron phenomenon in deep RL; propose Recycling Dormant neurons (ReDo) to reduce the number of dormant neurons and maintain network expressivity during training |
-| Efficient RL via Disentangled Environment and Agent Representations || ICML23 oral ||
+| [Efficient RL via Disentangled Environment and Agent Representations](https://openreview.net/pdf?id=kWS8mpioS9) | SEAR | ICML23 oral | consider to build a representation that can disentangle a robotic agent from its environment for improving the learning efficiency for RL; augment the RL loss with an agent-centric auxiliary loss |
 | On the Statistical Benefits of Temporal Difference Learning || ICML23 oral ||
 | Warm-Start Actor-Critic: From Approximation Error to Sub-optimality Gap || ICML23 oral ||
 | Reinforcement Learning from Passive Data via Latent Intentions || ICML23 oral ||
