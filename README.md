@@ -285,22 +285,19 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Stein Variational Goal Generation for adaptive Exploration in Multi-Goal Reinforcement Learning || ICML23 ||
 | Emergence of Adaptive Circadian Rhythms in Deep Reinforcement Learning || ICML23 ||
 | Explaining Reinforcement Learning with Shapley Values || ICML23 ||
-| Reinforcement Learning Can Be More Efficient with Multiple Rewards || ICML23 ||
+| [Reinforcement Learning Can Be More Efficient with Multiple Rewards](https://openreview.net/pdf?id=skDVsmXjPR) | ---- | ICML23 | theoretically analyze multi-reward extensions of action-elimination algorithms and prove more favorable instance-dependent regret bounds compared to their single-reward counterparts, both in multi-armed bandits and in tabular Markov decision processes |
 | Jump-Start Reinforcement Learning || ICML23 ||
-| Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning || ICML23 ||
 | [Performative Reinforcement Learning](https://arxiv.org/pdf/2207.00046.pdf) | ---- | ICML23 | introduce the framework of performative reinforcement learning where the policy chosen by the learner affects the underlying reward and transition dynamics of the environment |
 | Truncating Trajectories in Monte Carlo Reinforcement Learning || ICML23 ||
 | ReLOAD: Reinforcement Learning with Optimistic Ascent-Descent for Last-Iterate Convergence in Constrained MDPs || ICML23 ||
 | Low-Switching Policy Gradient with Exploration via Online Sensitivity Sampling || ICML23 ||
 | Hyperbolic Diffusion Embedding and Distance for Hierarchical Representation Learning || ICML23 ||
-| Non-stationary Reinforcement Learning under General Function Approximation || ICML23 ||
 | Revisiting Domain Randomization via Relaxed State-Adversarial Policy Optimization || ICML23 ||
 | Parallel $Q$-Learning: Scaling Off-policy Reinforcement Learning under Massively Parallel Simulation || ICML23 ||
 | LESSON: Learning to Integrate Exploration Strategies for Reinforcement Learning via an Option Framework || ICML23 ||
-| Lower Bounds for Learning in Revealing POMDPs || ICML23 ||
 | Graph Reinforcement Learning for Network Control via Bi-Level Optimization || ICML23 ||
 | Stochastic Policy Gradient Methods: Improved Sample Complexity for Fisher-non-degenerate Policies || ICML23 ||
-| Reinforcement Learning with History Dependent Dynamic Contexts || ICML23 ||
+| [Reinforcement Learning with History Dependent Dynamic Contexts](https://arxiv.org/pdf/2302.02061.pdf) | DCMDPs | ICML23 | introduce DCMDPs, a novel reinforcement learning framework for history-dependent environments that handles non-Markov environments, where contexts change over time; derive an upper-confidence-bound style algorithm for logistic DCMDPs |
 | Efficient Online Reinforcement Learning with Offline Data || ICML23 ||
 | Variance Control for Distributional Reinforcement Learning || ICML23 ||
 | Hindsight Learning for MDPs with Exogenous Inputs || ICML23 ||
@@ -746,6 +743,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
+| [Can Wikipedia Help Offline Reinforcement Learning?](https://arxiv.org/pdf/2201.12122.pdf) || arXiv2201 ||
+| [Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning](https://arxiv.org/pdf/2302.02662.pdf) | GLAM | ICML23 | consider an agent using an LLM as a policy that is progressively updated as the agent interacts with the environment, leveraging online Reinforcement Learning to improve its performance to solve goals |
 
 
 <a id='Tutorial-and-Lesson'></a>
