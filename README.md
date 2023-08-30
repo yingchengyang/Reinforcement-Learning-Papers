@@ -264,7 +264,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Reinforcement Learning from Passive Data via Latent Intentions || ICML23 oral ||
 | Subequivariant Graph Reinforcement Learning in 3D Environments || ICML23 oral ||
 | Representation Learning with Multi-Step Inverse Kinematics: An Efficient and Optimal Approach to Rich-Observation RL || ICML23 oral ||
-| Reparameterized Policy Learning for Multimodal Trajectory Optimization || ICML23 oral ||
+| [Reparameterized Policy Learning for Multimodal Trajectory Optimization](https://arxiv.org/pdf/2307.10710.pdf) | RPG | ICML23 oral | propose a principled framework that models the continuous RL policy as a generative model of optimal trajectories; present RPG to leverages the multimodal policy parameterization and learned world model to achieve strong exploration capabilities and high data efficiency |
 | Flipping Coins to Estimate Pseudocounts for Exploration in Reinforcement Learning || ICML23 oral ||
 | Settling the Reward Hypothesis || ICML23 oral ||
 | Information-Theoretic State Space Model for Multi-View Reinforcement Learning || ICML23 oral ||
