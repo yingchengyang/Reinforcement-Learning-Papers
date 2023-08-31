@@ -259,12 +259,11 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Planning-oriented Autonomous Driving](https://arxiv.org/pdf/2212.10156.pdf) || CVPR23 best paper ||
 | [The Dormant Neuron Phenomenon in Deep Reinforcement Learning](https://arxiv.org/pdf/2302.12902.pdf) | ReDo | ICML23 oral | understand the underlying reasons behind the loss of expressivity during the training of RL agents; demonstrate the existence of the dormant neuron phenomenon in deep RL; propose Recycling Dormant neurons (ReDo) to reduce the number of dormant neurons and maintain network expressivity during training |
 | [Efficient RL via Disentangled Environment and Agent Representations](https://openreview.net/pdf?id=kWS8mpioS9) | SEAR | ICML23 oral | consider to build a representation that can disentangle a robotic agent from its environment for improving the learning efficiency for RL; augment the RL loss with an agent-centric auxiliary loss |
-| On the Statistical Benefits of Temporal Difference Learning || ICML23 oral ||
+| [On the Statistical Benefits of Temporal Difference Learning](https://arxiv.org/pdf/2301.13289.pdf) | ---- | ICML23 oral | provide crisp insight into the statistical benefits of TD |
 | Warm-Start Actor-Critic: From Approximation Error to Sub-optimality Gap || ICML23 oral ||
 | Reinforcement Learning from Passive Data via Latent Intentions || ICML23 oral ||
 | Subequivariant Graph Reinforcement Learning in 3D Environments || ICML23 oral ||
 | Representation Learning with Multi-Step Inverse Kinematics: An Efficient and Optimal Approach to Rich-Observation RL || ICML23 oral ||
-| [Reparameterized Policy Learning for Multimodal Trajectory Optimization](https://arxiv.org/pdf/2307.10710.pdf) | RPG | ICML23 oral | propose a principled framework that models the continuous RL policy as a generative model of optimal trajectories; present RPG to leverages the multimodal policy parameterization and learned world model to achieve strong exploration capabilities and high data efficiency |
 | Flipping Coins to Estimate Pseudocounts for Exploration in Reinforcement Learning || ICML23 oral ||
 | Settling the Reward Hypothesis || ICML23 oral ||
 | Information-Theoretic State Space Model for Multi-View Reinforcement Learning || ICML23 oral ||
@@ -424,9 +423,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Evaluating Long-Term Memory in 3D Mazes](https://arxiv.org/pdf/2210.13383.pdf) | Memory Maze | ICLR23 | introduce the Memory Maze, a 3D domain of randomized mazes specifically designed for evaluating long-term memory in agents, including an online reinforcement learning benchmark, a diverse offline dataset, and an offline probing evaluation; [\[code\]](https://github.com/jurgisp/memory-maze) |
 | [Mastering Diverse Domains through World Models](https://arxiv.org/pdf/2301.04104.pdf) | DreamerV3 | arxiv2301 | propose DreamerV3 to handle a wide range of domains, including continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales|
 | [Reward Informed Dreamer for Task Generalization in Reinforcement Learning](https://arxiv.org/pdf/2303.05092.pdf) | RID | arXiv2303 | propose Task Distribution Relevance to capture the relevance of the task distribution quantitatively; propose RID to use world models to improve task generalization via encoding reward signals into policies |
+| [Reparameterized Policy Learning for Multimodal Trajectory Optimization](https://arxiv.org/pdf/2307.10710.pdf) | RPG | ICML23 oral | propose a principled framework that models the continuous RL policy as a generative model of optimal trajectories; present RPG to leverages the multimodal policy parameterization and learned world model to achieve strong exploration capabilities and high data efficiency |
 | [Posterior Sampling for Deep Reinforcement Learning](https://arxiv.org/pdf/2305.00477.pdf) | PSDRL | ICML23 | combine efficient uncertainty quantification over latent state space models with a specially tailored continual planning algorithm based on value-function approximation |
-| Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators || ICML23 ||
-| Learning Temporally Abstract World Models without Online Experimentation || ICML23 ||
+| [Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators](https://openreview.net/pdf?id=rDMAJECBM2) | TPX | ICML23 | propose Total Propagation X, the first composite gradient estimation algorithm using inverse variance weighting that is demonstrated to be applicable at scale; combine TPX with Dreamer |
 | Go Beyond Imagination: Maximizing Episodic Reachability with World Models || ICML23 ||
 | [Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling](https://arxiv.org/pdf/2301.12050.pdf) | DECKARD | ICML23 | hypothesize an Abstract World Model (AWM) over subgoals by few-shot prompting an LLM |
 | Demonstration-free Autonomous Reinforcement Learning via Implicit and Bidirectional Curriculum || ICML23 ||
@@ -561,6 +560,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Efficient Offline Policy Optimization with a Learned Model  || ICLR23 ||
 | Model-based Offline Reinforcement Learning with Count-based Conservatism || ICML23 ||
 | Model-Bellman Inconsistency for Model-based Offline Reinforcement Learning || ICML23 ||
+| [Learning Temporally Abstract World Models without Online Experimentation](https://openreview.net/pdf?id=YeTYJz7th5) | OPOSM | ICML23 | present an approach for simultaneously learning sets of skills and temporally abstract, skill-conditioned world models purely from offline data, enabling agents to perform zero-shot online planning of skill sequences for new tasks |
 
 
 <a id='Meta-RL'></a>
