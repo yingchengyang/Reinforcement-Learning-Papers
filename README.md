@@ -212,7 +212,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Discovered Policy Optimisation](https://arxiv.org/pdf/2210.05639.pdf) || NeurIPS22 ||
 | Faster Deep Reinforcement Learning with Slower Online Network || NeurIPS22 ||
 | exploration-guided reward shaping for reinforcement learning under sparse rewards || NeurIPS22 ||
-| an adaptive deep rl method for non-stationary environments with piecewise stable context || NeurIPS22 ||
 | [Large-Scale Retrieval for Reinforcement Learning](https://arxiv.org/pdf/2206.05314.pdf) || NeurIPS22 ||
 | [Sustainable Online Reinforcement Learning for Auto-bidding](https://arxiv.org/pdf/2210.07006.pdf) || NeurIPS22 ||
 | [LECO: Learnable Episodic Count for Task-Specific Intrinsic Reward](https://arxiv.org/pdf/2210.05409.pdf) || NeurIPS22 ||
@@ -308,7 +307,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
 | VIMA: Robot Manipulation with Multimodal Prompts || ICML23 ||
 | Distilling Internet-Scale Vision-Language Models into Embodied Agents || ICML23 ||
-| ContraBAR: Contrastive Bayes-Adaptive Deep RL || ICML23 ||
 | On Many-Actions Policy Gradient || ICML23 ||
 | Multi-task Hierarchical Adversarial Inverse Reinforcement Learning || ICML23 ||
 | Cell-Free Latent Go-Explore || ICML23 ||
@@ -599,6 +597,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Hindsight Foresight Relabeling for Meta-Reinforcement Learning](https://arxiv.org/pdf/2109.09031.pdf) | HFR | ICLR22 | focus on improving the sample efficiency of the meta-training phase via data sharing; combine relabeling techniques with meta-RL algorithms in order to boost both sample efficiency and asymptotic performance |
 | [CoMPS: Continual Meta Policy Search](https://arxiv.org/pdf/2112.04467.pdf) | CoMPS | ICLR22 | first formulate the continual meta-RL setting, where the agent interacts with a single task at a time and, once finished with a task, never interacts with it again |
 | [Learning a subspace of policies for online adaptation in Reinforcement Learning](https://arxiv.org/pdf/2110.05169.pdf) | ---- | ICLR22 | consider the setting with just a single train environment; propose an approach where we learn a subspace of policies within the parameter space |
+| [an adaptive deep rl method for non-stationary environments with piecewise stable context](https://arxiv.org/pdf/2212.12735.pdf) | SeCBAD | NeurIPS22 | introduce latent situational MDP with piecewise-stable context; jointly infer the belief distribution over latent context with the posterior over segment length and perform more accurate belief context inference with observed data within the current context segment |
 | [Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search](https://arxiv.org/pdf/2102.08291.pdf) | GSSM | ICML22 | consider model-based meta reinforcement learning, which consists of dynamics model learning and policy optimization; develop a graph structured dynamics model with superior generalization capability across tasks|
 | [Meta-Learning Hypothesis Spaces for Sequential Decision-making](https://arxiv.org/pdf/2202.00602.pdf) | Meta-KeL | ICML22 | argue that two critical capabilities of transformers, reason over long-term dependencies and present context-dependent weights from self-attention, compose the central role of a Meta-Reinforcement Learner; propose Meta-LeL for meta-learning the hypothesis space of a sequential decision task |
 | Biased Gradient Estimate with Drastic Variance Reduction for Meta Reinforcement Learning || ICML22 ||
@@ -606,6 +605,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Offline Meta-Reinforcement Learning with Online Self-Supervision || ICML22 ||
 | Distributional Meta-Gradient Reinforcement Learning || ICLR23 ||
 | Simple Embodied Language Learning as a Byproduct of Meta-Reinforcement Learning || ICML23 ||
+| [ContraBAR: Contrastive Bayes-Adaptive Deep RL](https://arxiv.org/pdf/2306.02418.pdf) | ContraBAR | ICML23 | investigate whether contrastive methods, like contrastive predictive coding, can be used for learning Bayes-optimal behavior |
 
 
 
