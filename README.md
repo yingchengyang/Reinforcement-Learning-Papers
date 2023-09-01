@@ -285,7 +285,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Emergence of Adaptive Circadian Rhythms in Deep Reinforcement Learning || ICML23 ||
 | Explaining Reinforcement Learning with Shapley Values || ICML23 ||
 | [Reinforcement Learning Can Be More Efficient with Multiple Rewards](https://openreview.net/pdf?id=skDVsmXjPR) | ---- | ICML23 | theoretically analyze multi-reward extensions of action-elimination algorithms and prove more favorable instance-dependent regret bounds compared to their single-reward counterparts, both in multi-armed bandits and in tabular Markov decision processes |
-| Jump-Start Reinforcement Learning || ICML23 ||
 | [Performative Reinforcement Learning](https://arxiv.org/pdf/2207.00046.pdf) | ---- | ICML23 | introduce the framework of performative reinforcement learning where the policy chosen by the learner affects the underlying reward and transition dynamics of the environment |
 | Truncating Trajectories in Monte Carlo Reinforcement Learning || ICML23 ||
 | ReLOAD: Reinforcement Learning with Optimistic Ascent-Descent for Last-Iterate Convergence in Constrained MDPs || ICML23 ||
@@ -518,6 +517,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Offline Reinforcement Learning with Closed-Form Policy Improvement Operators || ICML23 ||
 | ChiPFormer: Transferable Chip Placement via Offline Decision Transformer || ICML23 ||
 | Boosting Offline Reinforcement Learning with Action Preference Query || ICML23 ||
+| [Jump-Start Reinforcement Learning](https://arxiv.org/pdf/2204.02372.pdf) | JSRL | ICML23 | consider the setting that employs two policies to solve tasks: a guide-policy, and an exploration-policy; bootstrap an RL algorithm by gradually “rolling in” with the guide-policy |
 
 
 <a id='offline-diffusion'></a>
