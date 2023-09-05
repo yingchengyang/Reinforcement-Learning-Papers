@@ -272,7 +272,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | When is Realizability Sufficient for Off-Policy Reinforcement Learning? || ICML23 ||
 | The Statistical Benefits of Quantile Temporal-Difference Learning for Value Estimation || ICML23 ||
 | [Hyperparameters in Reinforcement Learning and How To Tune Them](https://arxiv.org/pdf/2306.01324.pdf) | ---- | ICML23 | Exploration of the hyperparameter landscape for commonly-used RL algorithms and environments; Comparison of different types of HPO methods on state-of-the-art RL algorithms and challenging RL environments |
-| Simplified Temporal Consistency Reinforcement Learning || ICML23 ||
 | Langevin Thompson Sampling with Logarithmic Communication: Bandits and Reinforcement Learning || ICML23 ||
 | Correcting discount-factor mismatch in on-policy policy gradient methods || ICML23 ||
 | Masked Trajectory Models for Prediction, Representation, and Control || ICML23 ||
@@ -423,7 +422,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Reparameterized Policy Learning for Multimodal Trajectory Optimization](https://arxiv.org/pdf/2307.10710.pdf) | RPG | ICML23 oral | propose a principled framework that models the continuous RL policy as a generative model of optimal trajectories; present RPG to leverages the multimodal policy parameterization and learned world model to achieve strong exploration capabilities and high data efficiency |
 | [Posterior Sampling for Deep Reinforcement Learning](https://arxiv.org/pdf/2305.00477.pdf) | PSDRL | ICML23 | combine efficient uncertainty quantification over latent state space models with a specially tailored continual planning algorithm based on value-function approximation |
 | [Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators](https://openreview.net/pdf?id=rDMAJECBM2) | TPX | ICML23 | propose Total Propagation X, the first composite gradient estimation algorithm using inverse variance weighting that is demonstrated to be applicable at scale; combine TPX with Dreamer |
-| Go Beyond Imagination: Maximizing Episodic Reachability with World Models || ICML23 ||
+| [Go Beyond Imagination: Maximizing Episodic Reachability with World Models](https://openreview.net/pdf?id=JsAMuzA9o2) | GoBI | ICML23 | combine the traditional lifelong novelty motivation with an episodic intrinsic reward that is designed to maximize the stepwise reachability expansion; apply learned world models to generate predicted future states with random actions |
+| [Simplified Temporal Consistency Reinforcement Learning](https://arxiv.org/pdf/2306.09466.pdf) | TCRL | ICML23 | propose a simple representation learning approach relying only on a latent dynamics model trained by latent temporal consistency and it is sufficient for high-performance RL |
 | [Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling](https://arxiv.org/pdf/2301.12050.pdf) | DECKARD | ICML23 | hypothesize an Abstract World Model (AWM) over subgoals by few-shot prompting an LLM |
 | Demonstration-free Autonomous Reinforcement Learning via Implicit and Bidirectional Curriculum || ICML23 ||
 | [Curious Replay for Model-based Adaptation](https://arxiv.org/pdf/2306.15934.pdf) | CR | ICML23 | aid model-based RL agent adaptation by prioritizing replay of experiences the agent knows the least about |
