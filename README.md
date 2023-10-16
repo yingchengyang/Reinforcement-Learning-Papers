@@ -334,7 +334,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Principled Reinforcement Learning with Human Feedback from Pairwise or K-wise Comparisons || ICML23 ||
 | Social learning spontaneously emerges by searching optimal heuristics with deep reinforcement learning || ICML23 ||
 | [Bigger, Better, Faster: Human-level Atari with human-level efficiency](https://arxiv.org/pdf/2305.19452.pdf) | BBF | ICML23 | rely on scaling the neural networks used for value estimation and a number of other design choices like resetting |
-| [Synthetic Experience Replay](https://arxiv.org/pdf/2303.06614.pdf) || NeurIPS23 ||
+| [Synthetic Experience Replay](https://arxiv.org/pdf/2303.06614.pdf) | SynthER | NeurIPS23 | utilize diffusion to augment data in the replay buffer; evaluate in both online RL and offline RL|
 
 
 <a id='Model-Based-Online'></a>
