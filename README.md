@@ -152,6 +152,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Bootstrapped Representations in Reinforcement Learning](https://arxiv.org/pdf/2306.10171.pdf) | ---- | ICML23 | provide a theoretical characterization of the state representation learnt by temporal difference learning; find that this representation differs from the features learned by Monte Carlo and residual gradient algorithms for most transition structures of the environment in the policy evaluation setting |
 | CLUTR: Curriculum Learning via Unsupervised Task Representation Learning || ICML23 ||
 | [Controllability-Aware Unsupervised Skill Discovery](https://arxiv.org/pdf/2302.05103.pdf) | CSD | ICML23 | train a controllability-aware distance function based on the current skill repertoire and combine it with distance-maximizing skill discovery |
+| [Behavior Contrastive Learning for Unsupervised Skill Discovery](https://arxiv.org/pdf/2305.04477.pdf) | BeCL | ICML23 | propose a novel unsupervised skill discovery method through contrastive learning among behaviors, which makes the agent produce similar behaviors for the same skill and diverse behaviors for different skills |
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
@@ -301,7 +302,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Efficient Online Reinforcement Learning with Offline Data || ICML23 ||
 | Variance Control for Distributional Reinforcement Learning || ICML23 ||
 | Hindsight Learning for MDPs with Exogenous Inputs || ICML23 ||
-| Behavior Contrastive Learning for Unsupervised Skill Discovery || ICML23 ||
 | RLang: A Declarative Language for Describing Partial World Knowledge to Reinforcement Learning Agents || ICML23 ||
 | Scalable Safe Policy Improvement via Monte Carlo Tree Search || ICML23 ||
 | Bayesian Reparameterization of Reward-Conditioned Reinforcement Learning with Energy-based Models || ICML23 ||
