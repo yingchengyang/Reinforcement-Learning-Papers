@@ -277,7 +277,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | The Statistical Benefits of Quantile Temporal-Difference Learning for Value Estimation || ICML23 ||
 | [Hyperparameters in Reinforcement Learning and How To Tune Them](https://arxiv.org/pdf/2306.01324.pdf) | ---- | ICML23 | Exploration of the hyperparameter landscape for commonly-used RL algorithms and environments; Comparison of different types of HPO methods on state-of-the-art RL algorithms and challenging RL environments |
 | Langevin Thompson Sampling with Logarithmic Communication: Bandits and Reinforcement Learning || ICML23 ||
-| Correcting discount-factor mismatch in on-policy policy gradient methods || ICML23 ||
+| [Correcting discount-factor mismatch in on-policy policy gradient methods](https://arxiv.org/pdf/2306.13284.pdf) | ---- | ICML23 | introduce a novel distribution correction to account for the discounted stationary distribution |
 | Masked Trajectory Models for Prediction, Representation, and Control || ICML23 ||
 | Off-Policy Average Reward Actor-Critic with Deterministic Policy Search || ICML23 ||
 | TGRL: An Algorithm for Teacher Guided Reinforcement Learning || ICML23 ||
