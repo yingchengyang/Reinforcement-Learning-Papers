@@ -122,6 +122,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
 | [Diversity is All You Need: Learning Skills without a Reward Function](https://arxiv.org/pdf/1802.06070.pdf) | DIAYN | ICLR19 | learn diverse skills in environments without any rewards by maximizing an information theoretic objective |
+| Unsupervised Control Through Non-Parametric Discriminative Rewards || ICLR19 ||
 | [CURL: Contrastive Unsupervised Representations for Reinforcement Learning](https://arxiv.org/pdf/2004.04136.pdf) | CURL | ICML20 | extracts high-level features from raw pixels using contrastive learning and performs offpolicy control on top of the extracted features |
 | [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 | propose using Bisimulation to learn robust latent representations which encode only the task-relevant information from observations |
 | [Decoupling representation learning from reinforcement learning](https://arxiv.org/pdf/2009.08319.pdf) | ATC | ICML21 | propose a new unsupervised task tailored to reinforcement learning named Augmented Temporal Contrast (ATC), which borrows ideas from Contrastive learning; benchmark several leading Unsupervised Learning algorithms by pre-training encoders on expert demonstrations and using them in RL agents|
@@ -130,6 +131,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Understanding the World Through Action](https://arxiv.org/pdf/2110.12543.pdf) | ---- | CoRL21 | discusse how self-supervised reinforcement learning combined with offline RL can enable scalable representation learning |
 | [URLB: Unsupervised Reinforcement Learning Benchmark](https://arxiv.org/pdf/2110.15191.pdf) | URLB | NeurIPS21 | a benchmark for unsupervised reinforcement learning |
 | [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 oral | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
+| Lipschitzconstrained unsupervised skill discovery || ICLR22 ||
 | The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
 | [A Mixture of Surprises for Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2210.06702.pdf) | MOSS | NeurIPS22 |  train one mixture component whose objective is to maximize the surprise and another whose objective is to minimize the surprise for handling the setting that the entropy of the environment’s dynamics may be unknown |
 | [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive  RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
@@ -148,6 +150,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels](https://arxiv.org/pdf/2209.12016.pdf) | Dyna-MPC | ICML23 oral | utilize unsupervised model-based RL for pre-training the agent; finetune downstream tasks via a task-aware finetuning strategy combined with a hybrid planner, Dyna-MPC |
 | [On the Importance of Feature Decorrelation for Unsupervised Representation Learning in Reinforcement Learning](https://arxiv.org/pdf/2306.05637.pdf) | SimTPR | ICML23 | propose a novel URL framework that causally predicts future states while increasing the dimension of the latent manifold by decorrelating the features in the latent space |
 | [Bootstrapped Representations in Reinforcement Learning](https://arxiv.org/pdf/2306.10171.pdf) | ---- | ICML23 | provide a theoretical characterization of the state representation learnt by temporal difference learning; find that this representation differs from the features learned by Monte Carlo and residual gradient algorithms for most transition structures of the environment in the policy evaluation setting |
+| CLUTR: Curriculum Learning via Unsupervised Task Representation Learning || ICML23 ||
+| [Controllability-Aware Unsupervised Skill Discovery](https://arxiv.org/pdf/2302.05103.pdf) | CSD | ICML23 | train a controllability-aware distance function based on the current skill repertoire and combine it with distance-maximizing skill discovery |
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
@@ -315,12 +319,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Leveraging Offline Data in Online Reinforcement Learning || ICML23 ||
 | Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space || ICML23 ||
 | Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition || ICML23 ||
-| CLUTR: Curriculum Learning via Unsupervised Task Representation Learning || ICML23 ||
-| Controllability-Aware Unsupervised Skill Discovery || ICML23 ||
-| Learning in POMDPs is Sample-Efficient with Hindsight Observability || ICML23 ||
 | DoMo-AC: Doubly Multi-step Off-policy Actor-Critic Algorithm || ICML23 ||
-| Reward-Mixing MDPs with Few Latent Contexts are Learnable || ICML23 ||
-| Computationally Efficient PAC RL in POMDPs with Latent Determinism and Conditional Embeddings || ICML23 ||
 | [Scaling Laws for Reward Model Overoptimization](https://openreview.net/attachment?id=bBLjms8nZE&name=pdf) | ---- | ICML23 | study overoptimization in the context of large language models fine-tuned as reward models trained to predict which of two options a human will prefer; study how the gold reward model score changes as we optimize against the proxy reward model using either reinforcement learning or best-of-n sampling |
 | SNeRL: Semantic-aware Neural Radiance Fields for Reinforcement Learning || ICML23 ||
 | Set-membership Belief State-based Reinforcement Learning for POMDPs || ICML23 ||
