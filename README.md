@@ -15,7 +15,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
     - [Off-Policy Evaluation](#off-policy-evaluation)
     - [Soft RL](#soft-rl)
     - [Data Augmentation](#data-augmentation)
-    - [Representation Learning](#Representation-RL)
+    - [Representation Learning & Unsupervised Learning](#Representation-RL)
     - [Current methods](#current)
 * [Model Based (Online) RL](#Model-Based-Online)
     - [Classic Methods](#model-based-classic)
@@ -115,7 +115,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 
 
 <a id='Representation-RL'></a>
-## Representation Learning
+## Representation Learning & Unsupervised Learning
 
 Note: representation learning with MBRL is in the part [World Models](#dreamer)
 
