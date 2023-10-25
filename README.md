@@ -131,7 +131,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Understanding the World Through Action](https://arxiv.org/pdf/2110.12543.pdf) | ---- | CoRL21 | discusse how self-supervised reinforcement learning combined with offline RL can enable scalable representation learning |
 | [URLB: Unsupervised Reinforcement Learning Benchmark](https://arxiv.org/pdf/2110.15191.pdf) | URLB | NeurIPS21 | a benchmark for unsupervised reinforcement learning |
 | [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | ---- | ICLR22 oral | show that unsupervised skill discovery algorithms based on mutual information maximization do not learn skills that are optimal for every possible reward function; provide a geometric perspective on some skill learning methods |
-| Lipschitzconstrained unsupervised skill discovery || ICLR22 ||
+| Lipschitz Constrained Unsupervised Skill Discovery || ICLR22 ||
 | The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
 | [A Mixture of Surprises for Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2210.06702.pdf) | MOSS | NeurIPS22 |  train one mixture component whose objective is to maximize the surprise and another whose objective is to minimize the surprise for handling the setting that the entropy of the environment’s dynamics may be unknown |
 | [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive  RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
@@ -153,6 +153,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | CLUTR: Curriculum Learning via Unsupervised Task Representation Learning || ICML23 ||
 | [Controllability-Aware Unsupervised Skill Discovery](https://arxiv.org/pdf/2302.05103.pdf) | CSD | ICML23 | train a controllability-aware distance function based on the current skill repertoire and combine it with distance-maximizing skill discovery |
 | [Behavior Contrastive Learning for Unsupervised Skill Discovery](https://arxiv.org/pdf/2305.04477.pdf) | BeCL | ICML23 | propose a novel unsupervised skill discovery method through contrastive learning among behaviors, which makes the agent produce similar behaviors for the same skill and diverse behaviors for different skills |
+| Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
@@ -307,7 +308,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Bayesian Reparameterization of Reward-Conditioned Reinforcement Learning with Energy-based Models || ICML23 ||
 | Understanding the Complexity Gains of Single-Task RL with a Curriculum || ICML23 ||
 | PPG Reloaded: An Empirical Study on What Matters in Phasic Policy Gradient || ICML23 ||
-| Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
 | VIMA: Robot Manipulation with Multimodal Prompts || ICML23 ||
 | Distilling Internet-Scale Vision-Language Models into Embodied Agents || ICML23 ||
 | On Many-Actions Policy Gradient || ICML23 ||
