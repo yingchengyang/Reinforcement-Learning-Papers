@@ -31,7 +31,6 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
     - [Environments](#Gene-Environments)
     - [Methods](#Gene-Methods)
 * [RL with Transformer](#Sequence-Generation)
-* [Lifelong RL](#Lifelong-RL)
 * [RL with LLM](#RL-LLM)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
 
@@ -733,14 +732,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | On the Data-Efficiency with Contrastive Image Transformation in Reinforcement Learning  || ICLR23 ||
 | Future-conditioned Unsupervised Pretraining for Decision Transformer || ICML23 ||
 | Emergent Agentic Transformer from Chain of Hindsight Experience || ICML23 ||
-
-
-<a id='Lifelong-RL'></a>
-## Continual / Lifelong RL
-
-|  Title | Method | Conference | Description |
-| ----  | ----   | ----       |   ----  |
-| Revisiting Curiosity for Exploration in Procedurally Generated Environments  || ICLR23 ||
 
 
 <a id='RL-LLM'></a>
