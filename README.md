@@ -334,6 +334,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Principled Reinforcement Learning with Human Feedback from Pairwise or K-wise Comparisons || ICML23 ||
 | Social learning spontaneously emerges by searching optimal heuristics with deep reinforcement learning || ICML23 ||
 | [Bigger, Better, Faster: Human-level Atari with human-level efficiency](https://arxiv.org/pdf/2305.19452.pdf) | BBF | ICML23 | rely on scaling the neural networks used for value estimation and a number of other design choices like resetting |
+| DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models || NeurIPS23 oral ||
+| When Do Transformers Shine in RL? Decoupling Memory from Credit Assignment || NeurIPS23 oral ||
+| Bridging RL Theory and Practice with the Effective Horizon || NeurIPS23 oral ||
 | [Synthetic Experience Replay](https://arxiv.org/pdf/2303.06614.pdf) | SynthER | NeurIPS23 | utilize diffusion to augment data in the replay buffer; evaluate in both online RL and offline RL|
 
 
@@ -518,6 +521,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | ChiPFormer: Transferable Chip Placement via Offline Decision Transformer || ICML23 ||
 | Boosting Offline Reinforcement Learning with Action Preference Query || ICML23 ||
 | [Jump-Start Reinforcement Learning](https://arxiv.org/pdf/2204.02372.pdf) | JSRL | ICML23 | consider the setting that employs two policies to solve tasks: a guide-policy, and an exploration-policy; bootstrap an RL algorithm by gradually “rolling in” with the guide-policy |
+| Understanding Expertise through Demonstrations: A Maximum Likelihood Framework for Offline Inverse Reinforcement Learning || NeurIPS23 oral ||
 
 
 <a id='offline-diffusion'></a>
