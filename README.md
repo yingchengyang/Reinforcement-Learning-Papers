@@ -154,6 +154,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Controllability-Aware Unsupervised Skill Discovery](https://arxiv.org/pdf/2302.05103.pdf) | CSD | ICML23 | train a controllability-aware distance function based on the current skill repertoire and combine it with distance-maximizing skill discovery |
 | [Behavior Contrastive Learning for Unsupervised Skill Discovery](https://arxiv.org/pdf/2305.04477.pdf) | BeCL | ICML23 | propose a novel unsupervised skill discovery method through contrastive learning among behaviors, which makes the agent produce similar behaviors for the same skill and diverse behaviors for different skills |
 | Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
+| Representation-Driven Reinforcement Learning || ICML23 ||
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
@@ -283,7 +284,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Masked Trajectory Models for Prediction, Representation, and Control || ICML23 ||
 | Off-Policy Average Reward Actor-Critic with Deterministic Policy Search || ICML23 ||
 | TGRL: An Algorithm for Teacher Guided Reinforcement Learning || ICML23 ||
-| Representation-Driven Reinforcement Learning || ICML23 ||
 | LIV: Language-Image Representations and Rewards for Robotic Control || ICML23 ||
 | Stein Variational Goal Generation for adaptive Exploration in Multi-Goal Reinforcement Learning || ICML23 ||
 | Emergence of Adaptive Circadian Rhythms in Deep Reinforcement Learning || ICML23 ||
