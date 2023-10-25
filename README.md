@@ -146,8 +146,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Provable Unsupervised Data Sharing for Offline Reinforcement Learning || ICLR23 ||
 | [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/pdf?id=Sy-o2N0hF4f) | FICC | ICLR23 | consider the setting where the pre-training data are action-free videos; introduce a two-phase training pipeline; pre-training phase: implicitly extract the hidden action embedding from videos and pre-train the visual representation and the environment dynamics network based on vector quantization; down-stream tasks: finetune with small amount of task data based on the learned models |
 | [Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels](https://arxiv.org/pdf/2209.12016.pdf) | Dyna-MPC | ICML23 oral | utilize unsupervised model-based RL for pre-training the agent; finetune downstream tasks via a task-aware finetuning strategy combined with a hybrid planner, Dyna-MPC |
-| On the Importance of Feature Decorrelation for Unsupervised Representation Learning in Reinforcement Learning || ICML23 ||
-| Bootstrapped Representations in Reinforcement Learning || ICML23 ||
+| [On the Importance of Feature Decorrelation for Unsupervised Representation Learning in Reinforcement Learning](https://arxiv.org/pdf/2306.05637.pdf) | SimTPR | ICML23 | propose a novel URL framework that causally predicts future states while increasing the dimension of the latent manifold by decorrelating the features in the latent space |
+| [Bootstrapped Representations in Reinforcement Learning](https://arxiv.org/pdf/2306.10171.pdf) | ---- | ICML23 | provide a theoretical characterization of the state representation learnt by temporal difference learning; find that this representation differs from the features learned by Monte Carlo and residual gradient algorithms for most transition structures of the environment in the policy evaluation setting |
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
