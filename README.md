@@ -68,6 +68,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | Learning more skills through optimistic exploration || ICLR22 ||
 | [Automatic Intrinsic Reward Shaping for Exploration in Deep Reinforcement Learning](https://arxiv.org/pdf/2301.10886.pdf) | AIRS | ICML23 | select shaping function from a predefined set based on the estimated task return in real-time, providing reliable exploration incentives and alleviating the biased objective problem; develop a toolkit that provides highquality implementations of various intrinsic reward modules based on PyTorch |
 | [Curiosity in Hindsight: Intrinsic Exploration in Stochastic Environments](https://arxiv.org/pdf/2211.10515.pdf) | Curiosity in Hindsight | ICML23 | consider exploration in stochastic environments; learn representations of the future that capture precisely the unpredictable aspects of each outcome—which we use as additional input for predictions, such that intrinsic rewards only reflect the predictable aspects of world dynamics |
+| Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition || ICML23 ||
 
 <a id='off-policy-evaluation'></a>
 ### Off-Policy Evaluation
@@ -146,6 +147,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Spectral Decomposition Representation for Reinforcement Learning || ICLR23 ||
 | Behavior Prior Representation learning for Offline Reinforcement Learning || ICLR23 ||
 | Provable Unsupervised Data Sharing for Offline Reinforcement Learning || ICLR23 ||
+| Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality || ICLR23 ||
 | [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/pdf?id=Sy-o2N0hF4f) | FICC | ICLR23 | consider the setting where the pre-training data are action-free videos; introduce a two-phase training pipeline; pre-training phase: implicitly extract the hidden action embedding from videos and pre-train the visual representation and the environment dynamics network based on vector quantization; down-stream tasks: finetune with small amount of task data based on the learned models |
 | [Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels](https://arxiv.org/pdf/2209.12016.pdf) | Dyna-MPC | ICML23 oral | utilize unsupervised model-based RL for pre-training the agent; finetune downstream tasks via a task-aware finetuning strategy combined with a hybrid planner, Dyna-MPC |
 | [On the Importance of Feature Decorrelation for Unsupervised Representation Learning in Reinforcement Learning](https://arxiv.org/pdf/2306.05637.pdf) | SimTPR | ICML23 | propose a novel URL framework that causally predicts future states while increasing the dimension of the latent manifold by decorrelating the features in the latent space |
@@ -257,7 +259,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Policy Expansion for Bridging Offline-to-Online Reinforcement Learning  || ICLR23 ||
 | [Improving Deep Policy Gradients with Value Function Search](https://arxiv.org/pdf/2302.10145.pdf) | VFS | ICLR23 | focus on improving value approximation and analyzing the effects on Deep PG primitives such as value prediction, variance reduction, and correlation of gradient estimates with the true gradient; show that value functions with better predictions improve Deep PG primitives, leading to better sample efficiency and policies with higher returns |
 | [Memory Gym: Partially Observable Challenges to Memory-Based Agents](https://openreview.net/pdf?id=jHc8dCx6DDr) | Memory Gym | ICLR23 | a benchmark for challenging Deep Reinforcement Learning agents to memorize events across long sequences, be robust to noise, and generalize; consists of the partially observable 2D and discrete control environments Mortar Mayhem, Mystery Path, and Searing Spotlights; [\[code\]](https://github.com/MarcoMeter/drl-memory-gym/) |
-| Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality || ICLR23 ||
 | [Hybrid RL: Using both offline and online data can make RL efficient](https://arxiv.org/pdf/2210.06718.pdf) | Hy-Q | ICLR23 | focus on a hybrid setting named Hybrid RL, where the agent has both an offline dataset and the ability to interact with the environment; extend fitted Q-iteration algorithm |
 | [POPGym: Benchmarking Partially Observable Reinforcement Learning](https://arxiv.org/pdf/2303.01859.pdf) | POPGym | ICLR23 | a two-part library containing (1) a diverse collection of 15 partially observable environments, each with multiple difficulties and (2) implementations of 13 memory model baselines; [\[code\]](https://github.com/proroklab/popgym) |
 | [Critic Sequential Monte Carlo](https://arxiv.org/pdf/2205.15460.pdf) | CriticSMC | ICLR23 | combine sequential Monte Carlo with learned Soft-Q function heuristic factors |
@@ -309,7 +310,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Understanding the Complexity Gains of Single-Task RL with a Curriculum || ICML23 ||
 | PPG Reloaded: An Empirical Study on What Matters in Phasic Policy Gradient || ICML23 ||
 | VIMA: Robot Manipulation with Multimodal Prompts || ICML23 ||
-| Distilling Internet-Scale Vision-Language Models into Embodied Agents || ICML23 ||
 | On Many-Actions Policy Gradient || ICML23 ||
 | Multi-task Hierarchical Adversarial Inverse Reinforcement Learning || ICML23 ||
 | Cell-Free Latent Go-Explore || ICML23 ||
@@ -318,7 +318,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Interactive Object Placement with Reinforcement Learning || ICML23 ||
 | Leveraging Offline Data in Online Reinforcement Learning || ICML23 ||
 | Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space || ICML23 ||
-| Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition || ICML23 ||
 | DoMo-AC: Doubly Multi-step Off-policy Actor-Critic Algorithm || ICML23 ||
 | [Scaling Laws for Reward Model Overoptimization](https://openreview.net/attachment?id=bBLjms8nZE&name=pdf) | ---- | ICML23 | study overoptimization in the context of large language models fine-tuned as reward models trained to predict which of two options a human will prefer; study how the gold reward model score changes as we optimize against the proxy reward model using either reinforcement learning or best-of-n sampling |
 | SNeRL: Semantic-aware Neural Radiance Fields for Reinforcement Learning || ICML23 ||
@@ -742,6 +741,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | ----  | ----   | ----       |   ----  |
 | [Can Wikipedia Help Offline Reinforcement Learning?](https://arxiv.org/pdf/2201.12122.pdf) || arXiv2201 ||
 | [Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning](https://arxiv.org/pdf/2302.02662.pdf) | GLAM | ICML23 | consider an agent using an LLM as a policy that is progressively updated as the agent interacts with the environment, leveraging online Reinforcement Learning to improve its performance to solve goals |
+| Distilling Internet-Scale Vision-Language Models into Embodied Agents || ICML23 ||
 
 
 <a id='Tutorial-and-Lesson'></a>
