@@ -309,8 +309,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Bayesian Reparameterization of Reward-Conditioned Reinforcement Learning with Energy-based Models || ICML23 ||
 | Understanding the Complexity Gains of Single-Task RL with a Curriculum || ICML23 ||
 | PPG Reloaded: An Empirical Study on What Matters in Phasic Policy Gradient || ICML23 ||
-| VIMA: Robot Manipulation with Multimodal Prompts || ICML23 ||
-| On Many-Actions Policy Gradient || ICML23 ||
+| [On Many-Actions Policy Gradient](https://arxiv.org/pdf/2210.13011.pdf) | MBMA | ICML23 | propose MBMA, an approach leveraging dynamics models for many-actions sampling in the context of stochastic policy gradient (SPG). which yields lower bias and comparable variance to SPG estimated from states in model-simulated rollouts |
 | Multi-task Hierarchical Adversarial Inverse Reinforcement Learning || ICML23 ||
 | Cell-Free Latent Go-Explore || ICML23 ||
 | Trustworthy Policy Learning under the Counterfactual No-Harm Criterion || ICML23 ||
@@ -742,6 +741,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Can Wikipedia Help Offline Reinforcement Learning?](https://arxiv.org/pdf/2201.12122.pdf) || arXiv2201 ||
 | [Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning](https://arxiv.org/pdf/2302.02662.pdf) | GLAM | ICML23 | consider an agent using an LLM as a policy that is progressively updated as the agent interacts with the environment, leveraging online Reinforcement Learning to improve its performance to solve goals |
 | Distilling Internet-Scale Vision-Language Models into Embodied Agents || ICML23 ||
+| VIMA: Robot Manipulation with Multimodal Prompts || ICML23 ||
 
 
 <a id='Tutorial-and-Lesson'></a>
