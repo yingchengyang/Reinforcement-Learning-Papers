@@ -121,6 +121,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 
 |  Title | Method | Conference | Description |
 | ----  | ----   | ----       |   ----  |
+| [Variational Intrinsic Control](https://arxiv.org/pdf/1611.07507.pdf) || arXiv1611 ||
 | [Diversity is All You Need: Learning Skills without a Reward Function](https://arxiv.org/pdf/1802.06070.pdf) | DIAYN | ICLR19 | learn diverse skills in environments without any rewards by maximizing an information theoretic objective |
 | Unsupervised Control Through Non-Parametric Discriminative Rewards || ICLR19 ||
 | [Dynamics-Aware Unsupervised Discovery of Skills](https://arxiv.org/pdf/1907.01657.pdf) | DADS | ICLR20 | propose to learn low-level skills using model-free RL with the explicit aim of making model-based control easy |
