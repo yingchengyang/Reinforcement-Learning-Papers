@@ -69,6 +69,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | [Automatic Intrinsic Reward Shaping for Exploration in Deep Reinforcement Learning](https://arxiv.org/pdf/2301.10886.pdf) | AIRS | ICML23 | select shaping function from a predefined set based on the estimated task return in real-time, providing reliable exploration incentives and alleviating the biased objective problem; develop a toolkit that provides highquality implementations of various intrinsic reward modules based on PyTorch |
 | [Curiosity in Hindsight: Intrinsic Exploration in Stochastic Environments](https://arxiv.org/pdf/2211.10515.pdf) | Curiosity in Hindsight | ICML23 | consider exploration in stochastic environments; learn representations of the future that capture precisely the unpredictable aspects of each outcome—which we use as additional input for predictions, such that intrinsic rewards only reflect the predictable aspects of world dynamics |
 | Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition || ICML23 ||
+| Maximize to Explore: One Objective Function Fusing Estimation, Planning, and Exploration || NeurIPS23 spotlight ||
 
 <a id='off-policy-evaluation'></a>
 ### Off-Policy Evaluation
@@ -139,6 +140,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/pdf?id=Sy-o2N0hF4f) | FICC | ICLR23 | consider the setting where the pre-training data are action-free videos; introduce a two-phase training pipeline; pre-training phase: implicitly extract the hidden action embedding from videos and pre-train the visual representation and the environment dynamics network based on vector quantization; down-stream tasks: finetune with small amount of task data based on the learned models |
 | [Bootstrapped Representations in Reinforcement Learning](https://arxiv.org/pdf/2306.10171.pdf) | ---- | ICML23 | provide a theoretical characterization of the state representation learnt by temporal difference learning; find that this representation differs from the features learned by Monte Carlo and residual gradient algorithms for most transition structures of the environment in the policy evaluation setting |
 | Representation-Driven Reinforcement Learning || ICML23 ||
+| Conditional Mutual Information for Disentangled Representations in Reinforcement Learning || NeurIPS23 spotlight ||
 
 <a id='Unsupervised-RL'></a>
 ## Unsupervised Learning
@@ -348,7 +350,13 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models || NeurIPS23 oral ||
 | When Do Transformers Shine in RL? Decoupling Memory from Credit Assignment || NeurIPS23 oral ||
 | Bridging RL Theory and Practice with the Effective Horizon || NeurIPS23 oral ||
+| Optimistic Natural Policy Gradient: a Simple Efficient Policy Optimization Framework for Online RL || NeurIPS23 spotlight ||
+| Double Gumbel Q-Learning || NeurIPS23 spotlight ||
+| Future-Dependent Value-Based Off-Policy Evaluation in POMDPs || NeurIPS23 spotlight ||
+| Supervised Pretraining Can Learn In-Context Reinforcement Learning || NeurIPS23 spotlight ||
+| Train Once, Get a Family: State-Adaptive Balances for Offline-to-Online Reinforcement Learning || NeurIPS23 spotlight ||
 | [Synthetic Experience Replay](https://arxiv.org/pdf/2303.06614.pdf) | SynthER | NeurIPS23 | utilize diffusion to augment data in the replay buffer; evaluate in both online RL and offline RL|
+
 
 
 <a id='Model-Based-Online'></a>
@@ -399,6 +407,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [STEERING : Stein Information Directed Exploration for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2301.12038.pdf) | STEERING | ICML23 |  |
 | [Predictable MDP Abstraction for Unsupervised Model-Based RL](https://arxiv.org/pdf/2302.03921.pdf) | PMA | ICML23 | apply model-based RL on top of an abstracted, simplified MDP, by restricting unpredictable actions |
 | The Virtues of Laziness in Model-based RL: A Unified Objective and Algorithms || ICML23 ||
+| RePo: Resilient Model-Based Reinforcement Learning by Regularizing Posterior Predictability || NeurIPS23 spotlight ||
 
 
 <a id='dreamer'></a>
@@ -445,6 +454,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Curious Replay for Model-based Adaptation](https://arxiv.org/pdf/2306.15934.pdf) | CR | ICML23 | aid model-based RL agent adaptation by prioritizing replay of experiences the agent knows the least about |
 | [Multi-View Masked World Models for Visual Robotic Manipulation](https://arxiv.org/pdf/2302.02408.pdf) | MV-MWM | ICML23 | train a multi-view masked autoencoder that reconstructs pixels of randomly masked viewpoints and then learn a world model operating on the representations from the autoencoder |
 | [Facing off World Model Backbones: RNNs, Transformers, and S4](https://arxiv.org/pdf/2307.02064.pdf) | S4WM | arXiv2307 | propose the first S4-based world model that can generate high-dimensional image sequences through latent imagination |
+| When Demonstrations meet Generative World Models: A Maximum Likelihood Framework for Offline Inverse Reinforcement Learning || NeurIPS23 oral ||
 
 
 
@@ -723,6 +733,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [The Benefits of Model-Based Generalization in Reinforcement Learning](https://openreview.net/pdf?id=Vue1ulwlPD) | ---- | ICML23 | provide theoretical and empirical insight into when, and how, we can expect data generated by a learned model to be useful |
 | [Multi-Environment Pretraining Enables Transfer to Action Limited Datasets](https://arxiv.org/pdf/2211.13337.pdf) | ALPT | ICML23 | given n source environments with fully action labelled dataset, consider offline RL in the target environment with a small action labelled dataset and a large dataset without action labels; utilize inverse dynamics model to learn a representation that generalizes well to the limited action data from the target environment |
 | Online Prototype Alignment for Few-shot Policy Transfer || ICML23 ||
+| Learning Generalizable Agents via Saliency-guided Features Decorrelation || NeurIPS23 oral ||
 
 
 <a id='Sequence-Generation'></a>
@@ -756,6 +767,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning](https://arxiv.org/pdf/2302.02662.pdf) | GLAM | ICML23 | consider an agent using an LLM as a policy that is progressively updated as the agent interacts with the environment, leveraging online Reinforcement Learning to improve its performance to solve goals |
 | Distilling Internet-Scale Vision-Language Models into Embodied Agents || ICML23 ||
 | VIMA: Robot Manipulation with Multimodal Prompts || ICML23 ||
+| SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks || NeurIPS23 spotlight ||
 
 
 <a id='Tutorial-and-Lesson'></a>
