@@ -172,6 +172,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Controllability-Aware Unsupervised Skill Discovery](https://arxiv.org/pdf/2302.05103.pdf) | CSD | ICML23 | train a controllability-aware distance function based on the current skill repertoire and combine it with distance-maximizing skill discovery |
 | [Behavior Contrastive Learning for Unsupervised Skill Discovery](https://arxiv.org/pdf/2305.04477.pdf) | BeCL | ICML23 | propose a novel unsupervised skill discovery method through contrastive learning among behaviors, which makes the agent produce similar behaviors for the same skill and diverse behaviors for different skills |
 | Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
+| MIMEx: Intrinsic Rewards from Masked Input Modeling || NeurIPS23 ||
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
@@ -356,6 +357,16 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Supervised Pretraining Can Learn In-Context Reinforcement Learning || NeurIPS23 spotlight ||
 | Train Once, Get a Family: State-Adaptive Balances for Offline-to-Online Reinforcement Learning || NeurIPS23 spotlight ||
 | [Synthetic Experience Replay](https://arxiv.org/pdf/2303.06614.pdf) | SynthER | NeurIPS23 | utilize diffusion to augment data in the replay buffer; evaluate in both online RL and offline RL|
+| f-Policy Gradients: A General Framework for Goal-Conditioned RL using f-Divergences || NeurIPS23 ||
+| Prediction and Control in Continual Reinforcement Learning || NeurIPS23 ||
+| Residual Q-Learning: Offline and Online Policy Customization without Value || NeurIPS23 ||
+| Small batch deep reinforcement learning || NeurIPS23 ||
+| Last-Iterate Convergent Policy Gradient Primal-Dual Methods for Constrained MDPs || NeurIPS23 ||
+| Is RLHF More Difficult than Standard RL? A Theoretical Perspective || NeurIPS23 ||
+| Reflexion: language agents with verbal reinforcement learning || NeurIPS23 ||
+| Generative Modelling of Stochastic Actions with Arbitrary Constraints in Reinforcement Learning || NeurIPS23 ||
+| Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning || NeurIPS23 ||
+| Direct Preference-based Policy Optimization without Reward Modeling || NeurIPS23 ||
 
 
 
@@ -455,6 +466,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Multi-View Masked World Models for Visual Robotic Manipulation](https://arxiv.org/pdf/2302.02408.pdf) | MV-MWM | ICML23 | train a multi-view masked autoencoder that reconstructs pixels of randomly masked viewpoints and then learn a world model operating on the representations from the autoencoder |
 | [Facing off World Model Backbones: RNNs, Transformers, and S4](https://arxiv.org/pdf/2307.02064.pdf) | S4WM | arXiv2307 | propose the first S4-based world model that can generate high-dimensional image sequences through latent imagination |
 | When Demonstrations meet Generative World Models: A Maximum Likelihood Framework for Offline Inverse Reinforcement Learning || NeurIPS23 oral ||
+| Language Models Meet World Models: Embodied Experiences Enhance Language Models || NeurIPS23 ||
 
 
 
