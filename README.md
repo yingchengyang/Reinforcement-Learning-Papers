@@ -70,6 +70,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | [Curiosity in Hindsight: Intrinsic Exploration in Stochastic Environments](https://arxiv.org/pdf/2211.10515.pdf) | Curiosity in Hindsight | ICML23 | consider exploration in stochastic environments; learn representations of the future that capture precisely the unpredictable aspects of each outcome—which we use as additional input for predictions, such that intrinsic rewards only reflect the predictable aspects of world dynamics |
 | Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition || ICML23 ||
 | Maximize to Explore: One Objective Function Fusing Estimation, Planning, and Exploration || NeurIPS23 spotlight ||
+| [MIMEx: Intrinsic Rewards from Masked Input Modeling](https://arxiv.org/pdf/2305.08932.pdf) | MIMEx | NeurIPS23 | propose that the mask distribution can be flexibly tuned to control the difficulty of the underlying conditional prediction task |
 
 <a id='off-policy-evaluation'></a>
 ### Off-Policy Evaluation
@@ -139,8 +140,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Behavior Prior Representation learning for Offline Reinforcement Learning || ICLR23 ||
 | [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/pdf?id=Sy-o2N0hF4f) | FICC | ICLR23 | consider the setting where the pre-training data are action-free videos; introduce a two-phase training pipeline; pre-training phase: implicitly extract the hidden action embedding from videos and pre-train the visual representation and the environment dynamics network based on vector quantization; down-stream tasks: finetune with small amount of task data based on the learned models |
 | [Bootstrapped Representations in Reinforcement Learning](https://arxiv.org/pdf/2306.10171.pdf) | ---- | ICML23 | provide a theoretical characterization of the state representation learnt by temporal difference learning; find that this representation differs from the features learned by Monte Carlo and residual gradient algorithms for most transition structures of the environment in the policy evaluation setting |
-| Representation-Driven Reinforcement Learning || ICML23 ||
-| Conditional Mutual Information for Disentangled Representations in Reinforcement Learning || NeurIPS23 spotlight ||
+| [Representation-Driven Reinforcement Learning](https://arxiv.org/pdf/2305.19922.pdf) | RepRL | ICML23 | reduce the policy search problem to a contextual bandit problem, using a mapping from policy space to a linear feature space |
+| [Conditional Mutual Information for Disentangled Representations in Reinforcement Learning](https://arxiv.org/pdf/2305.14133.pdf) | CMID | NeurIPS23 spotlight | propose an auxiliary task for RL algorithms that learns a disentangled representation of high-dimensional observations with correlated features by minimising the conditional mutual information between features in the representation. |
 
 <a id='Unsupervised-RL'></a>
 ## Unsupervised Learning
@@ -172,7 +173,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Controllability-Aware Unsupervised Skill Discovery](https://arxiv.org/pdf/2302.05103.pdf) | CSD | ICML23 | train a controllability-aware distance function based on the current skill repertoire and combine it with distance-maximizing skill discovery |
 | [Behavior Contrastive Learning for Unsupervised Skill Discovery](https://arxiv.org/pdf/2305.04477.pdf) | BeCL | ICML23 | propose a novel unsupervised skill discovery method through contrastive learning among behaviors, which makes the agent produce similar behaviors for the same skill and diverse behaviors for different skills |
 | Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
-| MIMEx: Intrinsic Rewards from Masked Input Modeling || NeurIPS23 ||
 | Learning to Discover Skills through Guidance || NeurIPS23 ||
 
 <!-- ### <span id='current'>Current methods</span> -->
@@ -290,7 +290,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Subequivariant Graph Reinforcement Learning in 3D Environments || ICML23 oral ||
 | Representation Learning with Multi-Step Inverse Kinematics: An Efficient and Optimal Approach to Rich-Observation RL || ICML23 oral ||
 | Flipping Coins to Estimate Pseudocounts for Exploration in Reinforcement Learning || ICML23 oral ||
-| Settling the Reward Hypothesis || ICML23 oral ||
+| [Settling the Reward Hypothesis](https://arxiv.org/pdf/2212.10420.pdf) | ---- | ICML23 oral | provide a treatment of the reward hypothesis in both the setting that goals are the subjective desires of the agent and in the setting where goals are the objective desires of an agent designer |
 | Information-Theoretic State Space Model for Multi-View Reinforcement Learning || ICML23 oral ||
 | [Learning Belief Representations for Partially Observable Deep RL](https://openreview.net/pdf?id=4IzEmHLono) | Believer | ICML23 | decouple belief state modelling (via unsupervised learning) from policy optimization (via RL); propose a representation learning approach to capture a compact set of reward-relevant features of the state |
 | [Internally Rewarded Reinforcement Learning](https://arxiv.org/pdf/2302.00270.pdf) | IRRL | ICML23 | study a class of reinforcement learning problems where the reward signals for policy learning are generated by an internal reward model that is dependent on and jointly optimized with the policy; theoretically derive and empirically analyze the effect of the reward function in IRRL and based on these analyses propose the clipped linear reward function |
