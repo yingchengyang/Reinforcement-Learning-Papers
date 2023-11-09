@@ -173,6 +173,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Behavior Contrastive Learning for Unsupervised Skill Discovery](https://arxiv.org/pdf/2305.04477.pdf) | BeCL | ICML23 | propose a novel unsupervised skill discovery method through contrastive learning among behaviors, which makes the agent produce similar behaviors for the same skill and diverse behaviors for different skills |
 | Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
 | MIMEx: Intrinsic Rewards from Masked Input Modeling || NeurIPS23 ||
+| Learning to Discover Skills through Guidance || NeurIPS23 ||
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
@@ -367,7 +368,25 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Generative Modelling of Stochastic Actions with Arbitrary Constraints in Reinforcement Learning || NeurIPS23 ||
 | Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning || NeurIPS23 ||
 | Direct Preference-based Policy Optimization without Reward Modeling || NeurIPS23 ||
-
+| Learning to Modulate pre-trained Models in RL || NeurIPS23 ||
+| Ignorance is Bliss: Robust Control via Information Gating || NeurIPS23 ||
+| Marginal Density Ratio for Off-Policy Evaluation in Contextual Bandits || NeurIPS23 ||
+| Model-Free Reinforcement Learning with the Decision-Estimation Coefficient || NeurIPS23 ||
+| Optimal and Fair Encouragement Policy Evaluation and Learning || NeurIPS23 ||
+| BIRD: Generalizable Backdoor Detection and Removal for Deep Reinforcement Learning || NeurIPS23 ||
+| Probabilistic Inference in Reinforcement Learning Done Right || NeurIPS23 ||
+| Reference-Based POMDPs || NeurIPS23 ||
+| Persuading Farsighted Receivers in MDPs: the Power of Honesty || NeurIPS23 ||
+| Distributional Policy Evaluation: a Maximum Entropy approach to Representation Learning || NeurIPS23 ||
+| Structured State Space Models for In-Context Reinforcement Learning || NeurIPS23 ||
+| An Alternative to Variance: Gini Deviation for Risk-averse Policy Gradient || NeurIPS23 ||
+| Distributional Model Equivalence for Risk-Sensitive Reinforcement Learning || NeurIPS23 ||
+| PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning || NeurIPS23 ||
+| Hybrid Policy Optimization from Imperfect Demonstrations || NeurIPS23 ||
+| Policy Optimization in a Noisy Neighborhood: On Return Landscapes in Continuous Control || NeurIPS23 ||
+| Semantic HELM: A Human-Readable Memory for Reinforcement Learning || NeurIPS23 ||
+| A Definition of Continual Reinforcement Learning || NeurIPS23 ||
+| Fast Bellman Updates for Wasserstein Distributionally Robust MDPs || NeurIPS23 ||
 
 
 <a id='Model-Based-Online'></a>
@@ -467,6 +486,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Facing off World Model Backbones: RNNs, Transformers, and S4](https://arxiv.org/pdf/2307.02064.pdf) | S4WM | arXiv2307 | propose the first S4-based world model that can generate high-dimensional image sequences through latent imagination |
 | When Demonstrations meet Generative World Models: A Maximum Likelihood Framework for Offline Inverse Reinforcement Learning || NeurIPS23 oral ||
 | Language Models Meet World Models: Embodied Experiences Enhance Language Models || NeurIPS23 ||
+| Action Inference by Maximising Evidence: Zero-Shot Imitation from Observation with World Models || NeurIPS23 ||
 
 
 
@@ -555,6 +575,11 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Boosting Offline Reinforcement Learning with Action Preference Query || ICML23 ||
 | [Jump-Start Reinforcement Learning](https://arxiv.org/pdf/2204.02372.pdf) | JSRL | ICML23 | consider the setting that employs two policies to solve tasks: a guide-policy, and an exploration-policy; bootstrap an RL algorithm by gradually “rolling in” with the guide-policy |
 | Understanding Expertise through Demonstrations: A Maximum Likelihood Framework for Offline Inverse Reinforcement Learning || NeurIPS23 oral ||
+| Learning to Influence Human Behavior with Offline Reinforcement Learning || NeurIPS23 ||
+| Design from Policies: Conservative Test-Time Adaptation for Offline Policy Optimization || NeurIPS23 ||
+| SafeDICE: Offline Safe Imitation Learning with Non-Preferred Demonstrations || NeurIPS23 ||
+| Constrained Policy Optimization with Explicit Behavior Density For Offline Reinforcement Learning || NeurIPS23 ||
+| Conservative State Value Estimation for Offline Reinforcement Learning || NeurIPS23 ||
 
 
 <a id='offline-diffusion'></a>
