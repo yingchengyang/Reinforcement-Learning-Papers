@@ -165,6 +165,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Learning more skills through optimistic exploration](https://arxiv.org/pdf/2107.14226.pdf) | DISDAIN | ICLR22 | derive an information gain auxiliary objective that involves training an ensemble of discriminators and rewarding the policy for their disagreement; the objective directly estimates the epistemic uncertainty that comes from the discriminator not having seen enough training examples|
 | [A Mixture of Surprises for Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2210.06702.pdf) | MOSS | NeurIPS22 |  train one mixture component whose objective is to maximize the surprise and another whose objective is to minimize the surprise for handling the setting that the entropy of the environment’s dynamics may be unknown |
 | [Unsupervised Reinforcement Learning with Contrastive Intrinsic Control](https://arxiv.org/pdf/2202.00161.pdf) | CIC | NeurIPS22 | propose to maximize the mutual information between statetransitions and latent skill vectors |
+| [Unsupervised Skill Discovery via Recurrent Skill Training](https://openreview.net/pdf?id=sYDX_OxNNjh) | ReST | NeurIPS22 | encourage the latter trained skills to avoid entering the same states covered by the previous skills |
 | Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
 | Provable Unsupervised Data Sharing for Offline Reinforcement Learning || ICLR23 ||
 | Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality || ICLR23 ||
