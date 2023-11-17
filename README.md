@@ -166,7 +166,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [A Mixture of Surprises for Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2210.06702.pdf) | MOSS | NeurIPS22 |  train one mixture component whose objective is to maximize the surprise and another whose objective is to minimize the surprise for handling the setting that the entropy of the environment’s dynamics may be unknown |
 | [Unsupervised Reinforcement Learning with Contrastive Intrinsic Control](https://arxiv.org/pdf/2202.00161.pdf) | CIC | NeurIPS22 | propose to maximize the mutual information between statetransitions and latent skill vectors |
 | [Unsupervised Skill Discovery via Recurrent Skill Training](https://openreview.net/pdf?id=sYDX_OxNNjh) | ReST | NeurIPS22 | encourage the latter trained skills to avoid entering the same states covered by the previous skills |
-| Choreographer: Learning and Adapting Skills in Imagination || ICLR23 Spotlight ||
+| [Choreographer: Learning and Adapting Skills in Imagination](https://arxiv.org/pdf/2211.13350.pdf) | Choreographer | ICLR23 Spotlight | decouples the exploration and skill learning processes; uses a meta-controller to evaluate and adapt the learned skills efficiently by deploying them in parallel in imagination |
 | Provable Unsupervised Data Sharing for Offline Reinforcement Learning || ICLR23 ||
 | Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality || ICLR23 ||
 | [Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels](https://arxiv.org/pdf/2209.12016.pdf) | Dyna-MPC | ICML23 oral | utilize unsupervised model-based RL for pre-training the agent; finetune downstream tasks via a task-aware finetuning strategy combined with a hybrid planner, Dyna-MPC |
@@ -176,6 +176,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Behavior Contrastive Learning for Unsupervised Skill Discovery](https://arxiv.org/pdf/2305.04477.pdf) | BeCL | ICML23 | propose a novel unsupervised skill discovery method through contrastive learning among behaviors, which makes the agent produce similar behaviors for the same skill and diverse behaviors for different skills |
 | Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
 | Learning to Discover Skills through Guidance || NeurIPS23 ||
+| [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction](https://arxiv.org/pdf/2310.08887.pdf) | METRA |  |  |
+| Task Adaptation from Skills: Information Geometry, Disentanglement, and New Objectives for Unsupervised Reinforcement Learning | ---- |||
+
 
 <!-- ### <span id='current'>Current methods</span> -->
 <a id='current'></a>
