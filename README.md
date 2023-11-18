@@ -6,6 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICML23, NeurIPS23 papers on RL**
+<!-- page 41 -->
 
 
 ## Contents 
@@ -392,7 +393,28 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Semantic HELM: A Human-Readable Memory for Reinforcement Learning || NeurIPS23 ||
 | A Definition of Continual Reinforcement Learning || NeurIPS23 ||
 | Fast Bellman Updates for Wasserstein Distributionally Robust MDPs || NeurIPS23 ||
-
+| Policy Gradient for Rectangular Robust Markov Decision Processes || NeurIPS23 ||
+| Discovering Hierarchical Achievements in Reinforcement Learning via Contrastive Learning || NeurIPS23 ||
+| Truncating Trajectories in Monte Carlo Policy Evaluation: an Adaptive Approach || NeurIPS23 ||
+| Model-Free Active Exploration in Reinforcement Learning || NeurIPS23 ||
+| Self-Supervised Reinforcement Learning that Transfers using Random Features || NeurIPS23 ||
+| FlowPG: Action-constrained Policy Gradient with Normalizing Flows || NeurIPS23 ||
+| Flexible Attention-Based Multi-Policy Fusion for Efficient Deep Reinforcement Learning || NeurIPS23 ||
+| ODE-based Recurrent Model-free Reinforcement Learning for POMDPs || NeurIPS23 ||
+| Suggesting Variable Order for Cylindrical Algebraic Decomposition via Reinforcement Learning || NeurIPS23 ||
+| SPQR: Controlling Q-ensemble Independence with Spiked Random Model for Reinforcement Learning || NeurIPS23 ||
+| CaMP: Causal Multi-policy Planning for Interactive Navigation in Multi-room Scenes || NeurIPS23 ||
+| POMDP Planning for Object Search in Partially Unknown Environment || NeurIPS23 ||
+| Unified Off-Policy Learning to Rank: a Reinforcement Learning Perspective || NeurIPS23 ||
+| Natural Actor-Critic for Robust Reinforcement Learning with Function Approximation || NeurIPS23 ||
+| A Long $N$-step Surrogate Stage Reward for Deep Reinforcement Learning || NeurIPS23 ||
+| State-Action Similarity-Based Representations for Off-Policy Evaluation || NeurIPS23 ||
+| Weakly Coupled Deep Q-Networks || NeurIPS23 ||
+| Large Language Models Are Semi-Parametric Reinforcement Learning Agents || NeurIPS23 ||
+| The Benefits of Being Distributional: Small-Loss Bounds for Reinforcement Learning || NeurIPS23 ||
+| Online Nonstochastic Model-Free Reinforcement Learning || NeurIPS23 ||
+| When is Agnostic Reinforcement Learning Statistically Tractable? || NeurIPS23 ||
+| Bayesian Risk-Averse Q-Learning with Streaming Observations || NeurIPS23 ||
 
 <a id='Model-Based-Online'></a>
 ## Model Based (Online) RL
@@ -488,10 +510,10 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Demonstration-free Autonomous Reinforcement Learning via Implicit and Bidirectional Curriculum || ICML23 ||
 | [Curious Replay for Model-based Adaptation](https://arxiv.org/pdf/2306.15934.pdf) | CR | ICML23 | aid model-based RL agent adaptation by prioritizing replay of experiences the agent knows the least about |
 | [Multi-View Masked World Models for Visual Robotic Manipulation](https://arxiv.org/pdf/2302.02408.pdf) | MV-MWM | ICML23 | train a multi-view masked autoencoder that reconstructs pixels of randomly masked viewpoints and then learn a world model operating on the representations from the autoencoder |
-| [Facing off World Model Backbones: RNNs, Transformers, and S4](https://arxiv.org/pdf/2307.02064.pdf) | S4WM | arXiv2307 | propose the first S4-based world model that can generate high-dimensional image sequences through latent imagination |
 | When Demonstrations meet Generative World Models: A Maximum Likelihood Framework for Offline Inverse Reinforcement Learning || NeurIPS23 oral ||
 | Language Models Meet World Models: Embodied Experiences Enhance Language Models || NeurIPS23 ||
 | Action Inference by Maximising Evidence: Zero-Shot Imitation from Observation with World Models || NeurIPS23 ||
+| [Facing off World Model Backbones: RNNs, Transformers, and S4](https://arxiv.org/pdf/2307.02064.pdf) | S4WM | NeurIPS23 | propose the first S4-based world model that can generate high-dimensional image sequences through latent imagination |
 
 
 
@@ -585,6 +607,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | SafeDICE: Offline Safe Imitation Learning with Non-Preferred Demonstrations || NeurIPS23 ||
 | Constrained Policy Optimization with Explicit Behavior Density For Offline Reinforcement Learning || NeurIPS23 ||
 | Conservative State Value Estimation for Offline Reinforcement Learning || NeurIPS23 ||
+| Offline RL with Discrete Proxy Representations for Generalizability in POMDPs || NeurIPS23 ||
 
 
 <a id='offline-diffusion'></a>
@@ -675,6 +698,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Distributional Meta-Gradient Reinforcement Learning || ICLR23 ||
 | Simple Embodied Language Learning as a Byproduct of Meta-Reinforcement Learning || ICML23 ||
 | [ContraBAR: Contrastive Bayes-Adaptive Deep RL](https://arxiv.org/pdf/2306.02418.pdf) | ContraBAR | ICML23 | investigate whether contrastive methods, like contrastive predictive coding, can be used for learning Bayes-optimal behavior |
+| Doubly Robust Augmented Transfer for Meta-Reinforcement Learning || NeurIPS23 ||
 
 
 
