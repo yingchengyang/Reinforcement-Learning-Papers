@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICML23, NeurIPS23 papers on RL**
-<!-- page 41 -->
+<!-- page 51 -->
 
 
 ## Contents 
@@ -143,7 +143,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/pdf?id=Sy-o2N0hF4f) | FICC | ICLR23 | consider the setting where the pre-training data are action-free videos; introduce a two-phase training pipeline; pre-training phase: implicitly extract the hidden action embedding from videos and pre-train the visual representation and the environment dynamics network based on vector quantization; down-stream tasks: finetune with small amount of task data based on the learned models |
 | [Bootstrapped Representations in Reinforcement Learning](https://arxiv.org/pdf/2306.10171.pdf) | ---- | ICML23 | provide a theoretical characterization of the state representation learnt by temporal difference learning; find that this representation differs from the features learned by Monte Carlo and residual gradient algorithms for most transition structures of the environment in the policy evaluation setting |
 | [Representation-Driven Reinforcement Learning](https://arxiv.org/pdf/2305.19922.pdf) | RepRL | ICML23 | reduce the policy search problem to a contextual bandit problem, using a mapping from policy space to a linear feature space |
-| [Conditional Mutual Information for Disentangled Representations in Reinforcement Learning](https://arxiv.org/pdf/2305.14133.pdf) | CMID | NeurIPS23 spotlight | propose an auxiliary task for RL algorithms that learns a disentangled representation of high-dimensional observations with correlated features by minimising the conditional mutual information between features in the representation. |
+| [Conditional Mutual Information for Disentangled Representations in Reinforcement Learning](https://arxiv.org/pdf/2305.14133.pdf) | CMID | NeurIPS23 spotlight | propose an auxiliary task for RL algorithms that learns a disentangled representation of high-dimensional observations with correlated features by minimising the conditional mutual information between features in the representation |
 
 <a id='Unsupervised-RL'></a>
 ## Unsupervised Learning
@@ -177,6 +177,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Behavior Contrastive Learning for Unsupervised Skill Discovery](https://arxiv.org/pdf/2305.04477.pdf) | BeCL | ICML23 | propose a novel unsupervised skill discovery method through contrastive learning among behaviors, which makes the agent produce similar behaviors for the same skill and diverse behaviors for different skills |
 | Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
 | Learning to Discover Skills through Guidance || NeurIPS23 ||
+| Creating Multi-Level Skill Hierarchies in Reinforcement Learning || NeurIPS23 ||
 | [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction](https://arxiv.org/pdf/2310.08887.pdf) | METRA |  |  |
 | Task Adaptation from Skills: Information Geometry, Disentanglement, and New Objectives for Unsupervised Reinforcement Learning | ---- |||
 
@@ -415,6 +416,16 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Online Nonstochastic Model-Free Reinforcement Learning || NeurIPS23 ||
 | When is Agnostic Reinforcement Learning Statistically Tractable? || NeurIPS23 ||
 | Bayesian Risk-Averse Q-Learning with Streaming Observations || NeurIPS23 ||
+| Resetting the Optimizer in Deep RL: An Empirical Study || NeurIPS23 ||
+| Optimistic Exploration in Reinforcement Learning Using Symbolic Model Estimates || NeurIPS23 ||
+| Performance Bounds for Policy-Based Average Reward Reinforcement Learning Algorithms || NeurIPS23 ||
+| Regularity as Intrinsic Reward for Free Play || NeurIPS23 ||
+| TACO: Temporal Latent Action-Driven Contrastive Loss for Visual Reinforcement Learning || NeurIPS23 ||
+| Policy Optimization for Continuous Reinforcement Learning || NeurIPS23 ||
+| Active Observing in Continuous-time Control || NeurIPS23 ||
+| Replicable Reinforcement Learning || NeurIPS23 ||
+| On the Importance of Exploration for Generalization in Reinforcement Learning || NeurIPS23 ||
+| Monte Carlo Tree Search with Boltzmann Exploration || NeurIPS23 ||
 
 <a id='Model-Based-Online'></a>
 ## Model Based (Online) RL
