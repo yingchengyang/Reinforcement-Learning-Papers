@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICML23, NeurIPS23 papers on RL**
-<!-- page 51 -->
+<!-- page 61 -->
 
 
 ## Contents 
@@ -426,6 +426,16 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Replicable Reinforcement Learning || NeurIPS23 ||
 | On the Importance of Exploration for Generalization in Reinforcement Learning || NeurIPS23 ||
 | Monte Carlo Tree Search with Boltzmann Exploration || NeurIPS23 ||
+| Iterative Reachability Estimation for Safe Reinforcement Learning || NeurIPS23 ||
+| Discovering General Reinforcement Learning Algorithms with Adversarial Environment Design || NeurIPS23 ||
+| Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence? || NeurIPS23 ||
+| Inverse Dynamics Pretraining Learns Good Representations for Multitask Imitation || NeurIPS23 ||
+| Interpretable Reward Redistribution in Reinforcement Learning: A Causal Approach || NeurIPS23 ||
+| Contrastive Modules with Temporal Attention for Multi-Task Reinforcement Learning || NeurIPS23 ||
+| Sample-Efficient and Safe Deep Reinforcement Learning via Reset Deep Ensemble Agents || NeurIPS23 ||
+| Distributional Pareto-Optimal Multi-Objective Reinforcement Learning || NeurIPS23 ||
+| Efficient Policy Adaptation with Contrastive Prompt Ensemble for Embodied Agents || NeurIPS23 ||
+| Efficient Potential-based Exploration in Reinforcement Learning using Inverse Dynamic Bisimulation Metric || NeurIPS23 ||
 
 <a id='Model-Based-Online'></a>
 ## Model Based (Online) RL
@@ -476,6 +486,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Predictable MDP Abstraction for Unsupervised Model-Based RL](https://arxiv.org/pdf/2302.03921.pdf) | PMA | ICML23 | apply model-based RL on top of an abstracted, simplified MDP, by restricting unpredictable actions |
 | The Virtues of Laziness in Model-based RL: A Unified Objective and Algorithms || ICML23 ||
 | RePo: Resilient Model-Based Reinforcement Learning by Regularizing Posterior Predictability || NeurIPS23 spotlight ||
+| Efficient Exploration in Continuous-time Model-based Reinforcement Learning || NeurIPS23 ||
 
 
 <a id='dreamer'></a>
@@ -619,6 +630,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Constrained Policy Optimization with Explicit Behavior Density For Offline Reinforcement Learning || NeurIPS23 ||
 | Conservative State Value Estimation for Offline Reinforcement Learning || NeurIPS23 ||
 | Offline RL with Discrete Proxy Representations for Generalizability in POMDPs || NeurIPS23 ||
+| Context Shift Reduction for Offline Meta-Reinforcement Learning || NeurIPS23 ||
 
 
 <a id='offline-diffusion'></a>
@@ -633,6 +645,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/pdf/2302.01877.pdf) | AdaptDiffuser | ICML23 oral | propose AdaptDiffuser, an evolutionary planning method with diffusion that can self-evolve to improve the diffusion model hence a better planner, which can also adapt to unseen tasks |
 | Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning | CEP | ICML23 ||
 | MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL || ICML23 ||
+| Efficient Diffusion Policies For Offline Reinforcement Learning || NeurIPS23 ||
 
 
 <a id='Model-Based-Offline'></a>
@@ -662,6 +675,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Model-based Offline Reinforcement Learning with Count-based Conservatism || ICML23 ||
 | Model-Bellman Inconsistency for Model-based Offline Reinforcement Learning || ICML23 ||
 | [Learning Temporally Abstract World Models without Online Experimentation](https://openreview.net/pdf?id=YeTYJz7th5) | OPOSM | ICML23 | present an approach for simultaneously learning sets of skills and temporally abstract, skill-conditioned world models purely from offline data, enabling agents to perform zero-shot online planning of skill sequences for new tasks |
+| One Risk to Rule Them All: A Risk-Sensitive Perspective on Model-Based Offline Reinforcement Learning || NeurIPS23 ||
 
 
 <a id='Meta-RL'></a>
@@ -710,6 +724,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Simple Embodied Language Learning as a Byproduct of Meta-Reinforcement Learning || ICML23 ||
 | [ContraBAR: Contrastive Bayes-Adaptive Deep RL](https://arxiv.org/pdf/2306.02418.pdf) | ContraBAR | ICML23 | investigate whether contrastive methods, like contrastive predictive coding, can be used for learning Bayes-optimal behavior |
 | Doubly Robust Augmented Transfer for Meta-Reinforcement Learning || NeurIPS23 ||
+| Recurrent Hypernetworks are Surprisingly Strong in Meta-RL || NeurIPS23 ||
 
 
 
@@ -742,6 +757,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Robust Situational Reinforcement Learning in Face of Context Disturbances || ICML23 ||
 | Adversarial Learning of Distributional Reinforcement Learning || ICML23 ||
 | Towards Robust and Safe Reinforcement Learning with Benign Off-policy Data || ICML23 ||
+| Constraint-Conditioned Policy Optimization for Versatile Safe Reinforcement Learning || NeurIPS23 ||
 
 <a id='Genaralization-in-RL'></a>
 ## Genaralisation in RL
@@ -811,6 +827,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Multi-Environment Pretraining Enables Transfer to Action Limited Datasets](https://arxiv.org/pdf/2211.13337.pdf) | ALPT | ICML23 | given n source environments with fully action labelled dataset, consider offline RL in the target environment with a small action labelled dataset and a large dataset without action labels; utilize inverse dynamics model to learn a representation that generalizes well to the limited action data from the target environment |
 | Online Prototype Alignment for Few-shot Policy Transfer || ICML23 ||
 | Learning Generalizable Agents via Saliency-guided Features Decorrelation || NeurIPS23 oral ||
+| Explore to Generalize in Zero-Shot RL || NeurIPS23 ||
+| Dynamics Generalisation in Reinforcement Learning via Adaptive Context-Aware Policies || NeurIPS23 ||
+| Reining Generalization in Offline Reinforcement Learning via Representation Distinction || NeurIPS23 ||
 
 
 <a id='Sequence-Generation'></a>
