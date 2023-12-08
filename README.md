@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICML23, NeurIPS23 papers on RL**
-<!-- page 61 -->
+<!-- page 71 -->
 
 
 ## Contents 
@@ -178,6 +178,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
 | Learning to Discover Skills through Guidance || NeurIPS23 ||
 | Creating Multi-Level Skill Hierarchies in Reinforcement Learning || NeurIPS23 ||
+| Unsupervised Behavior Extraction via Random Intent Priors || NeurIPS23 ||
 | [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction](https://arxiv.org/pdf/2310.08887.pdf) | METRA |  |  |
 | Task Adaptation from Skills: Information Geometry, Disentanglement, and New Objectives for Unsupervised Reinforcement Learning | ---- |||
 
@@ -436,6 +437,11 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Distributional Pareto-Optimal Multi-Objective Reinforcement Learning || NeurIPS23 ||
 | Efficient Policy Adaptation with Contrastive Prompt Ensemble for Embodied Agents || NeurIPS23 ||
 | Efficient Potential-based Exploration in Reinforcement Learning using Inverse Dynamic Bisimulation Metric || NeurIPS23 ||
+| Iteratively Learn Diverse Strategies with State Distance Information || NeurIPS23 ||
+| Accelerating Reinforcement Learning with Value-Conditional State Entropy Exploration || NeurIPS23 ||
+| Gradient Informed Proximal Policy Optimization || NeurIPS23 ||
+| The Curious Price of Distributional Robustness in Reinforcement Learning with a Generative Model || NeurIPS23 ||
+| Optimal Treatment Allocation for Efficient Policy Evaluation in Sequential Decision Making || NeurIPS23 ||
 
 <a id='Model-Based-Online'></a>
 ## Model Based (Online) RL
@@ -487,6 +493,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | The Virtues of Laziness in Model-based RL: A Unified Objective and Algorithms || ICML23 ||
 | RePo: Resilient Model-Based Reinforcement Learning by Regularizing Posterior Predictability || NeurIPS23 spotlight ||
 | Efficient Exploration in Continuous-time Model-based Reinforcement Learning || NeurIPS23 ||
+| Model-Based Reparameterization Policy Gradient Methods: Theory and Practical Algorithms || NeurIPS23 ||
 
 
 <a id='dreamer'></a>
@@ -631,6 +638,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Conservative State Value Estimation for Offline Reinforcement Learning || NeurIPS23 ||
 | Offline RL with Discrete Proxy Representations for Generalizability in POMDPs || NeurIPS23 ||
 | Context Shift Reduction for Offline Meta-Reinforcement Learning || NeurIPS23 ||
+| Mutual Information Regularized Offline Reinforcement Learning || NeurIPS23 ||
+| Recovering from Out-of-sample States via Inverse Dynamics in Offline Reinforcement Learning || NeurIPS23 ||
+| Percentile Criterion Optimization in Offline Reinforcement Learning || NeurIPS23 ||
 
 
 <a id='offline-diffusion'></a>
@@ -725,6 +735,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [ContraBAR: Contrastive Bayes-Adaptive Deep RL](https://arxiv.org/pdf/2306.02418.pdf) | ContraBAR | ICML23 | investigate whether contrastive methods, like contrastive predictive coding, can be used for learning Bayes-optimal behavior |
 | Doubly Robust Augmented Transfer for Meta-Reinforcement Learning || NeurIPS23 ||
 | Recurrent Hypernetworks are Surprisingly Strong in Meta-RL || NeurIPS23 ||
+| Parameterizing Non-Parametric Meta-Reinforcement Learning Tasks via Subtask Decomposition || NeurIPS23 ||
 
 
 
@@ -830,6 +841,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Explore to Generalize in Zero-Shot RL || NeurIPS23 ||
 | Dynamics Generalisation in Reinforcement Learning via Adaptive Context-Aware Policies || NeurIPS23 ||
 | Reining Generalization in Offline Reinforcement Learning via Representation Distinction || NeurIPS23 ||
+| Contrastive Retrospection: honing in on critical steps for rapid learning and generalization in RL || NeurIPS23 ||
 
 
 <a id='Sequence-Generation'></a>
