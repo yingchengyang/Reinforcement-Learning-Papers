@@ -176,7 +176,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Controllability-Aware Unsupervised Skill Discovery](https://arxiv.org/pdf/2302.05103.pdf) | CSD | ICML23 | train a controllability-aware distance function based on the current skill repertoire and combine it with distance-maximizing skill discovery |
 | [Behavior Contrastive Learning for Unsupervised Skill Discovery](https://arxiv.org/pdf/2305.04477.pdf) | BeCL | ICML23 | propose a novel unsupervised skill discovery method through contrastive learning among behaviors, which makes the agent produce similar behaviors for the same skill and diverse behaviors for different skills |
 | Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
-| Learning to Discover Skills through Guidance || NeurIPS23 ||
+| [Learning to Discover Skills through Guidance](https://arxiv.org/pdf/2310.20178.pdf) | DISCO-DANCE | NeurIPS23 |  selects the guide skill that possesses the highest potential to reach unexplored states; guides other skills to follow guide skill; the guided skills are dispersed to maximize their discriminability in unexplored states |
 | Creating Multi-Level Skill Hierarchies in Reinforcement Learning || NeurIPS23 ||
 | Unsupervised Behavior Extraction via Random Intent Priors || NeurIPS23 ||
 | [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction](https://arxiv.org/pdf/2310.08887.pdf) | METRA |  |  |
