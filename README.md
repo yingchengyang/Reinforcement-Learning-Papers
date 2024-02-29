@@ -899,29 +899,45 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction](https://openreview.net/pdf?id=c5pwL0Soay) | oral |
 | [ASID: Active Exploration for System Identification and Reconstruction in Robotic Manipulation](https://openreview.net/pdf?id=jNR6s6OSBT) | oral |
 | [Mastering Memory Tasks with World Models](https://openreview.net/pdf?id=1vDArHJ68h) | oral |
-| [Generalized Policy Iteration using Tensor Approximation for Hybrid Control](https://openreview.net/pdf?id=csukJcpYDe) |  |
-| [Selective Visual Representations Improve Convergence and Generalization for Embodied AI](https://openreview.net/pdf?id=kC5nZDU5zf) ||
-| [AMAGO: Scalable In-Context Reinforcement Learning for Adaptive Agents](https://openreview.net/pdf?id=M6XWoEdmwf) ||
-| [Confronting Reward Model Overoptimization with Constrained RLHF](https://openreview.net/pdf?id=gkfUvn0fLU) ||
-| [Proximal Policy Gradient Arborescence for Quality Diversity Reinforcement Learning](https://openreview.net/pdf?id=TFKIfhvdmZ) ||
-| [Improving Offline RL by Blending Heuristics](https://openreview.net/pdf?id=MCl0TLboP1) ||
-| [Decision ConvFormer: Local Filtering in MetaFormer is Sufficient for Decision Making](https://openreview.net/pdf?id=af2c8EaKl8) ||
-| [Tool-Augmented Reward Modeling](https://openreview.net/pdf?id=d94x0gWTUX) ||
-| [Reward-Consistent Dynamics Models are Strongly Generalizable for Offline Reinforcement Learning](https://openreview.net/pdf?id=GSBHKiw19c) ||
-| [Dual RL: Unification and New Methods for Reinforcement and Imitation Learning](https://openreview.net/pdf?id=xt9Bu66rqv) ||
-| [Stabilizing Contrastive RL: Techniques for Robotic Goal Reaching from Offline Data](https://openreview.net/pdf?id=Xkf2EBj4w3) ||
-| [Safe RLHF: Safe Reinforcement Learning from Human Feedback](https://openreview.net/pdf?id=TyFrPOKYXw) ||
-| [Cross$Q$: Batch Normalization in Deep Reinforcement Learning for Greater Sample Efficiency and Simplicity](https://openreview.net/pdf?id=PczQtTsTIX) ||
-| [Blending Imitation and Reinforcement Learning for Robust Policy Improvement](https://openreview.net/pdf?id=eJ0dzPJq1F) ||
-| [Unlocking the Power of Representations in Long-term Novelty-based Exploration](https://openreview.net/pdf?id=OwtMhMSybu) ||
-| [Spatially-Aware Transformers for Embodied Agents](https://openreview.net/pdf?id=Ts95eXsPBc) ||
-| [Learning to Act without Actions](https://openreview.net/pdf?id=rvUq3cxpDF) ||
-| [Towards Principled Representation Learning from Videos for Reinforcement Learning](https://openreview.net/pdf?id=3mnWvUZIXt) ||
-| [TorchRL: A data-driven decision-making library for PyTorch]() ||
-| [Towards Robust Offline Reinforcement Learning under Diverse Data Corruption](https://openreview.net/pdf?id=5hAMmCU0bK) ||
-| [Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics](https://openreview.net/pdf?id=TjCDNssXKU) ||
-| [Text2Reward: Reward Shaping with Language Models for Reinforcement Learning]() ||
-| [Robotic Task Generalization via Hindsight Trajectory Sketches]() ||
-| [Submodular Reinforcement Learning](https://openreview.net/pdf?id=loYSzjSaAK) ||
-| [Query-Policy Misalignment in Preference-Based Reinforcement Learning]() ||
-| [Kernel Metric Learning for In-Sample Off-Policy Evaluation of Deterministic RL Policies]() ||
+| [Generalized Policy Iteration using Tensor Approximation for Hybrid Control](https://openreview.net/pdf?id=csukJcpYDe) | spotlight |
+| [Selective Visual Representations Improve Convergence and Generalization for Embodied AI](https://openreview.net/pdf?id=kC5nZDU5zf) | spotlight |
+| [AMAGO: Scalable In-Context Reinforcement Learning for Adaptive Agents](https://openreview.net/pdf?id=M6XWoEdmwf) | spotlight |
+| [Confronting Reward Model Overoptimization with Constrained RLHF](https://openreview.net/pdf?id=gkfUvn0fLU) | spotlight |
+| [Proximal Policy Gradient Arborescence for Quality Diversity Reinforcement Learning](https://openreview.net/pdf?id=TFKIfhvdmZ) | spotlight |
+| [Improving Offline RL by Blending Heuristics](https://openreview.net/pdf?id=MCl0TLboP1) | spotlight |
+| [Decision ConvFormer: Local Filtering in MetaFormer is Sufficient for Decision Making](https://openreview.net/pdf?id=af2c8EaKl8) | spotlight |
+| [Tool-Augmented Reward Modeling](https://openreview.net/pdf?id=d94x0gWTUX) | spotlight |
+| [Reward-Consistent Dynamics Models are Strongly Generalizable for Offline Reinforcement Learning](https://openreview.net/pdf?id=GSBHKiw19c) | spotlight |
+| [Dual RL: Unification and New Methods for Reinforcement and Imitation Learning](https://openreview.net/pdf?id=xt9Bu66rqv) | spotlight |
+| [Stabilizing Contrastive RL: Techniques for Robotic Goal Reaching from Offline Data](https://openreview.net/pdf?id=Xkf2EBj4w3) | spotlight |
+| [Safe RLHF: Safe Reinforcement Learning from Human Feedback](https://openreview.net/pdf?id=TyFrPOKYXw) | spotlight |
+| [Cross$Q$: Batch Normalization in Deep Reinforcement Learning for Greater Sample Efficiency and Simplicity](https://openreview.net/pdf?id=PczQtTsTIX) | 
+spotlight |
+| [Blending Imitation and Reinforcement Learning for Robust Policy Improvement](https://openreview.net/pdf?id=eJ0dzPJq1F) | spotlight |
+| [Unlocking the Power of Representations in Long-term Novelty-based Exploration](https://openreview.net/pdf?id=OwtMhMSybu) | spotlight |
+| [Spatially-Aware Transformers for Embodied Agents](https://openreview.net/pdf?id=Ts95eXsPBc) | spotlight |
+| [Learning to Act without Actions](https://openreview.net/pdf?id=rvUq3cxpDF) | spotlight |
+| [Towards Principled Representation Learning from Videos for Reinforcement Learning](https://openreview.net/pdf?id=3mnWvUZIXt) | spotlight |
+| [TorchRL: A data-driven decision-making library for PyTorch](https://openreview.net/pdf?id=QxItoEAVMb) | spotlight |
+| [Towards Robust Offline Reinforcement Learning under Diverse Data Corruption](https://openreview.net/pdf?id=5hAMmCU0bK) | spotlight |
+| [Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics](https://openreview.net/pdf?id=TjCDNssXKU) | spotlight |
+| [Text2Reward: Reward Shaping with Language Models for Reinforcement Learning](https://openreview.net/pdf?id=tUM39YTRxH) | spotlight |
+| [Robotic Task Generalization via Hindsight Trajectory Sketches](https://openreview.net/pdf?id=F1TKzG8LJO) | spotlight |
+| [Submodular Reinforcement Learning](https://openreview.net/pdf?id=loYSzjSaAK) | spotlight |
+| [Query-Policy Misalignment in Preference-Based Reinforcement Learning](https://openreview.net/pdf?id=UoBymIwPJR) | spotlight |
+| [Kernel Metric Learning for In-Sample Off-Policy Evaluation of Deterministic RL Policies](https://openreview.net/pdf?id=plebgsdiiV) | spotlight |
+| [GenSim: Generating Robotic Simulation Tasks via Large Language Models](https://openreview.net/pdf?id=OI3RoHoWAN) | spotlight |
+| [Entity-Centric Reinforcement Learning for Object Manipulation from Pixels](https://openreview.net/pdf?id=uDxeSZ1wdI) | spotlight |
+| [Illusory Attacks: Detectability Matters in Adversarial Attacks on Sequential Decision-Makers](https://openreview.net/pdf?id=F5dhGCdyYh) | spotlight |
+| [Addressing Signal Delay in Deep Reinforcement Learning](https://openreview.net/pdf?id=Z8UfDs4J46) | spotlight |
+| [DrM: Mastering Visual Reinforcement Learning through Dormant Ratio Minimization](https://openreview.net/pdf?id=MSe8YFbhUE) | spotlight |
+| [Task Adaptation from Skills: Information Geometry, Disentanglement, and New Objectives for Unsupervised Reinforcement Learning](https://openreview.net/pdf?id=zSxpnKh1yS) | spotlight |
+| [$\mathcal{B}$-Coder: On Value-Based Deep Reinforcement Learning for Program Synthesis](https://openreview.net/pdf?id=fLf589bx1f) | spotlight |
+| [Physics-Regulated Deep Reinforcement Learning: Invariant Embeddings](https://openreview.net/pdf?id=5Dwqu5urzs) | spotlight |
+| [Retroformer: Retrospective Large Language Agents with Policy Gradient Optimization](https://openreview.net/pdf?id=KOZu91CzbK) | spotlight |
+| [Learning to Act from Actionless Videos through Dense Correspondences](https://openreview.net/pdf?id=Mhb5fpA1T0) | spotlight |
+| [CivRealm: A Learning and Reasoning Odyssey in Civilization for Decision-Making Agents](https://openreview.net/pdf?id=UBVNwD3hPN) | spotlight |
+| [TD-MPC2: Scalable, Robust World Models for Continuous Control](https://openreview.net/pdf?id=Oxh5CstDJU) | spotlight |
+| [Universal Humanoid Motion Representations for Physics-Based Control](https://openreview.net/pdf?id=OrOd8PxOO2) | spotlight |
+| [Adaptive Rational Activations to Boost Deep Reinforcement Learning](https://openreview.net/pdf?id=g90ysX1sVs) | spotlight |
+| [Robust Adversarial Reinforcement Learning via Bounded Rationality Curricula](https://openreview.net/pdf?id=pFOoOdaiue) | spotlight |
