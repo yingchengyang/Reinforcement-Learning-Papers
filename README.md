@@ -911,8 +911,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Dual RL: Unification and New Methods for Reinforcement and Imitation Learning](https://openreview.net/pdf?id=xt9Bu66rqv) | spotlight |
 | [Stabilizing Contrastive RL: Techniques for Robotic Goal Reaching from Offline Data](https://openreview.net/pdf?id=Xkf2EBj4w3) | spotlight |
 | [Safe RLHF: Safe Reinforcement Learning from Human Feedback](https://openreview.net/pdf?id=TyFrPOKYXw) | spotlight |
-| [Cross$Q$: Batch Normalization in Deep Reinforcement Learning for Greater Sample Efficiency and Simplicity](https://openreview.net/pdf?id=PczQtTsTIX) | 
-spotlight |
+| [Cross$Q$: Batch Normalization in Deep Reinforcement Learning for Greater Sample Efficiency and Simplicity](https://openreview.net/pdf?id=PczQtTsTIX) | spotlight |
 | [Blending Imitation and Reinforcement Learning for Robust Policy Improvement](https://openreview.net/pdf?id=eJ0dzPJq1F) | spotlight |
 | [Unlocking the Power of Representations in Long-term Novelty-based Exploration](https://openreview.net/pdf?id=OwtMhMSybu) | spotlight |
 | [Spatially-Aware Transformers for Embodied Agents](https://openreview.net/pdf?id=Ts95eXsPBc) | spotlight |
