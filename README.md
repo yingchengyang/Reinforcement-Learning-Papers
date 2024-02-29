@@ -894,4 +894,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 ## ICLR24
 | Paper | Type |
 | ---- | ---- |
-| | oral |
+| [Predictive auxiliary objectives in deep RL mimic learning in the brain]() | oral |
+| [Pre-Training Goal-based Models for Sample-Efficient Reinforcement Learning]() | oral |
+| [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction]() | oral |
+| [ASID: Active Exploration for System Identification and Reconstruction in Robotic Manipulation]() | oral |
+| [Mastering Memory Tasks with World Models]() | oral |
+| [Robust agents learn causal world models]() | oral |
