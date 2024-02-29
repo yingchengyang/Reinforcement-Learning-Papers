@@ -5,7 +5,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
-**We have added some ICML23, NeurIPS23 papers on RL**
+**We have added some ICML23, NeurIPS23, ICLR24 papers on RL**
 <!-- page 71 -->
 
 
@@ -35,6 +35,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [RL with Transformer](#Sequence-Generation)
 * [RL with LLM](#RL-LLM)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
+* [ICLR24](#ICLR24)
 
 <a id='Model-Free-Online'></a>
 ## Model Free (Online) RL
@@ -888,3 +889,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Deep Reinforcement Learning, CS285](https://rail.eecs.berkeley.edu/deeprlcourse/) |
 | [Deep Reinforcement Learning and Control, CMU 10703](https://katefvision.github.io/) |
 | [RLChina](http://rlchina.org/topic/9) |
+
+<a id='ICLR24'></a>
+## ICLR24
+| Paper | Type |
+| ---- | ---- |
+| | oral |
