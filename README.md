@@ -404,8 +404,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [COMBO: Conservative Offline Model-Based Policy Optimization](https://arxiv.org/pdf/2102.08363v1.pdf) | COMBO | NeurIPS21 | try to optimize a lower bound of performance without considering uncertainty quantification; extend CQL with model-based methods|
 | [Weighted Model Estimation for Offline Model-Based Reinforcement Learning](https://openreview.net/pdf?id=zdC5eXljMPy) | ---- | NeurIPS21 | address the covariate shift issue by re-weighting the model losses for different datapoints |
 | [Revisiting Design Choices in Model-Based Offline Reinforcement Learning](https://arxiv.org/pdf/2110.04135.pdf) | ---- | ICLR22 Spotlight | conduct a rigorous investigation into a series of these design choices for Model-based Offline RL |
-| [Pessimistic Model-based Offline Reinforcement Learning under Partial Coverage](https://arxiv.org/pdf/2107.06226.pdf) | CPPO | ICLR22 |  |
-| [Pareto Policy Pool for Model-based Offline Reinforcement Learning](https://openreview.net/pdf?id=OqcZu8JIIzS) |  | ICLR22 |  |
 | [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) | Diffuser | ICML22 oral | first design a denoising diffusion model for trajectory data and an associated probabilistic framework for behavior synthesis |
 | [Learning Temporally Abstract World Models without Online Experimentation](https://openreview.net/pdf?id=YeTYJz7th5) | OPOSM | ICML23 | present an approach for simultaneously learning sets of skills and temporally abstract, skill-conditioned world models purely from offline data, enabling agents to perform zero-shot online planning of skill sequences for new tasks |
 
@@ -569,6 +567,44 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 ## ICLR22
 | Paper | Type |
 | ---- | ---- |
+| [Bootstrapped Meta-Learning](https://arxiv.org/pdf/2109.04504.pdf) | oral |
+| [The Information Geometry of Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.02719.pdf) | oral |
+| [SO(2)-Equivariant Reinforcement Learning](https://arxiv.org/pdf/2203.04439.pdf) | spotlight |
+| [CoBERL: Contrastive BERT for Reinforcement Learning](https://arxiv.org/pdf/2107.05431.pdf) | spotlight |
+| [Understanding and Preventing Capacity Loss in Reinforcement Learning](https://openreview.net/pdf?id=ZkC8wKoLbQ7) | spotlight |
+| [On Lottery Tickets and Minimal Task Representations in Deep Reinforcement Learning](https://arxiv.org/pdf/2105.01648.pdf) | spotlight |
+| [Reinforcement Learning with Sparse Rewards using Guidance from Offline Demonstration](https://arxiv.org/pdf/2202.04628.pdf) | spotlight |
+| [Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation](https://arxiv.org/pdf/2201.01666.pdf) | spotlight |
+| [Generative Planning for Temporally Coordinated Exploration in Reinforcement Learning](https://arxiv.org/pdf/2201.09765.pdf) | spotlight |
+| [When should agents explore?](https://arxiv.org/pdf/2108.11811.pdf) | spotlight |
+| [Revisiting Design Choices in Model-Based Offline Reinforcement Learning](https://arxiv.org/pdf/2110.04135.pdf) | spotlight |
+| [DR3: Value-Based Deep Reinforcement Learning Requires Explicit Regularization](https://arxiv.org/pdf/2112.04716.pdf) | spotlight |
+| [Pessimistic Bootstrapping for Uncertainty-Driven Offline Reinforcement Learning ](https://arxiv.org/pdf/2202.11566.pdf) | spotlight |
+| [COptiDICE: Offline Constrained Reinforcement Learning via Stationary Distribution Correction Estimation](https://openreview.net/pdf?id=FLA55mBee6Q) | spotlight |
+| [Value Gradient weighted Model-Based Reinforcement Learning](https://arxiv.org/pdf/2204.01464.pdf) | spotlight |
+| [Constrained Policy Optimization via Bayesian World Models](https://arxiv.org/pdf/2201.09802.pdf) | spotlight |
+| [Cross-Trajectory Representation Learning for Zero-Shot Generalization in RL](https://arxiv.org/pdf/2106.02193.pdf) | poster |
+| [The Role of Pretrained Representations for the OOD Generalization of RL Agents](https://arxiv.org/pdf/2107.05686.pdf) | poster |
+| [Generalisation in Lifelong Reinforcement Learning through Logical Composition](https://openreview.net/pdf?id=ZOcX-eybqoL) | poster |
+| [Local Feature Swapping for Generalization in Reinforcement Learning](https://arxiv.org/pdf/2204.06355.pdf) | poster |
+| [Policy Smoothing for Provably Robust Reinforcement Learning](https://arxiv.org/pdf/2106.11420.pdf) | poster |
+| [CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing](https://arxiv.org/pdf/2106.09292.pdf) | poster |
+| [Model-Based Offline Meta-Reinforcement Learning with Regularization](https://arxiv.org/pdf/2202.02929.pdf) | poster |
+| [Skill-based Meta-Reinforcement Learning](https://openreview.net/pdf?id=jeLW-Fh9bV) | poster |
+| [Hindsight Foresight Relabeling for Meta-Reinforcement Learning](https://arxiv.org/pdf/2109.09031.pdf) | poster |
+| [CoMPS: Continual Meta Policy Search](https://arxiv.org/pdf/2112.04467.pdf) | poster |
+| [Learning a subspace of policies for online adaptation in Reinforcement Learning](https://arxiv.org/pdf/2110.05169.pdf) | poster |
+| [Pessimistic Model-based Offline Reinforcement Learning under Partial Coverage](https://arxiv.org/pdf/2107.06226.pdf) | poster |
+| [Pareto Policy Pool for Model-based Offline Reinforcement Learning](https://openreview.net/pdf?id=OqcZu8JIIzS) | poster |
+| [Offline Reinforcement Learning with Value-based Episodic Memory](https://openreview.net/pdf?id=RCZqv9NXlZ) | poster |
+| [Offline reinforcement learning with implicit Q-learning](https://arxiv.org/pdf/2110.06169.pdf) | poster |
+| [On-Policy Model Errors in Reinforcement Learning](https://arxiv.org/pdf/2110.07985.pdf) | poster |
+| [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | poster |
+| [Maximizing Ensemble Diversity in Deep Reinforcement Learning](https://openreview.net/pdf?id=hjd-kcpDpf2) | poster |
+| [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | poster |
+| [Learning Generalizable Representations for Reinforcement Learning via Adaptive Meta-learner of Behavioral Similarities](https://openreview.net/pdf?id=zBOI9LFpESK) | poster |
+| [Lipschitz Constrained Unsupervised Skill Discovery](https://arxiv.org/pdf/2202.00914.pdf) | poster |
+| [Learning more skills through optimistic exploration](https://arxiv.org/pdf/2107.14226.pdf) | poster |
 
 <a id='ICML22'></a>
 ## ICML22
