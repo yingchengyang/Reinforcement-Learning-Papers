@@ -13,8 +13,6 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [Model Free (Online) RL](#Model-Free-Online)
     - [Classic Methods](#model-free-classic)
     - [Exploration](#exploration)
-    - [Off-Policy Evaluation](#off-policy-evaluation)
-    - [Soft RL](#soft-rl)
     - [Data Augmentation](#data-augmentation)
     - [Representation Learning](#Representation-RL)
     - [Unsupervised Learning](#Unsupervised-RL)
@@ -80,16 +78,13 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 | Maximize to Explore: One Objective Function Fusing Estimation, Planning, and Exploration || NeurIPS23 spotlight ||
 | [MIMEx: Intrinsic Rewards from Masked Input Modeling](https://arxiv.org/pdf/2305.08932.pdf) | MIMEx | NeurIPS23 | propose that the mask distribution can be flexibly tuned to control the difficulty of the underlying conditional prediction task |
 
-<a id='off-policy-evaluation'></a>
+<!--<a id='off-policy-evaluation'></a>
 ### Off-Policy Evaluation
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
 | [Weighted importance sampling for off-policy learning with linear function approximation](https://proceedings.neurips.cc/paper/2014/file/be53ee61104935234b174e62a07e53cf-Paper.pdf) | WIS-LSTD | NeurIPS14 |  |
 | [Importance Sampling Policy Evaluation with an Estimated Behavior Policy](https://arxiv.org/pdf/1806.01347.pdf) | RIS | ICML19 |  |
-| [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) |  | ICML22 |  |
-| [Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning](https://proceedings.mlr.press/v162/kallus22a/kallus22a.pdf) | LDR2OPE | ICML22 ||
-| [On Well-posedness and Minimax Optimal Rates of Nonparametric Q-function Estimation in Off-policy Evaluation](https://proceedings.mlr.press/v162/chen22u/chen22u.pdf) |  | ICML22 ||
-| [On the Reuse Bias in Off-Policy Reinforcement Learning](https://arxiv.org/pdf/2209.07074.pdf) | BIRIS | IJCAI23 | discuss the bias of off-policy evaluation due to reusing the replay buffer; derive a high-probability bound of the Reuse Bias; introduce the concept of stability for off-policy algorithms and provide an upper bound for stable off-policy algorithms |
+| [On the Reuse Bias in Off-Policy Reinforcement Learning](https://arxiv.org/pdf/2209.07074.pdf) | BIRIS | IJCAI23 | discuss the bias of off-policy evaluation due to reusing the replay buffer; derive a high-probability bound of the Reuse Bias; introduce the concept of stability for off-policy algorithms and provide an upper bound for stable off-policy algorithms | 
 
 
 <a id='soft-rl'></a>
@@ -98,9 +93,8 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
 | [A Max-Min Entropy Framework for Reinforcement Learning](https://arxiv.org/pdf/2106.10517.pdf) | MME | NeurIPS21 | find that SAC may fail in explore states with low entropy (arrive states with high entropy and increase their entropies); propose a max-min entropy framework to address this issue |
-| [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function |
-| The Importance of Non-Markovianity in Maximum State Entropy Exploration | | ICML22 oral |  |
-| Communicating via Maximum Entropy Reinforcement Learning || ICML22 ||
+| [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function | -->
+
 
 <a id='data-augmentation'></a>
 ### Data Augmentation
@@ -127,12 +121,11 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 | propose using Bisimulation to learn robust latent representations which encode only the task-relevant information from observations |
 | [Reinforcement Learning with Prototypical Representations](https://arxiv.org/pdf/2102.11271.pdf) | Proto-RL | ICML21 | pre-train task-agnostic representations and prototypes on environments without downstream task information |
 | [Understanding the World Through Action](https://arxiv.org/pdf/2110.12543.pdf) | ---- | CoRL21 | discusse how self-supervised reinforcement learning combined with offline RL can enable scalable representation learning |
-| The Unsurprising Effectiveness of Pre-Trained Vision Models for Control || ICML22 oral ||
+| [Flow-based Recurrent Belief State Learning for POMDPs](https://proceedings.mlr.press/v162/chen22q/chen22q.pdf) | FORBES | ICML22 | incorporate normalizing flows into the variational inference to learn general continuous belief states for POMDPs |
 | [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) | Contrastive RL | NeurIPS22 | show (contrastive) representation learning methods can be cast as RL algorithms in their own right |
 | [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) | ---- | NeurIPS22 | conduct an extensive comparison of various self-supervised losses under the existing joint learning framework for pixel-based reinforcement learning in many environments from different benchmarks, including one real-world environment |
 | [Reinforcement Learning with Automated Auxiliary Loss Search](https://arxiv.org/pdf/2210.06041.pdf) | A2LS | NeurIPS22 | propose to automatically search top-performing auxiliary loss functions for learning better representations in RL; define a general auxiliary loss space of size 7.5 × 1020 based on the collected trajectory data and explore the space with an efficient evolutionary search strategy |
 | [Mask-based Latent Reconstruction for Reinforcement Learning](https://arxiv.org/pdf/2201.12096.pdf) | MLR | NeurIPS22 | propose an effective self-supervised method to predict complete state representations in the latent space from the observations with spatially and temporally masked pixels |
-| [Flow-based Recurrent Belief State Learning for POMDPs](https://proceedings.mlr.press/v162/chen22q/chen22q.pdf) | FORBES | ICML22 | incorporate normalizing flows into the variational inference to learn general continuous belief states for POMDPs |
 | [Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training](https://arxiv.org/pdf/2210.00030.pdf) | VIP | ICLR23 Spotlight | cast representation learning from human videos as an offline goal-conditioned reinforcement learning problem; derive a self-supervised dual goal-conditioned value-function objective that does not depend on actions, enabling pre-training on unlabeled human videos |
 | [Latent Variable Representation for Reinforcement Learning](https://arxiv.org/pdf/2212.08765.pdf) | ---- | ICLR23 | provide a representation view of the latent variable models for state-action value functions, which allows both tractable variational learning algorithm and effective implementation of the optimism/pessimism principle in the face of uncertainty for exploration |
 | Spectral Decomposition Representation for Reinforcement Learning || ICLR23 ||
@@ -185,6 +178,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
+| [Weighted importance sampling for off-policy learning with linear function approximation](https://proceedings.neurips.cc/paper/2014/file/be53ee61104935234b174e62a07e53cf-Paper.pdf) | WIS-LSTD | NeurIPS14 |  |
+| [Importance Sampling Policy Evaluation with an Estimated Behavior Policy](https://arxiv.org/pdf/1806.01347.pdf) | RIS | ICML19 |  |
 | [Provably efficient RL with Rich Observations via Latent State Decoding](https://arxiv.org/pdf/1901.09018.pdf) | Block MDP | ICML19 ||
 | [Implementation Matters in Deep Policy Gradients: A Case Study on PPO and TRPO](https://arxiv.org/pdf/2005.12729.pdf) | ---- | ICLR20 | show that the improvement of performance is related to code-level optimizations |
 | [What Matters In On-Policy Reinforcement Learning? A Large-Scale Empirical Study](https://arxiv.org/pdf/2006.05990.pdf) | ---- | ICLR21 | do a large scale empirical study to evaluate different tricks for on-policy algorithms on MuJoCo |
@@ -193,6 +188,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Randomized Ensemble Double Q-Learning: Learning Fast Without a Model](https://arxiv.org/pdf/2101.05982.pdf) | REDQ | ICLR21 | consider three ingredients: (i) update q functions many times at every epoch; (ii) use an ensemble of Q functions; (iii) use the minimization across a random subset of Q functions from the ensemble for avoiding the overestimation; propose REDQ and achieve similar performance with model-based methods |
 | [Deep Reinforcement Learning at the Edge of the Statistical Precipice](https://arxiv.org/pdf/2108.13264.pdf) | ---- | NeurIPS21 oustandstanding paper | advocate for reporting interval estimates of aggregate performance and propose performance profiles to account for the variability in results, as well as present more robust and efficient aggregate metrics, such as interquartile mean scores, to achieve small uncertainty in results; [\[rliable\]](https://github.com/google-research/rliable/) |
 | [Generalizable Episodic Memory for Deep Reinforcement Learning](https://arxiv.org/pdf/2103.06469.pdf) | GEM | ICML21 | propose to integrate the generalization ability of neural networks and the fast retrieval manner of episodic memory |
+| [A Max-Min Entropy Framework for Reinforcement Learning](https://arxiv.org/pdf/2106.10517.pdf) | MME | NeurIPS21 | find that SAC may fail in explore states with low entropy (arrive states with high entropy and increase their entropies); propose a max-min entropy framework to address this issue |
+| [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that 
 | [SO(2)-Equivariant Reinforcement Learning](https://arxiv.org/pdf/2203.04439.pdf) | Equi DQN, Equi SAC | ICLR22 Spotlight | consider to learn transformation-invariant policies and value functions; define and analyze group equivariant MDPs |
 | [CoBERL: Contrastive BERT for Reinforcement Learning](https://arxiv.org/pdf/2107.05431.pdf) | CoBERL | ICLR22 Spotlight | propose Contrastive BERT for RL (COBERL) that combines a new contrastive loss and a hybrid LSTM-transformer architecture to tackle the challenge of improving data efficiency |
 | [Understanding and Preventing Capacity Loss in Reinforcement Learning](https://openreview.net/pdf?id=ZkC8wKoLbQ7) | InFeR | ICLR22 Spotlight | propose that deep RL agents lose some of their capacity to quickly fit new prediction tasks during training; propose InFeR to regularize a set of network outputs towards their initial values |
@@ -202,8 +199,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Generative Planning for Temporally Coordinated Exploration in Reinforcement Learning](https://arxiv.org/pdf/2201.09765.pdf) | GPM | ICLR22 Spotlight | focus on generating consistent actions for model-free RL, and borrow ideas from Model-based planning and action-repeat; use the policy to generate multi-step actions |
 | [When should agents explore?](https://arxiv.org/pdf/2108.11811.pdf) | ---- | ICLR22 Spotlight | consider when to explore and propose to choose a heterogeneous mode-switching behavior policy |
 | [Maximizing Ensemble Diversity in Deep Reinforcement Learning](https://openreview.net/pdf?id=hjd-kcpDpf2) | MED-RL | ICLR22 |  |
+| [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function |
 | [Learning Generalizable Representations for Reinforcement Learning via Adaptive Meta-learner of Behavioral Similarities](https://openreview.net/pdf?id=zBOI9LFpESK) | AMBS | ICLR22 |  |
-| [Large Batch Experience Replay](https://arxiv.org/pdf/2110.01528.pdf) |  LaBER | ICML22 oral | cast the replay buffer sampling problem as an importance sampling one for estimating the gradient and derive the theoretically optimal sampling distribution |
+| [Large Batch Experience Replay](https://arxiv.org/pdf/2110.01528.pdf) | LaBER | ICML22 oral | cast the replay buffer sampling problem as an importance sampling one for estimating the gradient and derive the theoretically optimal sampling distribution |
 | [Do Differentiable Simulators Give Better Gradients for Policy Optimization?](https://arxiv.org/pdf/2202.00817.pdf) | ---- | ICML22 oral | consider whether differentiable simulators give better policy gradients; show some pitfalls of First-order estimates and propose alpha-order estimates |
 | Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis || ICML22 oral ||
 | [An Analytical Update Rule for General Policy Optimization](https://arxiv.org/pdf/2112.02045.pdf) | ---- | ICML22 oral | provide a tighter bound for truse-region methods |
@@ -215,23 +213,12 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Mirror Learning: A Unifying Framework of Policy Optimisation](https://arxiv.org/pdf/2201.02373.pdf) | Mirror Learning | ICML22 | propose a novel unified theoretical framework named Mirror Learning to provide theoretical guarantees for General Policy Improvement (GPI) and Trust-Region Learning (TRL); propose an interesting, graph-theoretical perspective on mirror learning |
 | [Continuous Control with Action Quantization from Demonstrations](https://proceedings.mlr.press/v162/dadashi22a/dadashi22a.pdf) | AQuaDem | ICML22 | leverag the prior of human demonstrations for reducing a continuous action space to a discrete set of meaningful actions; point out that using a set of actions rather than a single one (Behavioral Cloning) enables to capture the multimodality of behaviors in the demonstrations |
 | [Off-Policy Fitted Q-Evaluation with Differentiable Function Approximators: Z-Estimation and Inference Theory](https://proceedings.mlr.press/v162/zhang22al/zhang22al.pdf) | ---- | ICML22 | analyze Fitted Q Evaluation (FQE) with general differentiable function approximators, including neural function approximations by using the Z-estimation theory |
-| [A Temporal-Difference Approach to Policy Gradient Estimation](https://proceedings.mlr.press/v162/tosatto22a/tosatto22a.pdf) || ICML22 ||
 | [The Primacy Bias in Deep Reinforcement Learning](https://arxiv.org/pdf/2205.07802.pdf) | primacy bias | ICML22 | find that deep RL agents incur a risk of overfitting to earlier experiences, which will negatively affect the rest of the learning process; propose a simple yet generally-applicable mechanism that tackles the primacy bias by periodically resetting a part of the agent |
 | [Optimizing Sequential Experimental Design with Deep Reinforcement Learning](https://arxiv.org/pdf/2202.00821.pdf) |  | ICML22 | use DRL for solving the optimal design of sequential experiments |
 | [The Geometry of Robust Value Functions](https://proceedings.mlr.press/v162/wang22k/wang22k.pdf) |  | ICML22 | study the geometry of the robust value space for the more general Robust MDPs |
-| Direct Behavior Specification via Constrained Reinforcement Learning || ICML22 ||
 | [Utility Theory for Markovian Sequential Decision Making](https://arxiv.org/pdf/2206.13637.pdf) | Affine-Reward MDPs | ICML22 | extend von Neumann-Morgenstern (VNM) utility theorem to decision making setting |
 | [Reducing Variance in Temporal-Difference Value Estimation via Ensemble of Deep Networks](https://proceedings.mlr.press/v162/liang22c/liang22c.pdf) | MeanQ | ICML22 | consider variance reduction in Temporal-Difference Value Estimation; propose MeanQ to estimate target values by ensembling |
 | Unifying Approximate Gradient Updates for Policy Optimization || ICML22 ||
-| [EqR: Equivariant Representations for Data-Efficient Reinforcement Learning](https://proceedings.mlr.press/v162/mondal22a/mondal22a.pdf) || ICML22 ||
-| [Provable Reinforcement Learning with a Short-Term Memory](https://proceedings.mlr.press/v162/efroni22a/efroni22a.pdf) || ICML22 ||
-| Optimal Estimation of Off-Policy Policy Gradient via Double Fitted Iteration || ICML22 ||
-| Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments || ICML22 ||
-| Lagrangian Method for Q-Function Learning (with Applications to Machine Translation) || ICML22 ||
-| Learning to Assemble with Large-Scale Structured Reinforcement Learning || ICML22 ||
-| Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning || ICML22 ||
-| Off-Policy Reinforcement Learning with Delayed Rewards || ICML22 ||
-| Reachability Constrained Reinforcement Learning || ICML22 ||
 | [Reinforcement Learning with Neural Radiance Fields](https://arxiv.org/pdf/2206.01634.pdf) | NeRF-RL | NeurIPS22 | propose to train an encoder that maps multiple image observations to a latent space describing the objects in the scene |
 | [On Reinforcement Learning and Distribution Matching for Fine-Tuning Language Models with no Catastrophic Forgetting](https://arxiv.org/pdf/2206.00761.pdf) | ---- | NeurIPS22 | explore the theoretical connections between Reward Maximization (RM) and Distribution Matching (DM) |
 | [Faster Deep Reinforcement Learning with Slower Online Network](https://assets.amazon.science/31/ca/0c09418b4055a7536ced1b218d72/faster-deep-reinforcement-learning-with-slower-online-network.pdf) | DQN Pro, Rainbow Pro | NeurIPS22 | incentivize the online network to remain in the proximity of the target network |
@@ -252,6 +239,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [POPGym: Benchmarking Partially Observable Reinforcement Learning](https://arxiv.org/pdf/2303.01859.pdf) | POPGym | ICLR23 | a two-part library containing (1) a diverse collection of 15 partially observable environments, each with multiple difficulties and (2) implementations of 13 memory model baselines; [\[code\]](https://github.com/proroklab/popgym) |
 | [Critic Sequential Monte Carlo](https://arxiv.org/pdf/2205.15460.pdf) | CriticSMC | ICLR23 | combine sequential Monte Carlo with learned Soft-Q function heuristic factors |
 | [Planning-oriented Autonomous Driving](https://arxiv.org/pdf/2212.10156.pdf) || CVPR23 best paper ||
+| [On the Reuse Bias in Off-Policy Reinforcement Learning](https://arxiv.org/pdf/2209.07074.pdf) | BIRIS | IJCAI23 | discuss the bias of off-policy evaluation due to reusing the replay buffer; derive a high-probability bound of the Reuse Bias; introduce the concept of stability for off-policy algorithms and provide an upper bound for stable off-policy algorithms |
 | [The Dormant Neuron Phenomenon in Deep Reinforcement Learning](https://arxiv.org/pdf/2302.12902.pdf) | ReDo | ICML23 oral | understand the underlying reasons behind the loss of expressivity during the training of RL agents; demonstrate the existence of the dormant neuron phenomenon in deep RL; propose Recycling Dormant neurons (ReDo) to reduce the number of dormant neurons and maintain network expressivity during training |
 | [Efficient RL via Disentangled Environment and Agent Representations](https://openreview.net/pdf?id=kWS8mpioS9) | SEAR | ICML23 oral | consider to build a representation that can disentangle a robotic agent from its environment for improving the learning efficiency for RL; augment the RL loss with an agent-centric auxiliary loss |
 | [On the Statistical Benefits of Temporal Difference Learning](https://arxiv.org/pdf/2301.13289.pdf) | ---- | ICML23 oral | provide crisp insight into the statistical benefits of TD |
@@ -327,14 +315,14 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Dreaming: Model-based Reinforcement Learning by Latent Imagination without Reconstruction](https://arxiv.org/pdf/2007.14535.pdf) | Dreaming | ICRA21 | propose a decoder-free extension of Dreamer since the autoencoding based approach often causes object vanishing|
 | [Model-Based Reinforcement Learning via Imagination with Derived Memory](https://openreview.net/pdf?id=jeATherHHGj) | IDM | NeurIPS21 | hope to improve the diversity of imagination for model-based policy optimization with the derived memory; point out that current methods cannot effectively enrich the imagination if the latent state is disturbed by random noises |
 | [Maximum Entropy Model-based Reinforcement Learning](https://arxiv.org/pdf/2112.01195.pdf) |  MaxEnt Dreamer | NeurIPS21 | create a connection between exploration methods and model-based reinforcement learning; apply maximum-entropy exploration for Dreamer |
-| [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://proceedings.mlr.press/v162/deng22a/deng22a.pdf) | DreamerPro | ICML22 | consider reconstruction-free MBRL; propose to learn the prototypes from the recurrent states of the world model, thereby distilling temporal structures from past observations and actions into the prototypes. |
 | [TransDreamer: Reinforcement Learning with Transformer World Models](https://arxiv.org/pdf/2202.09481.pdf) | TransDreamer | arxiv2202 | replace the RNN in RSSM by a transformer |
-| [DreamingV2: Reinforcement Learning with Discrete World Models without Reconstruction](https://arxiv.org/pdf/2203.00494.pdf) | Dreamingv2 | arxiv2203 | adopt both the discrete representation of DreamerV2 and the reconstruction-free objective of Dreaming |
-| [Masked World Models for Visual Control](https://arxiv.org/pdf/2206.14244.pdf) | MWM | arxiv2206 | decouple visual representation learning and dynamics learning for visual model-based RL and use masked autoencoder to train visual representation |
-| [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/pdf/2206.14176.pdf) | DayDreamer | arxiv2206 | apply Dreamer to 4 robots to learn online and directly in the real world, without any simulators |
+| [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://proceedings.mlr.press/v162/deng22a/deng22a.pdf) | DreamerPro | ICML22 | consider reconstruction-free MBRL; propose to learn the prototypes from the recurrent states of the world model, thereby distilling temporal structures from past observations and actions into the prototypes. |
 | [Towards Evaluating Adaptivity of Model-Based Reinforcement Learning Methods](https://proceedings.mlr.press/v162/wan22d/wan22d.pdf) | ---- | ICML22 | introduce an improved version of the LoCA setup and use it to evaluate PlaNet and Dreamerv2 |
 | [Reinforcement Learning with Action-Free Pre-Training from Videos](https://arxiv.org/pdf/2203.13880.pdf) | APV | ICML22 | pre-train an action-free latent video prediction model using videos from different domains, and then fine-tune the pre-trained model on target domains |
 | [Denoised MDPs: Learning World Models Better Than the World Itself](https://arxiv.org/pdf/2206.15477.pdf) | Denoised MDP | ICML22 | divide information into four categories: controllable/uncontrollable (whether infected by the action) and reward-relevant/irrelevant (whether affects the return); propose to only consider information which is controllable and reward-relevant |
+| [DreamingV2: Reinforcement Learning with Discrete World Models without Reconstruction](https://arxiv.org/pdf/2203.00494.pdf) | Dreamingv2 | arxiv2203 | adopt both the discrete representation of DreamerV2 and the reconstruction-free objective of Dreaming |
+| [Masked World Models for Visual Control](https://arxiv.org/pdf/2206.14244.pdf) | MWM | arxiv2206 | decouple visual representation learning and dynamics learning for visual model-based RL and use masked autoencoder to train visual representation |
+| [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/pdf/2206.14176.pdf) | DayDreamer | arxiv2206 | apply Dreamer to 4 robots to learn online and directly in the real world, without any simulators |
 | [Iso-Dream: Isolating Noncontrollable Visual Dynamics in World Models](https://arxiv.org/pdf/2205.13817.pdf) | Iso-Dream | NeurIPS22 | consider noncontrollable dynamics independent of the action signals; encourage the world model to learn controllable and noncontrollable sources of spatiotemporal changes on isolated state transition branches; optimize the behavior of the agent on the decoupled latent imaginations of the world model |
 | [Learning General World Models in a Handful of Reward-Free Deployments](https://arxiv.org/pdf/2210.12719.pdf) | CASCADE | NeurIPS22 | introduce the reward-free deployment efficiency setting to facilitate generalization (exploration should be task agnostic) and scalability (exploration policies should collect large quantities of data without costly centralized retraining); propose an information theoretic objective inspired by Bayesian Active Learning by specifically maximizing the diversity of trajectories sampled by the population through a novel cascading objective |
 | [Learning Robust Dynamics through Variational Sparse Gating](https://arxiv.org/pdf/2210.11698.pdf) | VSG, SVSG, BBS | NeurIPS22 | consider to sparsely update the latent states at each step; develope a new partially-observable and stochastic environment, called BringBackShapes (BBS) |
@@ -385,18 +373,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [COptiDICE: Offline Constrained Reinforcement Learning via Stationary Distribution Correction Estimation](https://openreview.net/pdf?id=FLA55mBee6Q) | COptiDICE | ICLR22 Spotlight | consider offline constrained reinforcement learning; propose COptiDICE to directly optimize the distribution of state-action pair with contraints |
 | [Offline Reinforcement Learning with Value-based Episodic Memory](https://openreview.net/pdf?id=RCZqv9NXlZ) | EVL, VEM | ICLR22 | present a new offline V -learning method to learn the value function through the trade-offs between imitation learning and optimal value learning; use a memory-based planning scheme to enhance advantage estimation and conduct policy learning in a regression manner |
 | [Offline reinforcement learning with implicit Q-learning](https://arxiv.org/pdf/2110.06169.pdf) | IQL | ICLR22 | propose to learn an optimal policy with in-sample learning, without ever querying the values of any unseen actions |
-| Adversarially Trained Actor Critic for Offline Reinforcement Learning |  | ICML22 oral |  |
-| Learning Bellman Complete Representations for Offline Policy Evaluation | | ICML22 oral | |
 | [Offline RL Policies Should Be Trained to be Adaptive](https://arxiv.org/pdf/2207.02200.pdf) | APE-V | ICML22 oral | show that learning from an offline dataset does not fully specify the environment; formally demonstrate the necessity of adaptation in offline RL by using the Bayesian formalism and to provide a practical algorithm for learning optimally adaptive policies; propose an ensemble-based offline RL algorithm that imbues policies with the ability to adapt within an episode |
-| Pessimistic Q-Learning for Offline Reinforcement Learning: Towards Optimal Sample Complexity || ICML22 ||
-| How to Leverage Unlabeled Data in Offline Reinforcement Learning? || ICML22 ||
-| On the Role of Discount Factor in Offline Reinforcement Learning || ICML22 ||
-| Model Selection in Batch Policy Optimization || ICML22 ||
-| Koopman Q-learning: Offline Reinforcement Learning via Symmetries of Dynamics || ICML22 ||
-| Robust Task Representations for Offline Meta-Reinforcement Learning via Contrastive Learning || ICML22 ||
-| Pessimism meets VCG: Learning Dynamic Mechanism Design via Offline Reinforcement Learning || ICML22 ||
-| Showing Your Offline Reinforcement Learning Work: Online Evaluation Budget Matters || ICML22 ||
-| Constrained Offline Policy Optimization || ICML22 ||
 | [When Data Geometry Meets Deep Function: Generalizing Offline Reinforcement Learning](https://arxiv.org/pdf/2205.11027.pdf) | DOGE | ICLR23 | train a state-conditioned distance function that can be readily plugged into standard actor-critic methods as a policy constraint |
 | [Jump-Start Reinforcement Learning](https://arxiv.org/pdf/2204.02372.pdf) | JSRL | ICML23 | consider the setting that employs two policies to solve tasks: a guide-policy, and an exploration-policy; bootstrap an RL algorithm by gradually “rolling in” with the guide-policy |
 
@@ -430,7 +407,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Pessimistic Model-based Offline Reinforcement Learning under Partial Coverage](https://arxiv.org/pdf/2107.06226.pdf) | CPPO | ICLR22 |  |
 | [Pareto Policy Pool for Model-based Offline Reinforcement Learning](https://openreview.net/pdf?id=OqcZu8JIIzS) |  | ICLR22 |  |
 | [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) | Diffuser | ICML22 oral | first design a denoising diffusion model for trajectory data and an associated probabilistic framework for behavior synthesis |
-| Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning || ICML22 ||
 | [Learning Temporally Abstract World Models without Online Experimentation](https://openreview.net/pdf?id=YeTYJz7th5) | OPOSM | ICML23 | present an approach for simultaneously learning sets of skills and temporally abstract, skill-conditioned world models purely from offline data, enabling agents to perform zero-shot online planning of skill sequences for new tasks |
 
 
@@ -473,9 +449,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [an adaptive deep rl method for non-stationary environments with piecewise stable context](https://arxiv.org/pdf/2212.12735.pdf) | SeCBAD | NeurIPS22 | introduce latent situational MDP with piecewise-stable context; jointly infer the belief distribution over latent context with the posterior over segment length and perform more accurate belief context inference with observed data within the current context segment |
 | [Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search](https://arxiv.org/pdf/2102.08291.pdf) | GSSM | ICML22 | consider model-based meta reinforcement learning, which consists of dynamics model learning and policy optimization; develop a graph structured dynamics model with superior generalization capability across tasks|
 | [Meta-Learning Hypothesis Spaces for Sequential Decision-making](https://arxiv.org/pdf/2202.00602.pdf) | Meta-KeL | ICML22 | argue that two critical capabilities of transformers, reason over long-term dependencies and present context-dependent weights from self-attention, compose the central role of a Meta-Reinforcement Learner; propose Meta-LeL for meta-learning the hypothesis space of a sequential decision task |
-| Biased Gradient Estimate with Drastic Variance Reduction for Meta Reinforcement Learning || ICML22 ||
 | [Transformers are Meta-Reinforcement Learners](https://arxiv.org/pdf/2206.06614.pdf) | TrMRL | ICML22 | propose TrMRL, a memory-based meta-Reinforcement Learner which uses the transformer architecture to formulate the learning process; |
-| Offline Meta-Reinforcement Learning with Online Self-Supervision || ICML22 ||
 | [ContraBAR: Contrastive Bayes-Adaptive Deep RL](https://arxiv.org/pdf/2306.02418.pdf) | ContraBAR | ICML23 | investigate whether contrastive methods, like contrastive predictive coding, can be used for learning Bayes-optimal behavior |
 
 
@@ -495,13 +469,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Robust Deep Reinforcement Learning through Adversarial Loss](https://arxiv.org/pdf/2008.01976.pdf) | RADIAL-RL | NeurIPS21 | propose a robust rl framework, which penalizes the overlap between output bounds of actions; propose a more efficient evaluation method (GWC) to measure attack agnostic robustness | 
 | [Policy Smoothing for Provably Robust Reinforcement Learning](https://arxiv.org/pdf/2106.11420.pdf) | Policy Smoothing | ICLR22 | introduce randomized smoothing into RL; propose adaptive Neyman-Person Lemma |
 | [CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing](https://arxiv.org/pdf/2106.09292.pdf) | CROP | ICLR22 | present a framework of Certifying Robust Policies for RL (CROP) against adversarial state perturbations with two certification criteria: robustness of per-state actions and lower bound of cumulative rewards; theoretically prove the certification radius; conduct experiments to provide certification for six empirically robust RL algorithms on Atari |
-| [Policy Gradient Method For Robust Reinforcement Learning](https://arxiv.org/pdf/2205.07344.pdf) |  | ICML22 |  |
-| SAUTE RL: Toward Almost Surely Safe Reinforcement Learning Using State Augmentation || ICML22 ||
-| Constrained Variational Policy Optimization for Safe Reinforcement Learning || ICML22 ||
-| Robust Deep Reinforcement Learning through Bootstrapped Opportunistic Curriculum || ICML22 ||
-| Distributionally Robust Q-Learning || ICML22 ||
-| Robust Meta-learning with Sampling Noise and Label Noise via Eigen-Reptile || ICML22 ||
-| DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck || ICML22 ||
 | [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/pdf/2106.15860.pdf) | ---- | SCIS 2023 | summarize current optimization-based adversarial attacks in RL; propose a two-stage methods: train a deceptive policy and mislead the victim to imitate the deceptive policy |
 | [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://arxiv.org/pdf/2206.05751.pdf) | Reward UAP, Trajectory UAP | PRL 2023 | extend universal adversarial perturbations into sequential decision and propose Reward UAP as well as Trajectory UAP via utilizing the dynamic; experiment in Embodied Vision Navigation tasks |
 
@@ -607,6 +574,80 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 ## ICML22
 | Paper | Type |
 | ---- | ---- |
+| [Online Decision Transformer](https://arxiv.org/pdf/2202.05607.pdf) | oral |
+| The Unsurprising Effectiveness of Pre-Trained Vision Models for Control | oral |
+| The Importance of Non-Markovianity in Maximum State Entropy Exploration | oral |
+| [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) | oral |
+| Adversarially Trained Actor Critic for Offline Reinforcement Learning | oral |
+| Learning Bellman Complete Representations for Offline Policy Evaluation | oral |
+| [Offline RL Policies Should Be Trained to be Adaptive](https://arxiv.org/pdf/2207.02200.pdf) | oral |
+| [Large Batch Experience Replay](https://arxiv.org/pdf/2110.01528.pdf) | oral |
+| [Do Differentiable Simulators Give Better Gradients for Policy Optimization?](https://arxiv.org/pdf/2202.00817.pdf) | oral |
+| Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis | oral |
+| [An Analytical Update Rule for General Policy Optimization](https://arxiv.org/pdf/2112.02045.pdf) | oral |
+| [Generalised Policy Improvement with Geometric Policy Composition](https://arxiv.org/pdf/2206.08736.pdf) | oral |
+| Prompting Decision Transformer for Few-shot Policy Generalization | poster |
+| [CtrlFormer: Learning Transferable State Representation for Visual Control via Transformer](https://arxiv.org/pdf/2206.08883.pdf) | poster |
+| [Learning Dynamics and Generalization in Reinforcement Learning](https://arxiv.org/pdf/2206.02126.pdf) | poster |
+| [Improving Policy Optimization with Generalist-Specialist Learning](https://arxiv.org/pdf/2206.12984.pdf) | poster |
+| [DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck](https://arxiv.org/pdf/2102.13268.pdf) | poster |
+| [Policy Gradient Method For Robust Reinforcement Learning](https://arxiv.org/pdf/2205.07344.pdf) | poster |
+| SAUTE RL: Toward Almost Surely Safe Reinforcement Learning Using State Augmentation | poster |
+| Constrained Variational Policy Optimization for Safe Reinforcement Learning | poster |
+| Robust Deep Reinforcement Learning through Bootstrapped Opportunistic Curriculum | poster |
+| Distributionally Robust Q-Learning | poster |
+| Robust Meta-learning with Sampling Noise and Label Noise via Eigen-Reptile | poster |
+| DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck | poster |
+| [Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search](https://arxiv.org/pdf/2102.08291.pdf) | poster |
+| [Meta-Learning Hypothesis Spaces for Sequential Decision-making](https://arxiv.org/pdf/2202.00602.pdf) | poster |
+| Biased Gradient Estimate with Drastic Variance Reduction for Meta Reinforcement Learning | poster |
+| [Transformers are Meta-Reinforcement Learners](https://arxiv.org/pdf/2206.06614.pdf) | poster |
+| Offline Meta-Reinforcement Learning with Online Self-Supervision | poster |
+| Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning | poster |
+| Pessimistic Q-Learning for Offline Reinforcement Learning: Towards Optimal Sample Complexity | poster |
+| How to Leverage Unlabeled Data in Offline Reinforcement Learning? | poster |
+| On the Role of Discount Factor in Offline Reinforcement Learning | poster |
+| Model Selection in Batch Policy Optimization | poster |
+| Koopman Q-learning: Offline Reinforcement Learning via Symmetries of Dynamics | poster |
+| Robust Task Representations for Offline Meta-Reinforcement Learning via Contrastive Learning | poster |
+| Pessimism meets VCG: Learning Dynamic Mechanism Design via Offline Reinforcement Learning | poster |
+| Showing Your Offline Reinforcement Learning Work: Online Evaluation Budget Matters | poster |
+| Constrained Offline Policy Optimization | poster |
+| [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://proceedings.mlr.press/v162/deng22a/deng22a.pdf) | poster |
+| [Towards Evaluating Adaptivity of Model-Based Reinforcement Learning Methods](https://proceedings.mlr.press/v162/wan22d/wan22d.pdf) | poster |
+| [Reinforcement Learning with Action-Free Pre-Training from Videos](https://arxiv.org/pdf/2203.13880.pdf) | poster |
+| [Denoised MDPs: Learning World Models Better Than the World Itself](https://arxiv.org/pdf/2206.15477.pdf) | poster |
+| [Temporal Difference Learning for Model Predictive Control](https://arxiv.org/pdf/2203.04955.pdf) | poster |
+| [Causal Dynamics Learning for Task-Independent State Abstraction](https://arxiv.org/pdf/2206.13452.pdf) | poster |
+| [Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error](https://arxiv.org/pdf/2201.12417.pdf) | poster |
+| [Adaptive Model Design for Markov Decision Process](https://proceedings.mlr.press/v162/chen22ab/chen22ab.pdf) | poster |
+| [Stabilizing Off-Policy Deep Reinforcement Learning from Pixels](https://proceedings.mlr.press/v162/cetin22a/cetin22a.pdf) | poster |
+| [Understanding Policy Gradient Algorithms: A Sensitivity-Based Approach](https://proceedings.mlr.press/v162/wu22i/wu22i.pdf) | poster |
+| [Mirror Learning: A Unifying Framework of Policy Optimisation](https://arxiv.org/pdf/2201.02373.pdf) | poster |
+| [Continuous Control with Action Quantization from Demonstrations](https://proceedings.mlr.press/v162/dadashi22a/dadashi22a.pdf) | poster |
+| [Off-Policy Fitted Q-Evaluation with Differentiable Function Approximators: Z-Estimation and Inference Theory](https://proceedings.mlr.press/v162/zhang22al/zhang22al.pdf) | poster | Evaluation (FQE) with general differentiable function approximators, including neural function approximations by using the Z-estimation theory |
+| [A Temporal-Difference Approach to Policy Gradient Estimation](https://proceedings.mlr.press/v162/tosatto22a/tosatto22a.pdf) | poster |
+| [The Primacy Bias in Deep Reinforcement Learning](https://arxiv.org/pdf/2205.07802.pdf) | poster |
+| [Optimizing Sequential Experimental Design with Deep Reinforcement Learning](https://arxiv.org/pdf/2202.00821.pdf) | poster |
+| [The Geometry of Robust Value Functions](https://proceedings.mlr.press/v162/wang22k/wang22k.pdf) | poster |
+| Direct Behavior Specification via Constrained Reinforcement Learning | poster |
+| [Utility Theory for Markovian Sequential Decision Making](https://arxiv.org/pdf/2206.13637.pdf) | poster |
+| [Reducing Variance in Temporal-Difference Value Estimation via Ensemble of Deep Networks](https://proceedings.mlr.press/v162/liang22c/liang22c.pdf) | poster |
+| Unifying Approximate Gradient Updates for Policy Optimization | poster |
+| [EqR: Equivariant Representations for Data-Efficient Reinforcement Learning](https://proceedings.mlr.press/v162/mondal22a/mondal22a.pdf) | poster |
+| [Provable Reinforcement Learning with a Short-Term Memory](https://proceedings.mlr.press/v162/efroni22a/efroni22a.pdf) | poster |
+| Optimal Estimation of Off-Policy Policy Gradient via Double Fitted Iteration | poster |
+| Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments | poster |
+| Lagrangian Method for Q-Function Learning (with Applications to Machine Translation) | poster |
+| Learning to Assemble with Large-Scale Structured Reinforcement Learning | poster |
+| Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning | poster |
+| Off-Policy Reinforcement Learning with Delayed Rewards | poster |
+| Reachability Constrained Reinforcement Learning | poster |
+| [Flow-based Recurrent Belief State Learning for POMDPs](https://proceedings.mlr.press/v162/chen22q/chen22q.pdf) | poster |
+| [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) | poster |
+| [Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning](https://proceedings.mlr.press/v162/kallus22a/kallus22a.pdf) | poster |
+| [On Well-posedness and Minimax Optimal Rates of Nonparametric Q-function Estimation in Off-policy Evaluation](https://proceedings.mlr.press/v162/chen22u/chen22u.pdf) | poster |
+| Communicating via Maximum Entropy Reinforcement Learning | poster |
 
 <a id='NeurIPS22'></a>
 ## NeurIPS22
