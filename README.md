@@ -13,7 +13,6 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [Model Free (Online) RL](#Model-Free-Online)
     - [Classic Methods](#model-free-classic)
     - [Exploration](#exploration)
-    - [Data Augmentation](#data-augmentation)
     - [Representation Learning](#Representation-RL)
     - [Unsupervised Learning](#Unsupervised-RL)
     - [Current methods](#current)
@@ -93,7 +92,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
 | [A Max-Min Entropy Framework for Reinforcement Learning](https://arxiv.org/pdf/2106.10517.pdf) | MME | NeurIPS21 | find that SAC may fail in explore states with low entropy (arrive states with high entropy and increase their entropies); propose a max-min entropy framework to address this issue |
-| [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function | -->
+| [Maximum Entropy RL (Provably) Solves Some Robust RL Problems ](https://arxiv.org/pdf/2103.06257.pdf) | ---- | ICLR22 | theoretically prove that standard maximum entropy RL is robust to some disturbances in the dynamics and the reward function | 
 
 
 <a id='data-augmentation'></a>
@@ -101,7 +100,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 |  Title | Method | Conference |  Description |
 | ----  | ----   | ----       |   ----  |
 | [Reinforcement Learning with Augmented Data](https://arxiv.org/pdf/2004.14990.pdf) | RAD | NeurIPS20 | propose first extensive study of general data augmentations for RL on both pixel-based and state-based inputs |
-| [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf) | DrQ | ICLR21 Spotlight | propose to regularize the value function when applying data augmentation with model-free methods and reach state-of-the-art performance in image-pixels tasks |
+| [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf) | DrQ | ICLR21 Spotlight | propose to regularize the value function when applying data augmentation with model-free methods and reach state-of-the-art performance in image-pixels tasks | -->
 
 <!-- | [Equivalence notions and model minimization in Markov decision processes](https://www.ics.uci.edu/~dechter/courses/ics-295/winter-2018/papers/givan-dean-greig.pdf) |  | Artificial Intelligence, 2003 |  |
 | [Metrics for Finite Markov Decision Processes](https://arxiv.org/ftp/arxiv/papers/1207/1207.4114.pdf) || UAI04 ||
@@ -182,6 +181,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Importance Sampling Policy Evaluation with an Estimated Behavior Policy](https://arxiv.org/pdf/1806.01347.pdf) | RIS | ICML19 |  |
 | [Provably efficient RL with Rich Observations via Latent State Decoding](https://arxiv.org/pdf/1901.09018.pdf) | Block MDP | ICML19 ||
 | [Implementation Matters in Deep Policy Gradients: A Case Study on PPO and TRPO](https://arxiv.org/pdf/2005.12729.pdf) | ---- | ICLR20 | show that the improvement of performance is related to code-level optimizations |
+| [Reinforcement Learning with Augmented Data](https://arxiv.org/pdf/2004.14990.pdf) | RAD | NeurIPS20 | propose first extensive study of general data augmentations for RL on both pixel-based and state-based inputs |
+| [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf) | DrQ | ICLR21 Spotlight | propose to regularize the value function when applying data augmentation with model-free methods and reach state-of-the-art performance in image-pixels tasks |
 | [What Matters In On-Policy Reinforcement Learning? A Large-Scale Empirical Study](https://arxiv.org/pdf/2006.05990.pdf) | ---- | ICLR21 | do a large scale empirical study to evaluate different tricks for on-policy algorithms on MuJoCo |
 | [Mirror Descent Policy Optimization](https://arxiv.org/pdf/2005.09814.pdf) | MDPO | ICLR21 |  |
 | [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf) | DBC | ICLR21 ||
