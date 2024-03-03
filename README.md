@@ -612,7 +612,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 ## NeurIPS22
 | Paper | Type |
 | ---- | ---- |
-
 | [Multi-Game Decision Transformers](https://arxiv.org/pdf/2205.15241.pdf) | poster |
 | Bootstrapped Transformer for Offline Reinforcement Learning | poster |
 | [Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning](https://arxiv.org/pdf/2207.09081.pdf) | poster |
