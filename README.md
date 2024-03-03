@@ -35,6 +35,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [RL with Transformer](#Sequence-Generation)
 * [RL with LLM](#RL-LLM)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
+* [ICLR22](#ICLR22)
 * [ICML22](#ICML22)
 * [NeurIPS22](#NeurIPS22)
 * [ICLR23](#ICLR23)
@@ -693,6 +694,11 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Deep Reinforcement Learning, CS285](https://rail.eecs.berkeley.edu/deeprlcourse/) |
 | [Deep Reinforcement Learning and Control, CMU 10703](https://katefvision.github.io/) |
 | [RLChina](http://rlchina.org/topic/9) |
+
+<a id='ICLR22'></a>
+## ICLR22
+| Paper | Type |
+| ---- | ---- |
 
 <a id='ICML22'></a>
 ## ICML22
