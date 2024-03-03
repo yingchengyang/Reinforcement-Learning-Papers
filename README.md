@@ -876,7 +876,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Facing off World Model Backbones: RNNs, Transformers, and S4](https://arxiv.org/pdf/2307.02064.pdf) | poster |
 | Efficient Exploration in Continuous-time Model-based Reinforcement Learning | poster |
 | Model-Based Reparameterization Policy Gradient Methods: Theory and Practical Algorithms | poster |
-| [Learning to Discover Skills through Guidance](https://arxiv.org/pdf/2310.20178.pdf) | DISCO-DANCE | poster |
+| [Learning to Discover Skills through Guidance](https://arxiv.org/pdf/2310.20178.pdf) | poster |
 | Creating Multi-Level Skill Hierarchies in Reinforcement Learning | poster |
 | Unsupervised Behavior Extraction via Random Intent Priors | poster |
 | [MIMEx: Intrinsic Rewards from Masked Input Modeling](https://arxiv.org/pdf/2305.08932.pdf) | poster |
