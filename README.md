@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24 papers on RL**
-<!-- page 71 -->
+<!-- NeurIps24 page 71, ICLR24 page 11 -->
 
 
 ## Contents 
@@ -1170,3 +1170,16 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Universal Humanoid Motion Representations for Physics-Based Control](https://openreview.net/pdf?id=OrOd8PxOO2) | spotlight |
 | [Adaptive Rational Activations to Boost Deep Reinforcement Learning](https://openreview.net/pdf?id=g90ysX1sVs) | spotlight |
 | [Robust Adversarial Reinforcement Learning via Bounded Rationality Curricula](https://openreview.net/pdf?id=pFOoOdaiue) | spotlight |
+| [Locality Sensitive Sparse Encoding for Learning World Models Online](https://openreview.net/pdf?id=i8PjQT3Uig) | poster |
+| [On Representation Complexity of Model-based and Model-free Reinforcement Learning](https://openreview.net/pdf?id=3K3s9qxSn7) | poster |
+| [Policy Rehearsing: Training Generalizable Policies for Reinforcement Learning](https://openreview.net/pdf?id=m3xVPaZp6Z) | poster |
+| [What Matters to You? Towards Visual Representation Alignment for Robot Learning](https://openreview.net/pdf?id=CTlUHIKF71) | poster |
+| [Improving Language Models with Advantage-based Offline Policy Gradients](https://openreview.net/pdf?id=ZDGKPbF0VQ) | poster |
+| [Training Diffusion Models with Reinforcement Learning](https://openreview.net/pdf?id=YCWjhGrJFD) | poster |
+| [The Trickle-down Impact of Reward Inconsistency on RLHF](https://openreview.net/pdf?id=MeHmwCDifc) | poster |
+| [Maximum Entropy Model Correction in Reinforcement Learning](https://openreview.net/pdf?id=kNpSUN0uCc) | poster |
+| [Tree Search-Based Policy Optimization under Stochastic Execution Delay](https://openreview.net/pdf?id=RaqZX9LSGA) | poster |
+| [Offline RL with Observation Histories: Analyzing and Improving Sample Complexity](https://openreview.net/pdf?id=GnOLWS4Llt) | poster |
+| [Understanding Hidden Context in Preference Learning: Consequences for RLHF](https://openreview.net/pdf?id=0tWTxYYPnW) | poster |||
+| [Eureka: Human-Level Reward Design via Coding Large Language Models](https://openreview.net/pdf?id=IEduRUO55F) | poster |
+| [Retrieval-Guided Reinforcement Learning for Boolean Circuit Minimization](https://openreview.net/pdf?id=0t1O8ziRZp) | poster |
