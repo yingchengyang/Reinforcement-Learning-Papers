@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24 papers on RL**
-<!-- NeurIps24 page 71, ICLR24 page 11 -->
+<!-- NeurIps24 page 71, ICLR24 page 21 -->
 
 
 ## Contents 
@@ -1180,6 +1180,26 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Maximum Entropy Model Correction in Reinforcement Learning](https://openreview.net/pdf?id=kNpSUN0uCc) | poster |
 | [Tree Search-Based Policy Optimization under Stochastic Execution Delay](https://openreview.net/pdf?id=RaqZX9LSGA) | poster |
 | [Offline RL with Observation Histories: Analyzing and Improving Sample Complexity](https://openreview.net/pdf?id=GnOLWS4Llt) | poster |
-| [Understanding Hidden Context in Preference Learning: Consequences for RLHF](https://openreview.net/pdf?id=0tWTxYYPnW) | poster |||
+| [Understanding Hidden Context in Preference Learning: Consequences for RLHF](https://openreview.net/pdf?id=0tWTxYYPnW) | poster |
 | [Eureka: Human-Level Reward Design via Coding Large Language Models](https://openreview.net/pdf?id=IEduRUO55F) | poster |
 | [Retrieval-Guided Reinforcement Learning for Boolean Circuit Minimization](https://openreview.net/pdf?id=0t1O8ziRZp) | poster |
+| [Score Models for Offline Goal-Conditioned Reinforcement Learning](https://openreview.net/pdf?id=oXjnwQLcTA) | poster |
+| [Contrastive Difference Predictive Coding](https://openreview.net/pdf?id=0akLDTFR9x) | poster |
+| [Hindsight PRIORs for Reward Learning from Human Preferences](https://openreview.net/pdf?id=NLevOah0CJ) | poster |
+| [Reward Model Ensembles Help Mitigate Overoptimization](https://openreview.net/pdf?id=dcjtMYkpXx) | poster |
+| [Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model](https://openreview.net/pdf?id=j5JvZCaDM0) | poster |
+| [Compositional Conservatism: A Transductive Approach in Offline Reinforcement Learning](https://openreview.net/pdf?id=HRkyLbBRHI) | poster |
+| [Flow to Better: Offline Preference-based Reinforcement Learning via Preferred Trajectory Generation](https://openreview.net/pdf?id=EG68RSznLT) | poster |
+| [PAE: Reinforcement Learning from External Knowledge for Efficient Exploration](https://openreview.net/pdf?id=R7rZUSGOPD) | poster |
+| [Identifying Policy Gradient Subspaces](https://openreview.net/pdf?id=iPWxqnt2ke) | poster |
+| [PARL: A Unified Framework for Policy Alignment in Reinforcement Learning](https://openreview.net/pdf?id=ByR3NdDSZB) | poster |
+| [SafeDreamer: Safe Reinforcement Learning with World Models](https://openreview.net/pdf?id=tsE5HLYtYg) | poster |
+| [Vanishing Gradients in Reinforcement Finetuning of Language Models](https://openreview.net/pdf?id=IcVNBR7qZi) | poster |
+| [Goodhart's Law in Reinforcement Learning](https://openreview.net/pdf?id=5o9G4XF1LI) | poster |
+| [Score Regularized Policy Optimization through Diffusion Behavior](https://openreview.net/pdf?id=xCRr9DrolJ) | poster |
+| [Making RL with Preference-based Feedback Efficient via Randomization](https://openreview.net/pdf?id=Pe2lo3QOvo) | poster |
+| [Consistency Models as a Rich and Efficient Policy Class for Reinforcement Learning](https://openreview.net/pdf?id=v8jdwkUNXb) | poster |
+| [Contrastive Preference Learning: Learning from Human Feedback without Reinforcement Learning](https://openreview.net/pdf?id=iX1RjVQODj) | poster |
+| [Privileged Sensing Scaffolds Reinforcement Learning](https://openreview.net/pdf?id=EpVe8jAjdx) | poster |
+| [Learning Planning Abstractions from Language](https://openreview.net/pdf?id=3UWuFoksGb) | poster |
+| [CrossLoco: Human Motion Driven Control of Legged Robots via Guided Unsupervised Reinforcement Learning](https://openreview.net/pdf?id=UCfz492fM8) | poster |
