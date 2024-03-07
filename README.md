@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24 papers on RL**
-<!-- NeurIps24 page 71, ICLR24 page 21 -->
+<!-- NeurIps24 page 71, ICLR24 page 31 -->
 
 
 ## Contents 
@@ -1203,3 +1203,26 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Privileged Sensing Scaffolds Reinforcement Learning](https://openreview.net/pdf?id=EpVe8jAjdx) | poster |
 | [Learning Planning Abstractions from Language](https://openreview.net/pdf?id=3UWuFoksGb) | poster |
 | [CrossLoco: Human Motion Driven Control of Legged Robots via Guided Unsupervised Reinforcement Learning](https://openreview.net/pdf?id=UCfz492fM8) | poster |
+| [Efficient Dynamics Modeling in Interactive Environments with Koopman Theory](https://openreview.net/pdf?id=fkrYDQaHOJ) | poster |
+| [Jumanji: a Diverse Suite of Scalable Reinforcement Learning Environments in JAX](https://openreview.net/pdf?id=C4CxQmp9wc) | poster |
+| [Searching for High-Value Molecules Using Reinforcement Learning and Transformers](https://openreview.net/pdf?id=nqlymMx42E) | poster |
+| [Privately Aligning Language Models with Reinforcement Learning](https://openreview.net/pdf?id=3d0OmYTNui) | poster |
+| [The HIM Solution for Legged Locomotion: Minimal Sensors, Efficient Learning, and Substantial Agility](https://openreview.net/pdf?id=93LoCyww8o) | poster |
+| [S$2$AC: Energy-Based Reinforcement Learning with Stein Soft Actor Critic](https://openreview.net/pdf?id=rAHcTCMaLc) | poster |
+| [Replay across Experiments: A Natural Extension of Off-Policy RL](https://openreview.net/pdf?id=Nf4Lm6fXN8) | poster |
+| [Piecewise Linear Parametrization of Policies: Towards Interpretable Deep Reinforcement Learning](https://openreview.net/pdf?id=hOMVq57Ce0) | poster |
+| [Time-Efficient Reinforcement Learning with Stochastic Stateful Policies](https://openreview.net/pdf?id=5liV2xUdJL) | poster |
+| [Open the Black Box: Step-based Policy Updates for Temporally-Correlated Episodic Reinforcement Learning](https://openreview.net/pdf?id=mnipav175N) | poster |
+| [On Trajectory Augmentations for Off-Policy Evaluation](https://openreview.net/pdf?id=eMNN0wIyVw) | poster |
+| [Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation](https://openreview.net/pdf?id=NxoFmGgWC9) | poster |
+| [Understanding the Effects of RLHF on LLM Generalisation and Diversity](https://openreview.net/pdf?id=PXD3FAVHJT) | poster |
+| [Delphic Offline Reinforcement Learning under Nonidentifiable Hidden Confounding](https://openreview.net/pdf?id=lUYY2qsRTI) | poster |
+| [Prioritized Soft Q-Decomposition for Lexicographic Reinforcement Learning](https://openreview.net/pdf?id=c0MyyXyGfn) | poster |
+| [The Curse of Diversity in Ensemble-Based Exploration](https://openreview.net/pdf?id=M3QXCOTTk4) | poster |
+| [Off-Policy Primal-Dual Safe Reinforcement Learning](https://openreview.net/pdf?id=vy42bYs1Wo) | poster |
+| [STARC: A General Framework For Quantifying Differences Between Reward Functions](https://openreview.net/pdf?id=wPhbtwlCDa) | poster |
+| [Unleashing the Power of Pre-trained Language Models for Offline Reinforcement Learning](https://openreview.net/pdf?id=AY6aM13gGF) | poster |
+| [Discovering Temporally-Aware Reinforcement Learning Algorithms](https://openreview.net/pdf?id=MJJcs3zbmi) | poster |
+| [Revisiting Data Augmentation in Deep Reinforcement Learning](https://openreview.net/pdf?id=EGQBpkIEuu) | poster |
+| [Reward-Free Curricula for Training Robust World Models](https://openreview.net/pdf?id=eCGpNGDeNu) | poster |
+| [CPPO: Continual Learning for Reinforcement Learning with Human Feedback](https://openreview.net/pdf?id=86zAUE80pP) | poster |
