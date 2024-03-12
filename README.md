@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24 papers on RL**
-<!-- NeurIps24 page 71, ICLR24 page 31 -->
+<!-- NeurIps24 page 71, ICLR24 page 41 -->
 
 
 ## Contents 
@@ -1226,3 +1226,15 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Revisiting Data Augmentation in Deep Reinforcement Learning](https://openreview.net/pdf?id=EGQBpkIEuu) | poster |
 | [Reward-Free Curricula for Training Robust World Models](https://openreview.net/pdf?id=eCGpNGDeNu) | poster |
 | [CPPO: Continual Learning for Reinforcement Learning with Human Feedback](https://openreview.net/pdf?id=86zAUE80pP) | poster |
+| [A Study of Generalization in Offline Reinforcement Learning](https://openreview.net/pdf?id=3w6xuXDOdY) | poster |
+| [RLIF: Interactive Imitation Learning as Reinforcement Learning](https://openreview.net/pdf?id=oLLZhbBSOU) | poster |
+| [Uncertainty-aware Constraint Inference in Inverse Constrained Reinforcement Learning](https://openreview.net/pdf?id=ILYjDvUM6U) | poster |
+| [Towards Imitation Learning to Branch for MIP: A Hybrid Reinforcement Learning based Sample Augmentation Approach](https://openreview.net/pdf?id=NdcQQ82mfy) | poster |
+| [Towards Assessing and Benchmarking Risk-Return Tradeoff of Off-Policy Evaluation](https://openreview.net/pdf?id=ycF7mKfVGO) | poster |
+| [Uni-O4: Unifying Online and Offline Deep Reinforcement Learning with Multi-Step On-Policy Optimization](https://openreview.net/pdf?id=tbFBh3LMKi) | poster |
+| [Free from Bellman Completeness: Trajectory Stitching via Model-based Return-conditioned Supervised Learning](https://openreview.net/pdf?id=7zY781bMDO) | poster |
+| [Revisiting Plasticity in Visual Reinforcement Learning: Data, Modules and Training Stages](https://openreview.net/pdf?id=0aR1s9YxoL) | poster |
+| [Robot Fleet Learning via Policy Merging](https://openreview.net/pdf?id=IL71c1z7et) | poster |
+| [Improving Intrinsic Exploration by Creating Stationary Objectives](https://openreview.net/pdf?id=YbZxT0SON4) | poster |
+| [Motif: Intrinsic Motivation from Artificial Intelligence Feedback](https://openreview.net/pdf?id=tmBKIecDE9) | poster |
+| [Understanding when Dynamics-Invariant Data Augmentations Benefit Model-free Reinforcement Learning Updates](https://openreview.net/pdf?id=sVEu295o70) | poster |
