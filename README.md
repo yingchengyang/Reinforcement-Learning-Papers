@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24 papers on RL**
-<!-- NeurIps24 page 71, ICLR24 page 41 -->
+<!-- NeurIps24 page 71, ICLR24 page 51 -->
 
 
 ## Contents 
@@ -1238,3 +1238,19 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Improving Intrinsic Exploration by Creating Stationary Objectives](https://openreview.net/pdf?id=YbZxT0SON4) | poster |
 | [Motif: Intrinsic Motivation from Artificial Intelligence Feedback](https://openreview.net/pdf?id=tmBKIecDE9) | poster |
 | [Understanding when Dynamics-Invariant Data Augmentations Benefit Model-free Reinforcement Learning Updates](https://openreview.net/pdf?id=sVEu295o70) | poster |
+| [RLCD: Reinforcement Learning from Contrastive Distillation for LM Alignment](https://openreview.net/pdf?id=v3XXtxWKi6) | poster |
+| [Reasoning with Latent Diffusion in Offline Reinforcement Learning](https://openreview.net/pdf?id=tGQirjzddO) | poster |
+| [Belief-Enriched Pessimistic Q-Learning against Adversarial State Perturbations](https://openreview.net/pdf?id=7gDENzTzw1) | poster |
+| [Reward Design for Justifiable Sequential Decision-Making](https://openreview.net/pdf?id=OUkZXbbwQr) | poster |
+| [MAMBA: an Effective World Model Approach for Meta-Reinforcement Learning](https://openreview.net/pdf?id=1RE0H6mU7M) | poster |
+| [LOQA: Learning with Opponent Q-Learning Awareness](https://openreview.net/pdf?id=FDQF6A1s6M) | poster |
+| [Intelligent Switching for Reset-Free RL](https://openreview.net/pdf?id=Nq45xeghcL) | poster |
+| [True Knowledge Comes from Practice: Aligning Large Language Models with Embodied Environments via Reinforcement Learning](https://openreview.net/pdf?id=hILVmJ4Uvu) | poster |
+| [Skill Machines: Temporal Logic Skill Composition in Reinforcement Learning](https://openreview.net/pdf?id=qiduMcw3CU) | poster |
+| [Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with Diverse Human Feedback](https://openreview.net/pdf?id=WesY0H9ghM) | poster |
+| [Vision-Language Models are Zero-Shot Reward Models for Reinforcement Learning](https://openreview.net/pdf?id=N0I2RtD8je) | poster |
+| [DittoGym: Learning to Control Soft Shape-Shifting Robots](https://openreview.net/pdf?id=MpyFAhH9CK) | poster |
+| [Decoupling regularization from the action space](https://openreview.net/pdf?id=UaMgmoKEBj) | poster |
+| [Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks](https://openreview.net/pdf?id=hQVCCxQrYN) | poster |
+| [Robust Model Based Reinforcement Learning Using $\mathcal{L}_1$ Adaptive Control](https://openreview.net/pdf?id=GaLCLvJaoF) | poster |
+
