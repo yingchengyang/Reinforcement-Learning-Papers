@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24 papers on RL**
-<!-- NeurIps24 page 71, ICLR24 page 51 -->
+<!-- NeurIps24 page 71, ICLR24 page 61 -->
 
 
 ## Contents 
@@ -1253,4 +1253,12 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Decoupling regularization from the action space](https://openreview.net/pdf?id=UaMgmoKEBj) | poster |
 | [Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks](https://openreview.net/pdf?id=hQVCCxQrYN) | poster |
 | [Robust Model Based Reinforcement Learning Using $\mathcal{L}_1$ Adaptive Control](https://openreview.net/pdf?id=GaLCLvJaoF) | poster |
+| [DMBP: Diffusion model-based predictor for robust offline reinforcement learning against state observation perturbations](https://openreview.net/pdf?id=ZULjcYLWKe) | poster |
+| [LoTa-Bench: Benchmarking Language-oriented Task Planners for Embodied Agents](https://openreview.net/pdf?id=ADSxCpCu9s) | poster |
+| [Integrating Planning and Deep Reinforcement Learning via Automatic Induction of Task Substructures](https://openreview.net/pdf?id=PR6RMsxuW7) | poster |
+| [Closing the Gap between TD Learning and Supervised Learning - A Generalisation Point of View.](https://openreview.net/pdf?id=qg5JENs0N4) | poster |
+| [COPlanner: Plan to Roll Out Conservatively but to Explore Optimistically for Model-Based RL](https://openreview.net/pdf?id=jnFcKjtUPN) | poster |
+| [$\pi$2vec: Policy Representation with Successor Features](https://openreview.net/pdf?id=o5Bqa4o5Mi) | poster |
+| [Task Planning for Visual Room Rearrangement under Partial Observability](https://openreview.net/pdf?id=jJvXNpvOdM) | poster |
+| [DreamSmooth: Improving Model-based Reinforcement Learning via Reward Smoothing](https://openreview.net/pdf?id=GruDNzQ4ux) | poster |
 
