@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24 papers on RL**
-<!-- NeurIps24 page 71, ICLR24 page 61 -->
+<!-- NeurIps24 page 71 -->
 
 
 ## Contents 
@@ -1261,4 +1261,15 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [$\pi$2vec: Policy Representation with Successor Features](https://openreview.net/pdf?id=o5Bqa4o5Mi) | poster |
 | [Task Planning for Visual Room Rearrangement under Partial Observability](https://openreview.net/pdf?id=jJvXNpvOdM) | poster |
 | [DreamSmooth: Improving Model-based Reinforcement Learning via Reward Smoothing](https://openreview.net/pdf?id=GruDNzQ4ux) | poster |
+| [Meta Inverse Constrained Reinforcement Learning: Convergence Guarantee and Generalization Analysis](https://openreview.net/pdf?id=bJ3gFiwRgi) | poster |
+| [Cleanba: A Reproducible and Efficient Distributed Reinforcement Learning Platform](https://openreview.net/pdf?id=Diq6urt3lS) | poster |
+| [Consciousness-Inspired Spatio-Temporal Abstractions for Better Generalization in Reinforcement Learning](https://openreview.net/pdf?id=eo9dHwtTFt) | poster |
+| [Function-space Parameterization of Neural Networks for Sequential Learning](https://openreview.net/pdf?id=2dhxxIKhqz) | poster |
+| [When should we prefer Decision Transformers for Offline Reinforcement Learning?](https://openreview.net/pdf?id=vpV7fOFQy4) | poster |
+| [Bridging State and History Representations: Understanding Self-Predictive RL](https://openreview.net/pdf?id=ms0VgzSGF2) | poster |
+| [Embodied Active Defense: Leveraging Recurrent Feedback to Counter Adversarial Patches](https://openreview.net/pdf?id=uXjfOmTiDt) | poster |
+| [Stylized Offline Reinforcement Learning: Extracting Diverse High-Quality Behaviors from Heterogeneous Datasets](https://openreview.net/pdf?id=rnHNDihrIT) | poster |
+| [Pre-training with Synthetic Data Helps Offline Reinforcement Learning](https://openreview.net/pdf?id=PcxQgtHGj2) | poster |
+| [Query-Dependent Prompt Evaluation and Optimization with Offline Inverse RL](https://openreview.net/pdf?id=N6o0ZtPzTg) | poster |
+
 
