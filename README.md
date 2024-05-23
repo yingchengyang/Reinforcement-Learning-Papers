@@ -5,8 +5,8 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
-**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24 papers on RL**
-<!-- NeurIps24 page 71 -->
+**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
+<!-- NeurIPS23 page 71 -->
 
 
 ## Contents 
@@ -39,6 +39,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [ICML23](#ICML23)
 * [NeurIPS23](#NeurIPS23)
 * [ICLR24](#ICLR24)
+* [ICML24](#ICML24)
 
 <a id='Model-Free-Online'></a>
 ## Model Free (Online) RL
@@ -1271,5 +1272,11 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Stylized Offline Reinforcement Learning: Extracting Diverse High-Quality Behaviors from Heterogeneous Datasets](https://openreview.net/pdf?id=rnHNDihrIT) | poster |
 | [Pre-training with Synthetic Data Helps Offline Reinforcement Learning](https://openreview.net/pdf?id=PcxQgtHGj2) | poster |
 | [Query-Dependent Prompt Evaluation and Optimization with Offline Inverse RL](https://openreview.net/pdf?id=N6o0ZtPzTg) | poster |
+
+
+<a id='ICML24'></a>
+## ICML24
+| Paper | Type |
+| ---- | ---- |
 
 
