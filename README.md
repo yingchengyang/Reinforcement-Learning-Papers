@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 71 -->
+<!-- NeurIPS23 page 71  ICML24-->
 
 
 ## Contents 
@@ -1278,5 +1278,17 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 ## ICML24
 | Paper | Type |
 | ---- | ---- |
+| [Stop Regressing: Training Value Functions via Classification for Scalable Deep RL](https://openreview.net/attachment?id=dVpFKfqF3R&name=pdf) | oral |
+| [Position: Automatic Environment Shaping is the Next Frontier in RL](https://openreview.net/attachment?id=dslUyy1rN4&name=pdf) | oral |
+| [ACE: Off-Policy Actor-Critic with Causality-Aware Entropy Regularization](https://openreview.net/attachment?id=1puvYh729M&name=pdf) | oral |
+| [Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study](https://openreview.net/attachment?id=6XH8R7YrSk&name=pdf) | oral |
+| [SAPG: Split and Aggregate Policy Gradients](https://openreview.net/attachment?id=4dOJAfXhNV&name=pdf) | oral |
+| [Environment Design for Inverse Reinforcement Learning](https://openreview.net/attachment?id=Ar0dsOMStE&name=pdf) | oral |
+| [OMPO: A Unified Framework for RL under Policy and Dynamics Shifts](https://openreview.net/attachment?id=R83VIZtHXA&name=pdf) | oral |
+| [Learning to Model the World With Language](https://openreview.net/attachment?id=7dP6Yq9Uwv&name=pdf) | oral |
+| [Offline Actor-Critic Reinforcement Learning Scales to Large Models](https://openreview.net/attachment?id=tl2qmO5kpD&name=pdf) | oral |
+| [Self-Composing Policies for Scalable Continual Reinforcement Learning](https://openreview.net/attachment?id=f5gtX2VWSB&name=pdf) | oral |
+| [Genie: Generative Interactive Environments](https://openreview.net/attachment?id=bJbSbJskOS&name=pdf) | oral |
+
 
 
