@@ -1289,6 +1289,10 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Offline Actor-Critic Reinforcement Learning Scales to Large Models](https://openreview.net/attachment?id=tl2qmO5kpD&name=pdf) | oral |
 | [Self-Composing Policies for Scalable Continual Reinforcement Learning](https://openreview.net/attachment?id=f5gtX2VWSB&name=pdf) | oral |
 | [Genie: Generative Interactive Environments](https://openreview.net/attachment?id=bJbSbJskOS&name=pdf) | oral |
-
-
-
+| [Unsupervised Zero-Shot Reinforcement Learning via Functional Reward Encodings](https://openreview.net/attachment?id=a6wCNfIj8E&name=pdf) | spotlight |
+| [Craftax: A Lightning-Fast Benchmark for Open-Ended Reinforcement Learning](https://openreview.net/attachment?id=hg4wXlrQCV&name=pdf) | spotlight |
+| [Mixtures of Experts Unlock Parameter Scaling for Deep RL](https://openreview.net/attachment?id=X9VMhfFxwn&name=pdf) | spotlight |
+| [RICE: Breaking Through the Training Bottlenecks of Reinforcement Learning with Explanation](https://openreview.net/attachment?id=PKJqsZD5nQ&name=pdf) | spotlight |
+| [Code as Reward: Empowering Reinforcement Learning with VLMs](https://openreview.net/attachment?id=6P88DMUDvH&name=pdf) | spotlight |
+| [EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data](https://openreview.net/attachment?id=LHGMXcr6zx&name=pdf) | spotlight |
+| [Behavior Generation with Latent Actions](https://openreview.net/attachment?id=hoVwecMqV5&name=pdf) | spotlight |
