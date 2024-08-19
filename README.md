@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 71  ICML24-->
+<!-- NeurIPS23 page 71  ICML24 page11-->
 
 
 ## Contents 
@@ -1296,3 +1296,23 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Code as Reward: Empowering Reinforcement Learning with VLMs](https://openreview.net/attachment?id=6P88DMUDvH&name=pdf) | spotlight |
 | [EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data](https://openreview.net/attachment?id=LHGMXcr6zx&name=pdf) | spotlight |
 | [Behavior Generation with Latent Actions](https://openreview.net/attachment?id=hoVwecMqV5&name=pdf) | spotlight |
+| [Overestimation, Overfitting, and Plasticity in Actor-Critic: the Bitter Lesson of Reinforcement Learning](https://openreview.net/attachment?id=5vZzmCeTYu&name=pdf) | poster |
+| [Hard Tasks First: Multi-Task Reinforcement Learning Through Task Scheduling](https://openreview.net/attachment?id=haUOhXo70o&name=pdf) | poster |
+| [Trustworthy Alignment of Retrieval-Augmented Large Language Models via Reinforcement Learning](https://openreview.net/attachment?id=XwnABAdH5y&name=pdf) | poster |
+| [Meta-Learners for Partially-Identified Treatment Effects Across Multiple Environments](https://openreview.net/attachment?id=s5PLISyNyP&name=pdf) | poster |
+| [How to Explore with Belief: State Entropy Maximization in POMDPs](https://openreview.net/attachment?id=LbcNAIgNnB&name=pdf) | poster |
+| [PIPER: Primitive-Informed Preference-based Hierarchical Reinforcement Learning via Hindsight Relabeling](https://openreview.net/attachment?id=l6Hef6FVd0&name=pdf) | poster |
+| [Iterative Regularized Policy Optimization with Imperfect Demonstrations](https://openreview.net/attachment?id=Gp5F6qzwGK&name=pdf) | poster |
+| [Fourier Controller Networks for Real-Time Decision-Making in Embodied Learning](https://openreview.net/pdf?id=nDps3Q8j2l) | poster |
+| [Training Large Language Models for Reasoning through Reverse Curriculum Reinforcement Learning](https://openreview.net/attachment?id=t82Y3fmRtk&name=pdf) | poster |
+| [AD3: Implicit Action is the Key for World Models to Distinguish the Diverse Visual Distractors](https://openreview.net/attachment?id=ZwrfsrCduj&name=pdf) | poster |
+| [DRED: Zero-Shot Transfer in Reinforcement Learning via Data-Regularised Environment Design](https://openreview.net/attachment?id=uku9r6RROl&name=pdf) | poster |
+| [Adapting Pretrained ViTs with Convolution Injector for Visuo-Motor Control](https://openreview.net/attachment?id=CuiRGtVI55&name=pdf) | poster |
+| [Degeneration-free Policy Optimization: RL Fine-Tuning for Language Models without Degeneration](https://openreview.net/attachment?id=lwTshcWlmB&name=pdf) | poster |
+
+
+
+
+
+
+
