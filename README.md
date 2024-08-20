@@ -300,6 +300,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [STEERING : Stein Information Directed Exploration for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2301.12038.pdf) | STEERING | ICML23 |  |
 | [Predictable MDP Abstraction for Unsupervised Model-Based RL](https://arxiv.org/pdf/2302.03921.pdf) | PMA | ICML23 | apply model-based RL on top of an abstracted, simplified MDP, by restricting unpredictable actions |
 | The Virtues of Laziness in Model-based RL: A Unified Objective and Algorithms || ICML23 ||
+| [Stop Regressing: Training Value Functions via Classification for Scalable Deep RL](https://openreview.net/attachment?id=dVpFKfqF3R&name=pdf) | HL-Gauss | ICML24 oral | show that training value functions with categorical cross-entropy significantly enhances performance and scalability across various domains, including single-task RL on Atari 2600 games, multi-task RL on Atari with large-scale ResNets, robotic manipulation with Q-transformers, playing Chess without search, and a language-agent Wordle task with high-capacity Transformers, achieving stateof-the-art results on these domains |
 
 
 <a id='dreamer'></a>
