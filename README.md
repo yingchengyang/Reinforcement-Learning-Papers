@@ -29,8 +29,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [Genaralisation in RL](#Genaralization-in-RL)
     - [Environments](#Gene-Environments)
     - [Methods](#Gene-Methods)
-* [RL with Transformer](#Sequence-Generation)
-* [RL with LLM](#RL-LLM)
+* [RL with Transformer/LLM](#Sequence-Generation)
 * [Tutorial and Lesson](#Tutorial-and-Lesson)
 * [ICLR22](#ICLR22)
 * [ICML22](#ICML22)
@@ -546,14 +545,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Online Decision Transformer](https://arxiv.org/pdf/2202.05607.pdf) | ODT | ICML22 oral | blends offline pretraining with online finetuning in a unified framework; use sequence-level entropy regularizers in conjunction with autoregressive modeling objectives for sample-efficient exploration and finetuning |
 | Prompting Decision Transformer for Few-shot Policy Generalization || ICML22 ||
 | [Multi-Game Decision Transformers](https://arxiv.org/pdf/2205.15241.pdf) | ---- | NeurIPS22 | show that a single transformer-based model trained purely offline can play a suite of up to 46 Atari games simultaneously at close-to-human performance |
-
-
-<a id='RL-LLM'></a>
-## RL with LLM
-
-|  Title | Method | Conference | Description |
-| ----  | ----   | ----       |   ----  |
-| [Can Wikipedia Help Offline Reinforcement Learning?](https://arxiv.org/pdf/2201.12122.pdf) || arXiv2201 ||
 | [Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning](https://arxiv.org/pdf/2302.02662.pdf) | GLAM | ICML23 | consider an agent using an LLM as a policy that is progressively updated as the agent interacts with the environment, leveraging online Reinforcement Learning to improve its performance to solve goals |
 
 
