@@ -392,6 +392,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning](https://arxiv.org/pdf/2208.06193.pdf) | Diffusion-QL | ICLR23 | perform policy regularization using diffusion (or scorebased) models; utilize a conditional diffusion model to represent the policy |
 | [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://arxiv.org/pdf/2209.14548.pdf) | SfBC | ICLR23 | decouple the learned policy into two parts: an expressive generative behavior model and an action evaluation model |
 | [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/pdf/2302.01877.pdf) | AdaptDiffuser | ICML23 oral | propose AdaptDiffuser, an evolutionary planning method with diffusion that can self-evolve to improve the diffusion model hence a better planner, which can also adapt to unseen tasks |
+| [Energy-Guided Diffusion Sampling for Offline-to-Online Reinforcement Learning](https://openreview.net/attachment?id=hunSEjeCPE&name=pdf) | EDIS | ICML24 | utilizes a diffusion model to extract prior knowledge from the offline dataset and employs energy functions to distill this knowledge for enhanced data generation in the online phase; formulate three distinct energy functions to guide the diffusion sampling process for the distribution alignment |
+| [DIDI: Diffusion-Guided Diversity for Offline Behavioral Generation](https://openreview.net/attachment?id=8296yUBoXr&name=pdf) | DIDI | ICML24 | propose to learn a diverse set of skills from a mixture of label-free offline data |
 
 
 <a id='Model-Based-Offline'></a>
