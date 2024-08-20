@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 71  ICML24 page11-->
+<!-- NeurIPS23 page 71  ICML24 page21-->
 
 
 ## Contents 
@@ -1301,6 +1301,24 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [DRED: Zero-Shot Transfer in Reinforcement Learning via Data-Regularised Environment Design](https://openreview.net/attachment?id=uku9r6RROl&name=pdf) | poster |
 | [Adapting Pretrained ViTs with Convolution Injector for Visuo-Motor Control](https://openreview.net/attachment?id=CuiRGtVI55&name=pdf) | poster |
 | [Degeneration-free Policy Optimization: RL Fine-Tuning for Language Models without Degeneration](https://openreview.net/attachment?id=lwTshcWlmB&name=pdf) | poster |
+| [Energy-Guided Diffusion Sampling for Offline-to-Online Reinforcement Learning](https://openreview.net/attachment?id=hunSEjeCPE&name=pdf) | poster |
+| [RVI-SAC: Average Reward Off-Policy Deep Reinforcement Learning](https://openreview.net/attachment?id=xB6YJZOKyT&name=pdf) | poster |
+| [Offline Transition Modeling via Contrastive Energy Learning](https://openreview.net/attachment?id=dqpg8jdA2w&name=pdf) | poster |
+| [Model-based Reinforcement Learning for Confounded POMDPs](https://openreview.net/attachment?id=DlR8fWgJRl&name=pdf) | poster |
+| [Revisiting Scalable Hessian Diagonal Approximations for Applications in Reinforcement Learning](https://openreview.net/attachment?id=yrFUJzcTsk&name=pdf) | poster |
+| [Absolute Policy Optimization: Enhancing Lower Probability Bound of Performance with High Confidence](https://openreview.net/attachment?id=Ss3h1ixJAU&name=pdf) | poster |
+| [Meta-Reinforcement Learning Robust to Distributional Shift Via Performing Lifelong In-Context Learning](https://openreview.net/attachment?id=laIOUtstMs&name=pdf) | poster |
+| [DIDI: Diffusion-Guided Diversity for Offline Behavioral Generation](https://openreview.net/attachment?id=8296yUBoXr&name=pdf) | poster |
+| [When Do Skills Help Reinforcement Learning? A Theoretical Analysis of Temporal Abstractions](https://openreview.net/attachment?id=39UqOkTjFn&name=pdf) | poster |
+| [BeigeMaps: Behavioral Eigenmaps for Reinforcement Learning from Images](https://openreview.net/attachment?id=myCgfQZzbc&name=pdf) | poster |
+| [Physics-Informed Neural Network Policy Iteration: Algorithms, Convergence, and Verification](https://openreview.net/attachment?id=sZla6SnooP&name=pdf) | poster |
+| [RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback](https://openreview.net/attachment?id=YSoMmNWZZx&name=pdf) | poster |
+| [RoboDreamer: Learning Compositional World Models for Robot Imagination](https://openreview.net/attachment?id=kHjOmAUfVe&name=pdf) | poster |
+| [Investigating Pre-Training Objectives for Generalization in Vision-Based Reinforcement Learning](https://openreview.net/attachment?id=OiI12sNbgD&name=pdf) | poster |
+
+
+
+
 
 
 
