@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 71  ICML24 page21-->
+<!-- NeurIPS23 page 71  ICML24 page 31-->
 
 
 ## Contents 
@@ -1317,7 +1317,22 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback](https://openreview.net/attachment?id=YSoMmNWZZx&name=pdf) | poster |
 | [RoboDreamer: Learning Compositional World Models for Robot Imagination](https://openreview.net/attachment?id=kHjOmAUfVe&name=pdf) | poster |
 | [Investigating Pre-Training Objectives for Generalization in Vision-Based Reinforcement Learning](https://openreview.net/attachment?id=OiI12sNbgD&name=pdf) | poster |
-
+| [RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation](https://openreview.net/attachment?id=SQIDlJd3hN&name=pdf) | poster |
+| [Coprocessor Actor Critic: A Model-Based Reinforcement Learning Approach For Adaptive Brain Stimulation](https://openreview.net/attachment?id=t3SEfoTaYQ&name=pdf) | poster |
+| [GFlowNet Training by Policy Gradients](https://openreview.net/attachment?id=G1igwiBBUj&name=pdf) | poster |
+| [Value-Evolutionary-Based Reinforcement Learning](https://openreview.net/attachment?id=XobPpcN4yZ&name=pdf) | poster |
+| [PEARL: Zero-shot Cross-task Preference Alignment and Robust Reward Learning for Robotic Manipulation](https://openreview.net/attachment?id=0urN0PnNDj&name=pdf) | poster |
+| [Feasibility Consistent Representation Learning for Safe Reinforcement Learning](https://openreview.net/attachment?id=JNHK11bAGl&name=pdf) | poster |
+| [Distilling Morphology-Conditioned Hypernetworks for Efficient Universal Morphology Control](https://openreview.net/attachment?id=WjvEvYTy3w&name=pdf) | poster |
+| [Constrained Reinforcement Learning Under Model Mismatch](https://openreview.net/attachment?id=GcW9pg4P9x&name=pdf) | poster |
+| [Discovering Multiple Solutions from a Single Task in Offline Reinforcement Learning](https://openreview.net/attachment?id=j6rG1ETRyu&name=pdf) | poster |
+| [Learning to Stabilize Online Reinforcement Learning in Unbounded State Spaces](https://openreview.net/attachment?id=64fdhmogiD&name=pdf) | poster |
+| [Learning to Play Atari in a World of Tokens](https://openreview.net/attachment?id=w8BnKGFIYN&name=pdf) | poster |
+| [Breaking the Barrier: Enhanced Utility and Robustness in Smoothed DRL Agents](https://openreview.net/attachment?id=WJ5fJhwvCl&name=pdf) | poster |
+| [Probabilistic Constrained Reinforcement Learning with Formal Interpretability](https://openreview.net/attachment?id=Zo9zXdVhW2&name=pdf) | poster |
+| [Hieros: Hierarchical Imagination on Structured State Space Sequence World Models](https://openreview.net/attachment?id=IUBhvyJ9Sr&name=pdf) | poster |
+| [Random Latent Exploration for Deep Reinforcement Learning](https://openreview.net/attachment?id=Y9qzwNlKVU&name=pdf) | poster |
+| [Model-based Reinforcement Learning for Parameterized Action Spaces](https://openreview.net/attachment?id=xW79geE0RA&name=pdf) | poster |
 
 
 
