@@ -258,6 +258,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Scaling Laws for Reward Model Overoptimization](https://openreview.net/attachment?id=bBLjms8nZE&name=pdf) | ---- | ICML23 | study overoptimization in the context of large language models fine-tuned as reward models trained to predict which of two options a human will prefer; study how the gold reward model score changes as we optimize against the proxy reward model using either reinforcement learning or best-of-n sampling |
 | [Bigger, Better, Faster: Human-level Atari with human-level efficiency](https://arxiv.org/pdf/2305.19452.pdf) | BBF | ICML23 | rely on scaling the neural networks used for value estimation and a number of other design choices like resetting |
 | [Synthetic Experience Replay](https://arxiv.org/pdf/2303.06614.pdf) | SynthER | NeurIPS23 | utilize diffusion to augment data in the replay buffer; evaluate in both online RL and offline RL|
+| [OMPO: A Unified Framework for RL under Policy and Dynamics Shifts](https://openreview.net/attachment?id=R83VIZtHXA&name=pdf) | OMPO | ICML24 oral | consider the distribution discrepancies induced by policy or dynamics shifts; propose a surrogate policy learning objective by considering the transition occupancy discrepancies and then cast it into a tractable min-max optimization problem through dual reformulation |
 
 <a id='Model-Based-Online'></a>
 ## Model Based (Online) RL
