@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 71  ICML24 page 31-->
+<!-- NeurIPS23 page 71  ICML24 page 41-->
 
 
 ## Contents 
@@ -1333,12 +1333,29 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Hieros: Hierarchical Imagination on Structured State Space Sequence World Models](https://openreview.net/attachment?id=IUBhvyJ9Sr&name=pdf) | poster |
 | [Random Latent Exploration for Deep Reinforcement Learning](https://openreview.net/attachment?id=Y9qzwNlKVU&name=pdf) | poster |
 | [Model-based Reinforcement Learning for Parameterized Action Spaces](https://openreview.net/attachment?id=xW79geE0RA&name=pdf) | poster |
-
-
-
-
-
-
+| [Confidence Aware Inverse Constrained Reinforcement Learning](https://openreview.net/attachment?id=6TCeizkLJV&name=pdf) | poster |
+| [Averaging n-step Returns Reduces Variance in Reinforcement Learning](https://openreview.net/attachment?id=jM9A3Kz6Ki&name=pdf) | poster |
+| [Position: A Call for Embodied AI](https://openreview.net/attachment?id=e5admkWKgV&name=pdf) | poster |
+| [Just Cluster It: An Approach for Exploration in High-Dimensions using Clustering and Pre-Trained Representations](https://openreview.net/attachment?id=cXBPPfNUZJ&name=pdf) | poster |
+| [The Max-Min Formulation of Multi-Objective Reinforcement Learning: From Theory to a Model-Free Algorithm](https://openreview.net/attachment?id=cY9g0bwiZx&name=pdf) | poster |
+| [Skill Set Optimization: Reinforcing Language Model Behavior via Transferable Skills](https://openreview.net/attachment?id=9laB7ytoMp&name=pdf) | poster |
+| [Offline-Boosted Actor-Critic: Adaptively Blending Optimal Historical Behaviors in Deep Off-Policy RL](https://openreview.net/attachment?id=7joG3i2pUR&name=pdf) | poster |
+| [Sequence Compression Speeds Up Credit Assignment in Reinforcement Learning](https://openreview.net/attachment?id=NlM4gp8hyO&name=pdf) | poster |
+| [Seizing Serendipity: Exploiting the Value of Past Success in Off-Policy Actor-Critic](https://openreview.net/attachment?id=9Tq4L3Go9f&name=pdf) | poster |
+| [Generalization to New Sequential Decision Making Tasks with In-Context Learning](https://openreview.net/attachment?id=lVQ4FUZ6dp&name=pdf) | poster |
+| [Simple Ingredients for Offline Reinforcement Learning](https://openreview.net/attachment?id=japBn31gXC&name=pdf) | poster |
+| [Efficient World Models with Context-Aware Tokenization](https://openreview.net/attachment?id=BiWIERWBFX&name=pdf) | poster |
+| [In value-based deep reinforcement learning, a pruned network is a good network](https://openreview.net/attachment?id=seo9V9QRZp&name=pdf) | poster |
+| [Probabilistic Subgoal Representations for Hierarchical Reinforcement Learning](https://openreview.net/attachment?id=b6AwZauZPV&name=pdf) | poster |
+| [Premier-TACO is a Few-Shot Policy Learner: Pretraining Multitask Representation via Temporal Action-Driven Contrastive Loss](https://openreview.net/attachment?id=KSNl7VgeVr&name=pdf) | poster |
+| [Understanding and Diagnosing Deep Reinforcement Learning](https://openreview.net/attachment?id=s9RKqT7jVM&name=pdf) | poster |
+| [To the Max: Reinventing Reward in Reinforcement Learning](https://openreview.net/attachment?id=4KQ0VwqPg8&name=pdf) | poster |
+| [ReLU to the Rescue: Improve Your On-Policy Actor-Critic with Positive Advantages](https://openreview.net/attachment?id=3umNqxjFad&name=pdf) | poster |
+| [Stochastic Q-learning for Large Discrete Action Spaces](https://openreview.net/attachment?id=HPQaMmABgK&name=pdf) | poster |
+| [Feasible Reachable Policy Iteration](https://openreview.net/attachment?id=ks8qSwkkuZ&name=pdf) | poster |
+| [Position: Video as the New Language for Real-World Decision Making](https://openreview.net/attachment?id=EZH4CsKV6O&name=pdf) | poster |
+| [Learning Latent Dynamic Robust Representations for World Models](https://openreview.net/attachment?id=C4jkx6AgWc&name=pdf) | poster |
+| [Reinformer: Max-Return Sequence Modeling for Offline RL](https://openreview.net/attachment?id=mBc8Pestd5&name=pdf) | poster |
 
 
 
