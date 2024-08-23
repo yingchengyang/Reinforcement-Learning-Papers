@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 71  ICML24 page 41-->
+<!-- NeurIPS23 page 71  ICML24 page 51-->
 
 
 ## Contents 
@@ -1357,7 +1357,37 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Position: Video as the New Language for Real-World Decision Making](https://openreview.net/attachment?id=EZH4CsKV6O&name=pdf) | poster |
 | [Learning Latent Dynamic Robust Representations for World Models](https://openreview.net/attachment?id=C4jkx6AgWc&name=pdf) | poster |
 | [Reinformer: Max-Return Sequence Modeling for Offline RL](https://openreview.net/attachment?id=mBc8Pestd5&name=pdf) | poster |
-
+| [Rethinking Transformers in Solving POMDPs](https://openreview.net/pdf?id=SyY7ScNpGL) | poster |
+| [Single-Trajectory Distributionally Robust Reinforcement Learning](https://openreview.net/attachment?id=3B6vmW2L80&name=pdf) | poster |
+| [Trust the Model Where It Trusts Itself - Model-Based Actor-Critic with Uncertainty-Aware Rollout Adaption](https://openreview.net/attachment?id=N0ntTjTfHb&name=pdf) | poster |
+| [A Minimaximalist Approach to Reinforcement Learning from Human Feedback](https://openreview.net/attachment?id=5kVgd2MwMY&name=pdf) | poster |
+| [EvoRainbow: Combining Improvements in Evolutionary Reinforcement Learning for Policy Search](https://openreview.net/attachment?id=75Hes6Zse4&name=pdf) | poster |
+| [SeMOPO: Learning High-quality Model and Policy from Low-quality Offline Visual Datasets](https://openreview.net/attachment?id=ZtOXZCTgBa&name=pdf) | poster |
+| [Adaptive-Gradient Policy Optimization: Enhancing Policy Learning in Non-Smooth Differentiable Simulations](https://openreview.net/attachment?id=S9DV6ZP4eE&name=pdf) | poster |
+| [Dense Reward for Free in Reinforcement Learning from Human Feedback](https://openreview.net/attachment?id=eyxVRMrZ4m&name=pdf) | poster |
+| [Configurable Mirror Descent: Towards a Unification of Decision Making](https://openreview.net/pdf?id=U841CrDUx9) | poster |
+| [Policy Learning for Balancing Short-Term and Long-Term Rewards](https://openreview.net/attachment?id=7Qf1uHTahP&name=pdf) | poster |
+| [Reward Shaping for Reinforcement Learning with An Assistant Reward Agent](https://openreview.net/attachment?id=a3XFF0PGLU&name=pdf) | poster |
+| [Distributional Bellman Operators over Mean Embeddings](https://openreview.net/attachment?id=j2pLfsBm4J&name=pdf) | poster |
+| [SiT: Symmetry-invariant Transformers for Generalisation in Reinforcement Learning](https://openreview.net/attachment?id=SWrwurHAeq&name=pdf) | poster |
+| [Geometric Active Exploration in Markov Decision Processes: the Benefit of Abstraction](https://openreview.net/attachment?id=2JYOxcGlRe&name=pdf) | poster |
+| [Learning a Diffusion Model Policy from Rewards via Q-Score Matching](https://openreview.net/attachment?id=35ahHydjXo&name=pdf) | poster |
+| [ACPO: A Policy Optimization Algorithm for Average MDPs with Constraints](https://openreview.net/attachment?id=dmfvHU1LNF&name=pdf) | poster |
+| [Position: Benchmarking is Limited in Reinforcement Learning Research](https://openreview.net/attachment?id=Xe7n2ZqpBP&name=pdf) | poster |
+| [Learning Constraints from Offline Demonstrations via Superior Distribution Correction Estimation](https://openreview.net/attachment?id=Ax90jQPbgF&name=pdf) | poster |
+| [Augmenting Decision with Hypothesis in Reinforcement Learning](https://openreview.net/attachment?id=NeO2hoSexj&name=pdf) | poster |
+| [SHINE: Shielding Backdoors in Deep Reinforcement Learning](https://openreview.net/attachment?id=nMWxLnSBGW&name=pdf) | poster |
+| [Learning Coverage Paths in Unknown Environments with Deep Reinforcement Learning](https://openreview.net/attachment?id=nCZYRBK1J4&name=pdf) | poster |
+| [Improving Token-Based World Models with Parallel Observation Prediction](https://openreview.net/attachment?id=Lfp5Dk1xb6&name=pdf) | poster |
+| [Learning to Explore in POMDPs with Informational Rewards](https://openreview.net/attachment?id=oTD3WoQyFR&name=pdf) | poster |
+| [Stealthy Imitation: Reward-guided Environment-free Policy Stealing](https://openreview.net/attachment?id=H5FDHzrWe2&name=pdf) | poster |
+| [FuRL: Visual-Language Models as Fuzzy Rewards for Reinforcement Learning](https://openreview.net/attachment?id=BmPWtzL7Eq&name=pdf) | poster |
+| [Enhancing Value Function Estimation through First-Order State-Action Dynamics in Offline Reinforcement Learning](https://openreview.net/attachment?id=nSGnx8lNJ6&name=pdf) | poster |
+| [In-Context Reinforcement Learning for Variable Action Spaces](https://openreview.net/attachment?id=pp3v2ch5Sd&name=pdf) | poster |
+| [Information-Directed Pessimism for Offline Reinforcement Learning](https://openreview.net/attachment?id=JOKOsJHSao&name=pdf) | poster |
+| [PcLast: Discovering Plannable Continuous Latent States](https://openreview.net/attachment?id=AaTYLZQPyC&name=pdf) | poster |
+| [Bayesian Design Principles for Offline-to-Online Reinforcement Learning](https://openreview.net/attachment?id=HLHQxMydFk&name=pdf) | poster |
+| [Adaptive Advantage-Guided Policy Regularization for Offline Reinforcement Learning](https://openreview.net/attachment?id=FV3kY9FBW6&name=pdf) | poster |
 
 
 
