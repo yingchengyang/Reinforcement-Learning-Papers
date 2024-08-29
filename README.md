@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 71  ICML24 page 51-->
+<!-- NeurIPS23 page 71  ICML24 page 71-->
 
 
 ## Contents 
@@ -1390,6 +1390,16 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [PcLast: Discovering Plannable Continuous Latent States](https://openreview.net/attachment?id=AaTYLZQPyC&name=pdf) | poster |
 | [Bayesian Design Principles for Offline-to-Online Reinforcement Learning](https://openreview.net/attachment?id=HLHQxMydFk&name=pdf) | poster |
 | [Adaptive Advantage-Guided Policy Regularization for Offline Reinforcement Learning](https://openreview.net/attachment?id=FV3kY9FBW6&name=pdf) | poster |
-
+| [ArCHer: Training Language Model Agents via Hierarchical Multi-Turn RL](https://openreview.net/attachment?id=b6rA0kAHT1&name=pdf) | poster |
+| [RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://openreview.net/attachment?id=uydQ2W41KO&name=pdf) | poster |
+| [Langevin Policy for Safe Reinforcement Learning](https://openreview.net/attachment?id=xgoilgLPGD&name=pdf) | poster |
+| [Reflective Policy Optimization](https://openreview.net/attachment?id=Cs0Xy6WETl&name=pdf) | poster |
+| [Iterative Preference Learning from Human Feedback: Bridging Theory and Practice for RLHF under KL-constraint](https://openreview.net/attachment?id=c1AKcA6ry1&name=pdf) | poster |
+| [Contrastive Representation for Data Filtering in Cross-Domain Offline Reinforcement Learning](https://openreview.net/attachment?id=rReWhol66R&name=pdf) | poster |
+| [Position: Foundation Agents as the Paradigm Shift for Decision Making](https://openreview.net/attachment?id=jzHmElqpPe&name=pdf) | poster |
+| [Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF](https://openreview.net/attachment?id=Xb3IXEBYuw&name=pdf) | poster |
+| [Do Transformer World Models Give Better Policy Gradients?](https://openreview.net/attachment?id=Uoved2xD81&name=pdf) | poster |
+| [Zero-Shot Reinforcement Learning via Function Encoders](https://openreview.net/attachment?id=tHBLwSYnLf&name=pdf) | poster |
+| [3D-VLA: A 3D Vision-Language-Action Generative World Model](https://openreview.net/attachment?id=EZcFK8HupF&name=pdf) | poster |
 
 
