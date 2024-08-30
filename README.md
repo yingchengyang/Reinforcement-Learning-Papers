@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 71  ICML24 page 71-->
+<!-- NeurIPS23 page 71  ICML24 page 81-->
 
 
 ## Contents 
@@ -1399,7 +1399,21 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Position: Foundation Agents as the Paradigm Shift for Decision Making](https://openreview.net/attachment?id=jzHmElqpPe&name=pdf) | poster |
 | [Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF](https://openreview.net/attachment?id=Xb3IXEBYuw&name=pdf) | poster |
 | [Do Transformer World Models Give Better Policy Gradients?](https://openreview.net/attachment?id=Uoved2xD81&name=pdf) | poster |
+| [Boosting Reinforcement Learning with Strongly Delayed Feedback Through Auxiliary Short Delays](https://openreview.net/attachment?id=0IDaPnY5d5&name=pdf) | poster |
 | [Zero-Shot Reinforcement Learning via Function Encoders](https://openreview.net/attachment?id=tHBLwSYnLf&name=pdf) | poster |
 | [3D-VLA: A 3D Vision-Language-Action Generative World Model](https://openreview.net/attachment?id=EZcFK8HupF&name=pdf) | poster |
-
+| [SF-DQN: Provable Knowledge Transfer using Successor Feature for Deep Reinforcement Learning](https://openreview.net/attachment?id=pDoAjdrMf0&name=pdf) | poster |
+| [In-Context Decision Transformer: Reinforcement Learning via Hierarchical Chain-of-Thought](https://openreview.net/attachment?id=jmmji1EU3g&name=pdf) | poster |
+| [Quality-Diversity Actor-Critic: Learning High-Performing and Diverse Behaviors via Value and Successor Features Critics](https://openreview.net/attachment?id=ISG3l8nXrI&name=pdf) | poster |
+| [Listwise Reward Estimation for Offline Preference-based Reinforcement Learning](https://openreview.net/attachment?id=If6Q9OYfoJ&name=pdf) | poster |
+| [Position: Scaling Simulation is Neither Necessary Nor Sufficient for In-the-Wild Robot Manipulation](https://openreview.net/attachment?id=Jtjurj7oIJ&name=pdf) | poster |
+| [Hybrid Reinforcement Learning from Offline Observation Alone](https://openreview.net/attachment?id=c6rVlTKpb5&name=pdf) | poster |
+| [Is Inverse Reinforcement Learning Harder than Standard Reinforcement Learning? A Theoretical Perspective](https://openreview.net/attachment?id=6dKUu2EkZy&name=pdf) | poster |
+| [Regularized Q-learning through Robust Averaging](https://openreview.net/attachment?id=07f24ya6eX&name=pdf) | poster |
+| [Cross-Domain Policy Adaptation by Capturing Representation Mismatch](https://openreview.net/attachment?id=3uPSQmjXzd&name=pdf) | poster |
+| [HarmoDT: Harmony Multi-Task Decision Transformer for Offline Reinforcement Learning](https://openreview.net/attachment?id=2Asakozn3Z&name=pdf) | poster |
+| [Foundation Policies with Hilbert Representations](https://openreview.net/attachment?id=LhNsSaAKub&name=pdf) | poster |
+| [Subequivariant Reinforcement Learning in 3D Multi-Entity Physical Environments](https://openreview.net/attachment?id=hQpUhySEJi&name=pdf) | poster |
+| [LLM-Empowered State Representation for Reinforcement Learning](https://openreview.net/attachment?id=xJMZbdiQnf&name=pdf) | poster |
+| [Prompt-based Visual Alignment for Zero-shot Policy Transfer](https://openreview.net/attachment?id=PPoQz8K4GZ&name=pdf) | poster |
 
