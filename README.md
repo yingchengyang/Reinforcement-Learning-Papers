@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 71  ICML24 page 81-->
+<!-- NeurIPS23 page 71-->
 
 
 ## Contents 
@@ -1416,4 +1416,22 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Subequivariant Reinforcement Learning in 3D Multi-Entity Physical Environments](https://openreview.net/attachment?id=hQpUhySEJi&name=pdf) | poster |
 | [LLM-Empowered State Representation for Reinforcement Learning](https://openreview.net/attachment?id=xJMZbdiQnf&name=pdf) | poster |
 | [Prompt-based Visual Alignment for Zero-shot Policy Transfer](https://openreview.net/attachment?id=PPoQz8K4GZ&name=pdf) | poster |
+| [An Embodied Generalist Agent in 3D World](https://openreview.net/attachment?id=V4qV08Vk6S&name=pdf) | poster |
+| [Q-value Regularized Transformer for Offline Reinforcement Learning](https://openreview.net/attachment?id=ojtddicekd&name=pdf) | poster |
+| [Highway Value Iteration Networks](https://openreview.net/attachment?id=rORsGuE2hV&name=pdf) | poster |
+| [Robust Inverse Constrained Reinforcement Learning under Model Misspecification](https://openreview.net/attachment?id=pkUl39b0in&name=pdf) | poster |
+| [Exploration and Anti-Exploration with Distributional Random Network Distillation](https://openreview.net/attachment?id=rIrpzmqRBk&name=pdf) | poster |
+| [Policy-conditioned Environment Models are More Generalizable](https://openreview.net/attachment?id=g9mYBdooPA&name=pdf) | poster |
+| [Constrained Ensemble Exploration for Unsupervised Skill Discovery](https://openreview.net/attachment?id=AOJCCFTlfJ&name=pdf) | poster |
+| [DiffStitch: Boosting Offline Reinforcement Learning with Diffusion-based Trajectory Stitching](https://openreview.net/attachment?id=phGHQOKmaU&name=pdf) | poster |
+| [Rethinking Decision Transformer via Hierarchical Reinforcement Learning](https://openreview.net/attachment?id=WsM4TVsZpJ&name=pdf) | poster |
+| [Learning Cognitive Maps from Transformer Representations for Efficient Planning in Partially Observed Environments](https://openreview.net/attachment?id=JUa5XNXuoT&name=pdf) | poster |
+| [HarmonyDream: Task Harmonization Inside World Models](https://openreview.net/attachment?id=x0yIaw2fgk&name=pdf) | poster |
+| [Advancing DRL Agents in Commercial Fighting Games: Training, Integration, and Agent-Human Alignment](https://openreview.net/attachment?id=eN1T7I7OpZ&name=pdf) | poster |
+| [Offline Imitation from Observation via Primal Wasserstein State Occupancy Matching](https://openreview.net/attachment?id=4Zr7T6UrBS&name=pdf) | poster |
+| [Fine-Grained Causal Dynamics Learning with Quantization for Improving Robustness in Reinforcement Learning](https://openreview.net/pdf?id=mrd4e8ZJjm) | poster |
+| [Switching the Loss Reduces the Cost in Batch Reinforcement Learning](https://openreview.net/attachment?id=7PXSc5fURu&name=pdf) | poster |
+| [Think Before You Act: Decision Transformers with Working Memory](https://openreview.net/attachment?id=PSQ5Z920M8&name=pdf) | poster |
+
+
 
