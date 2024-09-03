@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 71-->
+<!-- NeurIPS23 page 81-->
 
 
 ## Contents 
@@ -1116,7 +1116,20 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Accelerating Reinforcement Learning with Value-Conditional State Entropy Exploration | poster |
 | Gradient Informed Proximal Policy Optimization | poster |
 | The Curious Price of Distributional Robustness in Reinforcement Learning with a Generative Model | poster |
-| Optimal Treatment Allocation for Efficient Policy Evaluation in Sequential Decision Making | poster |
+| [Optimal Treatment Allocation for Efficient Policy Evaluation in Sequential Decision Making](https://openreview.net/attachment?id=EcReRm7q9p&name=pdf) | poster |
+| [Thinker: Learning to Plan and Act](https://openreview.net/attachment?id=mumEBl0arj&name=pdf) | poster |
+| [Learning Better with Less: Effective Augmentation for Sample-Efficient Visual Reinforcement Learning](https://openreview.net/attachment?id=jRL6ErxMVB&name=pdf) | poster |
+| [Reinforcement Learning with Simple Sequence Priors](https://openreview.net/attachment?id=qxF8Pge6vM&name=pdf) | poster |
+| [Can Pre-Trained Text-to-Image Models Generate Visual Goals for Reinforcement Learning?](https://openreview.net/attachment?id=kChEBODIx9&name=pdf) | poster |
+| [Beyond Uniform Sampling: Offline Reinforcement Learning with Imbalanced Datasets](https://openreview.net/attachment?id=TW99HrZCJU&name=pdf) | poster |
+| [CQM: Curriculum Reinforcement Learning with a Quantized World Model](https://openreview.net/attachment?id=tcotyjon2a&name=pdf) | poster |
+| [H-InDex: Visual Reinforcement Learning with Hand-Informed Representations for Dexterous Manipulation](https://openreview.net/attachment?id=lvvaNwnP6M&name=pdf) | poster |
+| [Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning](https://openreview.net/attachment?id=GcEIvidYSw&name=pdf) | poster |
+| [Anytime-Competitive Reinforcement Learning with Policy Prior](https://openreview.net/attachment?id=FCwfZj1bQl&name=pdf) | poster |
+| [Budgeting Counterfactual for Offline RL](https://openreview.net/attachment?id=1MUxtSBUox&name=pdf) | poster |
+| [Fractal Landscapes in Policy Optimization](https://openreview.net/attachment?id=QQidjdmyPp&name=pdf) | poster |
+
+
 
 <a id='ICLR24'></a>
 ## ICLR24
