@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 81-->
+<!-- NeurIPS23 page 91-->
 
 
 ## Contents 
@@ -1128,6 +1128,26 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Anytime-Competitive Reinforcement Learning with Policy Prior](https://openreview.net/attachment?id=FCwfZj1bQl&name=pdf) | poster |
 | [Budgeting Counterfactual for Offline RL](https://openreview.net/attachment?id=1MUxtSBUox&name=pdf) | poster |
 | [Fractal Landscapes in Policy Optimization](https://openreview.net/attachment?id=QQidjdmyPp&name=pdf) | poster |
+| [Goal-Conditioned Predictive Coding for Offline Reinforcement Learning](https://openreview.net/attachment?id=IJblKO45YU&name=pdf) | poster |
+| [For SALE: State-Action Representation Learning for Deep Reinforcement Learning](https://openreview.net/attachment?id=xZvGrzRq17&name=pdf) | poster |
+| [Inverse Reinforcement Learning with the Average Reward Criterion](https://openreview.net/attachment?id=YFSrf8aciU&name=pdf) | poster |
+| [Revisiting the Minimalist Approach to Offline Reinforcement Learning](https://openreview.net/attachment?id=vqGWslLeEw&name=pdf) | poster |
+| [Adversarial Model for Offline Reinforcement Learning](https://openreview.net/attachment?id=6UCMa0Qgej&name=pdf) | poster |
+| [Supported Value Regularization for Offline Reinforcement Learning](https://openreview.net/pdf?id=fze7P9oy6l) | poster |
+| [PID-Inspired Inductive Biases for Deep Reinforcement Learning in Partially Observable Control Tasks](https://openreview.net/attachment?id=pKnhUWqZTJ&name=pdf) | poster |
+| [How to Fine-tune the Model: Unified Model Shift and Model Bias Policy Optimization](https://openreview.net/attachment?id=d7a5TpePV7&name=pdf) | poster |
+| [Learning from Visual Observation via Offline Pretrained State-to-Go Transformer](https://openreview.net/attachment?id=E58gaxJN1d&name=pdf) | poster |
+| [Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents](https://openreview.net/attachment?id=KtvPdGb31Z&name=pdf) | poster |
+| [Robust Knowledge Transfer in Tiered Reinforcement Learning](https://openreview.net/attachment?id=1WMdoiVMov&name=pdf) | poster |
+| [Train Hard, Fight Easy: Robust Meta Reinforcement Learning](https://openreview.net/attachment?id=JvOZ4IIjwP&name=pdf) | poster |
+| [Task-aware world model learning with meta weighting via bi-level optimization](https://openreview.net/attachment?id=IN3hQx1BrC&name=pdf) | poster |
+| [Video Prediction Models as Rewards for Reinforcement Learning](https://openreview.net/attachment?id=HWNl9PAYIP&name=pdf) | poster |
+| [Synthetic Experience Replay](https://openreview.net/attachment?id=6jNQ1AY1Uf&name=pdf) | poster |
+| [Policy Finetuning in Reinforcement Learning via Design of Experiments using Offline Data](https://openreview.net/attachment?id=fjXTcUUgaC&name=pdf) | poster |
+| [Learning Dynamic Attribute-factored World Models for Efficient Multi-object Reinforcement Learning](https://openreview.net/attachment?id=bsNslV3Ahe&name=pdf) | poster |
+| [Learning World Models with Identifiable Factorization](https://openreview.net/attachment?id=6JJq5TW9Mc&name=pdf) | poster |
+| [Pre-training Contextualized World Models with In-the-wild Videos for Reinforcement Learning](https://openreview.net/attachment?id=8GuEVzAUQS&name=pdf) | poster |
+
 
 
 
