@@ -6,7 +6,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 91-->
+<!-- NeurIPS23 page 101-->
 
 
 ## Contents 
@@ -1147,8 +1147,17 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Learning Dynamic Attribute-factored World Models for Efficient Multi-object Reinforcement Learning](https://openreview.net/attachment?id=bsNslV3Ahe&name=pdf) | poster |
 | [Learning World Models with Identifiable Factorization](https://openreview.net/attachment?id=6JJq5TW9Mc&name=pdf) | poster |
 | [Pre-training Contextualized World Models with In-the-wild Videos for Reinforcement Learning](https://openreview.net/attachment?id=8GuEVzAUQS&name=pdf) | poster |
-
-
+| [Inverse Preference Learning: Preference-based RL without a Reward Function](https://openreview.net/attachment?id=gAP52Z2dar&name=pdf) | poster |
+| [Understanding, Predicting and Better Resolving Q-Value Divergence in Offline-RL](https://openreview.net/attachment?id=71P7ugOGCV&name=pdf) | poster |
+| [Latent exploration for Reinforcement Learning](https://openreview.net/attachment?id=JSVXZKqfLU&name=pdf) | poster |
+| [Large Language Models can Implement Policy Iteration](https://openreview.net/attachment?id=LWxjWoBTsr&name=pdf) | poster |
+| [Generalized Weighted Path Consistency for Mastering Atari Games](https://openreview.net/attachment?id=vHRLS8HhK1&name=pdf) | poster |
+| [Learning Environment-Aware Affordance for 3D Articulated Object Manipulation under Occlusions](https://openreview.net/attachment?id=Re2NHYoZ5l&name=pdf) | poster |
+| [Accelerating Value Iteration with Anchoring](https://openreview.net/attachment?id=Wn82NbmvJy&name=pdf) | poster |
+| [Reduced Policy Optimization for Continuous Control with Hard Constraints](https://openreview.net/attachment?id=fKVEMNmWqU&name=pdf) | poster |
+| [State Regularized Policy Optimization on Data with Dynamics Shift](https://openreview.net/attachment?id=I8t9RKDnz2&name=pdf) | poster |
+| [Offline Reinforcement Learning with Differential Privacy](https://openreview.net/attachment?id=YVMc3KiWBQ&name=pdf) | poster |
+| [Understanding and Addressing the Pitfalls of Bisimulation-based Representations in Offline Reinforcement Learning](https://openreview.net/attachment?id=sQyRQjun46&name=pdf) | poster |
 
 
 <a id='ICLR24'></a>
