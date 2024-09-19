@@ -6,7 +6,6 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
-<!-- NeurIPS23 page 101-->
 
 
 ## Contents 
@@ -1311,6 +1310,18 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Stylized Offline Reinforcement Learning: Extracting Diverse High-Quality Behaviors from Heterogeneous Datasets](https://openreview.net/pdf?id=rnHNDihrIT) | poster |
 | [Pre-training with Synthetic Data Helps Offline Reinforcement Learning](https://openreview.net/pdf?id=PcxQgtHGj2) | poster |
 | [Query-Dependent Prompt Evaluation and Optimization with Offline Inverse RL](https://openreview.net/pdf?id=N6o0ZtPzTg) | poster |
+| [A Simple Solution for Offline Imitation from Observations and Examples with Possibly Incomplete Trajectories](https://openreview.net/attachment?id=805CW5w2CY&name=pdf) | poster |
+| [Offline Imitation Learning with Variational Counterfactual Reasoning](https://openreview.net/attachment?id=6d9Yxttb3w&name=pdf) | poster |
+| [Read and Reap the Rewards: Learning to Play Atari with the Help of Instruction Manuals](https://openreview.net/attachment?id=qP0Drg2HuH&name=pdf) | poster |
+| [Reinforcement Learning with Fast and Forgetful Memory](https://openreview.net/attachment?id=KTfAtro6vP&name=pdf) | poster |
+| [Active Vision Reinforcement Learning under Limited Visual Observability](https://openreview.net/attachment?id=j2oYaFpbrB&name=pdf) | poster |
+| [Sequential Preference Ranking for Efficient Reinforcement Learning from Human Feedback](https://openreview.net/attachment?id=MIYBTjCVjR&name=pdf) | poster |
+| [Hierarchical Adaptive Value Estimation for Multi-modal Visual Reinforcement Learning](https://openreview.net/attachment?id=jB4wsc1DQW&name=pdf) | poster |
+| [Elastic Decision Transformer](https://openreview.net/attachment?id=RMeQjexaRj&name=pdf) | poster |
+| [Importance-aware Co-teaching for Offline Model-based Optimization](https://openreview.net/attachment?id=OvPnc5kVsb&name=pdf) | poster |
+| [Parallel-mentoring for Offline Model-based Optimization](https://openreview.net/attachment?id=tJwyg9Zg9G&name=pdf) | poster |
+| [Accountability in Offline Reinforcement Learning: Explaining Decisions with a Corpus of Examples](https://openreview.net/attachment?id=kmbG9iBRIb&name=pdf) | poster |
+
 
 
 <a id='ICML24'></a>
