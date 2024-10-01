@@ -5,7 +5,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
-**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 papers on RL**
+**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 NeurIPS24 papers on RL**
 
 
 ## Contents 
@@ -38,6 +38,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [NeurIPS23](#NeurIPS23)
 * [ICLR24](#ICLR24)
 * [ICML24](#ICML24)
+* [NeurIPS24](#NeurIPS24)
 
 <a id='Model-Free-Online'></a>
 ## Model Free (Online) RL
@@ -168,7 +169,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Creating Multi-Level Skill Hierarchies in Reinforcement Learning || NeurIPS23 ||
 | Unsupervised Behavior Extraction via Random Intent Priors || NeurIPS23 ||
 | [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction](https://arxiv.org/pdf/2310.08887.pdf) | METRA | ICLR24 oral |  |
-| Task Adaptation from Skills: Information Geometry, Disentanglement, and New Objectives for Unsupervised Reinforcement Learning | ---- |||
+| [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://arxiv.org/pdf/2405.14073) | CEURL, PEAC | NeurIPS24 | consider unsupervised pre-training across a distribution of embodiments, namely CEURL; propose PEAC for handling CEURL |
 
 
 <!-- ### <span id='current'>Current methods</span> -->
@@ -1487,4 +1488,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Think Before You Act: Decision Transformers with Working Memory](https://openreview.net/attachment?id=PSQ5Z920M8&name=pdf) | poster |
 
 
-
+<a id='NeurIPS24'></a>
+## NeurIPS24
+| Paper | Type |
+| ---- | ---- |
+| [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://arxiv.org/pdf/2405.14073) | poster |
+| Aligning Diffusion Behaviors with Q-functions for Efficient Continuous Control | poster |
