@@ -1492,5 +1492,8 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 ## NeurIPS24
 | Paper | Type |
 | ---- | ---- |
+| [Maximum Entropy Inverse Reinforcement Learning of Diffusion Models with Energy-Based Models](https://openreview.net/attachment?id=V0oJaLqY4E&name=pdf) | oral |
+| [Improving Environment Novelty Quantification for Effective Unsupervised Environment Design](https://openreview.net/attachment?id=UdxpjKO2F9&name=pdf) | oral |
+| [RL-GPT: Integrating Reinforcement Learning and Code-as-policy](https://openreview.net/attachment?id=LEzx6QRkRH&name=pdf) | oral |
 | [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://arxiv.org/pdf/2405.14073) | poster |
 | Aligning Diffusion Behaviors with Q-functions for Efficient Continuous Control | poster |
