@@ -1495,5 +1495,22 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Maximum Entropy Inverse Reinforcement Learning of Diffusion Models with Energy-Based Models](https://openreview.net/attachment?id=V0oJaLqY4E&name=pdf) | oral |
 | [Improving Environment Novelty Quantification for Effective Unsupervised Environment Design](https://openreview.net/attachment?id=UdxpjKO2F9&name=pdf) | oral |
 | [RL-GPT: Integrating Reinforcement Learning and Code-as-policy](https://openreview.net/attachment?id=LEzx6QRkRH&name=pdf) | oral |
+| [Optimizing Automatic Differentiation with Deep Reinforcement Learning](https://openreview.net/attachment?id=hVmi98a0ki&name=pdf) | spotlight |
+| [Bigger, Regularized, Optimistic: scaling for compute and sample efficient continuous control](https://openreview.net/attachment?id=fu0xdh4aEJ&name=pdf) | spotlight |
+| [Can Learned Optimization Make Reinforcement Learning Less Difficult?](https://openreview.net/attachment?id=YbxFwaSA9Z&name=pdf) | spotlight |
+| [Goal Reduction with Loop-Removal Accelerates RL and Models Human Brain Activity in Goal-Directed Learning](https://openreview.net/attachment?id=Y0EfJJeb4V&name=pdf) | spotlight |
+| [BricksRL: A Platform for Democratizing Robotics and Reinforcement Learning Research and Education with LEGO](https://openreview.net/attachment?id=8iytZCnXIu&name=pdf) | spotlight |
+| [Humanoid Locomotion as Next Token Prediction](https://openreview.net/attachment?id=GrMczQGTlA&name=pdf) | spotlight |
+| [Personalizing Reinforcement Learning from Human Feedback with Variational Preference Learning](https://openreview.net/attachment?id=gRG6SzbW9p&name=pdf) | spotlight |
+| [Pre-trained Text-to-Image Diffusion Models Are Versatile Representation Learners for Control](https://openreview.net/attachment?id=KY07A73F3Y&name=pdf) | spotlight |
+| [A Study of Plasticity Loss in On-Policy Deep Reinforcement Learning](https://openreview.net/attachment?id=MsUf8kpKTF&name=pdf) | spotlight |
+| [Diffusion for World Modeling: Visual Details Matter in Atari](https://openreview.net/attachment?id=NadTwTODgC&name=pdf) | spotlight |
+| [Exclusively Penalized Q-learning for Offline Reinforcement Learning](https://openreview.net/attachment?id=2bdSnxeQcW&name=pdf) | spotlight |
+| [DiffTORI: Differentiable Trajectory Optimization for Deep Reinforcement and Imitation Learning](https://openreview.net/attachment?id=Mwj57TcHWX&name=pdf) | spotlight |
+| [Variational Delayed Policy Optimization](https://openreview.net/attachment?id=DAtNDZHbqj&name=pdf) | spotlight |
+| [Rethinking Exploration in Reinforcement Learning with Effective Metric-Based Exploration Bonus](https://openreview.net/attachment?id=QpKWFLtZKi&name=pdf) | spotlight |
+| [Towards an Information Theoretic Framework of Context-Based Offline Meta-Reinforcement Learning](https://openreview.net/attachment?id=QFUsZvw9mx&name=pdf) | spotlight |
+| [Reinforcement Learning Gradients as Vitamin for Online Finetuning Decision Transformers](https://openreview.net/attachment?id=5l5bhYexYO&name=pdf) | spotlight |
+| [The Value of Reward Lookahead in Reinforcement Learning](https://openreview.net/attachment?id=URyeU8mwz1&name=pdf) | spotlight |
 | [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://arxiv.org/pdf/2405.14073) | poster |
 | Aligning Diffusion Behaviors with Q-functions for Efficient Continuous Control | poster |
