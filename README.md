@@ -1041,7 +1041,6 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Creating Multi-Level Skill Hierarchies in Reinforcement Learning | poster |
 | Unsupervised Behavior Extraction via Random Intent Priors | poster |
 | [MIMEx: Intrinsic Rewards from Masked Input Modeling](https://arxiv.org/pdf/2305.08932.pdf) | poster |
-| [Synthetic Experience Replay](https://arxiv.org/pdf/2303.06614.pdf) | poster |
 | f-Policy Gradients: A General Framework for Goal-Conditioned RL using f-Divergences | poster |
 | Prediction and Control in Continual Reinforcement Learning | poster |
 | Residual Q-Learning: Offline and Online Policy Customization without Value | poster |
