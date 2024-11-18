@@ -169,6 +169,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | Creating Multi-Level Skill Hierarchies in Reinforcement Learning || NeurIPS23 ||
 | Unsupervised Behavior Extraction via Random Intent Priors || NeurIPS23 ||
 | [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction](https://arxiv.org/pdf/2310.08887.pdf) | METRA | ICLR24 oral |  |
+| [Language Guided Skill Discovery](https://arxiv.org/pdf/2406.06615) | LGSD | arXiv2406 | take user prompts as input and outputs a set of semantically distinctive skills |
 | [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://arxiv.org/pdf/2405.14073) | CEURL, PEAC | NeurIPS24 | consider unsupervised pre-training across a distribution of embodiments, namely CEURL; propose PEAC for handling CEURL |
 
 
