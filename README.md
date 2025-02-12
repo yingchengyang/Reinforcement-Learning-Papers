@@ -5,8 +5,8 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
-**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24 NeurIPS24 papers on RL**
-
+**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24, NeurIPS24, ICLR25 papers on RL**
+<!-- neurips 24 page 21-->
 
 ## Contents 
 * [Model Free (Online) RL](#Model-Free-Online)
@@ -39,11 +39,11 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [ICLR24](#ICLR24)
 * [ICML24](#ICML24)
 * [NeurIPS24](#NeurIPS24)
+* [ICLR25](#ICLR25)
 
 <a id='Model-Free-Online'></a>
 ## Model Free (Online) RL
-<!-- ## <span id='Model-Free-Online'>Model Free (Online) RL</span>
-### <span id='classic'>Classic Methods</span> -->
+
 
 <a id='model-free-classic'></a>
 ### Classic Methods
@@ -1513,4 +1513,33 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Reinforcement Learning Gradients as Vitamin for Online Finetuning Decision Transformers](https://openreview.net/attachment?id=5l5bhYexYO&name=pdf) | spotlight |
 | [The Value of Reward Lookahead in Reinforcement Learning](https://openreview.net/attachment?id=URyeU8mwz1&name=pdf) | spotlight |
 | [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://arxiv.org/pdf/2405.14073) | poster |
+| [Reward Machines for Deep RL in Noisy and Uncertain Environments](https://openreview.net/attachment?id=Cc0ckJlJF2&name=pdf) | poster |
+| [Provable Partially Observable Reinforcement Learning with Privileged Information](https://openreview.net/attachment?id=o3i1JEfzKw&name=pdf) | poster|
+| [Artificial Generational Intelligence: Cultural Accumulation in Reinforcement Learning](https://openreview.net/attachment?id=pMaCRgu8GV&name=pdf) | poster|
+| [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://openreview.net/attachment?id=3Tzcot1LKb&name=pdf) | poster|
+| [Subwords as Skills: Tokenization for Sparse-Reward Reinforcement Learning](https://openreview.net/attachment?id=WfpvtH7oC1&name=pdf) | poster|
+| [Model-based Diffusion for Trajectory Optimization](https://openreview.net/attachment?id=BJndYScO6o&name=pdf) | poster|
+| [Operator World Models for Reinforcement Learning](https://openreview.net/attachment?id=kbBjVMcJ7G&name=pdf) | poster|
+| [Foundations of Multivariate Distributional Reinforcement Learning](https://openreview.net/attachment?id=aq3I5B6GLG&name=pdf) | poster|
+| [Imitating Language via Scalable Inverse Reinforcement Learning](https://openreview.net/attachment?id=5d2eScRiRC&name=pdf) | poster|
+| [Beyond Optimism: Exploration With Partially Observable Rewards](https://openreview.net/attachment?id=k6ZHvF1vkg&name=pdf) | poster|
+| [SleeperNets: Universal Backdoor Poisoning Attacks Against Reinforcement Learning Agents](https://openreview.net/attachment?id=HkC4OYee3Q&name=pdf) | poster|
+| [Learning World Models for Unconstrained Goal Navigation](https://openreview.net/attachment?id=aYqTwcDlCG&name=pdf) | poster|
+| [Exploring the Edges of Latent State Clusters for Goal-Conditioned Reinforcement Learning](https://openreview.net/attachment?id=9hKN99RNdR&name=pdf) | poster|
+| [Off-Dynamics Reinforcement Learning via Domain Adaptation and Reward Augmented Imitation](https://openreview.net/attachment?id=k2hS5Rt1N0&name=pdf) | poster|
+| [Constrained Latent Action Policies for Model-Based Offline Reinforcement Learning](https://openreview.net/attachment?id=pEhvscmSgG&name=pdf) | poster|
+| [Unpacking DPO and PPO: Disentangling Best Practices for Learning from Preference Feedback](https://openreview.net/attachment?id=JMBWTlazjW&name=pdf) | poster|
+| [Rethinking Inverse Reinforcement Learning: from Data Alignment to Task Alignment](https://openreview.net/attachment?id=VFRyS7Wx08&name=pdf) | poster|
+| [Normalization and effective learning rates in reinforcement learning](https://openreview.net/attachment?id=ZbjJE6Nq5k&name=pdf) | poster|
+| [ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search](https://openreview.net/attachment?id=8rcFOqEud5&name=pdf) | poster|
+| [Deep Policy Gradient Methods Without Batch Updates, Target Networks, or Replay Buffers](https://openreview.net/attachment?id=DX5GUwMFFb&name=pdf) | poster|
+| [Text-Aware Diffusion for Policy Learning](https://openreview.net/attachment?id=nK6OnCpd3n&name=pdf) | poster|
+| [A Tractable Inference Perspective of Offline RL](https://openreview.net/attachment?id=UZIHW8eFRp&name=pdf) | poster|
+| [Reinforcing LLM Agents via Policy Optimization with Action Decomposition](https://openreview.net/attachment?id=Hz6cSigMyU&name=pdf) | poster|
+| [Parseval Regularization for Continual Reinforcement Learning](https://openreview.net/attachment?id=RB1F2h5YEx&name=pdf) | poster|
 | Aligning Diffusion Behaviors with Q-functions for Efficient Continuous Control | poster |
+
+<a id='ICLR25'></a>
+## ICLR25
+| Paper | Type |
+| ---- | ---- |
