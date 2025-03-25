@@ -1543,3 +1543,20 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 ## ICLR25
 | Paper | Type |
 | ---- | ---- |
+| [RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style](https://openreview.net/attachment?id=QEHrmQPBdd&name=pdf) | oral |
+| [Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](https://openreview.net/attachment?id=wM2sfVgMDH&name=pdf) | oral |
+| [Learning to Search from Demonstration Sequences](https://openreview.net/attachment?id=v593OaNePQ&name=pdf) | oral |
+| [Spread Preference Annotation: Direct Preference Judgment for Efficient LLM Alignment](https://openreview.net/attachment?id=BPgK5XW1Nb&name=pdf) | oral |
+| [Interpreting Emergent Planning in Model-Free Reinforcement Learning](https://openreview.net/attachment?id=DzGe40glxs&name=pdf) | oral |
+| [Kinetix: Investigating the Training of General Agents through Open-Ended Physics-Based Control Tasks](https://openreview.net/attachment?id=zCxGCdzreM&name=pdf) | oral |
+| [OptionZero: Planning with Learned Options](https://openreview.net/attachment?id=3IFRygQKGL&name=pdf) | oral |
+| [Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation](https://openreview.net/attachment?id=meRCKuUpmc&name=pdf) | oral |
+| [Data Scaling Laws in Imitation Learning for Robotic Manipulation](https://openreview.net/attachment?id=pISLZG7ktL&name=pdf) | oral |
+| [More RLHF, More Trust? On The Impact of Preference Alignment On Trustworthiness](https://openreview.net/attachment?id=FpiCLJrSW8&name=pdf) | oral |
+| [Geometry-aware RL for Manipulation of Varying Shapes and Deformable Objects](https://openreview.net/attachment?id=7BLXhmWvwF&name=pdf) | oral |
+| [DeepLTL: Learning to Efficiently Satisfy Complex LTL Specifications for Multi-Task RL](https://openreview.net/attachment?id=9pW2J49flQ&name=pdf) | oral |
+| [Training Language Models to Self-Correct via Reinforcement Learning](https://openreview.net/attachment?id=CjwERcAU7w&name=pdf) | oral |
+| [Prioritized Generative Replay](https://openreview.net/attachment?id=5IkDAfabuo&name=pdf) | oral |
+| [Flat Reward in Policy Parameter Space Implies Robust Reinforcement Learning](https://openreview.net/attachment?id=4OaO3GjP7k&name=pdf) | oral |
+| [Open-World Reinforcement Learning over Long Short-Term Imagination](https://openreview.net/attachment?id=vzItLaEoDa&name=pdf) | oral |
+
