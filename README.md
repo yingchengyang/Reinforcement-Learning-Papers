@@ -1559,4 +1559,27 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Prioritized Generative Replay](https://openreview.net/attachment?id=5IkDAfabuo&name=pdf) | oral |
 | [Flat Reward in Policy Parameter Space Implies Robust Reinforcement Learning](https://openreview.net/attachment?id=4OaO3GjP7k&name=pdf) | oral |
 | [Open-World Reinforcement Learning over Long Short-Term Imagination](https://openreview.net/attachment?id=vzItLaEoDa&name=pdf) | oral |
+| [Online Preference Alignment for Language Models via Count-based Exploration](https://openreview.net/attachment?id=cfKZ5VrhXt&name=pdf) | spotlight |
+| [Joint Reward and Policy Learning with Demonstrations and Human Feedback Improves Alignment](https://openreview.net/attachment?id=VCbqXtS5YY&name=pdf) | spotlight |
+| [Correlated Proxies: A New Definition and Improved Mitigation for Reward Hacking](https://openreview.net/attachment?id=msEr27EejF&name=pdf) | spotlight |
+| [Online Reinforcement Learning in Non-Stationary Context-Driven Environments](https://openreview.net/attachment?id=l6QnSQizmN&name=pdf) | spotlight |
+| [DataEnvGym: Data Generation Agents in Teacher Environments with Student Feedback](https://openreview.net/attachment?id=00SnKBGTsz&name=pdf) | spotlight |
+| [Correcting the Mythos of KL-Regularization: Direct Alignment without Overoptimization via Chi-Squared Preference Optimization](https://openreview.net/attachment?id=hXm0Wu2U9K&name=pdf) | spotlight |
+| [TOP-ERL: Transformer-based Off-Policy Episodic Reinforcement Learning](https://openreview.net/attachment?id=N4NhVN30ph&name=pdf) | spotlight |
+| [VisualPredicator: Learning Abstract World Models with Neuro-Symbolic Predicates for Robot Planning](https://openreview.net/attachment?id=QOfswj7hij&name=pdf) | spotlight |
+| [Multi-Robot Motion Planning with Diffusion Models](https://openreview.net/attachment?id=AUCYptvAf3&name=pdf) | spotlight |
+| [Simplifying Deep Temporal Difference Learning](https://openreview.net/attachment?id=7IzeL0kflu&name=pdf) | spotlight |
+| [ODE-based Smoothing Neural Network for Reinforcement Learning Tasks](https://openreview.net/attachment?id=S5Yo6w3n3f&name=pdf) | spotlight |
+| [MAD-TD: Model-Augmented Data stabilizes High Update Ratio RL](https://openreview.net/attachment?id=6RtRsg8ZV1&name=pdf) | spotlight |
+| [Stabilizing Reinforcement Learning in Differentiable Multiphysics Simulation](https://openreview.net/attachment?id=DRiLWb8bJg&name=pdf) | spotlight |
+| [Don't flatten, tokenize! Unlocking the key to SoftMoE's efficacy in deep RL](https://openreview.net/attachment?id=8oCrlOaYcc&name=pdf) | spotlight |
+| [Learning Transformer-based World Models with Contrastive Predictive Coding](https://openreview.net/attachment?id=YK9G4Htdew&name=pdf) | spotlight |
+| [Towards General-Purpose Model-Free Reinforcement Learning](https://openreview.net/attachment?id=R1hIXdST22&name=pdf) | spotlight |
+| [Rethinking Reward Model Evaluation: Are We Barking up the Wrong Tree?](https://openreview.net/attachment?id=Cnwz9jONi5&name=pdf) | spotlight |
+| [Accelerating Goal-Conditioned Reinforcement Learning Algorithms and Research](https://openreview.net/attachment?id=4gaySj8kvX&name=pdf) | spotlight |
+| [SimBa: Simplicity Bias for Scaling Up Parameters in Deep Reinforcement Learning](https://openreview.net/attachment?id=jXLiDKsuDo&name=pdf) | spotlight |
+| [Test-time Alignment of Diffusion Models without Reward Over-optimization](https://openreview.net/attachment?id=vi3DjUhFVm&name=pdf) | spotlight |
+| [Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization](https://openreview.net/attachment?id=qpXctF2aLZ&name=pdf) | spotlight |
+| [What Makes a Good Diffusion Planner for Decision Making?](https://openreview.net/attachment?id=7BQkXXM8Fy&name=pdf) | spotlight |
+
 
