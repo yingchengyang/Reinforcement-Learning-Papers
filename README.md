@@ -5,8 +5,9 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
-**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24, NeurIPS24, ICLR25 papers on RL**
+**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24, NeurIPS24, ICLR25 papers on RL.**
 <!-- neurips 24 page 21-->
+<!-- iclr 24 page 11-->
 
 ## Contents 
 * [Model Free (Online) RL](#Model-Free-Online)
@@ -1581,5 +1582,17 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Test-time Alignment of Diffusion Models without Reward Over-optimization](https://openreview.net/attachment?id=vi3DjUhFVm&name=pdf) | spotlight |
 | [Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization](https://openreview.net/attachment?id=qpXctF2aLZ&name=pdf) | spotlight |
 | [What Makes a Good Diffusion Planner for Decision Making?](https://openreview.net/attachment?id=7BQkXXM8Fy&name=pdf) | spotlight |
-
+| [ADAM: An Embodied Causal Agent in Open-World Environments](https://openreview.net/attachment?id=Ouu3HnIVBc&name=pdf) | poster |
+| [How to Evaluate Reward Models for RLHF](https://openreview.net/attachment?id=cbttLtO94Q&name=pdf) | poster |
+| [SafeDiffuser: Safe Planning with Diffusion Probabilistic Models](https://openreview.net/attachment?id=ig2wk7kK9J&name=pdf) | poster |
+| [Efficient Online Reinforcement Learning Fine-Tuning Need Not Retain Offline Data](https://openreview.net/attachment?id=HN0CYZbAPw&name=pdf) | poster |
+| [Efficient Reinforcement Learning with Large Language Model Priors](https://openreview.net/attachment?id=e2NRNQ0sZe&name=pdf) | poster |
+| [Langevin Soft Actor-Critic: Efficient Exploration through Uncertainty-Driven Critic Learning](https://openreview.net/attachment?id=FvQsk3la17&name=pdf) | poster |
+| [Efficient Policy Evaluation with Safety Constraint for Reinforcement Learning](https://openreview.net/attachment?id=Dem5LyVk8R&name=pdf) | poster |
+| [Model Editing as a Robust and Denoised variant of DPO: A Case Study on Toxicity](https://openreview.net/attachment?id=lOi6FtIwR8&name=pdf) | poster |
+| [Safety-Prioritizing Curricula for Constrained Reinforcement Learning](https://openreview.net/attachment?id=f3QR9TEERH&name=pdf) | poster |
+| [Neural Stochastic Differential Equations for Uncertainty-Aware Offline RL](https://openreview.net/attachment?id=hxUMQ4fic3&name=pdf) | poster |
+| [MaxInfoRL: Boosting exploration in reinforcement learning through information gain maximization](https://openreview.net/attachment?id=R4q3cY3kQf&name=pdf) | poster |
+| [SEMDICE: Off-policy State Entropy Maximization via Stationary Distribution Correction Estimation](https://openreview.net/attachment?id=rJ5g8ueQaI&name=pdf) | poster |
+| [Strategist: Self-improvement of LLM Decision Making via Bi-Level Tree Search](https://openreview.net/attachment?id=gfI9v7AbFg&name=pdf) | poster |
 
