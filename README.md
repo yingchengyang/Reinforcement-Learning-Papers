@@ -6,8 +6,8 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24, NeurIPS24, ICLR25 papers on RL.**
-<!-- neurips 24 page 21-->
-<!-- iclr 24 page 11-->
+<!-- neurips 24 page 31-->
+<!-- iclr 25 page 11-->
 
 ## Contents 
 * [Model Free (Online) RL](#Model-Free-Online)
@@ -1538,7 +1538,23 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [A Tractable Inference Perspective of Offline RL](https://openreview.net/attachment?id=UZIHW8eFRp&name=pdf) | poster|
 | [Reinforcing LLM Agents via Policy Optimization with Action Decomposition](https://openreview.net/attachment?id=Hz6cSigMyU&name=pdf) | poster|
 | [Parseval Regularization for Continual Reinforcement Learning](https://openreview.net/attachment?id=RB1F2h5YEx&name=pdf) | poster|
+| [The Surprising Ineffectiveness of Pre-Trained Visual Representations for Model-Based Reinforcement Learning](https://openreview.net/attachment?id=LvAy07mCxU&name=pdf) | poster |
+| [Speculative Monte-Carlo Tree Search](https://openreview.net/attachment?id=g1HxCIc0wi&name=pdf) | poster |
+| [Safety through feedback in Constrained RL](https://openreview.net/attachment?id=WSsht66fbC&name=pdf) | poster |
+| [Test Where Decisions Matter: Importance-driven Testing for Deep Reinforcement Learning](https://openreview.net/attachment?id=TwrnhZfD6a&name=pdf) | poster |
+| [Skill-aware Mutual Information Optimisation for Zero-shot Generalisation in Reinforcement Learning](https://openreview.net/attachment?id=GtbwJ6mruI&name=pdf) | poster |
+| [Entropy-regularized Diffusion Policy with Q-Ensembles for Offline Reinforcement Learning](https://openreview.net/attachment?id=hWRVbdAWiS&name=pdf) | poster |
+| [An Analytical Study of Utility Functions in Multi-Objective Reinforcement Learning](https://openreview.net/attachment?id=K3h2kZFz8h&name=pdf) | poster |
+| [Diffusion-DICE: In-Sample Diffusion Guidance for Offline Reinforcement Learning](https://openreview.net/attachment?id=EIl9qmMmvy&name=pdf) | poster |
+| [Efficient Recurrent Off-Policy RL Requires a Context-Encoder-Specific Learning Rate](https://openreview.net/attachment?id=tSWoT8ttkO&name=pdf) | poster |
+| [Uncertainty-based Offline Variational Bayesian Reinforcement Learning for Robustness under Diverse Data Corruptions](https://openreview.net/attachment?id=rTxCIWsfsD&name=pdf) | poster |
+| [Any2Policy: Learning Visuomotor Policy with Any-Modality](https://openreview.net/attachment?id=8lcW9ltJx9&name=pdf) | poster |
+| [Reinforcement Learning with Adaptive Regularization for Safe Control of Critical Systems](https://openreview.net/attachment?id=MRO2QhydPF&name=pdf) | poster |
+| [Adam on Local Time: Addressing Nonstationarity in RL with Relative Adam Timesteps](https://openreview.net/attachment?id=biAqUbAuG7&name=pdf) | poster |
+| [ROIDICE: Offline Return on Investment Maximization for Efficient Decision Making](https://openreview.net/attachment?id=6Kg26g1quR&name=pdf) | poster |
+| [Prediction with Action: Visual Policy Learning via Joint Denoising Process](https://openreview.net/attachment?id=teVxVdy8R2&name=pdf) | poster |
 | Aligning Diffusion Behaviors with Q-functions for Efficient Continuous Control | poster |
+
 
 <a id='ICLR25'></a>
 ## ICLR25
@@ -1595,4 +1611,5 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [MaxInfoRL: Boosting exploration in reinforcement learning through information gain maximization](https://openreview.net/attachment?id=R4q3cY3kQf&name=pdf) | poster |
 | [SEMDICE: Off-policy State Entropy Maximization via Stationary Distribution Correction Estimation](https://openreview.net/attachment?id=rJ5g8ueQaI&name=pdf) | poster |
 | [Strategist: Self-improvement of LLM Decision Making via Bi-Level Tree Search](https://openreview.net/attachment?id=gfI9v7AbFg&name=pdf) | poster |
+
 
