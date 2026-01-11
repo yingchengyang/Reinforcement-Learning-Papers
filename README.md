@@ -1642,3 +1642,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 ## NeurIPS25
 | Paper | Type |
 | ---- | ---- |
+| [State Entropy Regularization for Robust Reinforcement Learning](https://openreview.net/attachment?id=rtG7n93Ru8&name=pdf) | oral |
+| [PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models](https://openreview.net/attachment?id=4xvE6Iy77Y&name=pdf) | oral |
+| [A Clean Slate for Offline Reinforcement Learning](https://openreview.net/attachment?id=8P3QNSckMp&name=pdf) | oral |
+| [1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities](https://openreview.net/attachment?id=s0JVsx3bx1&name=pdf) | oral |
+| [QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training](https://openreview.net/attachment?id=ZwCVFBFUFb&name=pdf) | oral |
+| [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://openreview.net/attachment?id=4OsgYD7em5&name=pdf) | oral |
