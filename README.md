@@ -5,7 +5,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
-**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24, NeurIPS24, ICLR25 papers on RL.**
+**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24, NeurIPS24, ICLR25, ICML25, NeurIPS25 papers on RL.**
 <!-- neurips 24 page 31-->
 <!-- iclr 25 page 11-->
 
@@ -41,6 +41,8 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [ICML24](#ICML24)
 * [NeurIPS24](#NeurIPS24)
 * [ICLR25](#ICLR25)
+* [ICML25](#ICML25)
+* [NeurIPS25](#NeurIPS25)
 
 <a id='Model-Free-Online'></a>
 ## Model Free (Online) RL
@@ -1613,3 +1615,30 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Strategist: Self-improvement of LLM Decision Making via Bi-Level Tree Search](https://openreview.net/attachment?id=gfI9v7AbFg&name=pdf) | poster |
 
 
+<a id='ICML25'></a>
+## ICML25
+| Paper | Type |
+| ---- | ---- |
+| [EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents](https://openreview.net/attachment?id=DgGF2LEBPS&name=pdf) | oral |
+| [Network Sparsity Unlocks the Scaling Potential of Deep Reinforcement Learning](https://openreview.net/attachment?id=mIomqOskaa&name=pdf) | oral |
+| [Multi-Turn Code Generation Through Single-Step Rewards](https://openreview.net/attachment?id=aJeLhLcsh0&name=pdf) | spotlight |
+| [Policy-labeled Preference Learning: Is Preference Enough for RLHF?](https://openreview.net/attachment?id=qLfo1sef50&name=pdf) | spotlight |
+| [Monte Carlo Tree Diffusion for System 2 Planning](https://openreview.net/attachment?id=XrCbBdycDc&name=pdf) | spotlight |
+| [RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning](https://openreview.net/attachment?id=PzSG5nKe1q&name=pdf) | spotlight |
+| [Decision Making under the Exponential Family: Distributionally Robust Optimisation with Bayesian Ambiguity Sets](https://openreview.net/attachment?id=r9HlTuCQfr&name=pdf) | spotlight |
+| [Hyperspherical Normalization for Scalable Deep Reinforcement Learning](https://openreview.net/attachment?id=kfYxyvCYQ4&name=pdf) | spotlight |
+| [The Synergy of LLMs & RL Unlocks Offline Learning of Generalizable Language-Conditioned Policies with Low-fidelity Data](https://openreview.net/attachment?id=5hyfZ2jYfI&name=pdf) | spotlight |
+| [Penalizing Infeasible Actions and Reward Scaling in Reinforcement Learning with Offline Data](https://openreview.net/attachment?id=FSVdEzR4To&name=pdf) | spotlight |
+| [A Unified Theoretical Analysis of Private and Robust Offline Alignment: from RLHF to DPO](https://openreview.net/attachment?id=XEyGcrhxB8&name=pdf) | spotlight |
+| [Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations](https://openreview.net/attachment?id=c0dhw1du33&name=pdf) | spotlight |
+| [Continual Reinforcement Learning by Planning with Online World Models](https://openreview.net/attachment?id=mQeZEsdODh&name=pdf) | spotlight |
+| [Policy Regularization on Globally Accessible States in Cross-Dynamics Reinforcement Learning](https://openreview.net/attachment?id=Go0DdhjATH&name=pdf) | spotlight |
+| [Latent Diffusion Planning for Imitation Learning](https://openreview.net/attachment?id=vhACnRfuYh&name=pdf) | spotlight |
+| [Novelty Detection in Reinforcement Learning with World Models](https://openreview.net/attachment?id=xtlixzbcfV&name=pdf) | spotlight |
+| [DPO Meets PPO: Reinforced Token Optimization for RLHF](https://openreview.net/attachment?id=IfWKVF6LfY&name=pdf) | spotlight |
+
+
+<a id='NeurIPS25'></a>
+## NeurIPS25
+| Paper | Type |
+| ---- | ---- |
