@@ -1648,3 +1648,26 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities](https://openreview.net/attachment?id=s0JVsx3bx1&name=pdf) | oral |
 | [QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training](https://openreview.net/attachment?id=ZwCVFBFUFb&name=pdf) | oral |
 | [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://openreview.net/attachment?id=4OsgYD7em5&name=pdf) | oral |
+| [AceSearcher: Bootstrapping Reasoning and Search for LLMs via Reinforced Self-Play](https://openreview.net/attachment?id=jSgCM0uZn3&name=pdf) | spotlight |
+| [Pass@K Policy Optimization: Solving Harder Reinforcement Learning Problems](https://openreview.net/attachment?id=W6WC6047X2&name=pdf) | spotlight |
+| [Forecasting in Offline Reinforcement Learning for Non-stationary Environments](https://openreview.net/attachment?id=24UJqxw1kv&name=pdf) | spotlight |
+| [Counteractive RL: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning](https://openreview.net/attachment?id=qaHrpITIvB&name=pdf) | spotlight |
+| [Reverse Engineering Human Preferences with Reinforcement Learning](https://openreview.net/attachment?id=heY0zzGvYm&name=pdf) | spotlight |
+| [SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning](https://openreview.net/attachment?id=dt940loCBT&name=pdf) | spotlight |
+| [d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning](https://openreview.net/attachment?id=7ZVRlBFuEv&name=pdf) | spotlight |
+| [SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation](https://openreview.net/attachment?id=kmv7yg6QXv&name=pdf) | spotlight |
+| [Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning](https://openreview.net/attachment?id=9eIntNc69t&name=pdf) | spotlight |
+| [DeepDiver: Adaptive Web-Search Intensity Scaling via Reinforcement Learning](https://openreview.net/attachment?id=CqLWckpTbG&name=pdf) | spotlight |
+| [DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models](https://openreview.net/attachment?id=YFa7eULIeN&name=pdf) | spotlight |
+| [Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data](https://openreview.net/attachment?id=7cPDOBWTbM&name=pdf) | spotlight |
+| [Reinforcement Learning with Imperfect Transition Predictions: A Bellman-Jensen Approach](https://openreview.net/attachment?id=DYuPwwDy9n&name=pdf) | spotlight |
+| [Stable Gradients for Stable Learning at Scale in Deep Reinforcement Learning](https://openreview.net/attachment?id=Vqj65VeDOu&name=pdf) | spotlight |
+| [AlphaZero Neural Scaling and Zipf's Law: a Tale of Board Games and Power Laws](https://openreview.net/attachment?id=IMmkDMqFMU&name=p) | spotlight |
+| [DAPO : Improving Multi-Step Reasoning Abilities of Large Language Models with Direct Advantage-Based Policy Optimization](https://openreview.net/attachment?id=77eEDRhPkQ&name=pdf) | spotlight |
+| [VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning](https://openreview.net/attachment?id=4oYxzssbVg&name=pdf) | spotlight |
+| [CURE: Co-Evolving Coders and Unit Testers via Reinforcement Learning](https://openreview.net/attachment?id=wPdBe9zxNr&name=pdf) | spotlight |
+| [To Distill or Decide? Understanding the Algorithmic Trade-off in Partially Observable RL](https://openreview.net/attachment?id=iEgaS6wbLa&name=pdf) | spotlight |
+| [Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning](https://openreview.net/attachment?id=qgi5TfBXBw&name=pdf) | spotlight |
+| [To Think or Not To Think: A Study of Thinking in Rule-Based Visual Reinforcement Fine-Tuning](https://openreview.net/attachment?id=YexxvBGwQM&name=pdf) | spotlight |
+| [DexGarmentLab: Dexterous Garment Manipulation Environment with Generalizable Policy](https://openreview.net/attachment?id=ZZ09oX2Xpo&name=pdf) | spotlight |
+| [Q-Insight: Understanding Image Quality via Visual Reinforcement Learning](https://openreview.net/attachment?id=Bds54EfR9x&name=pdf) | spotlight |
