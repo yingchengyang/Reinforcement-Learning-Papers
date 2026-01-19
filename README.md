@@ -8,6 +8,8 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 **We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24, NeurIPS24, ICLR25, ICML25, NeurIPS25 papers on RL.**
 <!-- neurips 24 page 31-->
 <!-- iclr 25 page 11-->
+<!-- icml 25 page 1-->
+<!-- nsueips 25 page 21-->
 
 ## Contents 
 * [Model Free (Online) RL](#Model-Free-Online)
@@ -1671,3 +1673,30 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [To Think or Not To Think: A Study of Thinking in Rule-Based Visual Reinforcement Fine-Tuning](https://openreview.net/attachment?id=YexxvBGwQM&name=pdf) | spotlight |
 | [DexGarmentLab: Dexterous Garment Manipulation Environment with Generalizable Policy](https://openreview.net/attachment?id=ZZ09oX2Xpo&name=pdf) | spotlight |
 | [Q-Insight: Understanding Image Quality via Visual Reinforcement Learning](https://openreview.net/attachment?id=Bds54EfR9x&name=pdf) | spotlight |
+| [Novel Exploration via Orthogonality](https://openreview.net/attachment?id=yJS1eZSNUv&name=pdf) | poster |
+| [Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning](https://openreview.net/attachment?id=DWf4vroKWJ&name=pdf) | poster |
+| [Reinforcement Learning with Backtracking Feedback](https://openreview.net/attachment?id=14B5d6NEaH&name=pdf) | poster |
+| [Safe RLHF-V: Safe Reinforcement Learning from Multi-modal Human Feedback](https://openreview.net/attachment?id=OIH3T5ZPBW&name=pdf) | poster |
+| [World-aware Planning Narratives Enhance Large Vision-Language Model Planner](https://openreview.net/attachment?id=fggSyPPk0K&name=pdf) | poster |
+| [STAR: Efficient Preference-based Reinforcement Learning via Dual Regularization](https://openreview.net/attachment?id=E9EwDc45f8&name=pdf) | poster |
+| [FairDICE: Fairness-Driven Offline Multi-Objective Reinforcement Learning](https://openreview.net/attachment?id=2jQJ7aNdT1&name=pdf) | poster |
+| [Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics](https://openreview.net/attachment?id=N2bLuwofZ0&name=pdf) | poster |
+| [On Evaluating Policies for Robust POMDPs](https://openreview.net/attachment?id=l2Wl77TSYY&name=pdf) | poster |
+| [Periodic Skill Discovery](https://openreview.net/attachment?id=BPSU46emit&name=pdf) | poster |
+| [Reinforcement Learning with Action Chunking](https://openreview.net/attachment?id=XUks1Y96NR&name=pdf) | poster |
+| [ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning](https://openreview.net/attachment?id=OuGAwwAT8G&name=pdf) | poster |
+| [UFO-RL: Uncertainty-Focused Optimization for Efficient Reinforcement Learning Data Selection](https://openreview.net/attachment?id=sH0ZwzDJZn&name=pdf) | poster |
+| [Segment Policy Optimization: Effective Segment-Level Credit Assignment in RL for Large Language Models](https://openreview.net/attachment?id=9osvTOYbT4&name=pdf) | poster |
+| [DISCOVER: Automated Curricula for Sparse-Reward Reinforcement Learning](https://openreview.net/pdf?id=guZBnsKPsw) | poster |
+| [EnerVerse: Envisioning Embodied Future Space for Robotics Manipulation](https://openreview.net/attachment?id=igtjRQfght&name=pdf) | poster |
+| [Dynamics-Aligned Latent Imagination in Contextual World Models for Zero-Shot Generalization](https://openreview.net/attachment?id=41bIzD5sit&name=pdf) | poster |
+| [Off-policy Reinforcement Learning with Model-based Exploration Augmentation](https://openreview.net/attachment?id=JGkZgEEjiM&name=pdf) | poster |
+| [IOSTOM: Offline Imitation Learning from Observations via State Transition Occupancy Matching](https://openreview.net/attachment?id=OEp1J4V2fN&name=pdf) | poster |
+| [Tree-Guided Diffusion Planner](https://openreview.net/attachment?id=I1C0a01BZu&name=pdf) | poster |
+| [Real-Time Execution of Action Chunking Flow Policies](https://openreview.net/attachment?id=UkR2zO5uww&name=pdf) | poster |
+| [Prompted Policy Search: Reinforcement Learning through Linguistic and Numerical Reasoning in LLMs](https://openreview.net/attachment?id=95plu1Mo20&name=pdf) | poster |
+| [Behavior Injection: Preparing Language Models for Reinforcement Learning](https://openreview.net/attachment?id=mzlwDAQkgJ&name=pdf) | poster |
+| [ExPO: Unlocking Hard Reasoning with Self-Explanation-Guided Reinforcement Learning](https://openreview.net/attachment?id=D1PeGJtVEu&name=pdf) | poster |
+| [Coarse-to-fine Q-Network with Action Sequence for Data-Efficient Reinforcement Learning](https://openreview.net/attachment?id=VoFXUNc9Zh&name=pdf) | poster |
+| [Consistently Simulating Human Personas with Multi-Turn Reinforcement Learning](https://openreview.net/attachment?id=A0T3piHiis&name=pdf) | poster |
+| [Deep RL Needs Deep Behavior Analysis: Exploring Implicit Planning by Model-Free Agents in Open-Ended Environments](https://openreview.net/attachment?id=QD06Qv7O0P&name=pdf) | poster |
