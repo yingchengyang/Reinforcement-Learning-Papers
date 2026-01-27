@@ -5,7 +5,7 @@ Related papers for Reinforcement Learning (we mainly focus on single-agent).
 
 Since there are tens of thousands of new papers on reinforcement learning at each conference every year, we are only able to list those we read and consider as insightful.
 
-**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24, NeurIPS24, ICLR25, ICML25, NeurIPS25 papers on RL.**
+**We have added some ICLR22, ICML22, NeurIPS22, ICLR23, ICML23, NeurIPS23, ICLR24, ICML24, NeurIPS24, ICLR25, ICML25, NeurIPS25, ICLR26 papers on RL.**
 <!-- neurips 24 page 31-->
 <!-- iclr 25 page 11-->
 <!-- icml 25 page 1-->
@@ -45,6 +45,7 @@ Since there are tens of thousands of new papers on reinforcement learning at eac
 * [ICLR25](#ICLR25)
 * [ICML25](#ICML25)
 * [NeurIPS25](#NeurIPS25)
+* [ICLR26](#ICLR26)
 
 <a id='Model-Free-Online'></a>
 ## Model Free (Online) RL
@@ -170,12 +171,13 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Controllability-Aware Unsupervised Skill Discovery](https://arxiv.org/pdf/2302.05103.pdf) | CSD | ICML23 | train a controllability-aware distance function based on the current skill repertoire and combine it with distance-maximizing skill discovery |
 | [Behavior Contrastive Learning for Unsupervised Skill Discovery](https://arxiv.org/pdf/2305.04477.pdf) | BeCL | ICML23 | propose a novel unsupervised skill discovery method through contrastive learning among behaviors, which makes the agent produce similar behaviors for the same skill and diverse behaviors for different skills |
 | Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills || ICML23 ||
-| [Learning to Discover Skills through Guidance](https://arxiv.org/pdf/2310.20178.pdf) | DISCO-DANCE | NeurIPS23 |  selects the guide skill that possesses the highest potential to reach unexplored states; guides other skills to follow guide skill; the guided skills are dispersed to maximize their discriminability in unexplored states |
+| [Learning to Discover Skills through Guidance](https://arxiv.org/pdf/2310.20178.pdf) | DISCO-DANCE | NeurIPS23 |  selects the guide skill that possesses the highest potential to reach unexplored states; guides other skills to follow the guide skill; the guided skills are dispersed to maximize their discriminability in unexplored states |
 | Creating Multi-Level Skill Hierarchies in Reinforcement Learning || NeurIPS23 ||
 | Unsupervised Behavior Extraction via Random Intent Priors || NeurIPS23 ||
 | [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction](https://arxiv.org/pdf/2310.08887.pdf) | METRA | ICLR24 oral |  |
-| [Language Guided Skill Discovery](https://arxiv.org/pdf/2406.06615) | LGSD | arXiv2406 | take user prompts as input and outputs a set of semantically distinctive skills |
+| [Language Guided Skill Discovery](https://arxiv.org/pdf/2406.06615) | LGSD | arXiv2406 | take user prompts as input and output a set of semantically distinctive skills |
 | [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://arxiv.org/pdf/2405.14073) | CEURL, PEAC | NeurIPS24 | consider unsupervised pre-training across a distribution of embodiments, namely CEURL; propose PEAC for handling CEURL |
+| [Exploratory Diffusion Model for Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2502.07279) | ExDM | ICLR26 | utilize diffusion models for boosting unsupervised exploration and for fine-tuning pre-trained diffusion policies |
 
 
 <!-- ### <span id='current'>Current methods</span> -->
@@ -1700,3 +1702,9 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [Coarse-to-fine Q-Network with Action Sequence for Data-Efficient Reinforcement Learning](https://openreview.net/attachment?id=VoFXUNc9Zh&name=pdf) | poster |
 | [Consistently Simulating Human Personas with Multi-Turn Reinforcement Learning](https://openreview.net/attachment?id=A0T3piHiis&name=pdf) | poster |
 | [Deep RL Needs Deep Behavior Analysis: Exploring Implicit Planning by Model-Free Agents in Open-Ended Environments](https://openreview.net/attachment?id=QD06Qv7O0P&name=pdf) | poster |
+
+<a id='ICLR26'></a>
+## ICLR26
+| Paper | Type |
+| ---- | ---- |
+| [Exploratory Diffusion Model for Unsupervised Reinforcement Learning](https://openreview.net/pdf?id=k0Kb1ynFbt) |  |
