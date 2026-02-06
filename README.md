@@ -177,7 +177,7 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 | [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction](https://arxiv.org/pdf/2310.08887.pdf) | METRA | ICLR24 oral |  |
 | [Language Guided Skill Discovery](https://arxiv.org/pdf/2406.06615) | LGSD | arXiv2406 | take user prompts as input and output a set of semantically distinctive skills |
 | [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://arxiv.org/pdf/2405.14073) | CEURL, PEAC | NeurIPS24 | consider unsupervised pre-training across a distribution of embodiments, namely CEURL; propose PEAC for handling CEURL |
-| [Exploratory Diffusion Model for Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2502.07279) | ExDM | ICLR26 | utilize diffusion models for boosting unsupervised exploration and for fine-tuning pre-trained diffusion policies |
+| [Exploratory Diffusion Model for Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2502.07279) | ExDM | ICLR26 oral | utilize diffusion models for boosting unsupervised exploration and for fine-tuning pre-trained diffusion policies |
 
 
 <!-- ### <span id='current'>Current methods</span> -->
@@ -1707,4 +1707,19 @@ Note: representation learning with MBRL is in the part [World Models](#dreamer)
 ## ICLR26
 | Paper | Type |
 | ---- | ---- |
-| [Exploratory Diffusion Model for Unsupervised Reinforcement Learning](https://openreview.net/pdf?id=k0Kb1ynFbt) |  |
+| [Exploratory Diffusion Model for Unsupervised Reinforcement Learning](https://openreview.net/pdf?id=k0Kb1ynFbt) | oral |
+| [Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search](https://openreview.net/attachment?id=kMuQBgPIdg&name=pdf) | oral |
+| [Why DPO is a Misspecified Estimator and How to Fix It](https://openreview.net/attachment?id=btEiAfnLsX&name=pdf) | oral |
+| [SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety](https://openreview.net/attachment?id=PJdw4VBsXD&name=pdf) | oral |
+| [Compositional Diffusion with Guided search for Long-Horizon Planning](https://openreview.net/attachment?id=b8avf4F2hn&name=pdf) | oral |
+| [LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts](https://openreview.net/attachment?id=o29E01Q6bv&name=pdf) | oral |
+| [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://openreview.net/attachment?id=RQm2KQTM5r&name=pdf) | oral |
+| [Reasoning without Training: Your Base Model is Smarter Than You Think](https://openreview.net/attachment?id=Vsgq2ldr4K&name=pdf) | oral |
+| [Rodrigues Network for Learning Robot Actions](https://openreview.net/attachment?id=IZHk6BXBST&name=pdf) | oral |
+| [Mean Flow Policy with Instantaneous Velocity Constraint for One-step Action Generation]() | oral |
+| [TD-JEPA: Latent-predictive Representations for Zero-Shot Reinforcement Learning](https://openreview.net/attachment?id=SzXDuBN8M1&name=pdf) | oral |
+| [WoW!: World Models in a Closed-Loop World](https://openreview.net/attachment?id=yDmb7xAfeb&name=pdf) | oral |
+| [DiffusionNFT: Online Diffusion Reinforcement with Forward Process](https://openreview.net/attachment?id=VJZ477R89F&name=pdf) | oral |
+| [Mastering Sparse CUDA Generation through Pretrained Models and Deep Reinforcement Learning](https://openreview.net/attachment?id=VdLEaGPYWT&name=pdf) | oral |
+| [LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning](https://openreview.net/attachment?id=JWx4DI2N8k&name=pdf) | oral |
+| [MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Models for Embodied Task Planning](https://openreview.net/attachment?id=mIeKe74W43&name=pdf) | oral |
